@@ -3,7 +3,7 @@
 module.exports = function(grunt){
   grunt.initConfig({
     concat: {
-      bundle: {
+      js: {
         files: {
           'build/js/bundle.js': 'public/js/**/*.js'
         }

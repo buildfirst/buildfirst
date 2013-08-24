@@ -7,5 +7,5 @@ In the example, we'll be bundling together all of the `*.js` files in `public/js
 To run this example, write the following command in your terminal.
 
 ```bash
-grunt concat:bundle
+grunt concat:js
 ```
