@@ -1,0 +1,6 @@
+{
+  "name": "timestamp-task",
+  "dependencies": {
+    "grunt": "0.4.1"
+  }
+}
