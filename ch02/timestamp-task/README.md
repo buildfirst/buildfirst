@@ -1,6 +1,10 @@
+# Timestamp Task
+
+This example showcases how to write your own Grunt tasks, as discussed in chapter 2 of the book.
+
 To run this example, write the following in your terminal:
 
-```js
+```bash
 grunt timestamp
 ```
 
@@ -19,3 +23,5 @@ grunt.initConfig({
 ```
 
 This code can be placed either above or below the `grunt.registerTask` call.
+
+For more information about the Grunt Task API, visit [this link](http://gruntjs.com/api/grunt)

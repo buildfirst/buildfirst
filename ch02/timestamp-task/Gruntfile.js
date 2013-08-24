@@ -8,6 +8,6 @@ module.exports = function(grunt){
     var stamp = +new Date(); // cast date into a unix timestamp
     var contents = stamp.toString();
 
-     grunt.file.write(options.file, contents);
+    grunt.file.write(options.file, contents);
   });
 }
