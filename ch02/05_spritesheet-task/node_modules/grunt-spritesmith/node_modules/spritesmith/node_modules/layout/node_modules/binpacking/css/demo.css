@@ -1,0 +1,19 @@
+
+#settings                  { width: 12em; padding: 1em; display: inline-block; float: left; border: 1px solid #999; background-color: #EEE; }
+#settings .examples        { margin-bottom: 1em; }
+#settings .blocks          { }
+#settings .blocks .example { color: #999; font-style: italic; float: right; margin-right: 1em; }
+#settings .size            { clear: both; float: right; }
+#settings .sort            { clear: both; float: right; }
+#settings .color           { clear: both; float: right; margin-bottom: 1em; }
+#settings .ratio           { clear: both; border: 1px solid #999; padding: 1em; }
+#settings .nofit           { display: none; border: 1px solid red; margin-top: 1em; padding: 1em; }
+
+#packing                   { margin-left: 15em; }
+#canvas                    { background-color: #FBFBFB; }
+#unsupported               { border: 1px solid red; background-color: #FFFFAD; padding: 1em; margin: 1em; }
+
+textarea { resize: none; }
+select   { width: 8em;   }
+
+

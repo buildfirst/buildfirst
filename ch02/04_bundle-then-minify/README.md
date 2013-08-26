@@ -1,4 +1,5 @@
-# Bundle Task
+# Bundle + Minify Task
+#### And, _an alias_
 
 This example shows how to configure bundling and minification Grunt tasks together, as discussed in chapter 2 of the book. This example is a continuation of [example 02](https://github.com/bevacqua/buildfirst/ch02/02_bundle_task "Bundle Task Example").
 
@@ -28,4 +29,4 @@ An even better way, is to use an alias, like so:
 grunt assets
 ```
 
-This alias was declared on the Gruntfile to help us perform this common operation in one shot.
+This alias was declared in the Gruntfile to help us perform this common operation in one shot.

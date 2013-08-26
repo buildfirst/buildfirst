@@ -1,4 +1,4 @@
-# LESS Task
+# Minify Task
 
 This example shows how to configure the Uglify Grunt task, as discussed in chapter 2 of the book. 
 
