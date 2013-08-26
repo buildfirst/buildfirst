@@ -1,7 +1,5 @@
 missing samples
 
-- minify
-- bundle, then minify (includes alias)
 - image sprites
 - clean
 - lint
