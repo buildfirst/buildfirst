@@ -10,8 +10,8 @@ module.exports = function(grunt){
       }
     },
 
-    bundle: {
-      all: {
+    uglify: {
+      bundle: {
         files: {
           'build/js/all.min.js': 'build/js/bundle.js'
         }
