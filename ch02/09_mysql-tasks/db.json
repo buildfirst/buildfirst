@@ -1,0 +1,9 @@
+{
+  "credentials": {
+    "host": "localhost",
+    "user": "root",
+    "password": ""
+  },
+  "db": "buildfirst",
+  "scripts": "scripts"
+}
