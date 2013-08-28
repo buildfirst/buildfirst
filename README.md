@@ -1,6 +1,8 @@
 # Build First: JavaScript Applications
 
-##### _Accompanying code samples and snippets for the Build First: JavaScript Applications book._
+_**Accompanying code samples and snippets for the Build First: JavaScript Applications book.**_
+
+More info [here](http://bevacqua.io/buildfirst "Build First: JavaScript Applications")
 
 # Installation
 
