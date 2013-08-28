@@ -9,7 +9,7 @@ module.exports = function(credentials, done){
 
   // create a connection to MySQL using the provided credentials
   var connection = mysql.createConnection(credentials);
-    
+
   grunt.log.write('Connecting to MySQL...');
 
   // connect to MySQL server

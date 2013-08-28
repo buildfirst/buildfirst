@@ -28,7 +28,7 @@ module.exports = function(grunt){
         // throw if the query fails
         util.handle(err);
 
-        // join script folders with globbing pattern
+        // join scripts folder with globbing pattern
         var up = path.join(options.scripts, '**/*.up.sql');
 
         // expand the pattern
@@ -59,7 +59,7 @@ module.exports = function(grunt){
               util.handle(err);
 
               // update the versioning table
-              v.applied(connection, file, function(){
+              v.upgrade(connection, file, function(){
 
                 // continue with the next script
                 next();

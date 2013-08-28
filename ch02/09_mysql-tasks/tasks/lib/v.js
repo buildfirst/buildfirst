@@ -37,12 +37,31 @@ module.exports = {
         });
       });
     },
-    applied: function(connection, file, done){
+
+    upgrade: function(connection, file, done){
       grunt.log.write('Updating __v...');
 
+      // mark upgrade as applied
       var sql = 'insert into __v (file, applied) values (?,1)';
 
       // insert the new record
+      connection.query(sql, [file], function(err){
+
+        // throw if query fails
+        util.handle(err);
+
+        // we're done!
+        done();
+      });
+    },
+
+    rollback: function(connection, file, done){
+      grunt.log.write('Updating __v...');
+
+      // mark upgrade as rolled back
+      var sql = 'delete from __v where file = ?';
+
+      // remove the record
       connection.query(sql, [file], function(err){
 
         // throw if query fails
