@@ -62,4 +62,6 @@ To use, just do like with all other `db_*` tasks:
 grunt db_rollback
 ```
 
-That's all there is to our custom approach to automated MySQL database migration task suite.
+That's all there is to our custom approach to automated MySQL database migration task suite. This doesn't aim to be a perfect, or production-grade database schema manager, but it suffices to demonstrate the power of automation in a case such as this where we took what's usually a really complicated and error prone process, and made it boil down to just four simple commands.
+
+After that, all that's remaining is keeping the actual SQL up to date.
