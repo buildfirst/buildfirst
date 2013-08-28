@@ -22,5 +22,5 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask('assets', ['concat:js', 'uglify:bundle'], 'Concatenate and minify static assets');
+  grunt.registerTask('js', 'Concatenate and minify js files', ['concat:js', 'uglify:bundle']);
 };
