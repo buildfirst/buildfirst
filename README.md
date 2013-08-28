@@ -1,11 +1,13 @@
 # Build First: JavaScript Applications
 
-Accompanying code samples and snippets for the Build First: JavaScript Applications book.
+##### _Accompanying code samples and snippets for the Build First: JavaScript Applications book._
 
 # Installation
 
 You'll need **Node.js**, refer to [this link](http://nodejs.org/download/ "Node.js Downloads") to install it.
 You'll also need to clone this repository, make or change directory to your development folder, and then clone this repository.
+
+I use a little utility developed by **GitHub**, called [hub](http://hub.github.com/ "hub by GitHub"), to easily clone repositories.
 
 ```bash
 cd /nico/dev/git
