@@ -30,6 +30,6 @@ If you run into any issues please create an issue here, maybe it's something tha
 
 # Feedback
 
-You can drop me a line at `nicolasbevacqua@gmail.com` if you want to leave me feedback, say hi, or grunt at me about what a sloppy job of amusing you I did.
+You can drop me a line at `nicolasbevacqua@gmail.com` if you want to leave me feedback, say hi, or grunt at me about my failure to amuse you throughout this journey.
 
 I'm also reachable through my [blog](http://blog.ponyfoo.com "Pony Foo"), [@nzgb](https://twitter.com/nzgb "@nzgb on Twitter") on Twitter, and I enjoy people stalking me over the Internet.
