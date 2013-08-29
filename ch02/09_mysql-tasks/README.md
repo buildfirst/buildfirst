@@ -32,6 +32,18 @@ The `db_upgrade` Grunt task will look for `*.up.sql` files in the `scripts/` fol
 
 Script names are relevant in that they will be run in the order `grunt.file.expand` produces, so it's probably a good idea to use a naming convention such as `YYYYMMDD.RV_script-description` so that they are always executed in the order they were created in the first place.
 
+### `db_rollback` Task: Undo a schema change
+
+Sometimes we'll want to roll back the changes made by a particular upgrade script. We'll expect all commiters of schema changes to provide both the `.up.sql` and `.down.sql` versions of their change, so you can switch them back and forth. This is generally useful for testing, but it also helps when things go awry.
+
+The `db_rollback` task will simply execute the `.down.sql` script for the last applied schema change. Each time we run this task, the latest schema change that is applied gets rolled back. Helping us to course-correct our schema change scripts more easily and productively.
+
+To use, just do like with all other `db_*` tasks:
+
+```bash
+grunt db_rollback
+```
+
 ### `db_seed` Task: Fill with fake data
 
 For first-time environment setups, we have a handy task that will fill the database with data our developers can play with. This is useful to reduce the time it takes our developers to get up and running in a new development environment.
@@ -48,18 +60,6 @@ A good first-time setup alias might be:
 
 ```js
 grunt.registerTask('db_setup', 'Create, update, and seed a new database', ['db_create', 'db_upgrade', 'db_seed']);
-```
-
-### `db_rollback` Task: Undo a schema change
-
-Sometimes we'll want to roll back the changes made by a particular upgrade script. We'll expect all commiters of schema changes to provide both the `.up.sql` and `.down.sql` versions of their change, so you can switch them back and forth. This is generally useful for testing, but it also helps when things go awry.
-
-The `db_rollback` task will simply execute the `.down.sql` script for the last applied schema change. Each time we run this task, the latest schema change that is applied gets rolled back. Helping us to course-correct our schema change scripts more easily and productively.
-
-To use, just do like with all other `db_*` tasks:
-
-```bash
-grunt db_rollback
 ```
 
 That's all there is to our custom approach to automated MySQL database migration task suite. This doesn't aim to be a perfect, or production-grade database schema manager, but it suffices to demonstrate the power of automation in a case such as this where we took what's usually a really complicated and error prone process, and made it boil down to just four simple commands.
