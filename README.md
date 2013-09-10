@@ -26,7 +26,7 @@ There are some examples here that you _won't find on the book_, those will gener
 
 # Troubleshooting
 
-If you run into any issues please create an issue here, maybe it's something that needs fixing.
+If you run into any problems, please create an issue [here](https://github.com/bevacqua/buildfirst/issues). Maybe it's something that needs fixing.
 
 # Feedback
 
