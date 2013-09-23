@@ -2,7 +2,7 @@
 
 _**Accompanying code samples and snippets for the Build First: JavaScript Applications book.**_
 
-Want to [check out the book](http://bevacqua.io/buildfirst "Build First: JavaScript Applications")?
+This are the accompanying code samples and snippets for a book I wrote about **JavaScript build processes and application architecture**. Want to [_learn more about it_](http://bevacqua.io/buildfirst "Build First: JavaScript Applications")?
 
 # Installation
 
