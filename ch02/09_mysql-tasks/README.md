@@ -14,7 +14,7 @@ Note that we're using a `db.json` file rather than passing in database connectio
 
 The `db_create` task will create the database using the provided name. To run it, simply type:
 
-```bash
+```shell
 grunt db_create
 ```
 
@@ -24,7 +24,7 @@ Keep in mind it won't drop and re-create an existing database.
 
 To update the database with the latest schema changes, we'll be using `db_upgrade`, like this:
 
-```bash
+```shell
 grunt db_upgrade
 ```
 
@@ -40,7 +40,7 @@ The `db_rollback` task will simply execute the `.down.sql` script for the last a
 
 To use, just do like with all other `db_*` tasks:
 
-```bash
+```shell
 grunt db_rollback
 ```
 
@@ -50,7 +50,7 @@ For first-time environment setups, we have a handy task that will fill the datab
 
 To use, just execute the task:
 
-```bash
+```shell
 grunt db_seed
 ```
 

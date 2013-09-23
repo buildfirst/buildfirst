@@ -6,7 +6,7 @@ In the example, we'll be setting up image spriting. This is something that's ver
 
 To run this example, enter the following command in your terminal.
 
-```bash
+```shell
 grunt sprite:icons
 ```
 

@@ -4,7 +4,7 @@ This example shows how to configure a Grunt lint task, as discussed in chapter 2
 
 To make sure our code conforms to the **JSHint** linter, we can test it with the following Grunt command in Terminal.
 
-```bash
+```shell
 grunt jshint
 ```
 

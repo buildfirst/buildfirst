@@ -6,6 +6,6 @@ In the example, we'll be cleaning the `build/js` directory before we `concat` an
 
 In addition, we can now use the following command to clean up build-generated content.
 
-```bash
+```shell
 grunt clean
 ```

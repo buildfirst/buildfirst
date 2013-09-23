@@ -2,7 +2,7 @@
 
 _**Accompanying code samples and snippets for the Build First: JavaScript Applications book.**_
 
-More info [here](http://bevacqua.io/buildfirst "Build First: JavaScript Applications")
+Want to [check out the book](http://bevacqua.io/buildfirst "Build First: JavaScript Applications")?
 
 # Installation
 
@@ -11,12 +11,19 @@ You'll also need to clone this repository, make or change directory to your deve
 
 I use a little utility developed by **GitHub**, called [hub](http://hub.github.com/ "hub by GitHub"), to easily clone repositories.
 
-```bash
-cd /nico/dev/git
+```shell
+cd /dev/repo
 hub clone bevacqua/buildfirst
 ```
 
-You won't need to install dependencies for the examples using `npm i`, because the `node_modules` folders are bundled with the repository. Contrary to popular belief, this is the recommended practice.
+You won't need to install dependencies for the examples using `npm i`, because the `node_modules` folders are bundled with the repository, for convenience.
+
+If you don't want to install hub you can simply use [git](http://git-scm.com/ "git source control").
+
+```shell
+cd /dev/repo
+git clone https://github.com/bevacqua/buildfirst.git
+```
 
 # Execution
 

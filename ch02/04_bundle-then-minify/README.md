@@ -7,25 +7,25 @@ In the example, we'll be bundling together all of the `*.js` files in `public/js
 
 First, we want to concatenate our scripts. This way, we only need to minify them once, rather than each file individually.
 
-```bash
+```shell
 grunt concat:js
 ```
 
 Once the scripts are bundled together in `build/js/bundle.js`, we can run the next command, minifying the script.
 
-```bash
+```shell
 grunt uglify:bundle
 ```
 
 We could also streamline this using just one command in Grunt.
 
-```bash
+```shell
 grunt concat:js uglify:bundle
 ```
 
 An even better way, is to use an alias, like so:
 
-```bash
+```shell
 grunt js
 ```
 

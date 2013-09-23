@@ -4,7 +4,7 @@ This example showcases how to write your own Grunt tasks, as discussed in chapte
 
 To run this example, write the following in your terminal:
 
-```bash
+```shell
 grunt timestamp
 ```
 
