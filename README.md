@@ -16,7 +16,7 @@ cd /dev/repo
 hub clone bevacqua/buildfirst
 ```
 
-You won't need to install dependencies for the examples using `npm i`, because the `node_modules` folders are bundled with the repository, for convenience.
+You won't need to install dependencies for the examples using `npm install`, because the `node_modules` folders are bundled with the repository, for convenience.
 
 If you don't want to install hub you can simply use [git](http://git-scm.com/ "git source control").
 

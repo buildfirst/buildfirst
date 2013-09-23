@@ -1,5 +1,5 @@
 {
-  "dependencies": {
+  "devDependencies": {
     "grunt": "0.4.1",
     "mysql": "2.0.0-alpha9",
     "async": "0.2.9",
