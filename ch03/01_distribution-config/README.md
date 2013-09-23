@@ -4,9 +4,13 @@ In the previous chapter we saw how to put together basic build tasks. In this ex
 
 To run this example, there are two possible alternatives. The first one let's us build our project in the debug distribution, and the second one allows us to build the project using the release flow instead.
 
+Debug flow:
+
 ```shell
 grunt build:debug
 ```
+
+Release flow:
 
 ```shell
 grunt build:release
