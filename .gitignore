@@ -1,6 +1,6 @@
 # build artifacts
 build
-bin
+private
 
 # used in an example in ch02
 .timestamp

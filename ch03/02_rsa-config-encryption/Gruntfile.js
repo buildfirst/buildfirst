@@ -9,14 +9,14 @@ var cwd = process.cwd();
 // we'll store the private key somewhere safe, like bin/private
 // bin/private should be explicitly ignored in `.gitignore`
 var pemkey = function (name) {
-  var filename = util.format('bin/private/%s.pem', name);
+  var filename = util.format('private/%s.pem', name);
   return path.join(cwd, filename);
 };
 
 module.exports = function(grunt){
   grunt.initConfig({
     clean: {
-      bin: 'bin'
+      private: 'private'
     },
 
     jshint: {
@@ -35,14 +35,14 @@ module.exports = function(grunt){
 
     // encrypts the plain file, necessary to update the secure version
     pem_encrypt: {
-      foo: { pem: pemkey('foo'), store: 'foo' },
-      bar: { pem: pemkey('bar'), store: 'bar' }
+      foo: { pem: pemkey('foo'), pemstore: 'secure/foo', rawstore: 'private/foo' },
+      bar: { pem: pemkey('bar'), pemstore: 'secure/bar', rawstore: 'private/bar' }
     },
 
     // decrypts the secure file, making it usable
     pem_decrypt: {
-      foo: { pem: pemkey('foo'), store: 'foo' },
-      bar: { pem: pemkey('bar'), store: 'bar' }
+      foo: { pem: pemkey('foo'), pemstore: 'secure/foo', rawstore: 'private/foo' },
+      bar: { pem: pemkey('bar'), pemstore: 'secure/bar', rawstore: 'private/bar' }
     }
 
   });
