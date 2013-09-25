@@ -15,6 +15,7 @@ For the purposes of the example, we'll only be setting a `PORT`, and a `NODE_ENV
 Instead of telling you what to do step by step, this time I'll provide you with a table of actions and results.
 
 Running...|`PORT` equals...
+---|---
 `node app`|`3000`
 `PORT=80 node app`|`80`
 `node app --PORT 3001`|`3001`
@@ -22,7 +23,7 @@ Running...|`PORT` equals...
 
 ### Environment Variable-oriented configuration
 
-In the case of going the Heroku-style way, dealing with configuration relying on environment variables, we wouldn't need to change anything as far as hosted environments go. When it comes to development, you might want to set up a JSON file (following the approach used in the [previous sample]()), and place the configuration there instead.
+In the case of going the Heroku-style way, dealing with configuration relying on environment variables, we wouldn't need to change anything as far as hosted environments go. When it comes to development, you might want to set up a JSON file (following the approach used in the [previous sample](https://github.com/bevacqua/buildfirst/tree/master/ch03/02_rsa-config-encryption)), and place the configuration there instead.
 
 Then, this line loads those values into `nconf`:
 
