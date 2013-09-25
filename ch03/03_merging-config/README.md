@@ -31,3 +31,4 @@ Then, this line loads those values into `nconf`:
 nconf.file('dev', path.join(__dirname, 'development.json'));
 ```
 
+Heroku proposes something slightly different, in using `.env` and [foreman](https://github.com/ddollar/foreman), one of their CLI tools, to actually run the application. This translates into issues when attempting to achieve continuous development _(and isn't really necessary)_ so I decided to avoid doing that, and going a more conventional route, using a JSON file instead.
