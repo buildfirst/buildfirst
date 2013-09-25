@@ -1,2 +1,6 @@
-build/
+# build artifacts
+build
+bin
+
+# used in an example in ch02
 .timestamp

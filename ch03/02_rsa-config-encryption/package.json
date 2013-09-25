@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "0.5.0",
+    "grunt-contrib-jshint": "0.6.4",
+    "grunt-pemcrypt": "~0.1.0"
+  }
+}
