@@ -74,6 +74,13 @@ module.exports = function(grunt){
           'build/js/all.min.js': 'build/js/bundle.js'
         }
       }
+    },
+
+    watch: {
+      rebuild: {
+        files: ['public/**/*'],
+        tasks: ['build:debug']
+      }
     }
 
   });
@@ -85,6 +92,7 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.registerTask('build:debug', 'Lint and compile', [
     'clean', 'jshint', 'less:debug', 'jade:debug', 'copy:debug'
@@ -93,4 +101,6 @@ module.exports = function(grunt){
   grunt.registerTask('build:release', 'Lint, compile, bundle, and optimize', [
     'clean', 'jshint', 'less:release', 'jade:release', 'concat:release', 'uglify:release'
   ]);
+
+  grunt.registerTask('dev', ['build:debug', 'watch']);
 };

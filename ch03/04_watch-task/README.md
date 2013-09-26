@@ -2,13 +2,15 @@
 
 This sample builds up on [**ch03e01** Distribution Config](https://github.com/bevacqua/buildfirst/tree/master/ch03/01_distribution-config), adding a watch task to re-execute the build process during development, whenever a file changes.
 
-The debug flow gets an all-new watch task:
+The debug flow gets an all-new `watch` task! It is now _aliased_ as `dev`:
 
 ```shell
-grunt build:debug watch
+grunt dev
 ```
 
-The release flow stays the same:
+After the `build:debug` task completes, the `watch` task will wait for any files to change. Go ahead and make a change to any of the files in the `public` folder, save that, and you'll see `watch` in your terminal will take care of running the `build:debug` task again for you.
+
+The release flow, however, stays the same:
 
 ```shell
 grunt build:release

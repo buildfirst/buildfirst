@@ -8,7 +8,7 @@
     "grunt-contrib-jade": "0.8.0",
     "grunt-contrib-less": "0.7.0",
     "grunt-contrib-copy": "0.4.1",
-    "marked": "0.2.9",
-    "grunt-contrib-watch": "~0.5.3"
+    "grunt-contrib-watch": "0.5.3",
+    "marked": "0.2.9"
   }
 }
