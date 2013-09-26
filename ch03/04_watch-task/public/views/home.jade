@@ -16,23 +16,24 @@ html
 
         article.sample-description
             :markdown
-                # Build Distributions
+                # The Grunt `watch` Task
 
-                In the previous chapter we saw how to put together basic build tasks. In this example we'll go over typical configuration for `debug`/`release` distributions using Grunt tasks and targets, as discussed in chapter 3 of the book.
+                This sample builds up on [**ch03e01** Distribution Config](https://github.com/bevacqua/buildfirst/tree/master/ch03/01_distribution-config), adding a watch task to re-execute the build process during development, whenever a file changes.
 
-                To run this example, there are two possible alternatives. The first one let's us build our project in the debug distribution, and the second one allows us to build the project using the release flow instead.
-
-                Debug flow:
+                The debug flow gets an all-new `watch` task! It is now _aliased_ as `dev`:
 
                 ```shell
-                grunt build:debug
+                grunt dev
                 ```
 
-                Release flow:
+                After the `build:debug` task completes, the `watch` task will wait for any files to change. Go ahead and make a change to any of the files in the `public` folder, save that, and you'll see `watch` in your terminal will take care of running the `build:debug` task again for you.
+
+                The release flow, however, stays the same:
 
                 ```shell
                 grunt build:release
                 ```
+
         if debug
             script(src='../js/foo.js')
             script(src='../js/something.js')
