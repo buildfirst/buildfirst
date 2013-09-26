@@ -1,0 +1,41 @@
+doctype html
+html
+    head
+        title Build First: JavaScript Applications
+
+        if debug
+            link(rel='stylesheet', href='../css/layout.css')
+            link(rel='stylesheet', href='../css/home.css')
+        else
+            link(rel='stylesheet', href='../css/all.css')
+
+    body
+        h1
+            a.link(href='http://bevacqua.io/buildfirst', target='_blank') Build First: JavaScript Applications
+        h3.italic Chapter 03, Sample 01
+
+        article.sample-description
+            :markdown
+                # Build Distributions
+
+                In the previous chapter we saw how to put together basic build tasks. In this example we'll go over typical configuration for `debug`/`release` distributions using Grunt tasks and targets, as discussed in chapter 3 of the book.
+
+                To run this example, there are two possible alternatives. The first one let's us build our project in the debug distribution, and the second one allows us to build the project using the release flow instead.
+
+                Debug flow:
+
+                ```shell
+                grunt build:debug
+                ```
+
+                Release flow:
+
+                ```shell
+                grunt build:release
+                ```
+        if debug
+            script(src='../js/foo.js')
+            script(src='../js/something.js')
+            script(src='../js/something-else.js')
+        else
+            script(src='../js/all.min.js')
