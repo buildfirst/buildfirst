@@ -12,4 +12,4 @@ Then change a file, sit back, and enjoy.
 
 ![compiling.png][http://imgs.xkcd.com/comics/compiling.png]
 
-P.D: If the `Gruntfile.js`, or any build related files change, altering the process itself, then by all means, run a _full build_ again!
+P.S: If the `Gruntfile.js`, or any build related files change, altering the process itself, then by all means, run a _full build_ again!
