@@ -1,4 +1,4 @@
-# A better `watch`
+# Investing in a better `watch`
 
 This sample builds up on [**ch03e04** Watch Task](https://github.com/bevacqua/buildfirst/tree/master/ch03/04_watch-task), by breaking down `watch` into many targets, one for each build task that can be affected by file changes.
 
@@ -14,4 +14,4 @@ Then change a file, sit back, and enjoy.
 
 P.S: If the `Gruntfile.js`, or any build related files change, altering the process itself, then by all means, run a _full build_ again!
 
-  [1]: http://imgs.xkcd.com/comics/compiling.png
+  [1]: http://imgs.xkcd.com/comics/compiling.png "'Are you stealing those LCDs?' 'Yeah but I'm doing it while my code compiles.'"
