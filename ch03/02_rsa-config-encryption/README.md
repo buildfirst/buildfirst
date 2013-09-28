@@ -105,4 +105,4 @@ To recap
 
   [1]: http://i.imgur.com/JnVeOwG.png
   [2]: http://i.imgur.com/ah0ZP8g.png
-  [3]: http://imgs.xkcd.com/comics/password_strength.png
+  [3]: http://imgs.xkcd.com/comics/password_strength.png "To anyone who understands information theory and security and is in an infuriating argument with someone who does not (possibly involving mixed case), I sincerely apologize."
