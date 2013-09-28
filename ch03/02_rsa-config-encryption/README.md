@@ -101,5 +101,8 @@ To recap
 - When you need to update the secure file, just update the plain one and encrypt it again
 - When someone else copies your code-base, they won't be able to access the encrypted configuration _unless you provide them_ with the key
 
+![password-entropy.png][3]
+
   [1]: http://i.imgur.com/JnVeOwG.png
   [2]: http://i.imgur.com/ah0ZP8g.png
+  [3]: http://imgs.xkcd.com/comics/password_strength.png
