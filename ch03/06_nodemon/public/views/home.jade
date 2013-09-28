@@ -4,37 +4,49 @@ html
         title Build First: JavaScript Applications
 
         if debug
-            link(rel='stylesheet', href='../css/layout.css')
-            link(rel='stylesheet', href='../css/home.css')
+            link(rel='stylesheet', href='/css/layout.css')
+            link(rel='stylesheet', href='/css/home.css')
         else
-            link(rel='stylesheet', href='../css/all.css')
+            link(rel='stylesheet', href='/css/all.css')
 
     body
         h1
             a.link(href='http://bevacqua.io/buildfirst', target='_blank') Build First: JavaScript Applications
-        h3.italic Chapter 03, Sample 05
+        h3.italic Chapter 03, Sample 06
 
         article.sample-description
             :markdown
-                # A better `watch`
+                # Using `nodemon`
 
-                This sample builds up on [**ch03e04** Watch Task](https://github.com/bevacqua/buildfirst/tree/master/ch03/04_watch-task), by breaking down `watch` into many targets, one for each build task that can be affected by file changes.
+                There are two alternatives for us to use `nodemon`. The first is to simply use it directly. This might be convenient if you're looking for a speedier approach. In order to use it directly, simply install the [nodemon](https://github.com/remy/nodemon "nodemon on GitHub") package, and then use it as if you were using `node`.
 
-                If you run `grunt dev` this time, and then change some files, you'll see that `watch` will be smart enough about it to run only the build task(s) affected by the changed files, rather than the entire build process. This is the preferred approach because it saves time and gives you a finer-grained control, by avoiding to run tasks unnecessarily, when we know their output will stay the same.
+                ```shell
+                npm install -g nodemon
+                ```
 
-                ```js
+                Then, you could simply do:
+
+                ```shell
+                nodemon app.js
+                ```
+
+                Try changing the contents of `app.js`, and you'll see nodemon immediately reloads your application, with the latest changes.
+
+                ### Using `nodemon` in Grunt
+
+                The modified `dev` task alias in our Grunt flow for this example allows us to concurrently execute `nodemon` (through [grunt-nodemon](https://github.com/ChrisWren/grunt-nodemon "grunt-nodemon on GitHub")), and `watch`. Simply doing:
+
+                ```shell
                 grunt dev
                 ```
 
-                Then change a file, sit back, and enjoy.
+                This command will spawn child processes, and run both `watch` and `nodemon` simultaneously, restarting our `node` application, or re-executing our build, as necessary (depending of which files change). The case for using `nodemon` in Grunt would be to use just a single terminal window, as opposed to one for `nodemon` and one for `grunt watch`. In my experience, however, `grunt-concurrent` and `grunt-nodemon` slow down the build too much, and in conclusion: _I feel I'm better off using two tabs in my terminal instead_.
 
-                ![compiling.png][http://imgs.xkcd.com/comics/compiling.png]
-
-                P.D: If the `Gruntfile.js`, or any build related files change, altering the process itself, then by all means, run a _full build_ again!
+                I added a modified `.nodemonignore` so that changes in the `public` and `build` folders don't restart `node`, since in our case, they won't modify the behavior of the server-side code, thus rendering a restart unnecessary.
 
         if debug
-            script(src='../js/foo.js')
-            script(src='../js/something.js')
-            script(src='../js/something-else.js')
+            script(src='/js/foo.js')
+            script(src='/js/something.js')
+            script(src='/js/something-else.js')
         else
-            script(src='../js/all.min.js')
+            script(src='/js/all.min.js')

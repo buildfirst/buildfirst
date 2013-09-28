@@ -1,0 +1,9 @@
+# ignore .git chages
+./.git/*
+
+# ignore npm packages
+./node_modules/*
+
+# ignore front-end stuff
+./build/*
+./public/*

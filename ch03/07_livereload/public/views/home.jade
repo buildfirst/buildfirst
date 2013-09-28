@@ -1,0 +1,51 @@
+doctype html
+html
+    head
+        title Build First: JavaScript Applications
+
+        if debug
+            link(rel='stylesheet', href='/css/layout.css')
+            link(rel='stylesheet', href='/css/home.css')
+        else
+            link(rel='stylesheet', href='/css/all.css')
+
+    body
+        h1
+            a.link(href='http://bevacqua.io/buildfirst', target='_blank') Build First: JavaScript Applications
+        h3.italic Chapter 03, Sample 07
+
+        article.sample-description
+            :markdown
+                # LiveReload
+
+                Enabling LiveReload, the browser technology that does browser refreshing for us, couldn't be easier. We just need an extra target in our `watch` task. Something like this will do the trick:
+
+                ```js
+                livereload: {
+                  options: {
+                    livereload: true
+                  },
+                  files: [
+                    'build/**/*'
+                  ]
+                }
+                ```
+
+                We then need to install the browser extension. [Instructions](http://feedback.livereload.com/knowledgebase/articles/86242) can be found here. Once we did both those things, it will just be a matter of following along a few simple steps.
+
+                - Visit `http://localhost:3000/`
+                - Remember to enable the browser extension, by clicking on it
+                - Change something in the `public` folder
+                - Wait for the build to complete
+                - Watch in astonishment how your browser refreshes itself.
+
+                ![balls.png][1]
+
+                  [1]: http://i.imgur.com/qFtOUcQ.gif
+
+        if debug
+            script(src='/js/foo.js')
+            script(src='/js/something.js')
+            script(src='/js/something-else.js')
+        else
+            script(src='/js/all.min.js')
