@@ -1,0 +1,45 @@
+@something: #cecece;
+@jsllow: #f3dc52;
+@shadow: #3e3e3e;
+
+html {
+    background-color: #ddd;
+    font-family: 'Georgia';
+}
+
+body {
+    background-color: @something;
+}
+
+a {
+    color: #FFC;
+}
+
+img {
+    border: 6px solid @jsllow;
+}
+
+.images img {
+    max-width: 25%;
+    margin-right: 10px;
+}
+
+.link {
+    color: darken(@jsllow, 20%);
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.italic {
+    font-style: italic;
+}
+
+.sample-description {
+    background-color: @shadow;
+    color: @something;
+
+    h1, h2, h3 {
+        color: @jsllow;
+        text-shadow: 1px 1px 1px @shadow;
+        background: rgba(0, 0, 0, 0.4);
+    }
+}

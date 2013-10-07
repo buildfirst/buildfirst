@@ -1,0 +1,40 @@
+doctype html
+html
+    head
+        title Build First: JavaScript Applications
+
+        if debug
+            link(rel='stylesheet', href='../css/layout.css')
+            link(rel='stylesheet', href='../css/home.css')
+        else
+            link(rel='stylesheet', href='../css/all.css')
+
+    body
+        h1
+            a.link(href='http://bevacqua.io/buildfirst', target='_blank') Build First: JavaScript Applications
+        h3.italic Chapter 04, Sample 01
+
+        section.images
+            img(src='../img/alpha-covers/Bevacqua_JavaScript1.jpg')
+            img(src='../img/alpha-covers/Bevacqua_JavaScript2.jpg')
+            img(src='../img/alpha-covers/Bevacqua_JavaScript3.jpg')
+
+        article.sample-description
+            :markdown
+                # Image Optimization
+
+                In this example we'll losslessly compress images, while also applying a progressive interlacing transform to them. To this end, we use the [grunt-contrib-imagemin](https://github.com/gruntjs/grunt-contrib-imagemin) package.
+
+                To run the example, simply use `grunt build:release`.
+
+                ```shell
+                grunt build:release
+                ```
+
+                In the `debug` distribution, we set up a `copy` task similar to what can be seen in [**ch03e01** Distribution Config](https://github.com/bevacqua/buildfirst/tree/master/ch03/01_distribution-config "Distribution Config"), but for images instead. That's because we don't really need compression, nor interlacing, during `debug` builds.
+
+                ```shell
+                grunt build:debug
+                ```
+
+                That command will just copy the images, without any optimizations.

@@ -23,7 +23,7 @@ Running...|`PORT` equals...
 
 ### Environment Variable-oriented configuration
 
-In the case of going the Heroku-style way, dealing with configuration relying on environment variables, we wouldn't need to change anything as far as hosted environments go. When it comes to development, you might want to set up a JSON file (following the approach used in the previous sample, [**ch03e02** RSA Config Encryption](https://github.com/bevacqua/buildfirst/tree/master/ch03/02_rsa-config-encryption)), and place the configuration there instead.
+In the case of going the Heroku-style way, dealing with configuration relying on environment variables, we wouldn't need to change anything as far as hosted environments go. When it comes to development, you might want to set up a JSON file (following the approach used in the previous sample, [**ch03e02** RSA Config Encryption](https://github.com/bevacqua/buildfirst/tree/master/ch03/02_rsa-config-encryption "RSA Config Encryption")), and place the configuration there instead.
 
 Then, this line loads those values into `nconf`:
 
