@@ -1,0 +1,9 @@
+{
+  "version": "0.0.1",
+  "homepage": "https://github.com/bevacqua/buildfirst",
+  "author": {
+    "name": "Nicolas Bevacqua",
+    "email": "buildfirst@bevacqua.io",
+    "url": "http://bevacqua.io/buildfirst"
+  }
+}
