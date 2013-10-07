@@ -26,4 +26,4 @@ With it, we can simply do:
 grunt build:release
 ```
 
-It should be obvious, at this point, how easy it is to integrate cache busting with static asset hashing into our everyday build flow.
+It should be obvious, at this point, how easy it is to integrate cache busting with static asset hashing into our everyday build flow. Simply adding the `rev` and `usemin` tasks to the `release` flow would do. All we need to do after that is add an `Expires` header to our static assets, as we'll see in later chapters.
