@@ -13,3 +13,7 @@ Depending on the target we pass to the `bump` task, it will update the appropria
 For details on how to configure **grunt-bump** to commit, create tags, and `git push`, [check out their repository](https://github.com/vojtajina/grunt-bump).
 
 Note that if you also have a `bower.json` you could just append that to the target `files` array. That's all there is to it.
+
+![bathe.gif][1]
+
+  [1]: http://i.imgur.com/na79Ztf.gif "Bathe in knowledge."
