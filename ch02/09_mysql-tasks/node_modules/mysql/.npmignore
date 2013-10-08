@@ -1,8 +1,0 @@
-*.un~
-
-/node_modules
-/test/config.js
-
-*.sublime-*
-
-.DS_Store
