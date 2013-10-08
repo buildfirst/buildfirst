@@ -1,4 +1,5 @@
-# Designing Javascript Applications: A Build First Approach
+# Designing Javascript Applications
+#### _A Build First Approach_
 
 **Accompanying code samples and snippets for the _Designing Javascript Applications: A Build First Approach_ book.**
 
