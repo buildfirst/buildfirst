@@ -1,8 +1,8 @@
 # Deployments with Heroku
 
-This sample is a showcase of how to approach deployments to the [Heroku](http://heroku.com) platform. I'll leave the first series of steps to you. This tutorial is entirely free.
+This sample is a showcase of how to approach deployments to the [Heroku](http://heroku.com) platform. I'll leave the first series of steps to you. This tutorial is entirely free, you don't have to shell out a dime, since Heroku offers a free tier.
 
-- [Create an account](https://api.heroku.com/signup/devcenter) on Heroku
+- [Create an account](https://id.heroku.com/signup/devcenter) on Heroku
 
 Every tutorial starts like this. I'll be thrilled the day they don't!
 
@@ -10,7 +10,7 @@ Every tutorial starts like this. I'll be thrilled the day they don't!
 
 A series of command-line programs that help you manage your applications hosted on Heroku. Follow the instructions to run `heroku login` on the [toolbelt site](https://toolbelt.heroku.com/).
 
-You'll then need a `Procfile`, we mention that in the book. I wrote one so we don't have to go through that again.
+You'll then need a [**Procfile**](https://devcenter.heroku.com/articles/procfile), we mention that in the book. I wrote one so we don't have to go through that again.
 
 Now, there's a few more steps you need to take, `cd` into this directory, `05_heroku-deployments`, and then execute the following in your shell, to initialize a `git` repository:
 
@@ -32,13 +32,17 @@ On every deploy we want to make, we can simply push to the `heroku` remote.
 git push heroku master
 ```
 
+Resulting in something similar to the screenshot below.
+
+![heroku-push.png][1]
+
 If you want to pull up the application in the browser, just use:
 
 ```shell
 heroku open
 ```
 
-# Managing Environments
+## Managing Environments
 
 If we want to set ourselves up so that we can [host multiple environments on Heroku](https://devcenter.heroku.com/articles/multiple-environments), such as `staging` and `production`, we simply use different `git remote`s to achieve this. Create a remote other than `heroku`:
 
@@ -50,4 +54,4 @@ Instead of `git push heroku master`, we should now do `git push staging master`,
 
 There's lots more of useful information you can read on [Heroku's documentation site](https://devcenter.heroku.com/articles/getting-started-with-nodejs), in case you're interesed. I should mention what's in this tutorial should suffice, for now.
 
-### (then talk about managing environments in heroku apps)
+  [1]: http://i.imgur.com/bUFbX4D.png "Pushing to a Heroku remote"
