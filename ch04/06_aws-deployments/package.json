@@ -1,10 +1,8 @@
 {
   "name": "buildfirst-amazon-aws-deployment-example",
   "version": "0.0.1",
-  "engines": {
-    "node": "0.10.x",
-    "npm": "1.3.x"
-  },
-  "dependencies": {
+  "devDependencies": {
+    "grunt": "0.4.1",
+    "grunt-ec2": "0.4.3"
   }
 }
