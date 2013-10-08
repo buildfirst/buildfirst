@@ -9,5 +9,8 @@ module.exports = function (grunt) {
   
   grunt.loadNpmTasks('grunt-ec2');
   
-  // build, then deploy using ec2_deploy:where
+  // deploy using ec2_deploy:somewhere
+  
+  // in real apps, we should set up an alias to build and then deploy
+  // like so: grunt.registerTask('deploy', ['build:release', 'ec2_deploy:somewhere']);
 };
