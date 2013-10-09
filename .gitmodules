@@ -1,0 +1,3 @@
+[submodule "ch04/07_continuous-integration"]
+	path = ch04/07_continuous-integration
+	url = https://github.com/buildfirst/ci-by-example
