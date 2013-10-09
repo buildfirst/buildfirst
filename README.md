@@ -1,6 +1,8 @@
 # Designing Javascript Applications
 #### _A Build First Approach_
 
+![buildfirst.png][1]
+
 Accompanying code samples and snippets for the _Designing Javascript Applications: A Build First Approach_ book.
 
 This are the accompanying code samples and snippets for a book I wrote about **JavaScript build processes and application architecture**. Want to [_learn more about it_](http://bevacqua.io/buildfirst "Designing Javascript Applications: A Build First Approach")?
@@ -55,3 +57,5 @@ You can drop me a line at `buildfirst@bevacqua.io` if you want to leave me feedb
 I'm also reachable through my [blog](http://blog.ponyfoo.com "Pony Foo"), [@nzgb](https://twitter.com/nzgb "@nzgb on Twitter") on Twitter, and I enjoy people stalking me over the Internet.
 
 Let the [**#buildfirst**](https://twitter.com/#buildfirst) revolution commence!
+
+  [1]: http://www.gravatar.com/avatar/cee019b251cf09f440b4427541e46cb8.png?s=420
