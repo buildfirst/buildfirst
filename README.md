@@ -16,15 +16,17 @@ You can simply use [git](http://git-scm.com/ "git source control") to `clone` th
 
 ```shell
 cd /dev/repo
-git clone https://github.com/bevacqua/buildfirst.git
+git clone --recursive https://github.com/bevacqua/buildfirst.git
 ```
 
-As an alternative, I use a little utility developed by **GitHub**, called [hub](http://hub.github.com/ "hub by GitHub"), to easily clone repositories. It's just easier to type by hand.
+As an alternative, you can use a little utility developed by **GitHub**, called [hub](http://hub.github.com/ "hub by GitHub"), to easily clone repositories. It's just easier to type by hand.
 
 ```shell
 cd /dev/repo
-hub clone bevacqua/buildfirst
+hub clone --recursive bevacqua/buildfirst
 ```
+
+The `--recursive` flag is used to clone **submodules** as well.
 
 Once you've got the repository, you will need to install dependencies for most of the examples using `npm install`. `node_modules` directories aren't bundled with the repository. To relive you of this burden, you can use the following command to install the packages in each of the samples. Note that you'll need to `cd` to the root of the samples folder for this to work.
 
