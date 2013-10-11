@@ -6,5 +6,7 @@
     "email": "buildfirst@bevacqua.io",
     "url": "http://bevacqua.io/buildfirst"
   },
-  "dependencies": {}
+  "dependencies": {
+    "nodetime": "~0.8.13"
+  }
 }
