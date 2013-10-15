@@ -1,11 +1,13 @@
 'use strict';
 
-var logger = require('winston');
+var winston = require('winston');
 var api = module.exports = {};
 var levels = ['debug', 'info', 'warn', 'error'];
 
+// expose just the logging methods as our interface
 levels.forEach(function(level){
-    api[level] = logger[level].bind(logger);
+    api[level] = winston[level].bind(winston);
 });
 
-logger.add(logger.transports.File, { filename: 'persistent.log' });
+// configure the logging transports
+require('./transports.js');

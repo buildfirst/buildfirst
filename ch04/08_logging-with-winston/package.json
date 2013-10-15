@@ -1,4 +1,5 @@
 {
   "dependencies": {
+    "winston": "~0.7.2"
   }
 }

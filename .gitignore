@@ -1,6 +1,5 @@
 # package management
 node_modules
-npm-debug.log
 
 # build artifacts
 build
@@ -8,3 +7,7 @@ private
 
 # used in an example in ch02
 .timestamp
+
+# logging output
+logs
+*.log
