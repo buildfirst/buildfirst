@@ -1,6 +1,6 @@
 # Timestamp Task
 
-This example showcases how to write your own Grunt tasks, as discussed in chapter 2 of the book.
+This example showcases how to write your own Grunt tasks, as discussed in Chapter 2 of the book.
 
 To run this example, write the following in your terminal:
 

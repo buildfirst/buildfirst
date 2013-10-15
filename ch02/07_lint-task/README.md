@@ -1,6 +1,6 @@
 # Lint Task
 
-This example shows how to configure a Grunt lint task, as discussed in chapter 2 of the book. This example is a continuation of [**ch02e06** Clean Task](https://github.com/bevacqua/buildfirst/ch02/06_clean-task "Clean Task Example").
+This example shows how to configure a Grunt lint task, as discussed in Chapter 2 of the book. This example is a continuation of [**ch02e06** Clean Task](https://github.com/bevacqua/buildfirst/ch02/06_clean-task "Clean Task Example").
 
 To make sure our code conforms to the **JSHint** linter, we can test it with the following Grunt command in Terminal.
 

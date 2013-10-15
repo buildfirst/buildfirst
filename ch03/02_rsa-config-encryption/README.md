@@ -1,6 +1,6 @@
 # Encrypt your configuration with RSA keys
 
-We'll use three different Grunt tasks for encryption. The first one will generate the private key, the other two will encrypt and decrypt our configuration using that private key. This is the code listing as discussed in chapter 3 of the book.
+We'll use three different Grunt tasks for encryption. The first one will generate the private key, the other two will encrypt and decrypt our configuration using that private key. This is the code listing as discussed in Chapter 3 of the book.
 
 This sample uses the [grunt-pemcrypt](https://github.com/bevacqua/grunt-pemcrypt) package, which provides us with three Grunt tasks: `pem_gen`, `pem_encrypt`, and `pem_decrypt`.
 

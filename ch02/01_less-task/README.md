@@ -1,6 +1,6 @@
 # LESS Task
 
-This example shows how to configure the LESS Grunt task, as discussed in chapter 2 of the book.
+This example shows how to configure the LESS Grunt task, as discussed in Chapter 2 of the book.
 
 In the example, we'll be setting up three different targets for this task, and we can choose to execute each one individually, or we might want to run all of them at once.
 
