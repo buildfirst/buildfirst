@@ -1,4 +1,4 @@
-# Designing Javascript Applications
+# Designing JavaScript Applications
 #### _A Build First Approach_
 
 ![buildfirst.png][1]
