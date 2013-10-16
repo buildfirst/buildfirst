@@ -26,4 +26,6 @@ git commit -am "feat: stubbing"
 grunt notes
 ```
 
-Moving on.
+Those commands will simply create a new git repository, add a couple of commits, and then run the Grunt task that will create a changelog with the changes we've been commiting.
+
+Moving on...
