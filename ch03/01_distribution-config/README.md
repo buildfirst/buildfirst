@@ -1,6 +1,6 @@
 # Build Distributions
 
-![distribute-all-the-things.jpg][1]
+![distribute-all-the-things.png][1]
 
 In the previous chapter we saw how to put together basic build tasks. In this example we'll go over typical configuration for `debug`/`release` distributions using Grunt tasks and targets, as discussed in Chapter 3 of the book.
 
@@ -18,4 +18,4 @@ Release flow:
 grunt build:release
 ```
 
-  [1]: http://i.imgur.com/lZmGg0P.jpg "Build Distributions will vastly improve your workflows"
+  [1]: http://i.imgur.com/pPw4z0P.png "Build Distributions will vastly improve your workflows"
