@@ -1,5 +1,7 @@
 # Image Optimization
 
+![interlacing.gif][1]
+
 In this example we'll losslessly compress images, while also applying a progressive interlacing transform to them. To this end, we use the [grunt-contrib-imagemin](https://github.com/gruntjs/grunt-contrib-imagemin) package.
 
 To run the example, simply use `grunt build:release`.
@@ -15,3 +17,5 @@ grunt build:debug
 ```
 
 That command will just copy the images, without any optimizations.
+
+  [1]: http://i.imgur.com/oRX0u4V.gif "Interlacing is Fantastic, with Capital F."
