@@ -1,5 +1,7 @@
 # MySQL Database Tasks
 
+[![mysql-logo.png][1]](http://www.mysql.com/ "MySQL: World's Most Popular Database?")
+
 This is our most complex usage of Grunt so far. I tried to comment on the tasks as much as possible. The database connection is configured with sensible defaults in [**db.json**](db.json "Database JSON configuration"), but feel free to edit as needed.
 
 ### Setup
@@ -65,3 +67,5 @@ grunt.registerTask('db_setup', 'Create, update, and seed a new database', ['db_c
 That's all there is to our custom approach to automated MySQL database migration task suite. This doesn't aim to be a perfect, or production-grade database schema manager, but it suffices to demonstrate the power of automation in a case such as this where we took what's usually a really complicated and error prone process, and made it boil down to just four simple commands.
 
 After that, all that's remaining is keeping the actual SQL up to date.
+
+  [1]: http://i.imgur.com/vPn9pnn.png
