@@ -3,9 +3,9 @@
 
 ![buildfirst.png][1]
 
-Accompanying code samples and snippets for the _Designing Javascript Applications: A Build First Approach_ book.
+Accompanying code samples and snippets for the _Designing JavaScript Applications: A Build First Approach_ book.
 
-This are the accompanying code samples and snippets for a book I wrote about **JavaScript build processes and application architecture**. Want to [_learn more about it_](http://bevacqua.io/buildfirst "Designing Javascript Applications: A Build First Approach")?
+This are the accompanying code samples and snippets for a book I wrote about **JavaScript build processes and application architecture**. Want to [_learn more about it_](http://bevacqua.io/buildfirst "Designing JavaScript Applications: A Build First Approach")?
 
 # Installation
 
