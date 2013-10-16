@@ -1,5 +1,7 @@
 # LESS Task
 
+[![less-css-logo.png][1]](http://lesscss.org/ "LESS!")
+
 This example shows how to configure the LESS Grunt task, as discussed in Chapter 2 of the book.
 
 In the example, we'll be setting up three different targets for this task, and we can choose to execute each one individually, or we might want to run all of them at once.
@@ -23,3 +25,5 @@ grunt less:explicit
 ```shell
 grunt less:compile
 ```
+
+  [1]: http://i.imgur.com/DpNfYO5.png
