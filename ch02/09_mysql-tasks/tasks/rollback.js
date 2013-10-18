@@ -17,17 +17,17 @@ module.exports = function(grunt){
 
     // establish a connection with MySQL server
     connect(options.credentials, rollback);
-    
+
     function rollback(connection){
       grunt.log.write('Switching to \"' + options.db + '\" db...');
 
       // switch to the database
       connection.query('use ' + options.db, function(err){
-        
+
         // throw if the query fails
         util.handle(err);
 
-        // join scripts folder with globbing pattern
+        // join scripts directory with globbing pattern
         var down = path.join(options.scripts, '**/*.down.sql');
 
         // get a list of applied scripts
@@ -40,11 +40,11 @@ module.exports = function(grunt){
           if (!latest) {
             grunt.log.writeln('Nothing to roll back.');
 
-            // let grunt know we're done            
+            // let grunt know we're done
             done();
 
           } else {
-            
+
             // find the matching rollback script
             var file = latest.replace(/\.up\.sql$/i, '.down.sql');
 

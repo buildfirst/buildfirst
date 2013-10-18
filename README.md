@@ -10,7 +10,7 @@ This are the accompanying code samples and snippets for a book I wrote about **J
 # Installation
 
 You'll need **Node.js**, refer to [this link](http://nodejs.org/download/ "Node.js Downloads") to install it.
-You'll also need to clone this repository, make or change directory to your development folder, and then clone this repository.
+You'll also need to clone this repository, make or change directory to your development directory, and then clone this repository.
 
 You can simply use [git](http://git-scm.com/ "git source control") to `clone` the repository.
 
@@ -28,7 +28,7 @@ hub clone --recursive bevacqua/buildfirst
 
 The `--recursive` flag is used to clone **submodules** as well.
 
-Once you've got the repository, you will need to install dependencies for most of the examples using `npm install`. `node_modules` directories aren't bundled with the repository. To relive you of this burden, you can use the following command to install the packages in each of the samples. Note that you'll need to `cd` to the root of the samples folder for this to work.
+Once you've got the repository, you will need to install dependencies for most of the examples using `npm install`. `node_modules` directories aren't bundled with the repository. To relive you of this burden, you can use the following command to install the packages in each of the samples. Note that you'll need to `cd` to the root of the samples directory for this to work.
 
 ```shell
 cd buildfirst

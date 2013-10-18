@@ -88,7 +88,7 @@ module.exports = function(grunt){
     },
 
     watch: {
-      // lint js files when they change, and then copy them over to build folder
+      // lint js files when they change, and then copy them over to build directory
       js: {
         files: ['public/js/**/*.js'],
         tasks: ['jshint:client', 'copy:js_debug']

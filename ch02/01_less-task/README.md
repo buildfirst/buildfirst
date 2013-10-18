@@ -20,7 +20,7 @@ grunt less:design
 grunt less:explicit
 ```
 
-- Run the `compile` target, which takes any `*.less` file in the `public/css` folder, and compiles them into a bundled `compiled.less` file:
+- Run the `compile` target, which takes any `*.less` file in the `public/css` directory, and compiles them into a bundled `compiled.less` file:
 
 ```shell
 grunt less:compile

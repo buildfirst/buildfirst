@@ -18,17 +18,17 @@ module.exports = function(grunt){
 
     // establish a connection with MySQL server
     connect(options.credentials, upgrade);
-    
+
     function upgrade(connection){
       grunt.log.write('Switching to \"' + options.db + '\" db...');
 
       // switch to the database
       connection.query('use ' + options.db, function(err){
-        
+
         // throw if the query fails
         util.handle(err);
 
-        // join scripts folder with globbing pattern
+        // join scripts directory with globbing pattern
         var up = path.join(options.scripts, '**/*.up.sql');
 
         // expand the pattern

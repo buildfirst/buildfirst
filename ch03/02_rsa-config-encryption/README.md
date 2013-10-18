@@ -85,7 +85,7 @@ The `.pemjson` file can be safely commited to source control, _as long as you do
 
 I included a secure `foo.pemjson` file in this repository. However, that is no good for you, unless you have the private key to decode it.
 
-For educational purposes, I created [a secret gist with the key](https://gist.github.com/bevacqua/4bdd042526b51681ca29), and you can get it by running this command in your favorite shell (assuming you're sitting in this example's root folder):
+For educational purposes, I created [a secret gist with the key](https://gist.github.com/bevacqua/4bdd042526b51681ca29), and you can get it by running this command in your favorite shell (assuming you're sitting in this example's root directory):
 
 ```shell
 curl https://gist.github.com/bevacqua/4bdd042526b51681ca29/raw/ba2295d9b7399956439dc28056a0e7e13dca1f0e/foo.pem > private/foo.pem

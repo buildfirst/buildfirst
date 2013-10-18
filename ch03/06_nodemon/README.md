@@ -24,4 +24,4 @@ grunt dev
 
 This command will spawn child processes, and run both `watch` and `nodemon` simultaneously, restarting our `node` application, or re-executing our build, as necessary (depending of which files change). The case for using `nodemon` in Grunt would be to use just a single terminal window, as opposed to one for `nodemon` and one for `grunt watch`. In my experience, however, `grunt-concurrent` and `grunt-nodemon` slow down the build too much, and in conclusion: _I feel I'm better off using two tabs in my terminal instead_.
 
-I added a modified `.nodemonignore` so that changes in the `public` and `build` folders don't restart `node`, since in our case, they won't modify the behavior of the server-side code, thus rendering a restart unnecessary.
+I added a modified `.nodemonignore` so that changes in the `public` and `build` directories don't restart `node`, since in our case, they won't modify the behavior of the server-side code, thus rendering a restart unnecessary.

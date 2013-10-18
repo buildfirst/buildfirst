@@ -30,7 +30,7 @@ To update the database with the latest schema changes, we'll be using `db_upgrad
 grunt db_upgrade
 ```
 
-The `db_upgrade` Grunt task will look for `*.up.sql` files in the `scripts/` folder and execute their SQL in sequence on our database. It will also create a table called `__v` to keep track of the schema versions, helping us make sure we don't run an upgrade script twice, and enabling us to roll those schema changes back.
+The `db_upgrade` Grunt task will look for `*.up.sql` files in the `scripts/` directory and execute their SQL in sequence on our database. It will also create a table called `__v` to keep track of the schema versions, helping us make sure we don't run an upgrade script twice, and enabling us to roll those schema changes back.
 
 Script names are relevant in that they will be run in the order `grunt.file.expand` produces, so it's probably a good idea to use a naming convention such as `YYYYMMDD.RV_script-description` so that they are always executed in the order they were created in the first place.
 

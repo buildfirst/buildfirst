@@ -12,7 +12,7 @@ To merge this task with `grunt-bump`, we need to `bump-only` and then `changelog
 grunt.registerTask('notes', ['bump-only', 'changelog', 'bump-commit']);
 ```
 
-There isn't much more to explain about this task, but you could play with it in a new `git` repo if you wanted to. In order to do that, copy this folder somewhere else and run `git init`, then commit a few changes, and run `grunt notes`. You could follow these commands, granted your shell is currently sitting on this directory:
+There isn't much more to explain about this task, but you could play with it in a new `git` repo if you wanted to. In order to do that, copy this directory somewhere else and run `git init`, then commit a few changes, and run `grunt notes`. You could follow these commands, granted your shell is currently sitting on this directory:
 
 ```shell
 cp -r . /dev/changelog-test

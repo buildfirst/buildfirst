@@ -16,7 +16,7 @@ When an instance is created, it is automatically provisioned with everything we'
 
 Applications will be managed through [pm2](https://github.com/Unitech/pm2), a process manager that will keep our Node instance alive, act as a cluster, and allow us to swap code during deployments without experiencing any downtime.
 
-On deployments, [grunt-ec2](https://github.com/bevacqua/grunt-ec2) will use `rsync` to transfer our project directory over `ssh` to the server. Individual files and folders can be ignored with an `.rsyncignore` file like the one below.
+On deployments, [grunt-ec2](https://github.com/bevacqua/grunt-ec2) will use `rsync` to transfer our project directory over `ssh` to the server. Individual files and directories can be ignored with an `.rsyncignore` file like the one below.
 
 ```
 # vcs files

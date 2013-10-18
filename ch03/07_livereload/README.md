@@ -17,7 +17,7 @@ We then need to install the browser extension. [Instructions](http://feedback.li
 
 - Visit `http://localhost:3000/`
 - Remember to enable the browser extension, by clicking on it
-- Change something in the `public` folder
+- Change something in the `public` directory
 - Wait for the build to complete
 - Watch in astonishment how your browser refreshes itself.
 

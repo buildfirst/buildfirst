@@ -11,7 +11,7 @@ module.exports = function(grunt){
     db_seed: { options: options }
   });
 
-  // load all the tasks in the `tasks/` folder
+  // load all the tasks in the `tasks/` directory
   grunt.loadTasks('./tasks');
 
   // register a first time setup alias
