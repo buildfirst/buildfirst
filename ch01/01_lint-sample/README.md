@@ -44,7 +44,7 @@ If you want to read more about the real reasons to pick JSHint over JSLint, [rea
 
 ### Linters are not bullet-proof
 
-As you may or may not have noticed, there is an important bug in the code that went undetected by both lint tools. Using `this` in different scopes while trying to access the same variable just **won't always work as we might've expected**.
+As you may or may not have noticed, there is an important bug in the code that went undetected by both lint tools. Using `this` in the way we're doing it **won't always work as we might've expected**, since it'll always be bound to the higher order function, and thus we'll share the same counter across all generated functions.
 
 Here's an usage example portraying that issue.
 
