@@ -2,7 +2,7 @@
 
 ![paas-heroku.jpg][3]
 
-This sample is a showcase of how to approach deployments to the [Heroku](http://heroku.com) platform. I'll leave the first series of steps to you. This tutorial is entirely free, you don't have to shell out a dime, since Heroku offers a free tier.
+This sample is a showcase of how to approach deployments to the [Heroku](http://heroku.com) platform. You don't have to shell out a dime, _Heroku offers a free tier_ we can play with.
 
 ### [Create an account](https://id.heroku.com/signup/devcenter) on Heroku
 
@@ -10,7 +10,7 @@ Every tutorial starts like this. I'll be thrilled the day they don't!
 
 ### Install the [Heroku Toolbelt](https://toolbelt.heroku.com/)
 
-A series of command-line programs that help you manage your applications hosted on Heroku. Follow the instructions to run `heroku login` on the [toolbelt site](https://toolbelt.heroku.com/).
+A series of command-line programs that help you manage your applications hosted on Heroku. Installing the CLI tools should be straightforward enough.
 
 ### Prepare your repository
 
