@@ -1,5 +1,7 @@
 # Deployments with Heroku
 
+![paas-heroku.jpg][3]
+
 This sample is a showcase of how to approach deployments to the [Heroku](http://heroku.com) platform. I'll leave the first series of steps to you. This tutorial is entirely free, you don't have to shell out a dime, since Heroku offers a free tier.
 
 - [Create an account](https://id.heroku.com/signup/devcenter) on Heroku
@@ -60,3 +62,4 @@ There's lots more of useful information you can read on [Heroku's documentation 
 
   [1]: http://i.imgur.com/bUFbX4D.png "Pushing to a Heroku remote"
   [2]: http://i.imgur.com/xKEeGDv.png "Authenticating with Heroku CLI"
+  [3]: http://i.imgur.com/0IbfRuR.jpg "Heroku Platform"
