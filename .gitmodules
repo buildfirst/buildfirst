@@ -1,0 +1,6 @@
+[submodule "ch04/06_heroku-grunt"]
+	path = ch04/06_heroku-grunt
+	url = https://github.com/buildfirst/heroku-grunt
+[submodule "ch04/08_ci-by-example"]
+	path = ch04/08_ci-by-example
+	url = https://github.com/buildfirst/ci-by-example
