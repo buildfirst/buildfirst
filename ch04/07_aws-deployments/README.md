@@ -102,7 +102,7 @@ grunt.registerTask('deploy:production', ['build:release', 'ec2_deploy:production
 
 Obviously, we'll need to have created the instances first using `ec2_launch`. Now, every time we run `grunt deploy` our application will be built and deployed to our EC2 instance, which will be immediately accessible.
 
-Other alternative deployment strategies available through Grunt include, but are _clearly not limited to_, [sftp](https://github.com/thrashr888/grunt-sftp-deploy), [ssh](https://github.com/andrewrjones/grunt-ssh), [rsync](https://github.com/jedrichards/grunt-rsync), and, as we saw earlier, [Heroku](https://github.com/bevacqua/buildfirst/tree/master/ch04/05_heroku-deployments).
+Other alternative deployment strategies available through Grunt include, but are _clearly not limited to_, [sftp](https://github.com/thrashr888/grunt-sftp-deploy), [ssh](https://github.com/andrewrjones/grunt-ssh), [rsync](https://github.com/jedrichards/grunt-rsync), and, as we saw earlier, in [**ch04e05**: Heroku](https://github.com/bevacqua/buildfirst/tree/master/ch04/05_heroku-deployments).
 
 ![to-glory.gif][2]
 
