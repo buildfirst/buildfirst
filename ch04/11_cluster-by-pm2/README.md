@@ -1,8 +1,8 @@
 # Cluster via `pm2`
 
-As we've seen in the previous sample, [**ch04e10** A Node Cluster](https://github.com/bevacqua/buildfirst/tree/master/ch04/10_a-node-cluster "A Node Cluster"), `cluster` is an outstanding utility to improve the resilience of our applications without altering their code in the slightest. For context, take also the `nodemon` command-line program that runs `node` again, whenever our server-side code changes, as we examined in [**ch03e06** Using `nodemon`](https://github.com/bevacqua/buildfirst/tree/master/ch03/06_nodemon).
-
 ![pm2.png][1]
+
+As we've seen in the previous sample, [**ch04e10** A Node Cluster](https://github.com/bevacqua/buildfirst/tree/master/ch04/10_a-node-cluster "A Node Cluster"), `cluster` is an outstanding utility to improve the resilience of our applications without altering their code in the slightest. For context, take also the `nodemon` command-line program that runs `node` again, whenever our server-side code changes, as we examined in [**ch03e06** Using `nodemon`](https://github.com/bevacqua/buildfirst/tree/master/ch03/06_nodemon).
 
 ### Introduction
 
