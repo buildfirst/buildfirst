@@ -106,5 +106,7 @@ Other alternative deployment strategies available through Grunt include, but are
 
 ![to-glory.gif][2]
 
+You might want to check out [unbox](https://github.com/bevacqua/unbox), which makes use of [grunt-ec2](https://github.com/bevacqua/grunt-ec2) and contains some structure for prototyping applications.
+
   [1]: http://i.imgur.com/Yya9AIy.png
   [2]: http://i.imgur.com/Q5F5ivl.gif

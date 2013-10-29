@@ -1,3 +1,6 @@
-[submodule "ch04/07_continuous-integration"]
-	path = ch04/07_continuous-integration
-	url = https://github.com/buildfirst/ci-by-example
+[submodule "ch04/06_heroku-grunt"]
+	path = ch04/06_heroku-grunt
+	url = https://github.com/buildfirst/heroku-grunt.git
+[submodule "ch04/08_continuous-integration"]
+  path = ch04/08_continuous-integration
+  url = https://github.com/buildfirst/ci-by-example.git
