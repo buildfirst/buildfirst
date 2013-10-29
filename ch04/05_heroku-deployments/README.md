@@ -12,6 +12,8 @@ Every tutorial starts like this. I'll be thrilled the day they don't!
 
 A series of command-line programs that help you manage your applications hosted on Heroku. Follow the instructions to run `heroku login` on the [toolbelt site](https://toolbelt.heroku.com/).
 
+- Prepare your repository
+
 You'll then need a [**Procfile**](https://devcenter.heroku.com/articles/procfile), we mention that in the book. I wrote one so we don't have to go through that again.
 
 Now, there's a few more steps you need to take, `cd` into this directory, `05_heroku-deployments`, and then execute the following in your shell, to initialize a `git` repository:
@@ -22,25 +24,45 @@ git add .
 git commit -m "init"
 ```
 
-As a first step to use the Heroku toolbelt, we need to login with it, using `heroku login`.
+- Authenticate with the CLI
+
+To use the Heroku toolbelt, we need to authenticate with Heroku. Use `heroku login` to input the credentials to your account.
 
 ![heroku-auth.png][2]
 
-Then, there's only two more steps, let's create the app on Heroku. This is _a one time thing_, to create our app on Heroku.
+- Create the Application on Heroku
+
+Only a few more steps! Let's create the app on Heroku.
 
 ```shell
 heroku create
 ```
 
-On every deploy we want to make, we can simply push to the `heroku` remote.
+- Deploy!
+
+On every deploy we want to make, we can simply push to the `heroku` remote (which was created by the CLI in the previous step).
 
 ```shell
 git push heroku master
 ```
 
-Resulting in something similar to the screenshot below.
+This results in something similar to the screenshot below.
 
 ![heroku-push.png][1]
+
+#### Troubleshoot
+
+You might see an error about your RSA key not being uploaded to Heroku, in which case you should create and upload one. The message will say something like: `Permission denied (publickey).`. Don't fret, it's _really easy_ to work around!
+
+```shell
+cd ~/.ssh
+ssh-keygen -t rsa -C "you@place.com"
+heroku keys:add
+```
+
+Now you can go back to your repository and try to push again.
+
+- See it in action!
 
 If you want to pull up the application in the browser, just use:
 
