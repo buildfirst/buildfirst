@@ -4,7 +4,7 @@
 
 This sample is a showcase of how to approach deployments to the [Heroku](http://heroku.com) platform. You don't have to shell out a dime, _Heroku offers a free tier_ we can play with.
 
-### :rocket: [Create an account](https://id.heroku.com/signup/devcenter) on Heroku
+### :rocket: [ Create an account](https://id.heroku.com/signup/devcenter) on Heroku
 
 Every tutorial starts like this. I'll be thrilled the day they don't!
 
