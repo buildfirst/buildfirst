@@ -20,7 +20,11 @@ git add .
 git commit -m "init"
 ```
 
-Then, there's only two more steps, let's create the app on Heroku. This is _a one time thing_.
+As a first step to use the Heroku toolbelt, we need to login with it, using `heroku login`.
+
+![heroku-auth.png][2]
+
+Then, there's only two more steps, let's create the app on Heroku. This is _a one time thing_, to create our app on Heroku.
 
 ```shell
 heroku create
@@ -55,3 +59,4 @@ Instead of `git push heroku master`, we should now do `git push staging master`,
 There's lots more of useful information you can read on [Heroku's documentation site](https://devcenter.heroku.com/articles/getting-started-with-nodejs), in case you're interesed. I should mention what's in this tutorial should suffice, for now.
 
   [1]: http://i.imgur.com/bUFbX4D.png "Pushing to a Heroku remote"
+  [2]: http://i.imgur.com/xKEeGDv.png "Authenticating with Heroku CLI"
