@@ -78,9 +78,9 @@ If we want to set ourselves up so that we can [host multiple environments on Her
 heroku create --remote staging
 ```
 
-Instead of `git push heroku master`, we should now do `git push staging master`, instead. Similarly, instead of being able to just `heroku config:set FOO=bar`, we now need to explicitly tell `heroku` to use a particular remote, such as `heroku config:set FOO=bar --remote staging`. Remember environment configuration is environment-specific.
+Instead of doing `git push heroku master`, we now need to specify the `staging` remote: `git push staging master`. Similarly, we must tell `heroku` to use a particular remote, such as `heroku config:set FOO=bar --remote staging`. Remember configuration on Heroku is **environment-specific**.
 
-There's lots more of useful information you can read on [Heroku's documentation site](https://devcenter.heroku.com/articles/getting-started-with-nodejs), in case you're interesed. I should mention what's in this tutorial should suffice, for now.
+There's lots more of useful information you can read on [Heroku's documentation site](https://devcenter.heroku.com/articles/getting-started-with-nodejs), in case you're interested. I should mention _what's in this tutorial should suffice, for now_.
 
   [1]: http://i.imgur.com/bUFbX4D.png "Pushing to a Heroku remote"
   [2]: http://i.imgur.com/xKEeGDv.png "Authenticating with Heroku CLI"
