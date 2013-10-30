@@ -53,7 +53,7 @@ If you run into any problems, please create an issue [here](https://github.com/b
 
 You can drop me a line at `buildfirst@bevacqua.io` if you want to leave me feedback, say hi, or grunt at me about my failure to amuse you. I'd love to hear from you!
 
-I'm also reachable through my [blog](http://blog.ponyfoo.com "Pony Foo"), [@nzgb](https://twitter.com/nzgb "@nzgb on Twitter") on Twitter, and I enjoy people stalking me over the Internet.
+I'm also reachable through my [blog](http://blog.ponyfoo.com "Pony Foo"), I'm [@nzgb](https://twitter.com/nzgb "@nzgb on Twitter") on Twitter, and I enjoy people stalking me over the Internet.
 
 Let the [**#buildfirst**](https://twitter.com/#buildfirst) revolution commence!
 
