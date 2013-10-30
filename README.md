@@ -47,11 +47,11 @@ There are some examples here that you _won't find on the book_, those will gener
 
 # Troubleshooting
 
-If you run into any problems, please create an issue [here](https://github.com/bevacqua/buildfirst/issues). Maybe it's something that needs fixing. I'd love to hear from you!
+If you run into any problems, please create an issue [here](https://github.com/bevacqua/buildfirst/issues). Maybe it's something that needs fixing.
 
 # Feedback
 
-You can drop me a line at `buildfirst@bevacqua.io` if you want to leave me feedback, say hi, or grunt at me about my failure to amuse you.
+You can drop me a line at `buildfirst@bevacqua.io` if you want to leave me feedback, say hi, or grunt at me about my failure to amuse you. I'd love to hear from you!
 
 I'm also reachable through my [blog](http://blog.ponyfoo.com "Pony Foo"), [@nzgb](https://twitter.com/nzgb "@nzgb on Twitter") on Twitter, and I enjoy people stalking me over the Internet.
 
