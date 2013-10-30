@@ -1,4 +1,6 @@
-# LiveReload
+# Embracing LiveReload
+
+![livereload][2]
 
 Enabling LiveReload, the browser technology that does browser refreshing for us, couldn't be easier. We just need an extra target in our `watch` task. Something like this will do the trick:
 
@@ -24,3 +26,4 @@ We then need to install the browser extension. [Instructions](http://feedback.li
 ![balls.png][1]
 
   [1]: http://i.imgur.com/qFtOUcQ.gif
+  [2]: http://i.imgur.com/oUQcXGX.png
