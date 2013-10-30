@@ -9,7 +9,7 @@ This are the accompanying code samples and snippets for a book I wrote about **J
 
 #### Fell out of the skies and would like to learn more about the book?
 
-You could [visit its landing page](http://bevacqua.io/buildfirst "Designing JavaScript Applications: A Build First Approach")!
+You could [visit its landing page](http://bevacqua.io/buildfirst "Designing JavaScript Applications: A Build First Approach") to learn all about it!
 
 # Installation
 
