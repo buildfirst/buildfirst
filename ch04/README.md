@@ -17,7 +17,7 @@ All samples are self-contained, ready to use, and sensibly documented.
 - [Deploying to Amazon EC2](https://github.com/bevacqua/buildfirst/tree/master/ch04/07_aws-deployments)
 - [Continuous Integration](https://github.com/buildfirst/ci-by-example)
 - [Logging with `winston`](https://github.com/bevacqua/buildfirst/tree/master/ch04/09_logging-with-winston)
-- [A Cluster of `node`s](https://github.com/bevacqua/buildfirst/tree/master/ch04/10_a-node-cluster)
+- [A Node Cluster](https://github.com/bevacqua/buildfirst/tree/master/ch04/10_a-node-cluster)
 - [Cluster via `pm2`](https://github.com/bevacqua/buildfirst/tree/master/ch04/11_cluster-by-pm2)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
