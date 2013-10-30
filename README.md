@@ -19,7 +19,7 @@ cd /dev/repo
 git clone --recursive https://github.com/bevacqua/buildfirst.git
 ```
 
-The `--recursive` flag is used to clone **submodules** as well.
+The `--recursive` flag is used to **clone submodules** as well. Read [a bit more about this](http://stackoverflow.com/a/4438292/389745) command, for context.
 
 As an alternative, you can use a little utility developed by **GitHub**, called [hub](http://hub.github.com/ "hub by GitHub"), to easily clone repositories. It's just easier to type by hand.
 
