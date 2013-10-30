@@ -9,10 +9,7 @@ This are the accompanying code samples and snippets for a book I wrote about **J
 
 # Installation
 
-You'll need **Node.js**, refer to [this link](http://nodejs.org/download/ "Node.js Downloads") to install it.
-You'll also need to clone this repository: move to your development directory, and then just clone, like below.
-
-You can simply use [git](http://git-scm.com/ "git source control") to `clone` the repository.
+You'll need **Node.js**, refer to [this link](http://nodejs.org/download/ "Node.js Downloads") to install it. You also need [git](http://git-scm.com/ "git source control"), to `clone` the repository like below.
 
 ```shell
 cd /dev/repo
@@ -35,7 +32,7 @@ cd buildfirst
 find . -mindepth 2 -maxdepth 2 -type d -name '*_*' -print -exec npm install --prefix {} \;
 ```
 
-For Windows users, you could try this command, although it hasn't been tested. Let me know if it works!
+**Windows** users: try this command, although it hasn't been tested. Let me know if it works!
 
 ```shell
 cd buildfirst
