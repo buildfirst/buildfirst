@@ -1,6 +1,6 @@
 # Environments and the Development Workflow
 
-##### _(chapter 3)_
+##### _(Part 1 Chapter 3)_
 
 In this chapter we cover environments, build distributions, and continuous development using Grunt. These are the samples as discussed through the chapter, in the same order of appearance.
 
