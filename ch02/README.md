@@ -1,4 +1,6 @@
-# Chapter 2: Build Tasks
+# Build Tasks
+
+##### _(Part 1, Chapter 2)_
 
 In this chapter we cover build tasks using Grunt. These are the samples as discussed through the chapter, in the same order of appearance.
 
