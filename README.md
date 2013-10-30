@@ -7,7 +7,7 @@ Accompanying code samples and snippets for the _Designing JavaScript Application
 
 This are the accompanying code samples and snippets for a book I wrote about **JavaScript build processes and application architecture**. The samples are organized by chapter, and they appear in the same order as they do in the book, for convenience. Many [other resources for this book are listed in its website](http://bevacqua.io/buildfirst/resources "#buildfirst resources"), such as links to _blog posts, articles, essays, books_, and any other particularly relevant topics discussed throughout the book.
 
-If you fell out of the skies and would like to learn more about the book, you could [visit its landing page](http://bevacqua.io/buildfirst "Designing JavaScript Applications: A Build First Approach")!
+### If you fell out of the skies and would like to learn more about the book, you could [visit its landing page](http://bevacqua.io/buildfirst "Designing JavaScript Applications: A Build First Approach")!
 
 # Installation
 
