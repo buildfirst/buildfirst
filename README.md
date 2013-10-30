@@ -43,7 +43,7 @@ for /d . %d in (ch*\*_*) do @if exist "%d" npm install --prefix %d
 
 To run an example, read its [README.md](README.md "To understand recursion, you must first understand recursion") and follow the instructions I've placed there. I tried to make them as straightforward as possible, but sometimes they might not match the examples in the book to the letter.
 
-There are some examples here that you _won't find on the book_, those will generally be a bit longer: the reason why I didn't include them in the book. Although the code itself might not be present in the book, most of the explaining will definitely be there, rather than here.
+There are some examples here that you _won't find on the book_, those will generally be a bit longer: exactly the reason why I _didn't include them_ in the book. Although the code itself might not be present in the book, most of the explaining will definitely be there, rather than here.
 
 # Troubleshooting
 
