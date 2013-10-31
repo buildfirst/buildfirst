@@ -13,7 +13,7 @@ You could [visit its landing page](http://bevacqua.io/buildfirst "Designing Java
 
 # Installation
 
-##### Get the Code
+#### Get the Code
 
 We need [git](http://git-scm.com/ "git source control"), to `clone` the repository like below.
 
@@ -31,7 +31,7 @@ cd /dev/repo
 hub clone --recursive bevacqua/buildfirst
 ```
 
-##### Install the Dependencies
+#### Install Dependencies
 
 You'll need **Node.js**, refer to [this link](http://nodejs.org/download/ "Node.js Downloads") to install it. It comes with the `node` and `npm` command-line tools.
 
@@ -48,6 +48,8 @@ find . -mindepth 2 -maxdepth 2 -type d -name '*_*' -print -exec npm install --pr
 cd buildfirst
 for /d . %d in (ch*\*_*) do @if exist "%d" npm install --prefix %d
 ```
+
+That's it! You are now free to _roam the sample directories_ and follow the instructions in each of them!
 
 # Execution
 
