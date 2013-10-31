@@ -24,7 +24,7 @@ git clone --recursive https://github.com/bevacqua/buildfirst.git
 
 The `--recursive` flag is used to **clone submodules** as well. Read [a bit more about this](http://stackoverflow.com/a/4438292/389745) command, for context.
 
-As an alternative, we can use a little utility developed by **GitHub**, called [hub](http://hub.github.com/ "hub by GitHub"), to make cloning repositories. It's just easier to type by hand if you use the terminal a lot.
+As an alternative, we can use a little utility developed by **GitHub**, called [hub](http://hub.github.com/ "hub by GitHub"), to make cloning repositories a bit easier. It's just less verbose to type by hand, useful if you use the terminal a lot.
 
 ```shell
 cd /dev/repo
