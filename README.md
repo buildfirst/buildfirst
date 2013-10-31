@@ -43,7 +43,7 @@ cd buildfirst
 
 Then, use the command that fits your **OS**, from the options below.
 
-###### Mac OS X and Linux
+##### Mac OS X and Linux
 
 We can use the `find` program.
 
@@ -53,7 +53,7 @@ find . -mindepth 2 -maxdepth 2 -type d -name '*_*' -print -exec npm install --pr
 
 Note that this might take a while.
 
-###### Windows
+##### Windows
 
 Try this command, although it hasn't been tested. Let me know if it works!
 
