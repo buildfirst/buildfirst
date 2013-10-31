@@ -35,17 +35,29 @@ hub clone --recursive bevacqua/buildfirst
 
 You'll need **Node.js**, refer to [this link](http://nodejs.org/download/ "Node.js Downloads") to install it. It comes with the `node` and `npm` command-line tools.
 
-You will need to install dependencies for most of the examples using `npm install`. This command has to be run on each sample's directory. To relive you of this burden, you can use the following command to install the packages in all of them at once. Note that you'll need to `cd` to the root of the samples directory for this to work.
+You will need to install dependencies for most of the examples using `npm install`. This command has to be run on each sample's directory. To relive you of this burden, you can use one of the following commands to install the packages in all of them at once. Note that you'll need to `cd` to the root of the samples directory for this to work.
 
 ```shell
 cd buildfirst
+```
+
+Then, use the command that fits your **OS**, from the options below.
+
+###### Mac OS X and Linux
+
+We can use the `find` program.
+
+```shell
 find . -mindepth 2 -maxdepth 2 -type d -name '*_*' -print -exec npm install --prefix {} \;
 ```
 
-**Windows** users: try this command, although it hasn't been tested. Let me know if it works!
+Note that this might take a while.
+
+###### Windows
+
+Try this command, although it hasn't been tested. Let me know if it works!
 
 ```shell
-cd buildfirst
 for /d . %d in (ch*\*_*) do @if exist "%d" npm install --prefix %d
 ```
 
