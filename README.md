@@ -13,7 +13,9 @@ You could [visit its landing page](http://bevacqua.io/buildfirst "Designing Java
 
 # Installation
 
-You'll need **Node.js**, refer to [this link](http://nodejs.org/download/ "Node.js Downloads") to install it. You also need [git](http://git-scm.com/ "git source control"), to `clone` the repository like below.
+##### Get the Code
+
+We need [git](http://git-scm.com/ "git source control"), to `clone` the repository like below.
 
 ```shell
 cd /dev/repo
@@ -22,14 +24,18 @@ git clone --recursive https://github.com/bevacqua/buildfirst.git
 
 The `--recursive` flag is used to **clone submodules** as well. Read [a bit more about this](http://stackoverflow.com/a/4438292/389745) command, for context.
 
-As an alternative, you can use a little utility developed by **GitHub**, called [hub](http://hub.github.com/ "hub by GitHub"), to easily clone repositories. It's just easier to type by hand.
+As an alternative, we can use a little utility developed by **GitHub**, called [hub](http://hub.github.com/ "hub by GitHub"), to make cloning repositories. It's just easier to type by hand if you use the terminal a lot.
 
 ```shell
 cd /dev/repo
 hub clone --recursive bevacqua/buildfirst
 ```
 
-Once you've got the repository, you will need to install dependencies for most of the examples using `npm install`. `node_modules` directories aren't bundled with the repository. To relive you of this burden, you can use the following command to install the packages in each of the samples. Note that you'll need to `cd` to the root of the samples directory for this to work.
+##### Install the Dependencies
+
+You'll need **Node.js**, refer to [this link](http://nodejs.org/download/ "Node.js Downloads") to install it. It comes with the `node` and `npm` command-line tools.
+
+You will need to install dependencies for most of the examples using `npm install`. This command has to be run on each sample's directory. To relive you of this burden, you can use the following command to install the packages in all of them at once. Note that you'll need to `cd` to the root of the samples directory for this to work.
 
 ```shell
 cd buildfirst
