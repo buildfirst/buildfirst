@@ -11,6 +11,8 @@ This are the accompanying code samples and snippets for a book I wrote about **J
 
 You could [visit its landing page](http://bevacqua.io/buildfirst "Designing JavaScript Applications: A Build First Approach") to learn all about it!
 
+Book buying frenzy? [Say no more, stranger!](http://bevacqua.io/bf/book "Get the book from Manning!")
+
 # Installation
 
 #### Get the Code
