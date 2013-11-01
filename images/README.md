@@ -2,4 +2,6 @@
 
 These are the images referenced in other **README** files throughout the repository.
 
-Included here for both completion and to defend against link rot.
+Included here _for completeness' sake_ and to protect against link rot.
+
+These are not part of the samples _per-se_, you don't need to worry about them.
