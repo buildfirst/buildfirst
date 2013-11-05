@@ -71,6 +71,14 @@ To run an example, read its [README.md](README.md "To understand recursion, you 
 
 There are some examples here that you _won't find on the book_, those will generally be a bit longer: exactly the reason why I _didn't include them_ in the book. Although the code itself might not be present in the book, most of the explaining will definitely be there, rather than here.
 
+# Release History
+
+This is the list of releases to date. You can feel free to simply clone `master`, to get the most up-to-date version.
+
+- [One Third Review](https://github.com/bevacqua/buildfirst/releases/tag/v0.1.0 "Tagged v0.1.0")
+
+You can find [the repository up on GitHub](https://github.com/bevacqua/buildfirst "Designing JavaScript Applications Code Sample Repository"), which contains the latest updates to the samples, and interactively renders the Markdown code in this text, displaying images, making code prettier, styling the text, and letting you follow links.
+
 # Troubleshooting
 
 If you run into any problems, please create an issue [here](https://github.com/bevacqua/buildfirst/issues). Maybe it's something that needs fixing. If you feel like contributing, that's awesome! Just fork this repo and create a [pull request](https://help.github.com/articles/using-pull-requests) with your fixes or improvements.
