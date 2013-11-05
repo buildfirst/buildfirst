@@ -12,13 +12,16 @@ zsh -c 'autoload zmv;$0 $@' zmv -w './**/*.md' './$1$2.txt'
 
 # remove irrelevant files
 rm -rf ./*/images
-rm ./*/release.sh
+rm -rf ./*/release.sh
 
 # create the zip file
-zip -r ../$1 .
+zip -r $1 .
 
 # go back up
 cd ..
+
+# replace zip
+mv ./release-tmp/$1 $1
 
 # clean up
 rm -rf ./release-tmp
