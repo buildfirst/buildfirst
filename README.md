@@ -1,15 +1,15 @@
-# Javascript Application Design
+# JavaScript Application Design
 #### _A Build First Approach_
 
 ![buildfirst.png][1]
 
-Accompanying code samples and snippets for the _Javascript Application Design: A Build First Approach_ book.
+Accompanying code samples and snippets for the _JavaScript Application Design: A Build First Approach_ book.
 
 This are the accompanying code samples and snippets for a book I wrote about **JavaScript build processes and application architecture**. The samples are organized by chapter, and they appear in the same order as they do in the book, for convenience. Many [other resources for this book are listed in its website](http://bevacqua.io/buildfirst/resources "#buildfirst resources"), such as links to _blog posts, articles, essays, books_, and any other particularly relevant topics discussed throughout the book.
 
 #### Fell out of the skies and would like to learn more about the book?
 
-You could [visit its landing page](http://bevacqua.io/buildfirst "Javascript Application Design: A Build First Approach") to learn all about it!
+You could [visit its landing page](http://bevacqua.io/buildfirst "JavaScript Application Design: A Build First Approach") to learn all about it!
 
 Book buying frenzy? [Say no more, stranger!](http://bevacqua.io/bf/book "Get the book from Manning!")
 
@@ -77,7 +77,7 @@ This is the list of releases to date. You can feel free to simply clone `master`
 
 - [One Third Review](https://github.com/bevacqua/buildfirst/releases/tag/v0.1.0 "Tagged v0.1.0")
 
-You can find [the repository up on GitHub](https://github.com/bevacqua/buildfirst "Javascript Application Design Code Sample Repository"), which contains the latest updates to the samples, and interactively renders the Markdown code in this text, displaying images, making code prettier, styling the text, and letting you follow links.
+You can find [the repository up on GitHub](https://github.com/bevacqua/buildfirst "JavaScript Application Design Code Sample Repository"), which contains the latest updates to the samples, and interactively renders the Markdown code in this text, displaying images, making code prettier, styling the text, and letting you follow links.
 
 # Troubleshooting
 
