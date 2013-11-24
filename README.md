@@ -75,7 +75,7 @@ There are some examples here that you _won't find on the book_, those will gener
 
 This is the list of releases to date. You can feel free to simply clone `master`, to get the most up-to-date version.
 
-- [One Third Review](https://github.com/bevacqua/buildfirst/releases/tag/v0.1.0 "Tagged v0.1.0")
+- [One Third Review](https://github.com/bevacqua/buildfirst/releases/tag/v0.0.1 "Tagged v0.0.1")
 
 You can find [the repository up on GitHub](https://github.com/bevacqua/buildfirst "JavaScript Application Design Code Sample Repository"), which contains the latest updates to the samples, and interactively renders the Markdown code in this text, displaying images, making code prettier, styling the text, and letting you follow links.
 
