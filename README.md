@@ -91,4 +91,4 @@ I'm also reachable through my [blog](http://blog.ponyfoo.com "Pony Foo"), I'm [@
 
 Let the [**#buildfirst**](https://twitter.com/#buildfirst) revolution commence!
 
-  [1]: http://www.gravatar.com/avatar/cee019b251cf09f440b4427541e46cb8.png?s=420
+  [1]: http://www.gravatar.com/avatar/cee019b251cf09f440b4427541e46cb8.png?s=320
