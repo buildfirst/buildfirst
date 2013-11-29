@@ -5,6 +5,9 @@ node_modules
 build
 private
 
+# OS artifacts
+.DS_Store
+
 # used in an example in ch02
 .timestamp
 
