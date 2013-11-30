@@ -9,10 +9,10 @@ The function we needed was to build a slug out a regular text string, and then a
 To run the test example, simply execute:
 
 ```js
-node srp
+node app
 ```
 
-Skipping ahead to _separation of concerns through modules_, we could further separate our code by putting each function in its own file. Then, loading each one would be just a matter of doing `require(file)`, where `file` is the relative path to. You should check out `sluggish.js` to see that in action. Of course, this might not be very useful thing to do, since our code is currently pretty compact, and it wouldn't be hard to follow it in a single file.
+Skipping ahead to _separation of concerns through modules_, we could further separate our code by putting each function in its own file. Then, loading each one would be just a matter of doing `require(file)`, where `file` is the relative path to. You should check out `sluggish.js` to see [Common.JS] module loading in action. Of course, this might not be very useful thing to do, since our code is currently pretty compact, and it wouldn't be hard to follow it in a single file.
 
 ```js
 node sluggish
