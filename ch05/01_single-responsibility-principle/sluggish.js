@@ -8,5 +8,5 @@ var article = {
 var sluggish = require('./lib/sluggish-module.js');
 var url = sluggish(article);
 
-// <- /1385757733922/poorly-worded-text
+// <- '/1385757733922/poorly-worded-text'
 console.log(url);

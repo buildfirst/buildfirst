@@ -30,4 +30,4 @@ var time = stamp(article.date);
 var url = '/' + time + '/' + slug;
 
 console.log(url);
-// <- /1385757733922/poorly-worded-text
+// <- '/1385757733922/poorly-worded-text'
