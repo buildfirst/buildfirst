@@ -13,6 +13,6 @@ One of the most challenging tasks we have to undertake in our quest to become ex
 
 - `Function.prototype.bind` creates a special function which can be used to invoke the function it is called on. That function will always use the `this` argument passed to `.bind`, as well as being able to assign a few arguments, creating a curried version of the original function.
 
-![chaos.png][1]
+![chaos.gif][1]
 
-  [1]: "Not the prettiest of JavaScript faces"
+  [1]: https://github.com/bevacqua/buildfirst/tree/master/images/chaos.gif "Not the prettiest of JavaScript faces"
