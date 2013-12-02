@@ -9,5 +9,6 @@ All samples are self-contained, ready to use, and sensibly documented.
 ### Contents
 
 - [Single Reponsibility Principle](https://github.com/bevacqua/buildfirst/tree/master/ch05/01_single-responsibility-principle)
+- [Information Hiding](https://github.com/bevacqua/buildfirst/tree/master/ch05/02_information-hiding)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
