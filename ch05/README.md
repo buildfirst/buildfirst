@@ -11,5 +11,6 @@ All samples are self-contained, ready to use, and sensibly documented.
 - [Single Reponsibility Principle](https://github.com/bevacqua/buildfirst/tree/master/ch05/01_single-responsibility-principle)
 - [Information Hiding](https://github.com/bevacqua/buildfirst/tree/master/ch05/02_information-hiding)
 - [Context Scoping](https://github.com/bevacqua/buildfirst/tree/master/ch05/03_context-scoping)
+- [Hoisting](https://github.com/bevacqua/buildfirst/tree/master/ch05/04_hoisting)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).

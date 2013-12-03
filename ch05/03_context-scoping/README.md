@@ -15,4 +15,4 @@ One of the most challenging tasks we have to undertake in our quest to become ex
 
 ![chaos.gif][1]
 
-  [1]: https://github.com/bevacqua/buildfirst/tree/master/images/chaos.gif "Not the prettiest of JavaScript faces"
+  [1]: https://raw.github.com/bevacqua/buildfirst/master/images/chaos.gif "Not the prettiest of JavaScript faces"
