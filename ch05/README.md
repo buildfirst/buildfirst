@@ -13,5 +13,6 @@ All samples are self-contained, ready to use, and sensibly documented.
 - [Context Scoping](https://github.com/bevacqua/buildfirst/tree/master/ch05/03_context-scoping)
 - [Hoisting](https://github.com/bevacqua/buildfirst/tree/master/ch05/04_hoisting)
 - [Closures](https://github.com/bevacqua/buildfirst/tree/master/ch05/05_closures)
+- [Prototypal modularity](https://github.com/bevacqua/buildfirst/tree/master/ch05/06_prototypal-modularity)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
