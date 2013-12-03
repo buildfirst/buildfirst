@@ -51,7 +51,7 @@ work = function () {
 
 The above wouldn't work as expected, because work isn't defined by the time we want to invoke it. At this point you should feel pretty comfortable with scopes and the `this` keyword. It's time to talk about closures, and modular patterns in JavaScript.
 
-Look at the scripts in this directory for a few more examples. JavaScript variables fill a particular scope in the order described below.
+JavaScript variables fill a particular scope in the order described below.
 
 - Scope context variables: `this`, and `arguments`
 - Named function parameters: `function (these, variable, names)`

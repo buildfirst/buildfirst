@@ -1,10 +1,9 @@
 var value = 2;
 
 work();
-// <- 'undefined'
-// <- undefined
+// <- TypeError: undefined is not a function
 
-function work () {
+var work = function () {
   console.log(typeof value);
   console.log(value);
   var value = 3;
