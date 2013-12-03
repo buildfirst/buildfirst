@@ -7,10 +7,13 @@
   function privateMethod () {
   }
 
-  // We expose accessible properties on the global object, for consumers to use
+  // we expose accessible properties on the global object, for consumers to use
   window.api = {
-      // Public interface
+      // public interface
   };
 
-// Here, we take references to variables external to our scope
+// here, we take references to variables external to our scope
 })(window);
+
+// using it
+console.log(api);
