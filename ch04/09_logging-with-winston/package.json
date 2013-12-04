@@ -1,4 +1,6 @@
 {
+  "name": "buildfirst",
+  "version": "0.1",
   "dependencies": {
     "winston": "0.7.2"
   }
