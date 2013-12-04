@@ -25,23 +25,23 @@
   Lib.prototype.version = '0.0.1';
 
   Lib.prototype.waitForNoReason = function (method) {
-    // remember we talked about this pattern? without it,
-    // setTimeout wouldn't have a reference to the instance of Lib
-    var self = this;
 
-    data[self._id].state = 'waiting';
+    data[this._id].state = 'waiting';
 
-    window.setTimeout(function () {
+    // remember we talked about `.bind`?
+    // `then` wouldn't have a reference to the instance of Lib in `this`, otherwise
+    // rather, either the global object, or `null`, would be assigned to `this`.
+    window.setTimeout(then.bind(this), this.delay);
 
-      data[self._id].state = 'executing';
+    function then () {
+      data[this._id].state = 'executing';
 
       // remember, `.bind` helped us pick the value for `this`
-      var update = done.bind(self);
+      var update = done.bind(this);
 
       // call their method with a callback, which notifies us when they're done
       method(update);
-
-    }, self.delay);
+    }
   };
 
   // since we're in a closure, this will stay private
@@ -78,6 +78,7 @@ console.log(instance.getState());
 // <- 'idle'
 
 // use the public method
+// our callback function gets called 3s later
 instance.waitForNoReason(function (done) {
 
   console.log(instance.getState());
@@ -89,3 +90,6 @@ instance.waitForNoReason(function (done) {
   // <- 'done'
 
 });
+
+console.log(instance.getState());
+// <- 'waiting'

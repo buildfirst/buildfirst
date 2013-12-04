@@ -10,7 +10,7 @@ function scoping () {
   };
 }
 
-scoping()()
+scoping()();
 // <- Window
 // <- Window
 
@@ -18,7 +18,7 @@ scoping()()
 // A common work-around is to create a local variable which holds
 // onto the reference to `this`, and isn't shadowed in the child scope.
 // The child scope shadows `this`, making it impossible to access
-// a reference to the parent `this` directly
+// a reference to the parent `this` directly.
 
 function retaining () {
   var self = this;
@@ -27,3 +27,21 @@ function retaining () {
     console.log(self);
   };
 }
+
+retaining()();
+// <- Window
+
+
+// Unless you really want to use both the parent scope's `this`,
+// as well as the current value of `this` for some obscure reason,
+// the preferred approach is using the `.bind` method in order to
+// assign the parent `this` to the child scope.
+
+function bound () {
+  return function () {
+    console.log(this);
+  }.bind(this);
+}
+
+bound()();
+// <- Window
