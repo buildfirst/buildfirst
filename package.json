@@ -1,4 +1,5 @@
 {
+  "name": "buildfirst",
   "version": "0.1",
   "homepage": "https://github.com/bevacqua/buildfirst",
   "author": {
@@ -6,7 +7,5 @@
     "email": "buildfirst@bevacqua.io",
     "url": "http://bevacqua.io/buildfirst"
   },
-  "dependencies": {
-    "nodetime": "~0.8.13"
-  }
+  "dependencies": {}
 }
