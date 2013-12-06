@@ -7,7 +7,7 @@ One of the most challenging tasks we have to undertake in our quest to become ex
 
 ![chaos.gif][1]
 
-#### [Call, Apply, Bind](https://github.com/bevacqua/buildfirst/tree/master/ch05/03_context-scoping/call-apply-bind.js)
+## [Call, Apply, Bind](https://github.com/bevacqua/buildfirst/tree/master/ch05/03_context-scoping/call-apply-bind.js)
 
 - `Function.prototype.call` takes any number of arguments, the first one is assigned to `this`, and the rest are passed as arguments to the function that's being invoked.
 
@@ -15,7 +15,7 @@ One of the most challenging tasks we have to undertake in our quest to become ex
 
 - `Function.prototype.bind` creates a special function which can be used to invoke the function it is called on. That function will always use the `this` argument passed to `.bind`, as well as being able to assign a few arguments, creating a curried version of the original function.
 
-# That `strict` mode
+## That `strict` mode
 
 If our code is running in strict mode, then `this` will default to `undefined`, instead of `Window`. Outside of strict mode, `this` is always an object: the provided object if called with an object reference; its boxed representation if called with a primitive boolean, string, or numeric value; or the global object (again, `undefined` under strict mode) if called with either `undefined` or `null`. The value passed as `this` to a function in strict mode isn't boxed into an object. In Chapter 7, we'll learn more about what strict mode can do for us.
 
