@@ -21,6 +21,6 @@ If our code is running in strict mode, then `this` will default to `undefined`, 
 
 MDN also has [a nice write-up on the subject](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this "this on MDN") you might want to check out!
 
-You can find more information about the topic on a blog post I wrote: [Where does this keyword come from?](http://blog.ponyfoo.com/2013/12/04/where-does-this-keyword-come-from "Where does this keyword come from? on Pony Foo")
+You can find _more information about this topic_ on a blog post I wrote: [Where does this keyword come from?](http://blog.ponyfoo.com/2013/12/04/where-does-this-keyword-come-from "Where does this keyword come from? on Pony Foo")
 
   [1]: https://raw.github.com/bevacqua/buildfirst/master/images/chaos.gif "Not the prettiest of JavaScript faces"
