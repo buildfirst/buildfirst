@@ -17,7 +17,7 @@ Book buying frenzy? [Say no more, stranger!][4]
 
 You'll need **Node.js**. You can get the latest version [from their website][5], although I'd suggest using [`nvm`][6], which makes it super easy to install multiple versions, and switch between them.
 
-Once you have Node, you can use the [installation script][7] to clone this repository and install all of the dependencies.
+Once you have Node, use the command below to clone this repository and install all of the dependencies:
 
 ```shell
 curl https://raw.github.com/bevacqua/buildfirst/master/install.sh | sh
@@ -27,11 +27,11 @@ curl https://raw.github.com/bevacqua/buildfirst/master/install.sh | sh
 
 > That's it! You are now free to _roam the sample directories_ and follow the instructions in each of them!
 
-Manual installation instructions [can be found here][8], _but you shouldn't need any of that_.
+Manual installation instructions [can be found here][7], _but you shouldn't need any of that_.
 
 # Execution
 
-To run an example, read its [README.md][9] and follow the instructions I've placed there. I tried to make them as straightforward as possible, but sometimes they might not match the examples in the book to the letter.
+To run an example, read its [README.md][8] and follow the instructions I've placed there. I tried to make them as straightforward as possible, but sometimes they might not match the examples in the book to the letter.
 
 There are some examples here that you _won't find on the book_, those will generally be a bit longer: exactly the reason why I _didn't include them_ in the book. Although the code itself might not be present in the book, most of the explaining will definitely be there, rather than here.
 
@@ -39,21 +39,21 @@ There are some examples here that you _won't find on the book_, those will gener
 
 This is the list of releases to date. You can feel free to simply clone `master`, to get the most up-to-date version.
 
-- [One Third Review][10]
+- [One Third Review][9]
 
-You can find [the repository up on GitHub][11], which contains the latest updates to the samples, and interactively renders the Markdown code in this text, displaying images, making code prettier, styling the text, and letting you follow links.
+You can find [the repository up on GitHub][10], which contains the latest updates to the samples, and interactively renders the Markdown code in this text, displaying images, making code prettier, styling the text, and letting you follow links.
 
 # Troubleshooting
 
-If you run into any problems, please create an issue [here][12]. Maybe it's something that needs fixing. If you feel like contributing, that's awesome! Just fork this repo and create a [pull request][13] with your fixes or improvements.
+If you run into any problems, please create an issue [here][11]. Maybe it's something that needs fixing. If you feel like contributing, that's awesome! Just fork this repo and create a [pull request][12] with your fixes or improvements.
 
 # Feedback
 
 You can drop me a line at `buildfirst@bevacqua.io` if you want to leave me feedback, say hi, or grunt at me about my failure to amuse you. I'd love to hear from you!
 
-I'm also reachable through my [blog][14], I'm [@nzgb][15] on Twitter, and I enjoy people stalking me over the Internet.
+I'm also reachable through my [blog][13], I'm [@nzgb][14] on Twitter, and I enjoy people stalking me over the Internet.
 
-Let the [**#buildfirst**][16] revolution commence!
+Let the [**#buildfirst**][15] revolution commence!
 
   [1]: http://www.gravatar.com/avatar/cee019b251cf09f440b4427541e46cb8.png?s=320
   [2]: http://bevacqua.io/buildfirst/resources "#buildfirst resources"
@@ -61,13 +61,12 @@ Let the [**#buildfirst**][16] revolution commence!
   [4]: http://bevacqua.io/bf/book "Get the book from Manning!"
   [5]: http://nodejs.org/download/ "Node.js Downloads"
   [6]: https://github.com/creationix/nvm "Node Version Manager"
-  [7]: https://github.com/bevacqua/buildfirst/blob/master/install.sh "install.sh (bevacqua/buildfirst) on GitHub"
-  [8]: https://github.com/bevacqua/buildfirst/blob/master/wiki/installation-manual.md "Manual Installation Instructions"
-  [9]: README.md "To understand recursion, you must first understand recursion"
-  [10]: https://github.com/bevacqua/buildfirst/releases/tag/v0.0.1 "Tagged v0.0.1"
-  [11]: https://github.com/bevacqua/buildfirst "JavaScript Application Design Code Sample Repository"
-  [12]: https://github.com/bevacqua/buildfirst/issues "JavaScript Application Design Code Sample Repository Issues"
-  [13]: https://help.github.com/articles/using-pull-requests "Using Pull Requests"
-  [14]: http://blog.ponyfoo.com "Pony Foo"
-  [15]: https://twitter.com/nzgb "@nzgb on Twitter"
-  [16]: https://twitter.com/#buildfirst "#buildfirst on Twitter"
+  [7]: https://github.com/bevacqua/buildfirst/blob/master/wiki/installation-manual.md "Manual Installation Instructions"
+  [8]: README.md "To understand recursion, you must first understand recursion"
+  [9]: https://github.com/bevacqua/buildfirst/releases/tag/v0.0.1 "Tagged v0.0.1"
+  [10]: https://github.com/bevacqua/buildfirst "JavaScript Application Design Code Sample Repository"
+  [11]: https://github.com/bevacqua/buildfirst/issues "JavaScript Application Design Code Sample Repository Issues"
+  [12]: https://help.github.com/articles/using-pull-requests "Using Pull Requests"
+  [13]: http://blog.ponyfoo.com "Pony Foo"
+  [14]: https://twitter.com/nzgb "@nzgb on Twitter"
+  [15]: https://twitter.com/#buildfirst "#buildfirst on Twitter"
