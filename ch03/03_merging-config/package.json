@@ -1,6 +1,6 @@
 {
   "name": "buildfirst",
-  "version": "0.1",
+  "version": "0.1.0",
   "dependencies": {
     "nconf": "0.6.7"
   },
