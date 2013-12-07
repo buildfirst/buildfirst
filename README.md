@@ -15,55 +15,19 @@ Book buying frenzy? [Say no more, stranger!][4]
 
 # Installation
 
-#### Get the Code
+You'll need **Node.js**. You can get the latest version [from their website][5], although I'd suggest using [`nvm`][6], which makes it super easy to install multiple versions, and switch between them.
 
-We need [git][5], to `clone` the repository like below.
-
-```shell
-cd /dev/repo
-git clone --recursive https://github.com/bevacqua/buildfirst.git
-```
-
-The `--recursive` flag is used to **clone submodules** as well. Read [a bit more about this][6] command, for context.
-
-As an alternative, we can use a little utility developed by **GitHub**, called [hub][7], to make cloning repositories a bit easier. It's just less verbose to type by hand, useful if you use the terminal a lot.
+Once you have Node, you can use the [installation script][7] to clone this repository and install all of the dependencies.
 
 ```shell
-cd /dev/repo
-hub clone --recursive bevacqua/buildfirst
+curl https://raw.github.com/bevacqua/buildfirst/master/install.sh | sh
 ```
 
-#### Install Dependencies
+<sub>If you're on **Windows** use `install-dos.sh`, instead.</sub>
 
-You'll need **Node.js**, refer to [this link][8] to install it. It comes with the `node` and `npm` command-line tools.
+> That's it! You are now free to _roam the sample directories_ and follow the instructions in each of them!
 
-You will need to install dependencies for most of the examples using `npm install`. This command has to be run on each sample's directory. To relive you of this burden, you can use one of the following commands to install the packages in all of them at once. Note that you'll need to `cd` to the root of the samples directory for this to work.
-
-```shell
-cd buildfirst
-```
-
-Then, use the command that fits your **OS**, from the options below.
-
-##### Mac OS X and Linux
-
-We can use the `find` program.
-
-```shell
-find . -mindepth 2 -maxdepth 2 -type d -name '*_*' -print -exec npm install --prefix {} \;
-```
-
-Note that this might take a while.
-
-##### Windows
-
-Try this command, although it hasn't been tested. Let me know if it works!
-
-```shell
-for /d . %d in (ch*\*_*) do @if exist "%d" npm install --prefix %d
-```
-
-That's it! You are now free to _roam the sample directories_ and follow the instructions in each of them!
+Manual installation instructions [can be found here][8], _but you shouldn't need any of that_.
 
 # Execution
 
@@ -95,10 +59,10 @@ Let the [**#buildfirst**][16] revolution commence!
   [2]: http://bevacqua.io/buildfirst/resources "#buildfirst resources"
   [3]: http://bevacqua.io/buildfirst "JavaScript Application Design: A Build First Approach"
   [4]: http://bevacqua.io/bf/book "Get the book from Manning!"
-  [5]: http://git-scm.com/ "git source control"
-  [6]: http://stackoverflow.com/a/4438292/389745 "How to `git clone` including submodules?"
-  [7]: http://hub.github.com/ "hub by GitHub"
-  [8]: http://nodejs.org/download/ "Node.js Downloads"
+  [5]: http://nodejs.org/download/ "Node.js Downloads"
+  [6]: https://github.com/creationix/nvm "Node Version Manager"
+  [7]: https://github.com/bevacqua/buildfirst/blob/master/install.sh "install.sh (bevacqua/buildfirst) on GitHub"
+  [8]: https://github.com/bevacqua/buildfirst/blob/master/wiki/installation-manual.md "Manual Installation Instructions"
   [9]: README.md "To understand recursion, you must first understand recursion"
   [10]: https://github.com/bevacqua/buildfirst/releases/tag/v0.0.1 "Tagged v0.0.1"
   [11]: https://github.com/bevacqua/buildfirst "JavaScript Application Design Code Sample Repository"

@@ -11,4 +11,4 @@ git clone --recursive https://github.com/bevacqua/buildfirst.git
 cd buildfirst
 
 # npm install all the things
-find . -mindepth 2 -maxdepth 2 -type d -name '*_*' -print -exec npm install --prefix {} \;
+for /d . %d in (ch*\*_*) do @if exist "%d" npm install --prefix %d
