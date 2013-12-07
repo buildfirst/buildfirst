@@ -8,7 +8,7 @@ We need [git][3], in order to `clone` the repository like below.
 git clone --recursive https://github.com/bevacqua/buildfirst.git
 ```
 
-The `--recursive` flag is used to **clone submodules** as well. Read [a bit more about cloning submodules][4] command, for context.
+<sub>The `--recursive` flag is used to **clone submodules** as well. Read [a bit more about cloning submodules][4] command, for context.</sub>
 
 As a bit of _sugar on top_ of `git`, we can use a little utility developed by **GitHub**, called [hub][5], to make cloning repositories easier. It's just less verbose to type by hand, useful if you use the terminal a lot.
 
