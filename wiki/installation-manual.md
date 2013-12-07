@@ -21,7 +21,7 @@ You will need to install dependencies for most of the examples using `npm instal
 Then, use the command that fits your **OS**, from the options below.
 
 Platform|Command
-===|===
+---|---
 Mac OS, or Linux|`find . -mindepth 2 -maxdepth 2 -type d -name '*_*' -print -exec npm install --prefix {} \;`
 Windows|`for /d . %d in (ch*\*_*) do @if exist "%d" npm install --prefix %d`
 
