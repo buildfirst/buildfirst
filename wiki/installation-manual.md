@@ -2,7 +2,9 @@
 
 Installing the dependencies in many of the samples requires **Node.js**. You could get it from [the Node.js website][1], but I recommend using [`nvm`][2], which makes it super easy to install multiple Node versions, and switch between them.
 
-We need [git][3], in order to `clone` the repository like below.
+### Repository
+
+You need [git][3], in order to `clone` the repository like below.
 
 ```shell
 git clone --recursive https://github.com/bevacqua/buildfirst.git
@@ -15,6 +17,8 @@ As a bit of _sugar on top_ of `git`, we can use a little utility developed by **
 ```shell
 hub clone --recursive bevacqua/buildfirst
 ```
+
+### Dependencies
 
 You will need to install dependencies for most of the examples using `npm install`. This command has to be run on each sample's directory. To relive you of this burden, you can use one of the following commands to install the packages in all of them at once. Note that you'll need to `cd` to the root of the samples directory for this to work.
 
