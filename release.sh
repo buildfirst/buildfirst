@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # remove static artifacts
 rm -rf ./release-tmp
 
