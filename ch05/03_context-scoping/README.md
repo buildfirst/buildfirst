@@ -19,9 +19,9 @@ One of the most challenging tasks we have to undertake in our quest to become ex
 
 If our code is running in strict mode, then `this` will default to `undefined`, instead of `Window`. Outside of strict mode, `this` is always an object: the provided object if called with an object reference; its boxed representation if called with a primitive boolean, string, or numeric value; or the global object (again, `undefined` under strict mode) if called with either `undefined` or `null`. The value passed as `this` to a function in strict mode isn't boxed into an object.
 
-You can find more information about strict mode [_inside the book_](http://bevacqua.io/buildfirst "JavaScript Application Design"), and MDN also has [a nice write-up on the subject](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this "this on MDN") you might want to check out!
+You can read more about **strict mode** [_inside the book_](http://bevacqua.io/buildfirst "JavaScript Application Design"), and MDN also has [a nice write-up on the subject](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this "this on MDN") you might want to check out!
 
-You can find _more information about this topic_ on a blog post I wrote: [Where does this keyword come from?](http://blog.ponyfoo.com/2013/12/04/where-does-this-keyword-come-from "Where does this keyword come from? on Pony Foo")
+_More information about this topic_ can be found on a blog post I wrote: [Where does this keyword come from?](http://blog.ponyfoo.com/2013/12/04/where-does-this-keyword-come-from "Where does this keyword come from? on Pony Foo")
 
 ## Order Matters
 
