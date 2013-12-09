@@ -1,10 +1,10 @@
 var value = 2;
 
-work();
+test();
 // <- 'undefined'
 // <- undefined
 
-function work () {
+function test () {
   console.log(typeof value);
   console.log(value);
   var value = 3;
