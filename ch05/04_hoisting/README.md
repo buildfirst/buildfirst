@@ -49,12 +49,7 @@ test = function () {
 };
 ```
 
-The above wouldn't work as expected, because `test` isn't defined by the time we want to invoke it. JavaScript variables fill the scope in the order described below.
-
-- Scope context variables: `this`, and `arguments`
-- Named function parameters: `function (these, variable, names)`
-- Function expressions: `function something () {}`
-- Local scope variables: `var foo`
+The above wouldn't work as expected, because `test` isn't defined by the time we want to invoke it.
 
 ![hoisting.png][1]
 
