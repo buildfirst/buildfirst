@@ -4,6 +4,7 @@ One of the most challenging tasks we have to undertake in our quest to become ex
 
 - [Scoping `this`](https://github.com/bevacqua/buildfirst/tree/master/ch05/03_context-scoping/scope-this.js)
 - [Object Property](https://github.com/bevacqua/buildfirst/tree/master/ch05/03_context-scoping/object-property.js)
+- [Manipulating `this`](https://github.com/bevacqua/buildfirst/tree/master/ch05/03_context-scoping/call-apply-bind.js)
 
 ![chaos.gif][1]
 
