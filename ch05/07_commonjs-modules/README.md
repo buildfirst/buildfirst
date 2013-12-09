@@ -14,7 +14,6 @@ The second example simply mentions some of the things to take into account, as w
 node behavior
 ```
 
-
   [1]: http://i.imgur.com/fxJcqCJ.jpg
   [2]: http://wiki.commonjs.org/wiki/CommonJS "Common.JS wiki home"
   [3]: https://github.com/bevacqua/buildfirst/tree/latest/ch05/02_information-hiding
