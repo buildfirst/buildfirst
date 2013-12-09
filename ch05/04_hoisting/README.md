@@ -57,3 +57,7 @@ JavaScript variables fill the scope in the order described below.
 - Named function parameters: `function (these, variable, names)`
 - Function expressions: `function something () {}`
 - Local scope variables: `var foo`
+
+![hoisting.png][1]
+
+  [1]: http://i.imgur.com/eGT7oTe.png "Variable hoisting in action"
