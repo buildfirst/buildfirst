@@ -14,7 +14,6 @@ module.exports = {
 // thus, when our module is required, its contents will be executed, and
 // then we get access to only the public interface
 
-
 // modules have access to global variables such as __dirname
 console.log(__dirname);
 // <- this file's directory name
