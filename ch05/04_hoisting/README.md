@@ -5,21 +5,21 @@
 ```js
 var value = 2;
 
-work();
+test();
 
-function work () {
+function test () {
     console.log(typeof value);
     console.log(value);
     var value = 3;
 }
 ```
 
-You might be expecting the method to print 'number' first, and 2 afterwards, or maybe 3? Try running it! Why does it print `'undefined'` and then `undefined`? Well, hello hoisting! It'll be easier for you to picture it if I re-arrange the code to how it ends up after hoisting takes place. Let's have a look.
+You might be expecting the method to print `'number'` first, and `2` afterwards, or maybe `3`? Try running it! Why does it print `'undefined'` and then `undefined`? Well, hello hoisting! It'll be easier for you to picture it if I re-arrange the code to how it ends up after _hoisting_ takes place. Let's have a look.
 
 ```js
 var value;
 
-function work () {
+function test () {
     var value;
     console.log(typeof value);
     console.log(value);
@@ -28,20 +28,20 @@ function work () {
 
 value = 2;
 
-work();
+test();
 ```
 
-So, that's why: the `value` declaration at the end of the `work` function actually got hoisted to the top of the scope, and also the reason why `work` didn't meet us with a `TypeError` exception warning us about `undefined` not being a function. Keep in mind that if we used the variable form of declaring the `work` function, we would in fact have gotten that error, because although `var work` would've been hoisted, the assignment wouldn't have been, effectively becoming the following:
+So, that's why: the `value` declaration at the end of the `test` function actually got hoisted to the top of the scope, and also the reason why `test` didn't meet us with a `TypeError` exception warning us about `undefined` not being a function. Keep in mind that if we used the variable form of declaring the `test` function, we would in fact have gotten that error, because although `var test` would've been hoisted, the assignment wouldn't have been, effectively becoming the following:
 
 ```js
 var value;
-var work;
+var test;
 
 value = 2;
 
-work();
+test();
 
-work = function () {
+test = function () {
     var value;
     console.log(typeof value);
     console.log(value);
@@ -49,9 +49,7 @@ work = function () {
 };
 ```
 
-The above wouldn't work as expected, because work isn't defined by the time we want to invoke it. At this point you should feel pretty comfortable with scopes and the `this` keyword. It's time to talk about closures, and modular patterns in JavaScript.
-
-JavaScript variables fill the scope in the order described below.
+The above wouldn't work as expected, because `test` isn't defined by the time we want to invoke it. JavaScript variables fill the scope in the order described below.
 
 - Scope context variables: `this`, and `arguments`
 - Named function parameters: `function (these, variable, names)`
