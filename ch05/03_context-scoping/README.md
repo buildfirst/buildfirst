@@ -23,4 +23,13 @@ MDN also has [a nice write-up on the subject](https://developer.mozilla.org/en-U
 
 You can find _more information about this topic_ on a blog post I wrote: [Where does this keyword come from?](http://blog.ponyfoo.com/2013/12/04/where-does-this-keyword-come-from "Where does this keyword come from? on Pony Foo")
 
+## Order Matters
+
+JavaScript variables fill the scope in the order described below.
+
+- Scope context variables: `this`, and `arguments`
+- Named function parameters: `function (these, variable, names)`
+- Function expressions: `function something () {}`
+- Local scope variables: `var foo`
+
   [1]: https://raw.github.com/bevacqua/buildfirst/master/images/chaos.gif "Not the prettiest of JavaScript faces"
