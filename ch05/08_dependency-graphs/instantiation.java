@@ -1,5 +1,5 @@
-public static class Main {
-    public Main () {
+public class Main {
+    public static void main (String[] args) {
         String connectionString = "SOME_CONNECTION_STRING";
         SqlConnectionString connString = new SqlConnectionString(connectionString);
         SqlDbConnection conn = new SqlDbConnection(connString);
