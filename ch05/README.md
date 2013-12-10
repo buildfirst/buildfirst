@@ -16,5 +16,6 @@ All samples are self-contained, ready to use, and sensibly documented.
 - [Prototypal Modularity](https://github.com/bevacqua/buildfirst/tree/master/ch05/06_prototypal-modularity)
 - [Common.JS Modules](https://github.com/bevacqua/buildfirst/tree/master/ch05/07_commonjs-modules)
 - [Dependency Graphs](https://github.com/bevacqua/buildfirst/tree/master/ch05/08_dependency-graphs)
+- [Using Require.js](https://github.com/bevacqua/buildfirst/tree/master/ch05/09_requirejs-usage)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
