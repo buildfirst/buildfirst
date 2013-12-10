@@ -14,7 +14,9 @@ google-chrome test.html
 
 Note that this sample merely outputs a few values to the developer console, so you better open it up!
 
-The bottom line is that RequireJS is better than doing no dependency management whatsoever, but probably more convoluted than necessary, as the alternatives we'll explore next will show. _The analysis happens in the book._
+> The bottom line is that RequireJS is better than doing no dependency management whatsoever, but probably more convoluted than necessary, as the alternatives we'll explore next will show.
+
+_A deeper analysis can be found in the book._
 
   [1]: http://i.imgur.com/TkjgTBt.png
   [2]: https://github.com/jrburke/requirejs
