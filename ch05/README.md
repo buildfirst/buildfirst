@@ -15,5 +15,6 @@ All samples are self-contained, ready to use, and sensibly documented.
 - [Closures](https://github.com/bevacqua/buildfirst/tree/master/ch05/05_closures)
 - [Prototypal Modularity](https://github.com/bevacqua/buildfirst/tree/master/ch05/06_prototypal-modularity)
 - [Common.JS Modules](https://github.com/bevacqua/buildfirst/tree/master/ch05/07_commonjs-modules)
+- [Dependency Graphs](https://github.com/bevacqua/buildfirst/tree/master/ch05/08_dependency-graphs)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
