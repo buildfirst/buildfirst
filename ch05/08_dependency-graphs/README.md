@@ -5,7 +5,7 @@
 This sample, written in _Java_, is used in the book to explain the trade-offs in attempting to achieve a balance in testability and readability. The following example on how to instance a service isn't ideal.
 
 ```java
-String connectionString = 'SOME_CONNECTION_STRING';
+String connectionString = "SOME_CONNECTION_STRING";
 SqlConnectionString connString = new SqlConnectionString(connectionString);
 SqlDbConnection conn = new SqlDbConnection(connString);
 IUserRepository repo = new UserMySqlRepository(conn);
