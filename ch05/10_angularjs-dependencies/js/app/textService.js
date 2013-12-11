@@ -7,4 +7,5 @@ app.factory('textService', [
     return function (input) {
       return input.toUpperCase();
     };
+  }
 ]);
