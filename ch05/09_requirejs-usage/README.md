@@ -10,7 +10,7 @@ This sample depicts the basic usage form of the module loader, while the book an
 google-chrome test.html
 ```
 
-<sub>(or just open `test.html` using your favorite browser)</sub>
+<sub>(or just open `test.html` in your favorite browser)</sub>
 
 Note that this sample merely outputs a few values to the developer console, so you better open it up!
 
