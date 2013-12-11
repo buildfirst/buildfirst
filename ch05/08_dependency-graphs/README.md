@@ -20,7 +20,7 @@ IUserRepository repo = new UserMySqlRepository(conn);
 UserService service = new UserService(repo);
 ```
 
-Here is [how the `UserService` might look like][5].
+Here is [how the `UserService` should look like][5] if we seek to go for IoC.
 
 The constructor receives the dependencies we have, rather than us creating them ourselves. this is known as Inversion of Control. Thus, code becomes more testable. You can create a fake implementation of that same interface, provide it to the class when you instance it, and the module is _still supposed to work_, because we aren't coding to the implementation. It's only the interfaces matter.
 
@@ -28,7 +28,7 @@ That's why we resort to [dependency injection][6] frameworks, so we can have the
 
   [1]: http://i.imgur.com/z35usqQ.png
   [2]: http://xkcd.com/754/ "The prereqs for CPSC 357, the class on package management, are CPSC 432, CPSC 357, and glibc2.5 or later."
-  [3]: https://github.com/bevacqua/buildfirst/tree/master/ch05/08_dependency-graphs/userService-agnostic.java
+  [3]: https://github.com/bevacqua/buildfirst/tree/master/ch05/08_dependency-graphs/userService.java
   [4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/08_dependency-graphs/instantiation.java
-  [5]: https://github.com/bevacqua/buildfirst/tree/master/ch05/08_dependency-graphs/userService.java
+  [5]: https://github.com/bevacqua/buildfirst/tree/master/ch05/08_dependency-graphs/userService-agnostic.java
   [6]: http://en.wikipedia.org/wiki/Dependency_injection "Dependency Injection on Wikipedia"
