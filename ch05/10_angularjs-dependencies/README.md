@@ -14,7 +14,7 @@ google-chrome test.html
 
 Note that this sample merely outputs a few values to the developer console, so you better open it up!
 
-_A deeper analysis of the behavior and _inner workings_ of Angular can be found in the book._
+_A deeper analysis of the behavior and inner workings of Angular can be found in the book._
 
   [1]: http://i.imgur.com/SN9pdq1.png
   [2]: http://angularjs.org
