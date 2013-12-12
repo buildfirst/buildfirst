@@ -2,7 +2,7 @@
   "name": "buildfirst",
   "version": "0.1.0",
   "devDependencies": {
-    "grunt": "0.4.1",
-    "grunt-spritesmith": "1.7.0"
+    "grunt": "~0.4.2",
+    "grunt-spritesmith": "~1.7.0"
   }
 }

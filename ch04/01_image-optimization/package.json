@@ -2,12 +2,12 @@
   "name": "buildfirst",
   "version": "0.1.0",
   "devDependencies": {
-    "grunt": "0.4.1",
-    "grunt-contrib-clean": "0.5.0",
-    "grunt-contrib-copy": "0.4.1",
-    "grunt-contrib-imagemin": "0.3.0",
-    "grunt-contrib-jade": "0.8.0",
-    "grunt-contrib-less": "0.7.0",
-    "marked": "0.2.9"
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-imagemin": "~0.3.0",
+    "grunt-contrib-jade": "~0.8.0",
+    "grunt-contrib-less": "~0.7.0",
+    "marked": "~0.2.9"
   }
 }

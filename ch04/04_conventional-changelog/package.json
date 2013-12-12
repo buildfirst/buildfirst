@@ -2,8 +2,8 @@
   "name": "buildfirst",
   "version": "0.1.0",
   "devDependencies": {
-    "grunt": "0.4.1",
-    "grunt-bump": "0.0.11",
-    "grunt-conventional-changelog": "1.0.0"
+    "grunt": "~0.4.2",
+    "grunt-bump": "~0.0.11",
+    "grunt-conventional-changelog": "~1.0.0"
   }
 }

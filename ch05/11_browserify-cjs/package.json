@@ -1,11 +1,9 @@
 {
   "name": "buildfirst",
   "version": "0.1.0",
-  "dependencies": {
-    "nconf": "~0.6.7"
-  },
   "devDependencies": {
     "grunt": "~0.4.2",
-    "grunt-contrib-jshint": "~0.6.4"
+    "browserify": "~2.36.1",
+    "grunt-browserify": "~1.2.12"
   }
 }

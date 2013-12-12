@@ -2,7 +2,7 @@
   "name": "buildfirst",
   "version": "0.1.0",
   "devDependencies": {
-    "grunt": "0.4.1",
-    "grunt-contrib-less": "0.7.0"
+    "grunt": "~0.4.2",
+    "grunt-contrib-less": "~0.7.0"
   }
 }

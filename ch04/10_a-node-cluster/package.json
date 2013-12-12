@@ -2,6 +2,6 @@
   "name": "buildfirst",
   "version": "0.1.0",
   "dependencies": {
-    "chalk": "0.2.1"
+    "chalk": "~0.2.1"
   }
 }

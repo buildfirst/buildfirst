@@ -2,7 +2,7 @@
   "name": "buildfirst-amazon-aws-deployment-example",
   "version": "0.1.0",
   "devDependencies": {
-    "grunt": "0.4.1",
-    "grunt-ec2": "0.4.3"
+    "grunt": "~0.4.2",
+    "grunt-ec2": "~0.4.3"
   }
 }
