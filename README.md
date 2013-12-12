@@ -43,17 +43,17 @@ This is the list of releases to date. You can feel free to simply clone `master`
 
 You can find [the repository up on GitHub][10], which contains the latest updates to the samples, and interactively renders the Markdown code in this text, displaying images, making code prettier, styling the text, and letting you follow links.
 
-# Troubleshooting
+### Troubleshooting
 
 If you run into any problems, please create an issue [here][11]. Maybe it's something that needs fixing. If you feel like contributing, that's awesome! Just fork this repo and create a [pull request][12] with your fixes or improvements.
 
-# Feedback
+### Feedback
 
-You can drop me a line at `buildfirst@bevacqua.io` if you want to leave me feedback, say hi, or grunt at me about my failure to amuse you. I'd love to hear from you!
+Feedback **about the book itself** should be posted on the [Manning Online Author Forum][13]. You can drop me a line at [buildfirst@bevacqua.io][14] if you want to leave me _a more personal note_, just say hi, or grunt at me about my failure to amuse you. I'd love to hear from you!
 
-I'm also reachable through my [blog][13], I'm [@nzgb][14] on Twitter, and I enjoy people stalking me over the Internet.
+You can also find me blogging at [Pony Foo][15]. My Twitter account is [@nzgb][16], and I enjoy people stalking me over the Internet!
 
-Let the [**#buildfirst**][15] revolution commence!
+Let the [**#buildfirst**][17] revolution commence!
 
   [1]: http://www.gravatar.com/avatar/cee019b251cf09f440b4427541e46cb8.png?s=320
   [2]: http://bevacqua.io/buildfirst/resources "#buildfirst resources"
@@ -67,6 +67,8 @@ Let the [**#buildfirst**][15] revolution commence!
   [10]: https://github.com/bevacqua/buildfirst "JavaScript Application Design Code Sample Repository"
   [11]: https://github.com/bevacqua/buildfirst/issues "JavaScript Application Design Code Sample Repository Issues"
   [12]: https://help.github.com/articles/using-pull-requests "Using Pull Requests"
-  [13]: http://blog.ponyfoo.com "Pony Foo"
-  [14]: https://twitter.com/nzgb "@nzgb on Twitter"
-  [15]: https://twitter.com/#buildfirst "#buildfirst on Twitter"
+  [13]: http://www.manning-sandbox.com/forum.jspa?forumID=888 "Author Online Forum for JavaScript Application Design"
+  [14]: mailto:buildfirst@bevacqua.io "Contact me by mail"
+  [15]: http://blog.ponyfoo.com "Pony Foo"
+  [16]: https://twitter.com/nzgb "@nzgb on Twitter"
+  [17]: https://twitter.com/#buildfirst "#buildfirst on Twitter"
