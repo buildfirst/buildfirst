@@ -14,6 +14,25 @@ google-chrome test.html
 
 Note that this sample merely outputs a few values to the developer console, so you better open it up!
 
+Angular works differently from what we just saw in [**ch05e09** Using RequireJS][10]. Rather than act as a module loader, Angular just worries about our dependency graph. Thus, we need to add a script tag for each file we're using, unlike AMd which dealt with that for us. However, in the case of Angular we see an interesting behavior where script order isn't really all that relevant. As long as we have Angular on top, and then the script which declares our module, the rest of the scripts can be in whatever order we want, and Angular will deal with that for us.
+
+Effectively, that is to say that as long as we have something like this on top of our script tag list:
+
+```html
+<script src='js/vendor/angular.js'></script>
+<script src='js/app/app.js'></script>
+```
+
+Then the rest of the scripts, which are part of the `app` module _(or whatever name we give to it)_, can be loaded in any order.
+
+```html
+<!--
+    These could actually be in any order!
+-->
+<script src='js/app/testController.js'></script>
+<script src='js/app/textService.js'></script>
+```
+
 _A deeper analysis of the behavior and inner workings of Angular can be found in the book._
 
   [1]: http://i.imgur.com/SN9pdq1.png
@@ -25,3 +44,4 @@ _A deeper analysis of the behavior and inner workings of Angular can be found in
   [7]: http://docs.angularjs.org/guide/scope
   [8]: http://docs.angularjs.org/api/ng.$rootScope
   [9]: http://bevacqua.io/angular-di
+  [10]: https://github.com/bevacqua/buildfirst/tree/master/ch05/09_requirejs-usage

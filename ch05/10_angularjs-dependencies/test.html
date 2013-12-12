@@ -1,13 +1,39 @@
 <!doctype html>
+<!--
+    Angular.js uses declarative markup to extend HTML, creating our views.
+    HTML attributes are often used to map to directives, Angular's form of
+    interaction with the DOM, which helps us abstract the interaction so it
+    can be easily tested. The `ng-app` attribute is one of many of the markup
+    extensions Angular offers, and is required to indicate what the root scope
+    of our application is, and what Angular module it maps to.
+-->
 <html ng-app='testApp'>
 <head>
   <meta charset="utf-8">
   <title>Angular.js Dependencies &middot; bevacqua.io/buildfirst</title>
 </head>
+<!--
+    We will go deeper into controllers in Angular in Chapter 7, and for now it
+    should suffice to say that controllers are meant to tie everything toegether.
+    By everything, we're talking about services, Angular scopes, and scope watchers,
+    among other features.
+-->
 <body ng-controller='testController'>
   <div>Read the <code>console</code>, dummy!</div>
+  <!--
+      Angular works differently from what we just saw in RequireJS. Rather than act as
+      a module loader, Angular just worries about our dependency graph. Thus, we need
+      to add a script tag for each file we're using, unlike AMd which dealt with that for us.
+      However, in the case of Angular we see an interesting behavior where script order isn't
+      really all that relevant. As long as we have Angular on top, and then the script which
+      declares our module, the rest of the scripts can be in whatever order we want, and Angular
+      will deal with that for us.
+  -->
   <script src='js/vendor/angular.js'></script>
   <script src='js/app/app.js'></script>
+  <!--
+      These could actually be in any order!
+  -->
   <script src='js/app/testController.js'></script>
   <script src='js/app/textService.js'></script>
 </body>
