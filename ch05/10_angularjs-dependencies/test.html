@@ -23,14 +23,14 @@
   <!--
       Angular works differently from what we just saw in RequireJS. Rather than act as
       a module loader, Angular just worries about our dependency graph. Thus, we need
-      to add a script tag for each file we're using, unlike AMd which dealt with that for us.
+      to add a script tag for each file we're using, unlike AMD which dealt with that for us.
       However, in the case of Angular we see an interesting behavior where script order isn't
       really all that relevant. As long as we have Angular on top, and then the script which
       declares our module, the rest of the scripts can be in whatever order we want, and Angular
       will deal with that for us.
   -->
   <script src='js/vendor/angular.js'></script>
-  <script src='js/app/app.js'></script>
+  <script src='js/app.js'></script>
   <!--
       These could actually be in any order!
   -->

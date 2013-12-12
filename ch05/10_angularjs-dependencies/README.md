@@ -14,13 +14,13 @@ google-chrome test.html
 
 Note that this sample merely outputs a few values to the developer console, so you better open it up!
 
-Angular works differently from what we just saw in [**ch05e09** Using RequireJS][10]. Rather than act as a module loader, Angular just worries about our dependency graph. Thus, we need to add a script tag for each file we're using, unlike AMd which dealt with that for us. However, in the case of Angular we see an interesting behavior where script order isn't really all that relevant. As long as we have Angular on top, and then the script which declares our module, the rest of the scripts can be in whatever order we want, and Angular will deal with that for us.
+Angular works differently from what we just saw in [**ch05e09** Using RequireJS][10]. Rather than act as a module loader, Angular just worries about our dependency graph. Thus, we need to add a script tag for each file we're using, unlike AMD which dealt with that for us. However, in the case of Angular we see an interesting behavior where script order isn't really all that relevant. As long as we have Angular on top, and then the script which declares our module, the rest of the scripts can be in whatever order we want, and Angular will deal with that for us.
 
 Effectively, that is to say that as long as we have something like this on top of our script tag list:
 
 ```html
 <script src='js/vendor/angular.js'></script>
-<script src='js/app/app.js'></script>
+<script src='js/app.js'></script>
 ```
 
 Then the rest of the scripts, which are part of the `app` module _(or whatever name we give to it)_, can be loaded in any order.
