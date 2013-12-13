@@ -49,7 +49,7 @@ If you run into any problems, please create an issue [here][11]. Maybe it's some
 
 ### Feedback
 
-Feedback **about the book itself** should be posted on the [Manning Online Author Forum][13]. You can drop me a line at [buildfirst@bevacqua.io][14] if you want to leave me _a more personal note_, just say hi, or grunt at me about my failure to amuse you. I'd love to hear from you!
+Feedback **about the book itself** should be posted on the [Manning Online Author Forum][13]. If you want to leave me _a more personal note_, just say hi, or grunt at me about my failure to amuse you, you can drop me a line at [buildfirst@bevacqua.io][14]. I'd love to hear from you!
 
 You can also find me blogging at [Pony Foo][15]. My Twitter account is [@nzgb][16], and I enjoy people stalking me over the Internet!
 
