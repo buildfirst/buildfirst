@@ -6,7 +6,7 @@
 
 The [grunt-browserify][5] plugin has a really interesting read which is worth checking out, talking about the benefits of using CJS modules.
 
-The `build:debug` task target will bundle all of the RequireJS modules and also create a source map so we're still able to debug seamlessly. The `build:release` version will also minify the bundle, but it won't produce a source map. Once you've built, open the example from your shell, using:
+The `build:debug` task target will bundle all of the CJS modules and also create a source map so we're still able to debug seamlessly. Note that a source map _file_ won't actually be created, but instead it will be embedded right into our bundle, with something known as a [base64 encoded data uri][6]. The `build:release` version will also minify the bundle, but it won't produce a source map. Once you've built, open the example from your shell, using:
 
 ```shell
 google-chrome test.html
@@ -19,3 +19,4 @@ google-chrome test.html
   [3]: https://github.com/substack
   [4]: http://bevacqua.io/buildfirst "JavaScript Application Design"
   [5]: https://github.com/jmreidy/grunt-browserify
+  [6]: https://developer.mozilla.org/en/docs/data_URIs "Data URI explained in MDN"
