@@ -10,7 +10,7 @@ module.exports = function (grunt) {
 
       debug: {
         files: {
-          'build/js/app.js': 'js/**/*.js'
+          'build/js/app.js': 'js/app.js'
         },
         options: {
           // this produces a source map which gets baked into a base64 uri in the script file
@@ -20,7 +20,7 @@ module.exports = function (grunt) {
 
       release: {
         files: {
-          'build/js/app.js': 'js/**/*.js'
+          'build/js/app.js': 'js/app.js'
         }
       }
     },
