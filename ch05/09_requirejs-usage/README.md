@@ -1,6 +1,6 @@
 # Using RequireJS
 
-![requirejs.png][1]
+[![requirejs.png][1]][2]
 
 [Require.js][2] is a JavaScript _module loading_ library. Popularized by [@jrburke][3], this script loader is one of many ways to address [dependency hell][4] in client-side JavaScript.
 
