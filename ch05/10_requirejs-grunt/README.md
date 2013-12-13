@@ -40,7 +40,13 @@ The `release` target doesn't have any additional configuration, because it merel
 └── Gruntfile.js
 ```
 
-The `build:debug` task target will bundle all of the RequireJS modules and also create a source map so we're still able to debug seamlessly. The `build:release` version will also minify the bundle, but it won't produce a source map.
+The `build:debug` task target will bundle all of the RequireJS modules and also create a source map so we're still able to debug seamlessly. The `build:release` version will also minify the bundle, but it won't produce a source map. Once you've built, you can open the example from your shell, using:
+
+```shell
+google-chrome test.html
+```
+
+<sub>(or just open `test.html` in your favorite browser)</sub>
 
   [1]: http://i.imgur.com/TkjgTBt.png
   [2]: https://github.com/jrburke/requirejs
