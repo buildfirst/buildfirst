@@ -2,7 +2,7 @@
 
 [![requirejs.png][1]][2]
 
-This sample is a continuation of [**ch05e09** Using RequireJS][3], where we learned how to create AMD modules that have some dependencies in them. You can [learn more about RequireJS and AMD modules][4] in the book.
+This sample is a continuation of [**ch05e09** Using RequireJS][3], where we learned how to create AMD modules that have some dependencies in them. You can [learn more about RequireJS and AMD modules][4] in the book. Here we will learn how to compile RequireJS modules using a Grunt task.
 
 In order to compile AMD modules through `r.js`, the RequireJS optimizer, we can use the [grunt-contrib-requirejs][5] package. That package will essentially allow us to pass options through to `r.js`. Below is the pertinent task configuration. Something I haven't discussed yet is the ability to define _default options_, which apply to every target, in Grunt. This is useful when we'd otherwise have to repeat a bunch of configuration, breaking the DRY (don't repeat yourself) principle.
 
