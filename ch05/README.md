@@ -17,7 +17,8 @@ All samples are self-contained, ready to use, and sensibly documented.
 - [Common.JS Modules](https://github.com/bevacqua/buildfirst/tree/master/ch05/07_commonjs-modules)
 - [Dependency Graphs](https://github.com/bevacqua/buildfirst/tree/master/ch05/08_dependency-graphs)
 - [Using RequireJS](https://github.com/bevacqua/buildfirst/tree/master/ch05/09_requirejs-usage)
-- [Angular.js Dependencies](https://github.com/bevacqua/buildfirst/tree/master/ch05/10_angularjs-dependencies)
+- [Compiling RequireJS during builds](https://github.com/bevacqua/buildfirst/tree/master/ch05/10_requirejs-grunt)
 - [Browserify + Common.JS](https://github.com/bevacqua/buildfirst/tree/master/ch05/11_browserify-cjs)
+- [Angular.js Dependencies](https://github.com/bevacqua/buildfirst/tree/master/ch05/12_angularjs-dependencies)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
