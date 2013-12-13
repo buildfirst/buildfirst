@@ -6,7 +6,7 @@
 
 The [grunt-browserify][5] plugin has a really interesting read which is worth checking out, talking about the benefits of using CJS modules.
 
-Once you've built, open the example from your shell, using:
+The `build:debug` task target will bundle all of the RequireJS modules and also create a source map so we're still able to debug seamlessly. The `build:release` version will also minify the bundle, but it won't produce a source map. Once you've built, open the example from your shell, using:
 
 ```shell
 google-chrome test.html

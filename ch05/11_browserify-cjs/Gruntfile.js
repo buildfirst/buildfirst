@@ -5,21 +5,26 @@ module.exports = function (grunt) {
     clean: {
       build: 'build'
     },
+
     browserify: {
+
       debug: {
         files: {
           'build/js/app.js': 'js/**/*.js'
         },
         options: {
+          // this produces a source map which gets baked into a base64 uri in the script file
           debug: true
         }
       },
+
       release: {
         files: {
           'build/js/app.js': 'js/**/*.js'
         }
       }
     },
+
     uglify: {
       release: {
         files: {
