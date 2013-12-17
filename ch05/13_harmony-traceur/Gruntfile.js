@@ -35,6 +35,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-traceur');
 
-  grunt.registerTask('build:debug', ['clean traceur:debug']);
-  grunt.registerTask('build:release', ['clean traceur:release']);
+  grunt.registerTask('build:debug', ['traceur:debug']);
+  grunt.registerTask('build:release', ['traceur:release']);
 };

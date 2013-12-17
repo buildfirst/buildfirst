@@ -10,8 +10,11 @@ Compile using:
 grunt build:debug
 ```
 
-Note that Traceur [doesn't implement all of ES6][3]. Modules, in particular, are only partially implemented. In the book you'll learn _a few different ways_ in which you can execute Harmony code today.
+For a comprehensive **compatibility table of ECMAScript 6** features, [_click here_][3].
+
+> Note that Traceur [doesn't implement all of ES6][4]. Modules, in particular, are only partially implemented. In the book you'll learn _a few different ways_ in which you can execute Harmony code today.
 
   [1]: http://i.imgur.com/YHcJpVd.png
   [2]: https://github.com/aaronfrost/grunt-traceur
-  [3]: https://github.com/google/traceur-compiler/wiki/LanguageFeatures
+  [3]: http://kangax.github.io/es5-compat-table/es6/
+  [4]: https://github.com/google/traceur-compiler/wiki/LanguageFeatures
