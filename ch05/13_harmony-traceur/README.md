@@ -10,7 +10,7 @@ Compile using:
 grunt build:debug
 ```
 
-Note that Traceur [doesn't implement all of ES6][3]. Modules, in particular, are only partially implemented. In the book you'll learn different ways you can execute Harmony code today.
+Note that Traceur [doesn't implement all of ES6][3]. Modules, in particular, are only partially implemented. In the book you'll learn _a few different ways_ in which you can execute Harmony code today.
 
   [1]: http://i.imgur.com/YHcJpVd.png
   [2]: https://github.com/aaronfrost/grunt-traceur
