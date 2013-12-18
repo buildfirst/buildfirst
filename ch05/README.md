@@ -20,6 +20,8 @@ All samples are self-contained, ready to use, and sensibly documented.
 - [Compiling RequireJS during builds](https://github.com/bevacqua/buildfirst/tree/master/ch05/10_requirejs-grunt)
 - [Browserify + Common.JS](https://github.com/bevacqua/buildfirst/tree/master/ch05/11_browserify-cjs)
 - [Angular.js Dependencies](https://github.com/bevacqua/buildfirst/tree/master/ch05/12_angularjs-dependencies)
-- [Harmony through Traceur, using Grunt](https://github.com/bevacqua/buildfirst/tree/master/ch05/13_harmony-traceur)
+-
+-
+- [Harmony through Traceur, using Grunt](https://github.com/bevacqua/buildfirst/tree/master/ch05/15_harmony-traceur)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
