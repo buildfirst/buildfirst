@@ -1,6 +1,7 @@
 # package management
 node_modules
 bower
+components
 
 # build artifacts
 build

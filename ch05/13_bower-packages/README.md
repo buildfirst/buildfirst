@@ -4,7 +4,7 @@
 
 For information about _other_ front-end package management options, check out [this repository][3].
 
-This example briefly demonstrates how we can benefit from using the [Bower package manager][3]. Install it with the following command.
+This example briefly demonstrates how we can benefit from using the [Bower package manager][2]. Install it with the following command.
 
 ```shell
 npm install -g bower
