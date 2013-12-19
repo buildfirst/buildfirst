@@ -19,7 +19,7 @@ bower install
 These are the steps I took to create this example:
 
 - `bower init`, accepting all defaults, to get a basic `bower.json`
-- `bower install --save angular`, which installed [Angular.js][4] `1.2.5`
+- `bower install --save lodash`, which installed [LoDash][4] `2.4.1`
 - Create a `.bowerrc` file to specify a target directory
 
 Here's the contents of `.bowerrc`:
@@ -45,4 +45,4 @@ google-chrome test.html
   [1]: http://bower.io/img/bower-logo.png
   [2]: http://bower.io
   [3]: https://github.com/wilmoore/frontend-packagers
-  [4]: http://angularjs.org/
+  [4]: http://lodash.com/docs
