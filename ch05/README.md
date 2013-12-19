@@ -20,7 +20,7 @@ All samples are self-contained, ready to use, and sensibly documented.
 - [Compiling RequireJS during builds](https://github.com/bevacqua/buildfirst/tree/master/ch05/10_requirejs-grunt)
 - [Browserify + Common.JS](https://github.com/bevacqua/buildfirst/tree/master/ch05/11_browserify-cjs)
 - [Angular.js Dependencies](https://github.com/bevacqua/buildfirst/tree/master/ch05/12_angularjs-dependencies)
-- [Bower Packages](https://github.com/bevacqua/buildfirst/tree/master/ch05/13_bower-packages)
+- [Leveraging Bower Packages](https://github.com/bevacqua/buildfirst/tree/master/ch05/13_bower-packages)
 - [Using Component](https://github.com/bevacqua/buildfirst/tree/master/ch05/14_using-component)
 - [Harmony through Traceur, using Grunt](https://github.com/bevacqua/buildfirst/tree/master/ch05/15_harmony-traceur)
 
