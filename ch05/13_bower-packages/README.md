@@ -45,3 +45,4 @@ google-chrome test.html
   [1]: http://bower.io/img/bower-logo.png
   [2]: http://bower.io
   [3]: https://github.com/wilmoore/frontend-packagers
+  [4]: http://angularjs.org/
