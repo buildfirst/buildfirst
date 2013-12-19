@@ -1,7 +1,7 @@
 # Bundle + Minify Task
 #### And, _an alias_
 
-This example shows how to configure bundling and minification Grunt tasks together, as discussed in Chapter 2 of the book. This example is a continuation of [**ch02e02** Bundle Task](https://github.com/bevacqua/buildfirst/ch02/02_bundle-task "Bundle Task Example").
+This example shows how to configure bundling and minification Grunt tasks together, as discussed in Chapter 2 of the book. This example is a continuation of [**ch02e02** Bundle Task][1].
 
 In the example, we'll be bundling together all of the `*.js` files in `public/js`, and placing them in a bundled file at `build/js/bundle.js`. Then, we'll minify that file into `all.min.js`.
 
@@ -34,3 +34,5 @@ This alias was declared in the Gruntfile to help us perform this common operatio
 ```js
 grunt.registerTask('js', 'Concatenate and minify js files', ['concat:js', 'uglify:bundle']);
 ```
+
+  [1]: https://github.com/bevacqua/buildfirst/ch02/02_bundle-task "Bundle Task Example"

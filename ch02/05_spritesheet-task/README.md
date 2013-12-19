@@ -14,6 +14,7 @@ grunt sprite:icons
 
 That will generate the necessary CSS and the spritesheet image.
 
-A more complete example can be found at [bevacqua/grunt-spriting-example](https://github.com/bevacqua/grunt-spriting-example), as it also has a view, a server that serves the view, and some CSS so that you can **start to use spritesheets immediately**!
+A more complete example can be found at [bevacqua/grunt-spriting-example][2], as it also has a view, a server that serves the view, and some CSS so that you can **start to use spritesheets immediately**!
 
   [1]: http://i.imgur.com/1ud2mRR.gif "Megaman Spritesheet"
+  [2]: https://github.com/bevacqua/grunt-spriting-example

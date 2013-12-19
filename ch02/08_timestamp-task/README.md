@@ -24,4 +24,6 @@ grunt.initConfig({
 
 This code can be placed either above or below the `grunt.registerTask` call.
 
-For more information about the Grunt Task API, visit [this link](http://gruntjs.com/api/grunt)
+For more information about the Grunt Task API, visit [this link][1].
+
+  [1]: http://gruntjs.com/api/grunt

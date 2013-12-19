@@ -1,6 +1,6 @@
 # Embracing LiveReload
 
-![livereload][2]
+[![livereload][1]][2]
 
 Enabling LiveReload, the browser technology that does browser refreshing for us, couldn't be easier. We just need an extra target in our `watch` task. Something like this will do the trick:
 
@@ -15,7 +15,7 @@ livereload: {
 }
 ```
 
-We then need to install the browser extension. [Instructions](http://feedback.livereload.com/knowledgebase/articles/86242) can be found here. Once we did both those things, it will just be a matter of following along a few simple steps.
+We then need to install the browser extension. [Instructions][3] can be found here. Once we did both those things, it will just be a matter of following along a few simple steps.
 
 - Visit `http://localhost:3000/`
 - Remember to enable the browser extension, by clicking on it
@@ -23,7 +23,9 @@ We then need to install the browser extension. [Instructions](http://feedback.li
 - Wait for the build to complete
 - Watch in astonishment how your browser refreshes itself.
 
-![balls.png][1]
+![balls.png][4]
 
-  [1]: http://i.imgur.com/qFtOUcQ.gif
-  [2]: http://i.imgur.com/oUQcXGX.png
+  [1]: http://i.imgur.com/oUQcXGX.png
+  [2]: http://livereload.com/
+  [3]: http://feedback.livereload.com/knowledgebase/articles/86242
+  [4]: http://i.imgur.com/qFtOUcQ.gif

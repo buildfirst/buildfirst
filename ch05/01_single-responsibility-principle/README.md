@@ -12,13 +12,13 @@ To run the test example, simply execute:
 node app
 ```
 
-Skipping ahead to _separation of concerns through modules_, we could further separate our code by putting each function in its own file. Then, loading each one would be just a matter of doing `require(file)`, where `file` is the relative path to. You should check out `sluggish.js` to see [CommonJS](http://wiki.commonjs.org/wiki/Modules/1.1 "CommonJS Modules/1.1") module loading in action. Of course, this might not be very useful thing to do, since our code is currently pretty compact, and it wouldn't be hard to follow it in a single file.
+Skipping ahead to _separation of concerns through modules_, we could further separate our code by putting each function in its own file. Then, loading each one would be just a matter of doing `require(file)`, where `file` is the relative path to. You should check out `sluggish.js` to see [CommonJS][1] module loading in action. Of course, this might not be very useful thing to do, since our code is currently pretty compact, and it wouldn't be hard to follow it in a single file.
 
 ```js
 node sluggish
 ```
 
-![overpower.gif][1]
+![overpower.gif][2]
 
 In conclusion, we should avoid cramming too much responsibility in each piece of our code-base. It doesn't matter how big or small the piece is. We could be talking about a line of code, a method, a module, a package, a project, a solution, or an entire system, and the same principle would hold true.
 
@@ -26,4 +26,5 @@ In conclusion, we should avoid cramming too much responsibility in each piece of
 
 A single point of entry also means our code will be easier to maintain, and also to refactor, since _we'll have better control_ over who or what is consuming a particular service or API.
 
-  [1]: http://i.imgur.com/NWu2P5e.gif "Over-powered isn't always this awesome"
+  [1]: http://wiki.commonjs.org/wiki/Modules/1.1 "CommonJS Modules/1.1"
+  [2]: http://i.imgur.com/NWu2P5e.gif "Over-powered isn't always this awesome"
