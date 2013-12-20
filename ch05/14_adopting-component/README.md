@@ -33,7 +33,10 @@ google-chrome test.html
 
 <sub>(or just open `test.html` in your favorite browser)</sub>
 
+The [next example][5] shows _how to automate_ the build step using Grunt.
+
   [1]: http://i49.tinypic.com/e7nj9v.png
   [2]: http://component.io
   [3]: https://github.com/wilmoore/frontend-packagers
   [4]: http://lodash.com/docs
+  [5]: https://github.com/bevacqua/buildfirst/tree/master/ch05/15_automate-component-build
