@@ -22,6 +22,7 @@ All samples are self-contained, ready to use, and sensibly documented.
 - [Angular.js Dependencies](https://github.com/bevacqua/buildfirst/tree/master/ch05/12_angularjs-dependencies)
 - [Leveraging Bower Packages](https://github.com/bevacqua/buildfirst/tree/master/ch05/13_bower-packages)
 - [Adopting Component](https://github.com/bevacqua/buildfirst/tree/master/ch05/14_adopting-component)
-- [Harmony through Traceur, using Grunt](https://github.com/bevacqua/buildfirst/tree/master/ch05/15_harmony-traceur)
+- [Automated Component Build Step](https://github.com/bevacqua/buildfirst/tree/master/ch05/15_automate-component-build)
+- [Harmony through Traceur, using Grunt](https://github.com/bevacqua/buildfirst/tree/master/ch05/16_harmony-traceur)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).

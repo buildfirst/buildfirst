@@ -1,4 +1,4 @@
-# Adopting Component
+# Automated Component Build Step
 
 [![component.png][1]][2]
 
