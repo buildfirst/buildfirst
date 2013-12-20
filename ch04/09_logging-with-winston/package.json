@@ -1,6 +1,16 @@
 {
   "name": "buildfirst",
   "version": "0.1.0",
+  "homepage": "https://github.com/bevacqua/buildfirst",
+  "author": {
+    "name": "Nicolas Bevacqua",
+    "email": "buildfirst@bevacqua.io",
+    "url": "http://bevacqua.io/buildfirst"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bevacqua/buildfirst.git"
+  },
   "dependencies": {
     "winston": "~0.7.2"
   }
