@@ -1,5 +1,10 @@
 {
+  "name": "buildfirst",
   "dependencies": {
     "lodash/lodash": "2.4.1"
-  }
+  },
+  "scripts": [
+    "js/manipulate.js",
+    "js/index.js"
+  ]
 }

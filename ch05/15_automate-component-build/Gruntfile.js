@@ -13,15 +13,16 @@ module.exports = function (grunt) {
       debug: {
         options: {
          dev: true,
-         sourceUrls: true
+         sourceUrls: true,
+         name: 'bundle'
         },
         src: '.',
-        dest: 'js/components'
+        dest: 'build/js'
       },
 
       release: {
         src: '.',
-        dest: 'js/components'
+        dest: 'build/js'
       }
     }
   });

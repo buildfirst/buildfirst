@@ -21,9 +21,11 @@ Below are the steps I took to create this example. _You don't need to run these.
 - `echo "{}" > component.json`, to get a basic `component.json`
 - `component install lodash`, which installed [LoDash][5] `2.4.1`
 
-Afterwards, `component build` will builds the components we depend on, and puts them in a bundled `js/components/build.js` file, under CJS format.
+> Also note that the scripts I wrote, found in the `js` directory, have been listed in the `component.json` manifest.
 
-In this case, we've changed the build directory to `'./js/components'` in the Grunt task configuration.
+Afterwards, `component build` will builds the components we depend on, and puts them in a concatenated `bundle.js` file, under CJS format.
+
+In this case, we've changed the build directory to `'./build/js'`, in the task configuration. We also changed the default name, `build.js`, to `bundle.js`.
 
 Once you've built the components using `grunt componentbuild:debug`, open the example from your shell, like below.
 

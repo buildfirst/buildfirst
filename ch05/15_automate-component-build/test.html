@@ -10,7 +10,9 @@
     <p>Not working? Did you <code>npm install -g component && component install && grunt build:debug</code>?</p>
   </div>
 
-  <script src='js/components/build.js'></script>
-  <script src='js/app/app.js'></script>
+  <script src='build/js/bundle.js'></script>
+  <script>
+    require('buildfirst/js/index.js')
+  </script>
 </body>
 </html>

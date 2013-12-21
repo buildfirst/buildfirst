@@ -1,6 +1,6 @@
-var _ = require('lodash');
+var manipulate = require('./manipulate.js');
 var things = { a: 1, b: 2, c: 3, d: 4 };
-var result = _.toArray(things);
+var result = manipulate(things);
 
 console.log(result);
 // <- [1, 2, 3, 4]
