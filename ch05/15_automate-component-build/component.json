@@ -1,5 +1,4 @@
 {
-  "output": "js/components",
   "dependencies": {
     "lodash/lodash": "2.4.1"
   }
