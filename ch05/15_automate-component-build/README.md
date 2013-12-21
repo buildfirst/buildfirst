@@ -4,7 +4,7 @@
 
 For information about _other_ front-end package management options, check out [this repository][3].
 
-This example briefly demonstrates how we can benefit from using the [Component package manager][2]. Install it with the following command.
+This example is a continuation of [**ch05e14** Adopting Component][4]. Here, instead of building components using `component build`, we build them in Grunt. Install `component` with the following command.
 
 ```shell
 npm install -g component
@@ -16,16 +16,16 @@ That will install the `component` program itself. To install packages in `compon
 component install
 ```
 
-These are the steps I took to create this example:
+Below are the steps I took to create this example. _You don't need to run these._
 
 - `echo "{}" > component.json`, to get a basic `component.json`
-- `component install lodash`, which installed [LoDash][4] `2.4.1`
+- `component install lodash`, which installed [LoDash][5] `2.4.1`
 
-Afterwards, `component build` will builds the components we depend on, and puts them in a bundled `build/build.js` file, under CJS format.
+Afterwards, `component build` will builds the components we depend on, and puts them in a bundled `js/components/build.js` file, under CJS format.
 
-As you can see, we didn't change the default installation directory in this case, and at the time of this writing, it isn't possible to do so, as it's hardcoded into `component-installer` to be `'./components'`. If you find a way to work around this, other than doing `component install -o js/components`, which seems to be deprecated, please create an issue and I'll make sure to add it here
-!
-Once you've built the components using `component build`, open the example from your shell, like below.
+In this case, we've changed the build directory to `'./js/components'` in the Grunt task configuration.
+
+Once you've built the components using `grunt componentbuild:debug`, open the example from your shell, like below.
 
 ```shell
 google-chrome test.html
@@ -36,4 +36,5 @@ google-chrome test.html
   [1]: http://i49.tinypic.com/e7nj9v.png
   [2]: http://component.io
   [3]: https://github.com/wilmoore/frontend-packagers
-  [4]: http://lodash.com/docs
+  [4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/14_adopting-component
+  [5]: http://lodash.com/docs
