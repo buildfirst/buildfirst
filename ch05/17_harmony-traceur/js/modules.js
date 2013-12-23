@@ -15,6 +15,15 @@ module chickenCoup {
 
 import * from chickenCoup;
 
+// DOCUMENTATION
+
+
+
+
+
+
+
+
 hatch();
 
 var chicken = getChicken(0);
