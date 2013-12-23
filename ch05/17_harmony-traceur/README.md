@@ -10,6 +10,8 @@ Compile using:
 grunt build:debug
 ```
 
+To make things simple, you can go into the `build/js` directory, copy the output of one of the examples found in `js`, and paste them into your preferred browser's `console`.
+
 For a comprehensive **compatibility table of ECMAScript 6** features, [_click here_][3].
 
 > Note that Traceur [doesn't implement all of ES6][4]. Modules, in particular, are only partially implemented. In the book you'll learn _a few different ways_ in which you can execute Harmony code today.
