@@ -14,9 +14,9 @@ In this case, we have a couple of modules which depend on each other. That becom
 
 - **(a)** module systems handle circular dependencies differently
 - **(b)** some might forbid them entirely, [like Angular does][2]
-- **(c)** circular dependencies are hard to understand
+- **(c)** circular dependencies are [code smells][3]
 
-Circular dependencies are hard to understand, and also easy to avoid.
+Circular dependencies are _hard to understand_, but they're also easy to avoid.
 
 The following example gets away with simply passing the dependant as a function argument, rather than requiring it in place. To run that example, use the command below.
 
@@ -28,3 +28,4 @@ A few more ways to untangle circular dependencies are discussed in the book.
 
   [1]: https://github.com/bevacqua/buildfirst/raw/master/images/circular-dependencies.jpg
   [2]: http://misko.hevery.com/2008/08/01/circular-dependency-in-constructors-and-dependency-injection/
+  [3]: http://www.codinghorror.com/blog/2006/05/code-smells.html
