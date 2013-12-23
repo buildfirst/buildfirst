@@ -1,4 +1,5 @@
 // http://wiki.ecmascript.org/doku.php?id=harmony:classes
+'use strict';
 
 class Harmony {
   constructor () {

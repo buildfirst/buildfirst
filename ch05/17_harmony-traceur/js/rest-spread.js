@@ -1,3 +1,5 @@
+'use strict';
+
 function pushRest (to, ...items) {
   items.forEach(function (item) {
     to.push(item);
