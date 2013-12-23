@@ -16,7 +16,7 @@ For a comprehensive **compatibility table of ECMAScript 6** features, [_click he
 
 > Note that Traceur [doesn't implement all of ES6][4]. Modules, in particular, are only partially implemented. In the book you'll learn _a few different ways_ in which you can execute Harmony code today.
 
-A great resource to [understanding modules in Harmony can be found here][5].
+A great resource to [understanding modules in Harmony can be found here][5]. Note how syntax differs. That's because the language specification is in constant flux.
 
   [1]: http://i.imgur.com/YHcJpVd.png
   [2]: https://github.com/aaronfrost/grunt-traceur
