@@ -23,6 +23,7 @@ All samples are self-contained, ready to use, and sensibly documented.
 - [Leveraging Bower Packages](https://github.com/bevacqua/buildfirst/tree/master/ch05/13_bower-packages)
 - [Adopting Component](https://github.com/bevacqua/buildfirst/tree/master/ch05/14_adopting-component)
 - [Automated Component Build Step](https://github.com/bevacqua/buildfirst/tree/master/ch05/15_automate-component-build)
-- [Harmony through Traceur, using Grunt](https://github.com/bevacqua/buildfirst/tree/master/ch05/16_harmony-traceur)
+- [Circular Dependencies](https://github.com/bevacqua/buildfirst/tree/master/ch05/16_circular-dependencies)
+- [Harmony through Traceur, using Grunt](https://github.com/bevacqua/buildfirst/tree/master/ch05/17_harmony-traceur)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
