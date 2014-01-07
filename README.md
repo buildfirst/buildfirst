@@ -70,3 +70,5 @@ Let the [**#buildfirst**][15] revolution commence!
   [13]: http://blog.ponyfoo.com "Pony Foo"
   [14]: https://twitter.com/nzgb "@nzgb on Twitter"
   [15]: https://twitter.com/#buildfirst "#buildfirst on Twitter"
+
+![ga](https://ga-beacon.appspot.com/UA-35043128-6/buildfirst/readme?pixel)
