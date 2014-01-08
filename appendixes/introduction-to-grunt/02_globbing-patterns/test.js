@@ -7,6 +7,7 @@ var cases = [
   ['!something', 'something', ['something']],
   ['things/a{,nother}/thing', ['things/a/thing', 'things/another/thing']],
   ['things/**/*', '!things', ['things/a', 'things/a/thing', 'things/another', 'things/another/thing']],
+  ['things', ['things']],
   ['things/**/*', '!things', []],
   ['things/**/*', '!things/**/*', []]
 ];

@@ -10,6 +10,7 @@ var cases = [
   ['!something', 'something', ['something']],
   ['things/a{,nother}/thing', ['things/a/thing', 'things/another/thing']],
   ['things/**/*', '!things', ['things/a', 'things/a/thing', 'things/another', 'things/another/thing']],
+  ['things', []],
   ['things/**/*', '!things', []],
   ['things/**/*', '!things/**/*', []]
 ];
@@ -21,4 +22,4 @@ To run these tests, just do `node test`. You'll see the output that can be found
 
 Note in particular how `['things/**/*', '!things']` actually matches something, rather than `[]`. You'll learn about the details of pattern matching with glob in the appendix.
 
-  [1]: https://f.cloud.github.com/assets/934293/1867060/e5e7dcd4-7846-11e3-8556-b9bb441b76a8.png
+  [1]: https://f.cloud.github.com/assets/934293/1867380/d53e3f66-784d-11e3-9606-b96bf665f95e.png
