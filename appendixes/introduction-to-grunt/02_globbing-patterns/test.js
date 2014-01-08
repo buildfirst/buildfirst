@@ -8,7 +8,9 @@ var cases = [
   ['things/a{,nother}/thing', ['things/a/thing', 'things/another/thing']],
   ['things/**/*', '!things', ['things/a', 'things/a/thing', 'things/another', 'things/another/thing']],
   ['things', ['things']],
+  ['things', '!things/another', ['things']],
   ['things/**/*', '!things', []],
+  ['things/**/*', '!things/a', []],
   ['things/**/*', '!things/**/*', []]
 ];
 function test (patterns) {
