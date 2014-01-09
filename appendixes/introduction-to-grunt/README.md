@@ -10,5 +10,6 @@ All samples are self-contained, ready to use, and sensibly documented.
 
 - [Getting Started](https://github.com/bevacqua/buildfirst/tree/master/appendixes/introduction-to-grunt/01_getting-started)
 - [Globbing Patterns](https://github.com/bevacqua/buildfirst/tree/master/appendixes/introduction-to-grunt/02_globbing-patterns)
+- [Combining and Minifying your CSS](https://github.com/bevacqua/buildfirst/tree/master/appendixes/introduction-to-grunt/03_cssmin-task)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).

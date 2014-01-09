@@ -11,9 +11,9 @@
     "type": "git",
     "url": "git://github.com/bevacqua/buildfirst.git"
   },
-  "dependencies": {
-    "glob": "~3.2.7",
-    "chalk": "~0.4.0",
-    "lodash": "~2.4.1"
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.7.0",
+    "grunt-contrib-cssmin": "~0.7.0"
   }
 }
