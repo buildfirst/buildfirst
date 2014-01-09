@@ -1,4 +1,4 @@
-# Appendixes
+# Appendix
 
 The book comes with small tutorial-like appendixes bundled into it, and these are the code samples related to those appendix tutorials.
 
