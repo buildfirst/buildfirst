@@ -1,10 +1,20 @@
 {
   "name": "buildfirst",
   "version": "0.1.0",
+  "homepage": "https://github.com/bevacqua/buildfirst",
+  "author": {
+    "name": "Nicolas Bevacqua",
+    "email": "buildfirst@bevacqua.io",
+    "url": "http://bevacqua.io/buildfirst"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bevacqua/buildfirst.git"
+  },
   "devDependencies": {
-    "grunt": "0.4.1",
-    "mysql": "2.0.0-alpha9",
-    "async": "0.2.9",
-    "underscore": "1.5.1"
+    "grunt": "~0.4.2",
+    "mysql": "~2.0.0-alpha9",
+    "async": "~0.2.9",
+    "underscore": "~1.5.1"
   }
 }

@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Using Require.js &middot; bevacqua.io/buildfirst</title>
+</head>
+<body>
+  <div>Read the <code>console</code>, dummy!</div>
+  <!--
+    RequireJS uses a data-main attribute to indicate the first script to load.
+    In async mode, the rest will be fetched as they get resolved. When using
+    the optimizer to bundle everything together, this pattern will be useful
+    just to learn the order in which the dependency graph should be put together
+    into a single file. This way, we don't have to worry about ordering script
+    tags, like we do in the classical approach of just adding a script tag for
+    each script we write.
+  -->
+  <script src='js/vendor/require.js' data-main='js/app.js'></script>
+</body>
+</html>

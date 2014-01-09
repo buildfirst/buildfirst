@@ -1,0 +1,19 @@
+{
+  "name": "13_bower-packages",
+  "version": "0.0.1",
+  "homepage": "https://github.com/bevacqua/buildfirst",
+  "authors": [
+    "Nicolas Bevacqua <nicolasbevacqua@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~2.4.1"
+  }
+}

@@ -2,11 +2,11 @@
 
 ![pm2.png][1]
 
-As we've seen in the previous sample, [**ch04e10** A Node Cluster](https://github.com/bevacqua/buildfirst/tree/master/ch04/10_a-node-cluster "A Node Cluster"), `cluster` is an outstanding utility to improve the resilience of our applications without altering their code in the slightest. For context, take also the `nodemon` command-line program that runs `node` again, whenever our server-side code changes, as we examined in [**ch03e06** Using `nodemon`](https://github.com/bevacqua/buildfirst/tree/master/ch03/06_nodemon).
+As we've seen in the previous sample, [**ch04e10** A Node Cluster][2], `cluster` is an outstanding utility to improve the resilience of our applications without altering their code in the slightest. For context, take also the `nodemon` command-line program that runs `node` again, whenever our server-side code changes, as we examined in [**ch03e06** Using `nodemon`][3].
 
 ### Introduction
 
-Think of the [pm2](https://github.com/Unitech/pm2) module as a fusion between `cluster` and `nodemon`, geared towards release-grade environments. Rather than watching the file system for changes, which happens very often during development, but rarely in hosted environments, `pm2` gives you an interface through which you can perform these code reloads, using their command-line API.
+Think of the [pm2][4] module as a fusion between `cluster` and `nodemon`, geared towards release-grade environments. Rather than watching the file system for changes, which happens very often during development, but rarely in hosted environments, `pm2` gives you an interface through which you can perform these code reloads, using their command-line API.
 
 ```shell
 pm2 reload all
@@ -30,6 +30,9 @@ In the `cluster` example we've set up a `cluster.js` file to configure how, and 
 pm2 start -i 2 app.js
 ```
 
-For a full API reference refer to the documentation on [their GitHub page](https://github.com/Unitech/pm2).
+For a full API reference refer to the documentation on [their GitHub page][4].
 
   [1]: https://github.com/bevacqua/buildfirst/raw/master/images/pm2.png
+  [2]: https://github.com/bevacqua/buildfirst/tree/master/ch04/10_a-node-cluster "A Node Cluster"
+  [3]: https://github.com/bevacqua/buildfirst/tree/master/ch03/06_nodemon
+  [4]: https://github.com/Unitech/pm2

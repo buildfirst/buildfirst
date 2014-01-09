@@ -2,7 +2,7 @@
 
 We'll use three different Grunt tasks for encryption. The first one will generate the private key, the other two will encrypt and decrypt our configuration using that private key. This is the code listing as discussed in Chapter 3 of the book.
 
-This sample uses the [grunt-pemcrypt](https://github.com/bevacqua/grunt-pemcrypt) package, which provides us with three Grunt tasks: `pem_gen`, `pem_encrypt`, and `pem_decrypt`.
+This sample uses the [grunt-pemcrypt][1] package, which provides us with three Grunt tasks: `pem_gen`, `pem_encrypt`, and `pem_decrypt`.
 
 # Encryption flow
 
@@ -12,7 +12,7 @@ To run this example, start by generating the RSA key:
 grunt pem_gen:bar
 ```
 
-![rsa-keygen.png][1]
+![rsa-keygen.png][2]
 
 This will create an RSA key for you in `private/bar.pem`. It will look something like this:
 
@@ -55,7 +55,7 @@ Next, you'll want to create your sensitive configuration file. You can put this 
 
 Now you can encrypt it using `grunt pem_encrypt:bar`, and you should see output similar to this:
 
-![rsa-encryption.png][2]
+![rsa-encryption.png][3]
 
 The resulting file is encrypted, and can only be decrypted using the key in your control. If you try to open it, it'll contain something like this `xxd` dump:
 
@@ -85,7 +85,7 @@ The `.pemjson` file can be safely commited to source control, _as long as you do
 
 I included a secure `foo.pemjson` file in this repository. However, that is no good for you, unless you have the private key to decode it.
 
-For educational purposes, I created [a secret gist with the key](https://gist.github.com/bevacqua/4bdd042526b51681ca29), and you can get it by running this command in your favorite shell (assuming you're sitting in this example's root directory):
+For educational purposes, I created [a secret gist with the key][4], and you can get it by running this command in your favorite shell (assuming you're sitting in this example's root directory):
 
 ```shell
 curl https://gist.github.com/bevacqua/4bdd042526b51681ca29/raw/ba2295d9b7399956439dc28056a0e7e13dca1f0e/foo.pem > private/foo.pem
@@ -101,8 +101,10 @@ To recap
 - When you need to update the secure file, just update the plain one and encrypt it again
 - When someone else copies your code-base, they won't be able to access the encrypted configuration _unless you provide them_ with the key
 
-![password-entropy.png][3]
+![password-entropy.png][5]
 
-  [1]: http://i.imgur.com/JnVeOwG.png
-  [2]: http://i.imgur.com/ah0ZP8g.png
-  [3]: http://imgs.xkcd.com/comics/password_strength.png "To anyone who understands information theory and security and is in an infuriating argument with someone who does not (possibly involving mixed case), I sincerely apologize."
+  [1]: https://github.com/bevacqua/grunt-pemcrypt
+  [2]: http://i.imgur.com/JnVeOwG.png
+  [3]: http://i.imgur.com/ah0ZP8g.png
+  [4]: https://gist.github.com/bevacqua/4bdd042526b51681ca29
+  [5]: http://imgs.xkcd.com/comics/password_strength.png "To anyone who understands information theory and security and is in an infuriating argument with someone who does not (possibly involving mixed case), I sincerely apologize."

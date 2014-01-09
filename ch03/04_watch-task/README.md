@@ -1,6 +1,6 @@
 # The Grunt `watch` Task
 
-This sample builds up on [**ch03e01** Distribution Config](https://github.com/bevacqua/buildfirst/tree/master/ch03/01_distribution-config "Distribution Config"), adding a watch task to re-execute the build process during development, whenever a file changes.
+This sample builds up on [**ch03e01** Distribution Config][1], adding a watch task to re-execute the build process during development, whenever a file changes.
 
 The debug flow gets an all-new `watch` task! It is now _aliased_ as `dev`:
 
@@ -15,3 +15,5 @@ The release flow, however, stays the same:
 ```shell
 grunt build:release
 ```
+
+  [1]: https://github.com/bevacqua/buildfirst/tree/master/ch03/01_distribution-config "Distribution Config"

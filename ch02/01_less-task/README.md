@@ -1,6 +1,6 @@
 # LESS Task
 
-[![less-css-logo.png][1]](http://lesscss.org/ "LESS!")
+[![less-css-logo.png][1]][2]
 
 This example shows how to configure the LESS Grunt task, as discussed in Chapter 2 of the book.
 
@@ -27,3 +27,4 @@ grunt less:compile
 ```
 
   [1]: http://i.imgur.com/DpNfYO5.png
+  [2]: http://lesscss.org/ "LESS!"

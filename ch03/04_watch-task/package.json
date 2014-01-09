@@ -1,16 +1,26 @@
 {
   "name": "buildfirst",
   "version": "0.1.0",
+  "homepage": "https://github.com/bevacqua/buildfirst",
+  "author": {
+    "name": "Nicolas Bevacqua",
+    "email": "buildfirst@bevacqua.io",
+    "url": "http://bevacqua.io/buildfirst"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bevacqua/buildfirst.git"
+  },
   "devDependencies": {
-    "grunt": "0.4.1",
-    "grunt-contrib-concat": "0.3.0",
-    "grunt-contrib-uglify": "0.2.2",
-    "grunt-contrib-clean": "0.5.0",
-    "grunt-contrib-jshint": "0.6.4",
-    "grunt-contrib-jade": "0.8.0",
-    "grunt-contrib-less": "0.7.0",
-    "grunt-contrib-copy": "0.4.1",
-    "grunt-contrib-watch": "0.5.3",
-    "marked": "0.2.9"
+    "grunt": "~0.4.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-jade": "~0.8.0",
+    "grunt-contrib-less": "~0.7.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "marked": "~0.2.9"
   }
 }

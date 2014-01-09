@@ -1,14 +1,14 @@
 # MySQL Database Tasks
 
-[![mysql-logo.png][1]](http://www.mysql.com/ "MySQL: World's Most Popular Database?")
+[![mysql-logo.png][1]][2]
 
-This is our most complex usage of Grunt so far. I tried to comment on the tasks as much as possible. The database connection is configured with sensible defaults in [**db.json**](db.json "Database JSON configuration"), but feel free to edit as needed.
+This is our most complex usage of Grunt so far. I tried to comment on the tasks as much as possible. The database connection is configured with sensible defaults in [**db.json**][3], but feel free to edit as needed.
 
 ### Setup
 
 For this sample to work you'll need a server instance of MySQL. This instance can be local or remote. If you're using a local instance and you've installed it with the default setup configuration (`root@localhost:3306`, no password), you should be able to run the Grunt tasks without any further ceremony.
 
-You can change the connection credentials using [**db.json**](db.json "Database JSON configuration"). MySQL installation instructions [can be found here](http://dev.mysql.com/doc/refman/5.1/en/installing.html "Installing and Upgrading MySQL").
+You can change the connection credentials using [**db.json**][3]. MySQL installation instructions [can be found here][4].
 
 Note that we're using a `db.json` file rather than passing in database connection information just so that we don't need to pass the same arguments over and over. In a more realistic setting, these variables should be passed to our application in some way, as we'll discover in later chapters.
 
@@ -69,3 +69,6 @@ That's all there is to our custom approach to automated MySQL database migration
 After that, all that's remaining is keeping the actual SQL up to date.
 
   [1]: http://i.imgur.com/vPn9pnn.png
+  [2]: http://www.mysql.com/ "MySQL: World's Most Popular Database?"
+  [3]: db.json "Database JSON configuration"
+  [4]: http://dev.mysql.com/doc/refman/5.1/en/installing.html "Installing and Upgrading MySQL"

@@ -4,4 +4,4 @@ These are the images referenced in other **README** files throughout the reposit
 
 Included here _for completeness' sake_ and to protect against link rot.
 
-These are not part of the samples _per-se_, you don't need to worry about them.
+Not part of the samples _per-se_, you don't need to worry about them, they're just for reference.

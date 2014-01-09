@@ -1,6 +1,6 @@
 # Merge configuration sources
 
-Using `nconf`, we'll merge different configuration sources such as the OS [Environment](http://en.wikipedia.org/wiki/Environment_variable), command-line arguments, and JSON files.
+Using `nconf`, we'll merge different configuration sources such as the OS [Environment][1], command-line arguments, and JSON files.
 
 You can lint this example using Grunt.
 
@@ -23,7 +23,7 @@ Running...|`PORT` equals...
 
 ### Environment Variable-oriented configuration
 
-In the case of going the Heroku-style way, dealing with configuration relying on environment variables, we wouldn't need to change anything as far as hosted environments go. When it comes to development, you might want to set up a JSON file (following the approach used in the previous sample, [**ch03e02** RSA Config Encryption](https://github.com/bevacqua/buildfirst/tree/master/ch03/02_rsa-config-encryption "RSA Config Encryption")), and place the configuration there instead.
+In the case of going the Heroku-style way, dealing with configuration relying on environment variables, we wouldn't need to change anything as far as hosted environments go. When it comes to development, you might want to set up a JSON file (following the approach used in the previous sample, [**ch03e02** RSA Config Encryption][2]), and place the configuration there instead.
 
 Then, this line loads those values into `nconf`:
 
@@ -31,4 +31,8 @@ Then, this line loads those values into `nconf`:
 nconf.file('dev', path.join(__dirname, 'development.json'));
 ```
 
-Heroku proposes something slightly different, in using `.env` and [foreman](https://github.com/ddollar/foreman), one of their CLI tools, to actually run the application. This translates into issues when attempting to achieve continuous development _(and isn't really necessary)_ so I decided to avoid doing that, and going a more conventional route, using a JSON file instead.
+Heroku proposes something slightly different, in using `.env` and [foreman][3], one of their CLI tools, to actually run the application. This translates into issues when attempting to achieve continuous development _(and isn't really necessary)_ so I decided to avoid doing that, and going a more conventional route, using a JSON file instead.
+
+  [1]: http://en.wikipedia.org/wiki/Environment_variable
+  [2]: https://github.com/bevacqua/buildfirst/tree/master/ch03/02_rsa-config-encryption "RSA Config Encryption"
+  [3]: https://github.com/ddollar/foreman

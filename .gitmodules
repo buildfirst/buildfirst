@@ -4,3 +4,6 @@
 [submodule "ch04/08_ci-by-example"]
 	path = ch04/08_ci-by-example
 	url = https://github.com/buildfirst/ci-by-example
+[submodule "appendix/introduction-to-grunt/04_writing-your-own-task"]
+	path = appendix/introduction-to-grunt/04_writing-your-own-task
+	url = https://github.com/buildfirst/grunt-wordcount
