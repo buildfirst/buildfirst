@@ -7,3 +7,5 @@ To give it a shot, just run:
 ```shell
 grunt build
 ```
+
+![css.png](https://f.cloud.github.com/assets/934293/1877836/e9159ed4-792f-11e3-9f82-c7b7e569db6a.png)
