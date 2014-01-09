@@ -8,8 +8,9 @@ All samples are self-contained, ready to use, and sensibly documented.
 
 ### Contents
 
-- [Getting Started](https://github.com/bevacqua/buildfirst/tree/master/appendixes/introduction-to-grunt/01_getting-started)
-- [Globbing Patterns](https://github.com/bevacqua/buildfirst/tree/master/appendixes/introduction-to-grunt/02_globbing-patterns)
-- [Combining and Minifying your CSS](https://github.com/bevacqua/buildfirst/tree/master/appendixes/introduction-to-grunt/03_cssmin-task)
+- [Getting Started](https://github.com/bevacqua/buildfirst/tree/master/appendix/introduction-to-grunt/01_getting-started)
+- [Globbing Patterns](https://github.com/bevacqua/buildfirst/tree/master/appendix/introduction-to-grunt/02_globbing-patterns)
+- [Combining and Minifying your CSS](https://github.com/bevacqua/buildfirst/tree/master/appendix/introduction-to-grunt/03_cssmin-task)
+- [Writing Your Own Task](https://github.com/bevacqua/buildfirst/tree/master/appendix/introduction-to-grunt/04_writing-your-own-task)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
