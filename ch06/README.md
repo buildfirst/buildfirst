@@ -12,3 +12,5 @@ All samples are self-contained, ready to use, and sensibly documented.
 ### Contents
 
 - [Callback Hell](https://github.com/bevacqua/buildfirst/tree/master/ch06/01_callback-hell)
+- [Requests Upon Requests](https://github.com/bevacqua/buildfirst/tree/master/ch06/02_requests-upon-requests)
+- [Asynchronous Error Handling](https://github.com/bevacqua/buildfirst/tree/master/ch06/03_async-error-handling)
