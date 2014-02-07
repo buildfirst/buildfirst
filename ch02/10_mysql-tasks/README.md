@@ -68,7 +68,14 @@ That's all there is to our custom approach to automated MySQL database migration
 
 After that, all that's remaining is keeping the actual SQL up to date.
 
+[![automation.png][5]][6]
+
+<sub>While [xkcd's comic][7] holds `true` in some cases, manual database schema changes are **tremendously error prone**, which is more than enough reason to warrant its automation.</sub>
+
   [1]: http://i.imgur.com/vPn9pnn.png
   [2]: http://www.mysql.com/ "MySQL: World's Most Popular Database?"
   [3]: db.json "Database JSON configuration"
   [4]: http://dev.mysql.com/doc/refman/5.1/en/installing.html "Installing and Upgrading MySQL"
+  [5]: http://imgs.xkcd.com/comics/automation.png
+  [6]: http://xkcd.com/1319/ "'Automating' comes from the roots 'auto-' meaning 'self-', and 'mating', meaning 'screwing'."
+  [7]: http://xkcd.com/1319/ "xkcd: Automation"
