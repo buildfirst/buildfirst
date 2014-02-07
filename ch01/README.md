@@ -2,13 +2,16 @@
 
 ##### _(Part I, Chapter 1)_
 
-Well, hello there! You've arrived at the directory for the code samples in the first chapter of the book.
+Well, _hello there!_ You've arrived at the directory for the code samples in the first chapter of the book.
+
+This chapter is pretty code-light, and it's supposed to be! It's just the introductory chapter. Don't worry, [the next chapter][1] makes up for that, with **tons of code samples** for you to look at!
 
 All samples are self-contained, ready to use, and sensibly documented.
 
 ### Contents
 
 - [Lint Sample](https://github.com/bevacqua/buildfirst/tree/master/ch01/01_lint-sample)
-- [Intro to Grunt](https://github.com/bevacqua/buildfirst/tree/master/ch01/02_intro-to-grunt)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
+
+  [1]: https://github.com/bevacqua/buildfirst/tree/master/ch02
