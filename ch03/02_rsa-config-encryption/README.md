@@ -101,10 +101,11 @@ To recap
 - When you need to update the secure file, just update the plain one and encrypt it again
 - When someone else copies your code-base, they won't be able to access the encrypted configuration _unless you provide them_ with the key
 
-![password-entropy.png][5]
+[![password-entropy.png][5]][6]
 
   [1]: https://github.com/bevacqua/grunt-pemcrypt
   [2]: http://i.imgur.com/JnVeOwG.png
   [3]: http://i.imgur.com/ah0ZP8g.png
   [4]: https://gist.github.com/bevacqua/4bdd042526b51681ca29
-  [5]: http://imgs.xkcd.com/comics/password_strength.png "To anyone who understands information theory and security and is in an infuriating argument with someone who does not (possibly involving mixed case), I sincerely apologize."
+  [5]: http://imgs.xkcd.com/comics/password_strength.png
+  [6]: http://xkcd.com/936/ "To anyone who understands information theory and security and is in an infuriating argument with someone who does not (possibly involving mixed case), I sincerely apologize."
