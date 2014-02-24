@@ -16,3 +16,10 @@ async.parallel([
   tasks[3]
 ], tasks[4]);
 ```
+
+You can find a similar example on CodePen, which uses an [alternative asynchronous flow control library which I developed, **contra**][1].
+
+[Check the example live on CodePen][2]
+
+  [1]: https://github.com/bevacqua/contra "Asynchronous flow control with a functional taste to it"
+  [2]: http://codepen.io/bevacqua/pen/FeCAr "Contra in action"
