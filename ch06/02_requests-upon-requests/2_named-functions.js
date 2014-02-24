@@ -1,4 +1,4 @@
-function getUser () {
+function getUser (input) {
   http.get('/userByEmail', { email: input.email }, getRegions);
 }
 

@@ -1,8 +1,8 @@
 async.sortBy([1, 23, 54], sort, done);
 
-function sort (id, complete) {
+function sort (id, sorted) {
   http.get('/products/' + id, function (err, product) {
-    complete(err, product ? product.name : null);
+    sorted(err, product ? product.name : null);
   });
 }
 
