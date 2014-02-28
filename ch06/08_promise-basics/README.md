@@ -22,7 +22,7 @@ Here's the complete list of examples you'll find in this sample.
 
 - [Basic Promise][1]
 - [Continuation][2] _(run a task when promise resolves)_
-- [Asynchronous Promise][3] _(is just the same)_
+- [Asynchronous Promise][3] _(behaves just the same, transparently)_
 
 ![promises.png][4]
 
