@@ -7,9 +7,9 @@ var promise = new Promise(function (resolve, reject) {
 });
 
 promise.then(function (result) {
-    console.log('Succeeded', result);
+  console.log('Succeeded', result);
 }, function (reason) {
-    console.log('Rejected', reason);
+  console.log('Rejected', reason);
 });
 
 // note that you can provide just a success callback

@@ -14,7 +14,7 @@ var promise = new Promise(function (resolve, reject) {
 // callbacks which depend on the promise
 // won't be executed until the promise is resolved
 promise.then(function (result) {
-    console.log('Succeeded', result);
+  console.log('Succeeded', result);
 }, function (reason) {
-    console.log('Rejected', reason);
+  console.log('Rejected', reason);
 });
