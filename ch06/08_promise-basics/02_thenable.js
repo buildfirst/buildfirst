@@ -13,12 +13,12 @@ promise.then(function (result) {
 });
 
 // note that you can provide just a success callback
-// promise.then(function (result) {
-//   console.log('Succeeded', result);
-// });
+promise.then(function (result) {
+  console.log('Only succeeded', result);
+});
 
 // note that you can provide just a failure callback
-// promise.then(undefined, function (reason) {
-//   console.log('Rejected', reason);
-// });
+promise.then(undefined, function (reason) {
+  console.log('Only rejected', reason);
+});
 
