@@ -1,4 +1,4 @@
-# Modularity and Dependency Management
+# Asynchronous JavaScript
 
 ##### _(Part II, Chapter 6)_
 
@@ -8,7 +8,7 @@ All samples are self-contained, ready to use, and sensibly documented.
 
 ### Contents
 
-##### Introduction to asynchronous JavaScript
+##### Just Callbacks
 
 - [Callback Hell](https://github.com/bevacqua/buildfirst/tree/master/ch06/01_callback-hell)
 - [Requests Upon Requests](https://github.com/bevacqua/buildfirst/tree/master/ch06/02_requests-upon-requests)
