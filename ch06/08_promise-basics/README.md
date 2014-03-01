@@ -20,10 +20,10 @@ var promise = new Promise(function (resolve, reject) {
 
 Here's the complete list of examples you'll find in this sample.
 
-- [Basic Promise][1]
+- [A Basic Promise][1]
 - [Continuation][2] _(run a task when promise resolves)_
 - [Asynchronous Promise][3] _(behaves just the same, transparently)_
-- [Chaining Values][7]
+- [Transforming Values][7]
 - [Chaining Promises][8]
 
 ![promises.png][4]
@@ -34,5 +34,5 @@ Here's the complete list of examples you'll find in this sample.
 [4]: https://raw.github.com/bevacqua/buildfirst/master/images/promises.png
 [5]: http://www.es6fiddle.net/ "ES6 Fiddle Online"
 [6]: https://github.com/jakearchibald/es6-promise "ES6 Promise Polyfill by Jake Archibald"
-[7]: https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise_basics/04_chaining-values.js
+[7]: https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise_basics/04_transforming-values.js
 [8]: https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise_basics/05_chaining-promises.js

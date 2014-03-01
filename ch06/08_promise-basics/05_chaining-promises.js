@@ -1,14 +1,13 @@
 // this method returns a promise
 // the promise resolves with the response data
 // or rejects with an error message
-function get (url) {
-  var base = 'https://api.github.com';
+function get (endpoint) {
 
   function handler (resolve, reject) {
 
     var xhr = new XMLHttpRequest();
 
-    xhr.open('GET', base + url);
+    xhr.open('GET', endpoint);
 
     xhr.onload = function () {
       if (xhr.status >= 200 && xhr.status < 300) {
@@ -31,16 +30,16 @@ function get (url) {
 // here we are chaining promises and transform callbacks
 // easily getting to the result we wanted
 // first, we make a request to /users on the GitHub API
-get('/users')
+get('https://api.github.com/users')
   .then(JSON.parse) // then we parse the response
-  .then(function (result) {
+  .then(function (response) {
     // using the response object, we get the first user
     // and then we return a promise object which requests
     // another endpoint on the GitHub API
-    return get('/users/' + result[0].login + '/repos');
+    return get('https://api.github.com/users/' + response[0].login + '/repos');
   })
   .then(JSON.parse) // we transform that response as well
-  .then(function (result) {
+  .then(function (response) {
     // lastly, we just print the name of the first repo.
-    console.log(result[0].name);
+    console.log(response[0].name);
   });

@@ -23,4 +23,9 @@ All samples are self-contained, ready to use, and sensibly documented.
 
 ##### Promises!
 
-- [Basics](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise_basics)
+- [Promise Basics](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise_basics)
+    - [A Basic Promise](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise_basics/01_basic.js)
+    - [Continuation](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise_basics/02_thenable.js)
+    - [Asynchronous Promises](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise_basics/03_async-promise.js)
+    - [Transforming Values](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise_basics/04_transforming-values.js)
+    - [Chaining Promises](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise_basics/05_chaining-promises.js)

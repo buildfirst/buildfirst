@@ -22,3 +22,8 @@ promise.then(undefined, function (reason) {
   console.log('Only rejected', reason);
 });
 
+// `promise.catch(cb)` is an alias for `promise.then(undefined, cb)`
+promise.catch(function (reason) {
+  console.log('Just rejected', reason);
+});
+
