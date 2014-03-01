@@ -23,9 +23,12 @@ All samples are self-contained, ready to use, and sensibly documented.
 
 ##### Promises!
 
-- [Promise Basics](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise_basics)
-    - [A Basic Promise](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise_basics/01_basic.js)
-    - [Continuation](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise_basics/02_thenable.js)
-    - [Asynchronous Promises](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise_basics/03_async-promise.js)
-    - [Transforming Values](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise_basics/04_transforming-values.js)
-    - [Chaining Promises](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise_basics/05_chaining-promises.js)
+- [Promise Basics](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise-basics)
+    - [A Basic Promise](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise-basics/01_basic.js)
+    - [Continuation](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise-basics/02_thenable.js)
+    - [Asynchronous Promises](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise-basics/03_async-promise.js)
+    - [Transforming Values](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise-basics/04_transforming-values.js)
+    - [Chaining Promises](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise-basics/05_chaining-promises.js)
+
+- [Promise Flows](https://github.com/bevacqua/buildfirst/tree/master/ch06/09_promise-flows)
+    - [Concurrent Flow](https://github.com/bevacqua/buildfirst/tree/master/ch06/09_promise-flows/01_concurrent.js)
