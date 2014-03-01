@@ -2,7 +2,7 @@
 
 Promises are a big player in the asynchronous landscape, and a subject that can be tricky to understand. In section 6.3 of the book I demystify promises, and in this sample I'll present you with a bunch of examples of the most basic promises.
 
-To test these out, you'll need either
+To test these samples out, you'll need to pick one of the options listed below.
 
 - Visit [ES6 Fiddle][5], and paste the examples in there
 - Get the [es6-promise][6] polyfill and try them out on your own
