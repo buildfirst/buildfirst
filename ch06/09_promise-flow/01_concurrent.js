@@ -1,6 +1,7 @@
 function delay (t) {
   function wait (resolve) {
     setTimeout(function () {
+      console.log('Resolving after', t);
       resolve();
     }, t);
   }
@@ -9,4 +10,6 @@ function delay (t) {
 
 Promise
   .all([delay(700), delay(300), delay(500)])
-  .then(delay(200));
+  .then(function () {
+    return delay(200);
+  });
