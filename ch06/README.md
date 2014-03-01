@@ -30,5 +30,6 @@ All samples are self-contained, ready to use, and sensibly documented.
     - [Transforming Values](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise-basics/04_transforming-values.js)
     - [Chaining Promises](https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise-basics/05_chaining-promises.js)
 
-- [Promise Flows](https://github.com/bevacqua/buildfirst/tree/master/ch06/09_promise-flows)
-    - [Concurrent Flow](https://github.com/bevacqua/buildfirst/tree/master/ch06/09_promise-flows/01_concurrent.js)
+- [Promise Flows](https://github.com/bevacqua/buildfirst/tree/master/ch06/09_promise-flow)
+    - [Concurrent Flow](https://github.com/bevacqua/buildfirst/tree/master/ch06/09_promise-flow/01_concurrent.js)
+    - [Functional Transformations](https://github.com/bevacqua/buildfirst/tree/master/ch06/09_promise-flow/02_funcitonal.js)
