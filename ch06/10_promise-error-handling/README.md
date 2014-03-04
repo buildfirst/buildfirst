@@ -40,7 +40,7 @@ To test this out, you'll need to pick one of the options listed below.
 - Get the [es6-promise][polyfill] polyfill and try them out on your own
 - Try them out in Chrome 32+, where Promises are enabled by default
 
-To check out the example file, [click here][1].
+To check out the example file, [click here][1]. Can you anticipate the outcome, before executing `node example`?
 
 [fiddle]: http://www.es6fiddle.net/ "ES6 Fiddle Online"
 [polyfill]: https://github.com/jakearchibald/es6-promise "ES6 Promise Polyfill by Jake Archibald"
