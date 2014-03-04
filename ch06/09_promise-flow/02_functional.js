@@ -1,3 +1,5 @@
+var Promise = require('es6-promise').Promise;
+
 function delay (t) {
   function wait (resolve) {
     setTimeout(function () {

@@ -1,3 +1,5 @@
+var Promise = require('es6-promise').Promise;
+
 var promise = new Promise(function (resolve, reject) {
   console.log('Pending...');
 

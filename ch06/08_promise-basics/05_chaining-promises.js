@@ -1,3 +1,5 @@
+var Promise = require('es6-promise').Promise;
+
 // this method returns a promise
 // the promise resolves with the response data
 // or rejects with an error message

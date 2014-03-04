@@ -1,3 +1,5 @@
+var Promise = require('es6-promise').Promise;
+
 function delay (t) {
   function wait (resolve, reject) {
     if (t < 1) {
