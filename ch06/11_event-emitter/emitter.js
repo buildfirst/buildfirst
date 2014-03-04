@@ -5,11 +5,11 @@ function emitter (thing) {
     thing = {};
   }
 
-  thing.on = function (type, handler) {
+  thing.on = function (type, listener) {
     if (!events[type]) {
-      events[type] = [handler];
+      events[type] = [listener];
     } else {
-      events[type].push(handler);
+      events[type].push(listener);
     }
   };
 
