@@ -37,3 +37,9 @@ All samples are self-contained, ready to use, and sensibly documented.
 ##### Event Handling
 
 - [Event Emitters](https://github.com/bevacqua/buildfirst/tree/master/ch06/11_event-emitter)
+
+##### ES6 Generators
+
+- [Generator Basics](https://github.com/bevacqua/buildfirst/tree/master/ch06/12_generator-basics)
+    - [Infinite Sequence](https://github.com/bevacqua/buildfirst/tree/master/ch06/12_generator-basics/01_even-stream.js)
+    - [Looping with For Of](https://github.com/bevacqua/buildfirst/tree/master/ch06/12_generator-basics/02_for-of.js)
