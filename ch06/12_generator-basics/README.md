@@ -20,4 +20,4 @@ node --harmony 02_for-of
 [2]: https://github.com/bevacqua/buildfirst/tree/master/ch06/12_generator-basics/01_even-stream.js
 [3]: https://github.com/bevacqua/buildfirst/tree/master/ch06/12_generator-basics/02_for-of.js
 [4]: http://nodejs.org/dist
-[5]: https://raw.github.com/bevacqua/buildfirst/master/images/promises.png
+[5]: https://raw.github.com/bevacqua/buildfirst/master/images/es6.png
