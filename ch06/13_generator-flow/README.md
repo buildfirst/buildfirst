@@ -4,6 +4,10 @@
 
 To run the generator examples, you should get Node [`v0.11.10` or later][2], which you can easily fetch, install, and use, with [nvm][3]. Then, you must pass the `--harmony` flag to the `node` CLI when executing a script, that'll enable ES6 features such as generators, including the `function* ()` construct, the `yield` keyword, and the `for..of` construct.
 
+```js
+node --harmony usage
+```
+
 Here is how you could use a generator function to easily mix and match synchronous and asynchronous flows.
 
 ```js
