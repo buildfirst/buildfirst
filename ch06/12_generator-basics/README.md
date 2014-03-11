@@ -2,7 +2,7 @@
 
 ![es6.png][5]
 
-To run the generator examples, you should get Node [`v0.11.10` or later][4], which you can easily fetch, install, and use, with [nvm][1]. Then, you must pass the `--harmony` flag to the `node` CLI when executing a script, that'll enable ES6 features such as generators, including the `function* ()` construct, the `yield` keyword, and the `for..of` construct.
+To run the generator examples, you should get Node [`v0.11.x` or later][4], which you can easily fetch, install, and use, with [nvm][1]. Then, you must pass the `--harmony` flag to the `node` CLI when executing a script, that'll enable ES6 features such as generators, including the `function* ()` construct, the `yield` keyword, and the `for..of` construct.
 
 The [`even-stream`][2] example shows how to use a generator to represent an infinite sequence, and how to loop through some of its values.
 
