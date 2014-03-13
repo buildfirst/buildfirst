@@ -3,9 +3,17 @@ var emitter = require('../src/emitter.js');
 
 describe('emitter(thing)', function () {
   it('should always return an object', function () {
-    assert.isObject(emitter());
-    assert.isObject(emitter({}));
-    assert.isObject(emitter([]));
+    // Act
+    isEmitter(emitter());
+    isEmitter(emitter({}));
+    isEmitter(emitter([]));
+
+    function isEmitter (thing) {
+      // Assert
+      assert(thing);
+      assert(thing.on);
+      assert(thing.emit);
+    }
   });
 
   it('should reference the same object', function () {
