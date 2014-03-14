@@ -8,5 +8,6 @@ All samples are self-contained, ready to use, and sensibly documented.
 
 ### Contents
 
-- [Your First Mocha Test](https://github.com/bevacqua/buildfirst/tree/master/ch08/01_your-first-mocha-test)
-- [Arrange Act Assert: Testing An Event Emitter](https://github.com/bevacqua/buildfirst/tree/master/ch08/02_arrange-act-assert)
+- [Your First `tape` Test](https://github.com/bevacqua/buildfirst/tree/master/ch08/01_your-first-mocha-test)
+- [`tape` in the Browser](https://github.com/bevacqua/buildfirst/tree/master/ch08/02_mocha-in-the-browser)
+- [Arrange Act Assert: Testing An Event Emitter](https://github.com/bevacqua/buildfirst/tree/master/ch08/03_arrange-act-assert)
