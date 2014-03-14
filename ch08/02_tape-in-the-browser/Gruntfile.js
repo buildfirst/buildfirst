@@ -5,7 +5,7 @@ module.exports = function (grunt) {
     browserify: {
       test: {
         files: {
-          'test/bin/bundle.js': ['test/harness.js']
+          'test/bin/bundle.js': ['test/**/*.js']
         }
       }
     }
