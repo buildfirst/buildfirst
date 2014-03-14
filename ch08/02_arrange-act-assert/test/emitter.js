@@ -51,8 +51,11 @@ describe('on(type, listener)', function () {
 
     function listener () {}
 
-    // Act
-    thing.on('foo', listener);
+    // Assert
+    assert.doesNotThrow(function () {
+      // Act
+      thing.on('foo', listener);
+    });
   });
 
   it('should attach many event listeners to the same event', function () {
@@ -61,10 +64,13 @@ describe('on(type, listener)', function () {
 
     function listener () {}
 
-    // Act
-    thing.on('foo', listener);
-    thing.on('foo', listener);
-    thing.on('foo', listener);
+    // Assert
+    assert.doesNotThrow(function () {
+      // Act
+      thing.on('foo', listener);
+      thing.on('foo', listener);
+      thing.on('foo', listener);
+    });
   });
 });
 
