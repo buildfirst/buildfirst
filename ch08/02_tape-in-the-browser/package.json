@@ -12,10 +12,7 @@
     "url": "git://github.com/bevacqua/buildfirst.git"
   },
   "devDependencies": {
-    "tape": "~2.10.2"
-  },
-  "dependencies": {
-    "grunt": "~0.4.4",
-    "grunt-node-tap": "~0.1.52"
+    "tape": "~2.10.2",
+    "grunt": "~0.4.4"
   }
 }

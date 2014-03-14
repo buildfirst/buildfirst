@@ -2,20 +2,12 @@
 
 This example show-cases how to develop tests following the AAA pattern, by writing tests against the public API of a component. In this case we'll be testing the `emitter` function, as well as the `on` and `emit` methods which `emitter(thing)` is expected to attach on `thing`.
 
-The first thing you'll want to do here is install the `mocha` CLI globally, so it gets added to your system `PATH`.
+To run the tests by hand, simply execute `node` in your terminal, like below.
 
 ```shell
-npm install -g mocha
+node test/compute.js
 ```
-
-To run the tests, simply execute Mocha in your terminal, like below.
-
-```shell
-mocha --reporter spec
-```
-
-Mocha will know to look for your tests in the `test` directory. The `spec` reporter provides a prettier output than the default.
 
 ![test.png][1]
 
-[1]: https://raw.github.com/bevacqua/buildfirst/master/images/mocha-test-emitter.png "Mocha tests in action"
+[1]: https://raw.github.com/bevacqua/buildfirst/master/images/tape-test-emitter.png "Tape tests in action"
