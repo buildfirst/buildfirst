@@ -2,6 +2,11 @@ var assert = require('assert');
 var emitter = require('../src/emitter.js');
 
 describe('emitter(thing)', function () {
+  it('should be a function', function () {
+    assert.ok(emitter);
+    assert.ok(typeof emitter === 'function');
+  });
+
   it('should always return an object', function () {
     // Act
     isEmitter(emitter());
@@ -10,9 +15,9 @@ describe('emitter(thing)', function () {
 
     function isEmitter (thing) {
       // Assert
-      assert(thing);
-      assert(thing.on);
-      assert(thing.emit);
+      assert.ok(thing);
+      assert.ok(typeof thing.on === 'function');
+      assert.ok(typeof thing.emit === 'function');
     }
   });
 
