@@ -15,3 +15,7 @@ mocha --reporter spec
 ```
 
 Mocha will know to look for your tests in the `test` directory. The `spec` reporter provides a prettier output than the default.
+
+![test.png][1]
+
+[1]: https://raw.github.com/bevacqua/buildfirst/master/images/mocha-test-emitter.png "Mocha tests in action"
