@@ -8,4 +8,4 @@ To compile our code with Browserify, you just need to run the following command 
 grunt build-tests
 ```
 
-That's it, now you can run the tests using the test harness, opening the `test/runner.html` file in your browser.
+That's it, now you can run the tests using the test harness, opening the `test/runner.html` file in your browser, and checking out the browser `console`.
