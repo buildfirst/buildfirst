@@ -8,4 +8,14 @@ The first thing you'll want to do here is install the `mocha` CLI globally, so i
 npm install -g mocha
 ```
 
+To run the tests, simply execute Mocha in your terminal, like below.
+
+```shell
+mocha --reporter spec
+```
+
+The `spec` reporter provides a prettier output than the default.
+
+
+
 [1]: http://visionmedia.github.io/mocha
