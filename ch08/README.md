@@ -9,3 +9,4 @@ All samples are self-contained, ready to use, and sensibly documented.
 ### Contents
 
 - [Your First Mocha Test](https://github.com/bevacqua/buildfirst/tree/master/ch08/01_your-first-mocha-test)
+- [Arrange Act Assert: Testing An Event Emitter](https://github.com/bevacqua/buildfirst/tree/master/ch08/02_arrange-act-assert)
