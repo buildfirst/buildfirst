@@ -98,15 +98,17 @@ describe('emit(type)', function () {
     var thing = emitter();
     var listens = 0;
 
-    function listener (context) {
+    function listener (context, value) {
+      assert.equal(arguments.length, 2);
       assert.equal(context, thing);
+      assert.equal(value, 3);
       listens++;
     }
 
     // Act
     thing.on('foo', listener);
     thing.on('foo', listener);
-    thing.emit('foo', thing);
+    thing.emit('foo', thing, 3);
 
     // Assert
     assert.equal(listens, 2);
