@@ -4,6 +4,7 @@ var emitter = require('../src/emitter.js');
 test('emitter(thing) should be a function', function (t) {
   t.ok(emitter);
   t.ok(typeof emitter === 'function');
+  t.end();
 });
 
 test('emitter(thing) should always return an object', function (t) {
@@ -18,6 +19,8 @@ test('emitter(thing) should always return an object', function (t) {
     t.ok(typeof thing.on === 'function');
     t.ok(typeof thing.emit === 'function');
   }
+
+  t.end();
 });
 
 test('emitter(thing) should reference the same object', function (t) {
@@ -29,6 +32,7 @@ test('emitter(thing) should reference the same object', function (t) {
 
   // Assert
   t.equal(data, thing);
+  t.end();
 });
 
 test('emitter(thing) should reference the same array', function (t) {
@@ -40,20 +44,22 @@ test('emitter(thing) should reference the same array', function (t) {
 
   // Assert
   t.equal(data, thing);
+  t.end();
 });
 
 test('on(type, listener) should attach an event listener', function (t) {
-    // Arrange
-    var thing = emitter();
+  // Arrange
+  var thing = emitter();
 
-    function listener () {}
+  function listener () {}
 
-    // Assert
-    t.doesNotThrow(function () {
-      // Act
-      thing.on('foo', listener);
-    });
+  // Assert
+  t.doesNotThrow(function () {
+    // Act
+    thing.on('foo', listener);
   });
+  t.end();
+});
 
 test('on(type, listener) should attach many event listeners to the same event', function (t) {
   // Arrange
@@ -68,25 +74,27 @@ test('on(type, listener) should attach many event listeners to the same event', 
     thing.on('foo', listener);
     thing.on('foo', listener);
   });
+  t.end();
 });
 
 test('emit(type) should emit to the event listeners', function (t) {
-    // Arrange
-    var thing = emitter();
-    var listens = 0;
+  // Arrange
+  var thing = emitter();
+  var listens = 0;
 
-    function listener () {
-      listens++;
-    }
+  function listener () {
+    listens++;
+  }
 
-    // Act
-    thing.on('foo', listener);
-    thing.on('foo', listener);
-    thing.emit('foo');
+  // Act
+  thing.on('foo', listener);
+  thing.on('foo', listener);
+  thing.emit('foo');
 
-    // Assert
-    t.equal(listens, 2);
-  });
+  // Assert
+  t.equal(listens, 2);
+  t.end();
+});
 
 test('emit(type) should pass parameters to the event listeners', function (t) {
   // Arrange
@@ -107,4 +115,5 @@ test('emit(type) should pass parameters to the event listeners', function (t) {
 
   // Assert
   t.equal(listens, 2);
+  t.end();
 });
