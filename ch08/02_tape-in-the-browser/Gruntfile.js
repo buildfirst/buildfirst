@@ -2,14 +2,20 @@
 
 module.exports = function (grunt) {
   grunt.initConfig({
+    clean: {
+      tests: ['test/build']
+    },
     browserify: {
-      test: {
+      tests: {
         files: {
-          'test/bin/bundle.js': ['test/**/*.js']
+          'test/build/test-bundle.js': ['test/**/*.js']
         }
       }
     }
   });
 
+  grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-browserify');
+
+  grunt.registerTask('build-tests', ['clean:tests', 'browserify:tests']);
 };
