@@ -67,7 +67,7 @@ describe('emit(type)', function () {
   it('should emit to the event listeners', function () {
     // Arrange
     var thing = emitter();
-    var listens;
+    var listens = 0;
 
     function listener () {
       listens++;
@@ -85,7 +85,7 @@ describe('emit(type)', function () {
   it('should pass parameters to the event listeners', function () {
     // Arrange
     var thing = emitter();
-    var listens;
+    var listens = 0;
 
     function listener (context) {
       assert.equal(context, thing);

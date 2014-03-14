@@ -14,8 +14,9 @@ To run the tests, simply execute Mocha in your terminal, like below.
 mocha --reporter spec
 ```
 
-The `spec` reporter provides a prettier output than the default.
+Mocha will know to look for your tests in the `test` directory. The `spec` reporter provides a prettier output than the default.
 
-
+![test.png][2]
 
 [1]: http://visionmedia.github.io/mocha
+[2]: https://raw.github.com/bevacqua/buildfirst/master/images/mocha-test.png "Mocha tests in action"
