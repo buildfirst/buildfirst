@@ -11,5 +11,5 @@ All samples are self-contained, ready to use, and sensibly documented.
 - [Your First `tape` Test](https://github.com/bevacqua/buildfirst/tree/master/ch08/01_your-first-tape-test)
 - [`tape` in the Browser](https://github.com/bevacqua/buildfirst/tree/master/ch08/02_tape-in-the-browser)
 - [Arrange Act Assert: Testing An Event Emitter](https://github.com/bevacqua/buildfirst/tree/master/ch08/03_arrange-act-assert)
-- [Mocking Your Dependencies](https://github.com/bevacqua/buildfirst/tree/master/ch08/04_mocking-your-dependencies)
-- [Spying on Function Calls](https://github.com/bevacqua/buildfirst/tree/master/ch08/05_spying-on-function-calls)
+- [Spying on Function Calls](https://github.com/bevacqua/buildfirst/tree/master/ch08/04_spying-on-function-calls)
+- [Mocking Your Dependencies](https://github.com/bevacqua/buildfirst/tree/master/ch08/05_mocking-your-dependencies)
