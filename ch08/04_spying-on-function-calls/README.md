@@ -1,3 +1,13 @@
 # Spying on Function Calls
 
-Using `sinon`, it becomes very easy to create spies. Spies are functions which are prepared to tell you whether they've been called
+Using `sinon`, it becomes very easy to create spies. Here are a few examples on how to write tests using mocks created by `sinon`.
+
+To run the tests, simply execute the following command in your terminal.
+
+```
+node test/maxwell
+```
+
+![sinon-maxwell.png][1]
+
+[1]: https://raw.github.com/bevacqua/buildfirst/master/images/tape-test-emitter.png "Spying with Sinon.js"

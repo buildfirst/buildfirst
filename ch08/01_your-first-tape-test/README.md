@@ -5,7 +5,7 @@ Writing JavaScript unit tests honestly isn't that hard, and `tape` makes it even
 To run the tests by hand, simply execute `node` in your terminal, like below.
 
 ```shell
-node test/compute.js
+node test/compute
 ```
 
 ![test.png][2]
