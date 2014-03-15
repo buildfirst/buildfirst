@@ -9,3 +9,7 @@ grunt build-tests
 ```
 
 That's it, now you can run the tests using the test harness, opening the `test/runner.html` file in your browser, and checking out the browser `console`.
+
+![tape-browser.png][1]
+
+[1]: https://raw.github.com/bevacqua/buildfirst/master/images/tape-browser.png "Tape tests in the browser"

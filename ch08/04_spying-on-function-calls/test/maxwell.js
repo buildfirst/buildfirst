@@ -3,24 +3,23 @@ var sinon = require('sinon');
 var maxwell = require('../src/maxwell.js');
 
 test('maxwell.immediate invokes a callback immediately', function (t) {
-  t.plan(1);
+  var cb = sinon.spy();
 
-  var spy = sinon.spy();
+  maxwell.immediate(cb);
 
-  maxwell.immediate(spy);
-
-  t.ok(spy.calledOnce);
+  t.plan(2);
+  t.ok(cb.calledOnce);
+  t.ok(cb.calledWith('foo', 'bar'));
 });
 
 test('maxwell.debounce invokes a callback after a timeout', function (t) {
-  t.plan(2);
-
   var clock = sinon.useFakeTimers();
-  var spy = sinon.spy();
+  var cb = sinon.spy();
 
-  maxwell.debounce(spy);
+  maxwell.debounce(cb);
 
-  t.ok(spy.notCalled);
+  t.plan(2);
+  t.ok(cb.notCalled);
   clock.tick(0);
-  t.ok(spy.called);
+  t.ok(cb.called);
 });
