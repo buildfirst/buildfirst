@@ -5,7 +5,7 @@ This example show-cases how to develop tests following the AAA pattern, by writi
 To run the tests by hand, simply execute `node` in your terminal, like below.
 
 ```shell
-node test/compute
+node test/emitter
 ```
 
 ![test.png][1]
