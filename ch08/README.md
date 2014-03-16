@@ -13,3 +13,7 @@ All samples are self-contained, ready to use, and sensibly documented.
 - [Arrange Act Assert: Testing An Event Emitter](https://github.com/bevacqua/buildfirst/tree/master/ch08/03_arrange-act-assert)
 - [Spying on Function Calls](https://github.com/bevacqua/buildfirst/tree/master/ch08/04_spying-on-function-calls)
 - [Mocking Your Dependencies](https://github.com/bevacqua/buildfirst/tree/master/ch08/05_mocking-your-dependencies)
+
+![tape.png][1]
+
+  [1]: https://raw.github.com/bevacqua/buildfirst/master/images/tape.png "Tape, a test harness written by @substack"
