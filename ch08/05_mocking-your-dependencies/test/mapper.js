@@ -23,11 +23,12 @@ test('user mapper returns a subset of user', function (t) {
   // Act
   mapper(123, cb);
   clock.tick(0);
+  var result = cb.args[0][1];
+  var actual = Object.keys(result).sort();
+  var expected = ['name', 'email'].sort();
 
   // Assert
   t.plan(2);
-  t.ok(cb.called);
-  t.ok(cb.calledWith(null, sinon.match(function (val) {
-    return val.name && val.email && !val.id;
-  })));
+  t.ok(cb.calledOnce);
+  t.deepEqual(actual, expected);
 });
