@@ -21,7 +21,7 @@ module.exports = function (id, done) {
 };
 ```
 
-In [the tests][2], I use `proxyquire` to resolve a fake version of the `model` which would normally query the database. In the tests it just calls back a function, passing a made-up model object.
+In [the tests][2], I use [`proxyquire`][3] to resolve a fake version of the `model` which would normally query the database. In the tests it just calls back a function, passing a made-up model object.
 
 ```shell
 node test/mapper
@@ -31,3 +31,4 @@ node test/mapper
 
 [1]: https://raw.github.com/bevacqua/buildfirst/master/images/tape-proxy.png "Mocking with proxyquire"
 [2]: https://raw.github.com/bevacqua/buildfirst/master/ch08/05_mocking-your-dependencies/test/mapper.js
+[3]: https://github.com/thlorenz/proxyquire
