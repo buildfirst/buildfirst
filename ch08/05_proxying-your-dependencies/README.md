@@ -1,6 +1,6 @@
-# Mocking Your Dependencies
+# Proxying Your Dependencies
 
-Mocking dependencies which are arguments to a function is really trivial in JavaScript tests, you just make up any objects you need! Mocking dependencies which are imported with a `require()` call is a bit trickier, but it's still perfectly doable without making any changes to your source code.
+Mocking dependencies which are arguments to a function is really trivial in JavaScript tests, you just make up any objects you need! Mocking dependencies which are imported with a `require()` call is a bit trickier, but it's still perfectly doable without making any changes to your source code, through proxies.
 
 Consider the example below.
 

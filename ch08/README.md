@@ -12,7 +12,8 @@ All samples are self-contained, ready to use, and sensibly documented.
 - [`tape` in the Browser](https://github.com/bevacqua/buildfirst/tree/master/ch08/02_tape-in-the-browser)
 - [Arrange Act Assert: Testing An Event Emitter](https://github.com/bevacqua/buildfirst/tree/master/ch08/03_arrange-act-assert)
 - [Spying on Function Calls](https://github.com/bevacqua/buildfirst/tree/master/ch08/04_spying-on-function-calls)
-- [Mocking Your Dependencies](https://github.com/bevacqua/buildfirst/tree/master/ch08/05_mocking-your-dependencies)
+- [Proxying Your Dependencies](https://github.com/bevacqua/buildfirst/tree/master/ch08/05_proxying-your-dependencies)
+- [Fake `XmlHTTPRequest` Requests](https://github.com/bevacqua/buildfirst/tree/master/ch08/06_fake-xhr-requests)
 
 ![tape.png][1]
 
