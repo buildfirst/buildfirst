@@ -14,8 +14,10 @@ test('qotd service should make an XHR call', function (t) {
   t.equals(server.requests.length, 1);
   t.ok(cb.notCalled);
 
-  server.requests[0].respond(200, {}, 'foo');
+  server.requests[0].respond(200, {}, {
+    value: { joke: 'The cake is a lie.' }
+  });
 
   t.ok(cb.called);
-  t.ok(cb.calledWith(sinon.match.string));
+  t.ok(cb.calledWith(null, sinon.match.string));
 });
