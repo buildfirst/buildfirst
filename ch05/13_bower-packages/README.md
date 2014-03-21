@@ -37,7 +37,7 @@ If unspecified, the `bower_components` directory is used by default. Setting it 
 Once you've installed the dependencies using `bower install`, open the example from your shell, like below.
 
 ```shell
-google-chrome test.html
+open test.html
 ```
 
 <sub>(or just open `test.html` in your favorite browser)</sub>

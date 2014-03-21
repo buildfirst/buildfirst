@@ -28,7 +28,7 @@ As you can see, we didn't change the default installation directory in this case
 Once you've built the components using `component build`, open the example from your shell, like below.
 
 ```shell
-google-chrome test.html
+open test.html
 ```
 
 <sub>(or just open `test.html` in your favorite browser)</sub>

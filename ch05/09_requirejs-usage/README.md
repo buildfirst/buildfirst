@@ -7,7 +7,7 @@
 This sample depicts the basic usage form of the module loader, while the book analyzes the benefits and drawbacks of using it. The library version being used is [RequireJS _2.1.9_][5]. Run the example from your shell, using:
 
 ```shell
-google-chrome test.html
+open test.html
 ```
 
 <sub>(or just open `test.html` in your favorite browser)</sub>

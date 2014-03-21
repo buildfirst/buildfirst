@@ -30,7 +30,7 @@ In this case, we've changed the build directory to `'./build/js'`, in the task c
 Once you've built the components using `grunt componentbuild:debug`, open the example from your shell, like below.
 
 ```shell
-google-chrome test.html
+open test.html
 ```
 
 <sub>(or just open `test.html` in your favorite browser)</sub>

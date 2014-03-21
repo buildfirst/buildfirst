@@ -9,7 +9,7 @@ The [grunt-browserify][5] plugin has a really interesting read which is worth ch
 The `build:debug` task target will bundle all of the CJS modules and also create a source map so we're still able to debug seamlessly. Note that a source map _file_ won't actually be created, but instead it will be embedded right into our bundle, with something known as a [base64 encoded data uri][6]. The `build:release` version will also minify the bundle, but it won't produce a source map. Once you've built, open the example from your shell, using:
 
 ```shell
-google-chrome test.html
+open test.html
 ```
 
 <sub>(or just open `test.html` in your favorite browser)</sub>

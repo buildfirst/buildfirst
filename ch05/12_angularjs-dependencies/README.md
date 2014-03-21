@@ -7,7 +7,7 @@
 There's **a lot more** to understanding Angular yet, but this should get us going for now. I'll be getting back to the _inner workings_ of Angular in Chapter 7. Until then, we will just focus on its [dependency resolver][9]. Run the example from your shell, using:
 
 ```shell
-google-chrome test.html
+open test.html
 ```
 
 <sub>(or just open `test.html` in your favorite browser)</sub>
