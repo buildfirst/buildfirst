@@ -34,6 +34,13 @@ open test/runner.html
 
 ![fake-xhr.png][2]
 
+Note that we could run this code on Node as well.
+
+```shell
+node src/qotd
+```
+
+![real-http.png][3]
 
 [1]: https://raw.github.com/bevacqua/buildfirst/master/images/real-xhr.png "A real XHR request"
 [2]: https://raw.github.com/bevacqua/buildfirst/master/images/fake-xhr.png "A fake XHR request in our tests"
@@ -41,3 +48,4 @@ open test/runner.html
 [4]: https://raw.github.com/bevacqua/buildfirst/master/ch08/06_fake-xhr-requests/src/qotd.js
 [5]: https://raw.github.com/bevacqua/buildfirst/master/ch08/06_fake-xhr-requests/test/qotd.js
 [6]: https://github.com/bevacqua/buildfirst/tree/master/ch08/02_tape-in-the-browser
+[7]: 
