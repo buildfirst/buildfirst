@@ -17,7 +17,7 @@ Here's how [the original source code][4] works, by making a **real** XHR request
 In order to run this example, you'll need to _browserify_ the code, as we learned in [**ch08e02** `tape` In The Browser][6].
 
 ```shell
-grunt browserify:app
+grunt build
 open src/quote.html
 ```
 
@@ -28,7 +28,7 @@ open src/quote.html
 In order to run these tests, you'll need to _browserify_ the code, as we learned in [**ch08e02** `tape` In The Browser][6].
 
 ```shell
-grunt browserify:tests
+grunt build-tests
 open test/runner.html
 ```
 
