@@ -40,4 +40,4 @@ open test/runner.html
 [3]: http://sinonjs.org/docs/#server "Fake XHR and server"
 [4]: https://raw.github.com/bevacqua/buildfirst/master/ch08/06_fake-xhr-requests/src/qotd.js
 [5]: https://raw.github.com/bevacqua/buildfirst/master/ch08/06_fake-xhr-requests/test/qotd.js
-[5]: https://github.com/bevacqua/buildfirst/tree/master/ch08/02_tape-in-the-browser
+[6]: https://github.com/bevacqua/buildfirst/tree/master/ch08/02_tape-in-the-browser
