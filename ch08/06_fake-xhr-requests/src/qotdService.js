@@ -1,17 +1,12 @@
-var request = require('request');
+var request = require('superagent');
 
 module.exports = function (done) {
-  var opts = {
-    url: 'https://api.github.com/zen',
-    headers: {
-      'User-Agent': 'https://github.com/bevacqua/buildfirst'
-    },
-    crossOrigin: true
-  };
+  request
+    .get('https://api.github.com/zen')
+    //.set('User-Agent', 'superagent')
+    .end(cb);
 
-  request(opts, cb);
-
-  function cb (err, res, body) {
-    done(null, body);
+  function cb (err, res) {
+    done(null, res.text);
   }
 }
