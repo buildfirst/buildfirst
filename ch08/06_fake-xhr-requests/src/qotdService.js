@@ -2,8 +2,7 @@ var reqwest = require('reqwest');
 
 module.exports = function (done) {
   reqwest({
-    url: 'http://api.icndb.com/jokes/random',
-    crossOrigin: true
+    url: 'http://api.icndb.com/jokes/random', crossOrigin: true
   }, next);
 
   function next (res) {
