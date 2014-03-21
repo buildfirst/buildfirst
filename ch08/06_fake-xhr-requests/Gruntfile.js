@@ -10,11 +10,17 @@ module.exports = function (grunt) {
       app: {
         files: {
           'src/build/bundle.js': ['src/*.js']
+        },
+        options: {
+          alias: ['reqwestify:request'],
         }
       },
       tests: {
         files: {
           'test/build/test-bundle.js': ['test/*.js']
+        },
+        options: {
+          alias: ['reqwestify:request']
         }
       }
     }

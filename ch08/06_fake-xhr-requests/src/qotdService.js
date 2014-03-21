@@ -1,11 +1,17 @@
-var reqwest = require('reqwest');
+var request = require('request');
 
 module.exports = function (done) {
-  reqwest({
-    url: 'http://api.icndb.com/jokes/random', crossOrigin: true
-  }, next);
+  var opts = {
+    url: 'https://api.github.com/zen',
+    headers: {
+      'User-Agent': 'https://github.com/bevacqua/buildfirst'
+    },
+    crossOrigin: true
+  };
 
-  function next (res) {
-    done(null, res.value.joke);
+  request(opts, cb);
+
+  function cb (err, res, body) {
+    done(null, body);
   }
 }

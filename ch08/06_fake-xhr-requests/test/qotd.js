@@ -6,7 +6,7 @@ test('qotd service should make an XHR call', function (t) {
   var cb = sinon.spy();
 
   var server = sinon.fakeServer.create();
-  var headers = { 'Content-Type': 'application/json' };
+  var headers = { 'Content-Type': 'text/html' };
 
   quote(cb);
 
@@ -14,9 +14,7 @@ test('qotd service should make an XHR call', function (t) {
   t.equals(server.requests.length, 1);
   t.ok(cb.notCalled);
 
-  server.requests[0].respond(200, headers, JSON.stringify({
-    value: { joke: 'The cake is a lie.' }
-  }));
+  server.requests[0].respond(200, headers, 'The cake is a lie.');
 
   t.ok(cb.called);
   t.ok(cb.calledWith(null, sinon.match.string));
