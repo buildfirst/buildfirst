@@ -12,7 +12,7 @@ module.exports = function (grunt) {
           'src/build/bundle.js': ['src/*.js']
         },
         options: {
-          alias: ['reqwestify:request'],
+          alias: ['reqwestify:request']
         }
       },
       tests: {
