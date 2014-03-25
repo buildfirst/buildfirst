@@ -4,7 +4,7 @@ Testing the interaction between the DOM and JavaScript code can be complicated, 
 
 ![mind-the-gap.jpg][1]
 
-This example sets up a _Event Bar_, where numbers go to get a round. The implementation is fully tested.
+This example sets up a _Event Bar_, where numbers go to get a round. The implementation is fully written, and tested, using Common.JS, Sinon, and `tape`, just like our previous examples. The fact that our code interacts with the DOM does not impede us from using CJS style modules and Browserify.
 
 In order to run this example, you'll need to _browserify_ the code, as we learned in [**ch08e02** `tape` In The Browser][3].
 
