@@ -4,6 +4,8 @@
 
 Yay. Unit tests. This chapter focuses on unit testing JavaScript components. You'll learn about writing tests using `tape`, you'll learn unit testing principles, and we'll apply them to JavaScript code. Afterwards, we'll automate unit tests in the browser which can also be run through Node. These are the samples as discussed through the chapter, in the same order of appearance.
 
+![tape.png][1]
+
 All samples are self-contained, ready to use, and sensibly documented.
 
 ### Contents
@@ -17,7 +19,5 @@ All samples are self-contained, ready to use, and sensibly documented.
 - [DOM Interaction Testing](https://github.com/bevacqua/buildfirst/tree/master/ch08/07_dom-interaction-testing)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
-
-![tape.png][1]
 
   [1]: https://raw.github.com/bevacqua/buildfirst/master/images/tape.png "Tape, a test harness written by @substack"
