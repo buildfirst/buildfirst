@@ -2,6 +2,11 @@
 
 ![mind-the-gap.jpg][1]
 
+Testing the interaction between the DOM and JavaScript code can be complicated. This example sets up a _Event Bar_, where numbers go to get a round.
 
+Here is the _Event Bar_ in all its glory.
+
+![event-bar.png][2]
 
 [1]: https://github.com/bevacqua/buildfirst/tree/master/images/mind-the-gap.jpg "Mind it!"
+[2]: https://github.com/bevacqua/buildfirst/tree/master/images/event-bar.png
