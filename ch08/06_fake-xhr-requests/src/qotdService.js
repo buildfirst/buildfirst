@@ -6,6 +6,6 @@ module.exports = function (done) {
     .end(cb);
 
   function cb (err, res) {
-    done(null, res.text);
+    done(err, res.text);
   }
-}
+};

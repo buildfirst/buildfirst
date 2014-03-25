@@ -14,6 +14,7 @@ All samples are self-contained, ready to use, and sensibly documented.
 - [Spying on Function Calls](https://github.com/bevacqua/buildfirst/tree/master/ch08/04_spying-on-function-calls)
 - [Proxying Your Dependencies](https://github.com/bevacqua/buildfirst/tree/master/ch08/05_proxying-your-dependencies)
 - [Fake `XmlHTTPRequest` Requests](https://github.com/bevacqua/buildfirst/tree/master/ch08/06_fake-xhr-requests)
+- [DOM Interaction Testing](https://github.com/bevacqua/buildfirst/tree/master/ch08/07_dom-interaction-testing)
 
 ![tape.png][1]
 
