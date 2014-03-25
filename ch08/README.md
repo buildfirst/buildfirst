@@ -18,4 +18,6 @@ All samples are self-contained, ready to use, and sensibly documented.
 
 ![tape.png][1]
 
+For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
+
   [1]: https://raw.github.com/bevacqua/buildfirst/master/images/tape.png "Tape, a test harness written by @substack"

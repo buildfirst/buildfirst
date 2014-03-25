@@ -44,3 +44,5 @@ All samples are self-contained, ready to use, and sensibly documented.
     - [Infinite Sequence](https://github.com/bevacqua/buildfirst/tree/master/ch06/12_generator-basics/01_even-stream.js)
     - [Iterate Using For Of](https://github.com/bevacqua/buildfirst/tree/master/ch06/12_generator-basics/02_for-of.js)
 - [Asynchronicity and Generators](https://github.com/bevacqua/buildfirst/tree/master/ch06/13_generator-flow)
+
+For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
