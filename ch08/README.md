@@ -16,8 +16,8 @@ All samples are self-contained, ready to use, and sensibly documented.
 - [Fake `XmlHTTPRequest` Requests](https://github.com/bevacqua/buildfirst/tree/master/ch08/06_fake-xhr-requests)
 - [DOM Interaction Testing](https://github.com/bevacqua/buildfirst/tree/master/ch08/07_dom-interaction-testing)
 
-![tape.png][1]
-
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
+
+![tape.png][1]
 
   [1]: https://raw.github.com/bevacqua/buildfirst/master/images/tape.png "Tape, a test harness written by @substack"
