@@ -8,5 +8,5 @@ Here is the _Event Bar_ in all its glory.
 
 ![event-bar.png][2]
 
-[1]: https://raw.github.com/bevacqua/buildfirst/tree/master/images/mind-the-gap.jpg "Mind it!"
-[2]: https://raw.github.com/bevacqua/buildfirst/tree/master/images/event-bar.png
+[1]: https://raw.github.com/bevacqua/buildfirst/master/images/mind-the-gap.jpg "Mind it!"
+[2]: https://raw.github.com/bevacqua/buildfirst/master/images/event-bar.png
