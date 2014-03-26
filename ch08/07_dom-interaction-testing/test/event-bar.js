@@ -1,5 +1,4 @@
 var test = require('tape');
-var sinon = require('sinon');
 var bar = require('../src/event-bar.js');
 
 function setup () {
