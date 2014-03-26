@@ -11,8 +11,7 @@ module.exports = function () {
     var number = parseFloat(square.value);
     if (isNaN(number)) {
       rounded('Do you even know what a number is?');
-    }
-    else if (number === Math.round(number)) {
+    } else if (number === Math.round(number)) {
       rounded('You are such a unit. Integers cannot be rounded!');
     } else {
       rounded(null, Math.round(number));
