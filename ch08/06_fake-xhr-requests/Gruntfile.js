@@ -9,7 +9,7 @@ module.exports = function (grunt) {
     browserify: {
       app: {
         files: {
-          'src/build/bundle.js': ['src/*.js']
+          'src/build/bundle.js': ['src/qotd.js']
         }
       },
       tests: {
