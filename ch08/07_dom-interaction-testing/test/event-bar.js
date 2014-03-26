@@ -21,8 +21,8 @@ function teardown () {
 
 function testCase (name, cb) {
   var t = test(name, cb);
-  t.once('prerun', setup);
-  t.once('end', teardown);
+  t.once('prerun', setup); // setup before each test case
+  t.once('end', teardown); // teardown after each test case
 }
 
 testCase('clicking barman without input should result in an error message', function (t) {
