@@ -39,3 +39,9 @@ function reset () {
     result.removeChild(all[i]);
   }
 }
+
+module.exports = {
+  round: round,
+  rounded: rounded,
+  reset: reset
+};
