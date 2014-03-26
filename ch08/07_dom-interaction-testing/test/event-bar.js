@@ -20,13 +20,13 @@ function teardown () {
   ['.barman', '.square', '.result', '.clear'].forEach(rm);
 }
 
-function setdown (name, cb) {
+function testCase (name, cb) {
   var t = test(name, cb);
   t.once('prerun', setup);
   t.once('end', teardown);
 }
 
-setdown('clicking barman without input should result in an error message', function (t) {
+testCase('clicking barman without input should result in an error message', function (t) {
   // Arrange
   var barman = document.querySelector('.barman');
   var result;
@@ -43,7 +43,7 @@ setdown('clicking barman without input should result in an error message', funct
   t.equal(result[0].innerText, 'Do you even know what a number is?');
 });
 
-setdown('clicking barman with an integer should result in an error message', function (t) {
+testCase('clicking barman with an integer should result in an error message', function (t) {
   // Arrange
   var barman = document.querySelector('.barman');
   var square = document.querySelector('.square');
@@ -62,7 +62,7 @@ setdown('clicking barman with an integer should result in an error message', fun
   t.equal(result[0].innerText, 'You are such a unit. Integers cannot be rounded!');
 });
 
-setdown('clicking barman with a number should result in a rounded number', function (t) {
+testCase('clicking barman with a number should result in a rounded number', function (t) {
   // Arrange
   var barman = document.querySelector('.barman');
   var square = document.querySelector('.square');
@@ -82,7 +82,7 @@ setdown('clicking barman with a number should result in a rounded number', funct
   t.equal(result[0].innerText, 'Rounded to ' + Math.round(value) + '. Another round?');
 });
 
-setdown('clicking barman with a number should result in a rounded number', function (t) {
+testCase('clicking barman with two values should produce two results', function (t) {
   // Arrange
   var barman = document.querySelector('.barman');
   var square = document.querySelector('.square');
@@ -92,17 +92,21 @@ setdown('clicking barman with a number should result in a rounded number', funct
   // Act
   square.value = value.toString();
   barman.click();
+  square.value = '3';
+  barman.click();
   result = document.querySelectorAll('.result p');
 
   // Assert
-  t.plan(4);
+  t.plan(6);
   t.ok(barman);
-  t.equal(result.length, 1);
+  t.equal(result.length, 2);
   t.equal(result[0].className, 'rounded');
   t.equal(result[0].innerText, 'Rounded to ' + Math.round(value) + '. Another round?');
+  t.equal(result[1].className, 'error');
+  t.equal(result[1].innerText, 'You are such a unit. Integers cannot be rounded!');
 });
 
-setdown('clicking clear when empty does not throw', function (t) {
+testCase('clicking clear when empty does not throw', function (t) {
   // Arrange
   var clear = document.querySelector('.clear');
 
@@ -114,7 +118,7 @@ setdown('clicking clear when empty does not throw', function (t) {
   });
 });
 
-setdown('clicking clear with results removes them', function (t) {
+testCase('clicking clear with results removes them', function (t) {
   // Arrange
   var barman = document.querySelector('.barman');
   var square = document.querySelector('.square');
