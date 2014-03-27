@@ -2,21 +2,24 @@ var test = require('tape');
 var bar = require('../src/event-bar.js');
 
 function setup () {
-  function add (opt) {
-    var element = document.createElement(opt.type || 'div');
-    element.className = opt.className || opt;
+  function add (type, className) {
+    var element = document.createElement(type);
+    element.className = className;
     document.body.appendChild(element);
   }
-  ['barman', { className: 'square', type: 'input' }, 'result', 'clear'].forEach(add);
+  add('input', 'square');
+  add('div', 'barman');
+  add('div', 'result');
+  add('div', 'clear');
   bar();
 }
 
 function teardown () {
-  function rm (className) {
-    var element = document.querySelector(className);
+  var selectors = ['.barman', '.square', '.result', '.clear'];
+  selectors.forEach(function (selector) {
+    var element = document.querySelector(selector);
     element.parentNode.removeChild(element);
-  }
-  ['.barman', '.square', '.result', '.clear'].forEach(rm);
+  });
 }
 
 function testCase (name, cb) {
@@ -105,7 +108,7 @@ testCase('clicking barman with two values should produce two results', function 
   t.equal(result[1].innerText, 'You are such a unit. Integers cannot be rounded!');
 });
 
-testCase('clicking clear when empty does not throw', function (t) {
+testCase('clicking clear when the list is empty does not throw', function (t) {
   // Arrange
   var clear = document.querySelector('.clear');
 
@@ -117,7 +120,7 @@ testCase('clicking clear when empty does not throw', function (t) {
   });
 });
 
-testCase('clicking clear with results removes them', function (t) {
+testCase('clicking clear removes any results in the list', function (t) {
   // Arrange
   var barman = document.querySelector('.barman');
   var square = document.querySelector('.square');
