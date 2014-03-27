@@ -17,6 +17,8 @@ All samples are self-contained, ready to use, and sensibly documented.
 - [Proxying Your Dependencies](https://github.com/bevacqua/buildfirst/tree/master/ch08/05_proxying-your-dependencies)
 - [Fake `XmlHTTPRequest` Requests](https://github.com/bevacqua/buildfirst/tree/master/ch08/06_fake-xhr-requests)
 - [DOM Interaction Testing](https://github.com/bevacqua/buildfirst/tree/master/ch08/07_dom-interaction-testing)
+- [Grunt `tape` Automation](https://github.com/bevacqua/buildfirst/tree/master/ch08/08_grunt-tape-automation)
+- [Grunt `tape` Browser Automation](https://github.com/bevacqua/buildfirst/tree/master/ch08/09_grunt-tape-browser)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
 
