@@ -9,22 +9,25 @@ module.exports = function () {
 
   function round () {
     var number = parseFloat(square.value);
+    rounding(number, report);
+  }
+
+  function rounding (number, done) {
     if (isNaN(number)) {
-      rounded('Do you even know what a number is?');
-    }
-    else if (number === Math.round(number)) {
-      rounded('You are such a unit. Integers cannot be rounded!');
+      done(new Error('Do you even know what a number is?'));
+    } else if (number === Math.round(number)) {
+      done(new Error('You are such a unit. Integers cannot be rounded!'));
     } else {
-      rounded(null, Math.round(number));
+      done(null, Math.round(number));
     }
   }
 
-  function rounded (err, value) {
+  function report (err, value) {
     var p = document.createElement('p');
 
     if (err) {
       p.className = 'error';
-      p.innerText = err;
+      p.innerText = err.message;
     } else {
       p.className = 'rounded';
       p.innerText = 'Rounded to ' + value + '. Another round?';
