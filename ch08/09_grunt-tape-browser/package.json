@@ -17,6 +17,8 @@
     "grunt": "^0.4.4",
     "grunt-browserify": "^2.0.1",
     "grunt-tape": "0.0.2",
-    "grunt-contrib-clean": "^0.5.0"
+    "grunt-contrib-clean": "^0.5.0",
+    "karma": "^0.12.1",
+    "grunt-karma": "^0.8.2"
   }
 }

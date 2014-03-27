@@ -12,15 +12,15 @@ module.exports = function (grunt) {
         }
       }
     },
-    tape: {
-      files: ['test/*.js']
+    karma: {
+      files: ['test/build/test-bundle.js']
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-browserify');
-  grunt.loadNpmTasks('grunt-tape');
+  grunt.loadNpmTasks('grunt-karma');
 
   grunt.registerTask('build-tests', ['clean:tests', 'browserify:tests']);
-  grunt.registerTask('test', ['build-tests', 'tape']);
+  grunt.registerTask('test', ['build-tests', 'karma']);
 };
