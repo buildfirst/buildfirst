@@ -11,16 +11,12 @@ module.exports = function (grunt) {
           'test/build/test-bundle.js': ['test/*.js']
         }
       }
-    },
-    karma: {
-      files: ['test/build/test-bundle.js']
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-browserify');
-  grunt.loadNpmTasks('grunt-karma');
 
   grunt.registerTask('build-tests', ['clean:tests', 'browserify:tests']);
-  grunt.registerTask('test', ['build-tests', 'karma']);
+  grunt.registerTask('test', ['build-tests']);
 };
