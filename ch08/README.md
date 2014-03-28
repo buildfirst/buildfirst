@@ -19,6 +19,7 @@ All samples are self-contained, ready to use, and sensibly documented.
 - [DOM Interaction Testing](https://github.com/bevacqua/buildfirst/tree/master/ch08/07_dom-interaction-testing)
 - [Grunt `tape` Automation (Node)](https://github.com/bevacqua/buildfirst/tree/master/ch08/08_grunt-tape-node)
 - [Grunt `tape` Automation (Browser)](https://github.com/bevacqua/buildfirst/tree/master/ch08/09_grunt-tape-browser)
+- [Visual Testing](https://github.com/bevacqua/buildfirst/tree/master/ch08/10_visual-testing)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
 
