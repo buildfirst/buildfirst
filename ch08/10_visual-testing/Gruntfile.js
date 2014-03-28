@@ -4,9 +4,9 @@ module.exports = function (grunt) {
       all: 'build'
     },
     photobox: {
-      bevacqua: {
+      buildfirst: {
         options: {
-          urls: ['http://bevacqua.io', 'http://bevacqua.io/bf', 'http://blog.ponyfoo.com/2013/03/12/introduction-to-seo-and-content-indexing'],
+          urls: ['http://bevacqua.io/bf'],
           indexPath: 'build/photobox',
           screenSizes: ['320', '960', '1440']
         }
