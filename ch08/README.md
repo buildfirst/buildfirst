@@ -4,7 +4,7 @@
 
 Yay. Unit tests. This chapter focuses on unit testing JavaScript components. You'll learn about writing tests using `tape`, you'll learn unit testing principles, and we'll apply them to JavaScript code. Afterwards, we'll automate unit tests in the browser which can also be run through Node. These are the samples as discussed through the chapter, in the same order of appearance.
 
-![testling.png][1]
+![tape.png][1] ![testling.png][2]
 
 All samples are self-contained, ready to use, and sensibly documented.
 
@@ -23,4 +23,5 @@ All samples are self-contained, ready to use, and sensibly documented.
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
 
-  [1]: https://raw.github.com/bevacqua/buildfirst/master/images/testling_mission_control.png "Testling, a test automation tool written by @substack"
+[1]: https://raw.github.com/bevacqua/buildfirst/master/images/tape.png "Tape, a test harness written by @substack"
+[2]: https://raw.github.com/bevacqua/buildfirst/master/images/testling_mission_control.png "Testling, a test automation tool written by @substack"
