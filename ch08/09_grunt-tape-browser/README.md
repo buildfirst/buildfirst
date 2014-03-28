@@ -2,7 +2,13 @@
 
 This example is notoriously similar to the previous one, where we ran tests in Node, except that the tests are ran through `testling` instead. Testling executes our tests in browsers, and [it can be configured][2] to run on different ones, as well.
 
-The Grunt task requires no configuration, but you'll have to configure Testling in your `package.json` file. Check out the [_Advanced Testling Configuration_][3] documentation.
+The `testling` Grunt task requires no Grunt configuration, but you'll have to configure Testling in your `package.json` file, instead. Check out the [_Advanced Testling Configuration_][3] documentation.
+
+The command below runs the tests using Testling.
+
+```shell
+grunt test
+```
 
 ![testling-browser.png][4]
 
