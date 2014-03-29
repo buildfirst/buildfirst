@@ -19,7 +19,7 @@ module.exports = function(grunt){
     connect(options.credentials, rollback);
 
     function rollback(connection){
-      grunt.log.write('Switching to \"' + options.db + '\" db...');
+      grunt.log.write('Switching to "' + options.db + '" db...');
 
       // switch to the database
       connection.query('use ' + options.db, function(err){

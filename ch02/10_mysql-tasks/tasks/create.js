@@ -13,9 +13,9 @@ module.exports = function(grunt){
 
     // establish a connection with MySQL server
     connect(options.credentials, create);
-    
+
     function create(connection){
-      grunt.log.write('Creating \"' + options.db + '\" db...');
+      grunt.log.write('Creating "' + options.db + '" db...');
 
       // create the database
       connection.query('create database ' + options.db, function(err){
