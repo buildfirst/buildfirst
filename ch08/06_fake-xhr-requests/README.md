@@ -45,7 +45,7 @@ node src/qotd
 [1]: https://raw.github.com/bevacqua/buildfirst/master/images/real-xhr.png "A real XHR request"
 [2]: https://raw.github.com/bevacqua/buildfirst/master/images/fake-xhr.png "A fake XHR request in our tests"
 [3]: http://sinonjs.org/docs/#server "Fake XHR and server"
-[4]: https://raw.github.com/bevacqua/buildfirst/master/ch08/06_fake-xhr-requests/src/qotd.js
-[5]: https://raw.github.com/bevacqua/buildfirst/master/ch08/06_fake-xhr-requests/test/qotd.js
+[4]: https://github.com/bevacqua/buildfirst/blob/master/ch08/06_fake-xhr-requests/src/qotd.js
+[5]: https://github.com/bevacqua/buildfirst/blob/master/ch08/06_fake-xhr-requests/test/qotd.js
 [6]: https://github.com/bevacqua/buildfirst/tree/master/ch08/02_tape-in-the-browser
 [7]: https://raw.github.com/bevacqua/buildfirst/master/images/real-http.png
