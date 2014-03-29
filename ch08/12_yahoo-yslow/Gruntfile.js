@@ -4,7 +4,7 @@ module.exports = function (grunt) {
       options: {
         thresholds: {
           weight: 1000,
-          speed: 3000,
+          speed: 5000,
           score: 80,
           requests: 30
         }
