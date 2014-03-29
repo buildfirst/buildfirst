@@ -21,6 +21,7 @@ All samples are self-contained, ready to use, and sensibly documented.
 - [Grunt `tape` Automation (Browser)](https://github.com/bevacqua/buildfirst/tree/master/ch08/09_grunt-tape-browser)
 - [Visual Testing](https://github.com/bevacqua/buildfirst/tree/master/ch08/10_visual-testing)
 - [Google PageSpeed Insights](https://github.com/bevacqua/buildfirst/tree/master/ch08/11_pagespeed-insights)
+- [Yahoo YSlow](https://github.com/bevacqua/buildfirst/tree/master/ch08/12_yahoo-yslow)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
 
