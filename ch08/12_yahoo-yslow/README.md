@@ -14,10 +14,9 @@ grunt yslow:desktop
 
 That's it!
 
-![yslow-grunt.png][3]
+![yslow-grunt.png][4]
 
 [1]: http://developer.yahoo.com/yslow/
 [2]: https://raw.github.com/bevacqua/buildfirst/master/images/yslow.png
 [3]: https://github.com/andyshora/grunt-yslow
-[3]: https://raw.github.com/bevacqua/buildfirst/master/images/yslow-grunt.png
-[4]: https://code.google.com/apis/console
+[4]: https://raw.github.com/bevacqua/buildfirst/master/images/yslow-grunt.png
