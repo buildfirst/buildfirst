@@ -5,7 +5,7 @@
 
 Accompanying code samples and snippets for the _JavaScript Application Design: A Build First Approach_ book.
 
-This are the accompanying code samples and snippets for a book I wrote about **JavaScript build processes and application architecture**. The samples are organized by chapter, and they appear in the same order as they do in the book, for convenience. Many [other resources for this book are listed in its website][2], such as links to _blog posts, articles, essays, books_, and any other particularly relevant topics discussed throughout the book.
+These are the accompanying code samples and snippets for a book I wrote about **JavaScript build processes and application architecture**. The samples are organized by chapter, and they appear in the same order as they do in the book, for convenience. Many [other resources for this book are listed in its website][2], such as links to _blog posts, articles, essays, books_, and any other particularly relevant topics discussed throughout the book.
 
 #### Fell out of the skies and would like to learn more about the book?
 
