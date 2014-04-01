@@ -41,7 +41,7 @@ All samples are self-contained, ready to use, and sensibly documented.
 ##### ES6 Generators
 
 - [Generator Basics](https://github.com/bevacqua/buildfirst/tree/master/ch06/12_generator-basics)
-    - [Infinite Sequence](https://github.com/bevacqua/buildfirst/tree/master/ch06/12_generator-basics/01_even-stream.js)
+    - [Infinite Sequence](https://github.com/bevacqua/buildfirst/tree/master/ch06/12_generator-basics/01_fibonacci-sequence.js)
     - [Iterate Using For Of](https://github.com/bevacqua/buildfirst/tree/master/ch06/12_generator-basics/02_for-of.js)
 - [Asynchronicity and Generators](https://github.com/bevacqua/buildfirst/tree/master/ch06/13_generator-flow)
 
