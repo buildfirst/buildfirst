@@ -2,7 +2,7 @@
 
 ![es6.png][5]
 
-To run the generator examples, you should get Node [`v0.11.x` or later][4], which you can easily fetch, install, and use, with [nvm][1]. Then, you must pass the `--harmony` flag to the `node` CLI when executing a script, that'll enable ES6 features such as generators, including the `function* ()` construct, the `yield` keyword, and the `for..of` construct.
+To run the generator examples, you should get Node [`v0.11.x` or later][4], which you can easily fetch, install, and use, with [nvm][1]. Then, you must pass the `--harmony` flag to the `node` CLI when executing a script, that'll enable ES6 features such as generators, including the `function* ()` construct, the `yield` keyword, and the `for..of` construct. Alternatively you could try them on the [es6fiddle][6] site online.
 
 The [`fibonacci-sequence`][2] example shows how to use a generator to represent an infinite sequence, and how to loop through some of its values.
 
@@ -21,3 +21,4 @@ node --harmony 02_for-of
 [3]: https://github.com/bevacqua/buildfirst/tree/master/ch06/12_generator-basics/02_for-of.js
 [4]: http://nodejs.org/dist
 [5]: https://raw.github.com/bevacqua/buildfirst/master/images/es6.png
+[6]: http://es6fiddle.com

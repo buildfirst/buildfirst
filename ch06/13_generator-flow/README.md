@@ -2,7 +2,7 @@
 
 ![es6.png][1]
 
-To run the generator examples, you should get Node [`v0.11.x` or later][2], which you can easily fetch, install, and use, with [nvm][3]. Then, you must pass the `--harmony` flag to the `node` CLI when executing a script, that'll enable ES6 features such as generators, including the `function* ()` construct, the `yield` keyword, and the `for..of` construct.
+To run the generator examples, you should get Node [`v0.11.x` or later][2], which you can easily fetch, install, and use, with [nvm][3]. Then, you must pass the `--harmony` flag to the `node` CLI when executing a script, that'll enable ES6 features such as generators, including the `function* ()` construct, the `yield` keyword, and the `for..of` construct. Alternatively you could try them on the [es6fiddle][5] site online.
 
 ```js
 node --harmony usage
@@ -32,3 +32,4 @@ The [`flow`][4] method is a quite a bit commented, to help you figure out how it
 [2]: http://nodejs.org/dist
 [3]: https://github.com/creationix/nvm
 [4]: https://github.com/bevacqua/buildfirst/tree/master/ch06/13_generator-flow/flow.js
+[5]: http://es6fiddle.com
