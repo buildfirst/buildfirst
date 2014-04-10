@@ -9,6 +9,9 @@ module.exports = function (grunt) {
       app: {
         files: {
           'build/bundle.js': ['app.js']
+        },
+        options: {
+          transform: ['brfs']
         }
       }
     }
