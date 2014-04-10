@@ -1,8 +1,6 @@
-# Introducing Backbone
+# Adding delete buttons
 
 [![backbone.png][1]][2]
-
-This example introduces you to the wonderful experience of developing MVC applications in the client-side. As we mentioned in Chapter 5, we'll stick to Common.JS and use [Browserify][3] to effortlessly translate those modules into a browser-ready bundle.
 
 It might be hard for you to eye-parse this example without walking through the introductory materials on [Backbone][2] in Chapter 7 first, so I suggest you read about MVC and [Backbone][2] in the book before going through this example.
 
@@ -18,10 +16,16 @@ Once you build it, you can see it in action just opening the HTML page. Make sur
 open app.html
 ```
 
-That's about it. This demo show-cases some of the most basic pieces of Backbone. Its models, which contain the data used to prepare your views; and the views, which are used to render the data from the models. To render the views, we're using [Mustache][5], a popular templating library.
+In this one, we're building upon the previous example, [**ch07e01** Introducing Backbone][6], adding a delete button on each item in our list and introducing new concepts such as Collections and Backbone Models.
+
+![backbone-delete.png][7]
+
+Browse the code and check out the comments to learn more!
 
 [1]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone.png
 [2]: http://backbonejs.org/ "Backbone.js MVC Framework"
 [3]: http://browserify.org/
 [4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/11_browserify-cjs
 [5]: http://mustache.github.io/
+[6]: https://github.com/bevacqua/buildfirst/tree/master/ch07/01_introducing-backbone
+[7]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone-delete.png
