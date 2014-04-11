@@ -17,7 +17,7 @@ module chickenCoup {
   export function getChicken (id) {
     return chickens[id];
   };
-};
+}
 
 // note imported methods are part of the current context
 // in this case, that's the global namespace
