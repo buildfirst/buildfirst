@@ -22,7 +22,7 @@ module.exports = base(template).extend({
 
     this.model = {
       shopping_list: this.collection.toJSON(),
-      index: function () {
+      autoincrement: function () {
         return i++;
       }
     };
