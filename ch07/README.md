@@ -2,9 +2,7 @@
 
 ##### _(Part II, Chapter 7)_
 
-In this chapter, the focus is on modular application building, with a twist. Rather than focus on how to organize our files themselves, which we've already discussed at length in [Chapter 5][1], we'll learn all about the Model-View-Controller (MVC) pattern
-
-These are the samples as discussed through the chapter, in the same order of appearance.
+In this chapter, the focus is on modular application building, with a twist. Rather than focus on how to organize our files themselves, which we've already discussed at length in [Chapter 5][1], I'll focus on organization at the application level. We'll learn all about the Model-View-Controller (MVC) pattern, and how to apply it in JavaScript code. In particular, how to apply it in client-side JavaScript. You'll get a good look at the [Backbone][3] library, which is a popular foundation for developing complex MVC applications. These are the samples as discussed through the chapter, in the same order of appearance.
 
 All samples are self-contained, ready to use, and sensibly documented.
 
@@ -17,3 +15,4 @@ For questions or feedback refer to my [contact information](https://github.com/b
 
 [1]: https://github.com/bevacqua/buildfirst/tree/master/ch05
 [2]: http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
+[3]: http://backbonejs.org/
