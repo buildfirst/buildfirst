@@ -6,10 +6,10 @@ module.exports = base(template).extend({
   el: '.list',
   model: {
     shopping_list: [
-      { name: "Banana", amount: 3 },
-      { name: "Strawberry", amount: 8 },
-      { name: "Almond", amount: 34 },
-      { name: "Chocolate Bar", amount: 1 }
+      { name: 'Banana', amount: 3 },
+      { name: 'Strawberry', amount: 8 },
+      { name: 'Almond', amount: 34 },
+      { name: 'Chocolate Bar', amount: 1 }
     ]
   }
 });
