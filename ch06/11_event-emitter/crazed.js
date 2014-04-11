@@ -37,12 +37,13 @@ function addBeater (s) {
   beats.on('ripple', inc.bind(null, 'ripples'));
 
   beats.on('calm', function () {
+    var other;
     var n = Math.random();
     if (n < Math.max(0.04, 0.2 / beaters.length)) {
       console.log('%s GIVING BIRTH!', beats.n);
       addBeater(Math.floor(Math.random() * 10 + 10));
     } else if (beaters.length > 2 && n < 0.2) {
-      var other = rnd(beaters);
+      other = rnd(beaters);
       if (other !== beats) {
         console.log('%s killing %s!', beats.n, other.n);
         inc('kills');
@@ -53,7 +54,7 @@ function addBeater (s) {
       inc('suicides');
       beats.emit('die');
     } else if (n < 0.6) {
-      var other = rnd(beaters);
+      other = rnd(beaters);
       if (other !== beats) {
         console.log('%s pumping %s!', beats.n, other.n);
         inc('pumps');

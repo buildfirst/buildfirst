@@ -20,7 +20,7 @@
 
     // init accessible data
     this.delay = 3000;
-  };
+  }
 
   Lib.prototype.version = '0.0.1';
 

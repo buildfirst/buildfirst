@@ -13,4 +13,4 @@ module.exports = {
       done(null, users[query.id]);
     }, 2000);
   }
-}
+};

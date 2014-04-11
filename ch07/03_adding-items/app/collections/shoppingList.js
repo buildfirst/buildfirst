@@ -1,4 +1,3 @@
-var _ = require('lodash');
 var Backbone = require('backbone');
 var ShoppingItem = require('../models/shoppingItem.js');
 

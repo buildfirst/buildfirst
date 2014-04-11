@@ -8,7 +8,7 @@
           return processData(data, function (copy) {
             copy.append = true;
             done(copy);
-          };
+          });
         } else {
           reportError(function () {
             console.log('data processing failed.', err);

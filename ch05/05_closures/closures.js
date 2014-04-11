@@ -1,6 +1,8 @@
 // Pick an style and stick to it. Be consistent.
 // Consistency is of the utmost importance in attaining maintainability
 
+// jshint expr: true
+
 (function() {
     // child scope
 })();

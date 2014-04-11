@@ -6,5 +6,6 @@ test();
 var test = function () {
   console.log(typeof value);
   console.log(value);
-  var value = 3;
-}
+
+  var value = 3; // jshint ignore:line
+};
