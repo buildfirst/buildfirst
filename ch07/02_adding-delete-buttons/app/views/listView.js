@@ -14,10 +14,10 @@ module.exports = base(template).extend({
       new ShoppingItem({ name: 'Chocolate Bar', amount: 1 })
     ];
     this.collection = new ShoppingList(items);
-    this.collection.on('remove', this.updateModel, this);
-    this.updateModel();
+    this.collection.on('remove', this.updateView, this);
+    this.updateView();
   },
-  updateModel: function () {
+  updateView: function () {
     var i = 0;
 
     this.model = {

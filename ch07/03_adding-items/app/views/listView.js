@@ -15,27 +15,20 @@ module.exports = base(template).extend({
       new ShoppingItem({ name: 'Chocolate Bar', amount: 1 })
     ];
     this.collection = new ShoppingList(items);
-    this.collection.on('remove', this.updateModel, this);
-    this.collection.on('add', this.updateModel, this);
-    this.collection.on('change', this.updateModel, this);
-    this.collection.on('invalid', this.updateModelInvalid, this);
-    this.updateModel();
+    this.collection.on('remove', this.updateView, this);
+    this.collection.on('add', this.updateView, this);
+    this.collection.on('change', this.updateView, this);
+    this.collection.on('invalid', this.updateViewValidated, this);
+    this.updateView();
   },
-  updateModel: function () {
-    var i = 0;
-    this.model = {
-      shopping_list: this.collection.toJSON(),
-      autoincrement: function () {
-        return i++;
-      }
-    };
-    this.render();
+  updateView: function () {
+    this.updateViewValidated(this.collection);
   },
-  updateModelInvalid: function (collection, error) {
+  updateViewValidated: function (collection, error) {
     var i = 0;
     this.model = {
       error: error,
-      shopping_list: this.collection.toJSON(),
+      shopping_list: collection.toJSON(),
       autoincrement: function () {
         return i++;
       }
