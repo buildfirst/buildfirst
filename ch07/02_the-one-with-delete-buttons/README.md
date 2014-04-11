@@ -1,4 +1,4 @@
-# Adding Delete Buttons
+# The One With Delete Buttons
 
 [![backbone.png][1]][2]
 

@@ -9,8 +9,9 @@ All samples are self-contained, ready to use, and sensibly documented.
 ### Contents
 
 - [Introducing Backbone](https://github.com/bevacqua/buildfirst/tree/master/ch07/01_introducing-backbone)
-- [Adding Delete Buttons](https://github.com/bevacqua/buildfirst/tree/master/ch07/02_adding-delete-buttons)
-- [Adding Items](https://github.com/bevacqua/buildfirst/tree/master/ch07/03_adding-items)
+- [The One With Delete Buttons](https://github.com/bevacqua/buildfirst/tree/master/ch07/02_the-one-with-delete-buttons)
+- [Creating Items](https://github.com/bevacqua/buildfirst/tree/master/ch07/03_creating-items)
+- [Item Editing](https://github.com/bevacqua/buildfirst/tree/master/ch07/04_item-editing)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
 
