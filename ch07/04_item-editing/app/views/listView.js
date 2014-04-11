@@ -33,7 +33,8 @@ module.exports = base(template).extend({
   },
   events: {
     'click .remove': 'removeItem',
-    'click .add': 'addItem'
+    'click .add': 'addItem',
+    'click .edit': 'editItem'
   },
   removeItem: function (e) {
     var name = e.target.dataset.name;
@@ -50,5 +51,8 @@ module.exports = base(template).extend({
       model = { name: name, amount: amount };
       this.collection.add(model, { validate: true });
     }
+  },
+  editItem: function () {
+    throw 'Not implemented exception';
   }
 });
