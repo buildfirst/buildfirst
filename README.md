@@ -1,4 +1,4 @@
-# JavaScript Application Design
+# JavaScript Application Design [![Build Status](https://travis-ci.org/bevacqua/buildfirst.svg?branch=master)](https://travis-ci.org/bevacqua/buildfirst)
 #### _A Build First Approach_
 
 ![buildfirst.png][1]
