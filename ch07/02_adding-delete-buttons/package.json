@@ -14,7 +14,6 @@
   "dependencies": {
     "backbone": "^1.1.2",
     "jquery": "^2.1.0",
-    "lodash": "^2.4.1",
     "mustache": "^0.8.1"
   },
   "devDependencies": {

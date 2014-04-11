@@ -1,4 +1,3 @@
-var _ = require('lodash');
 var fs = require('fs');
 var base = require('./base.js');
 var template = fs.readFileSync(__dirname + '/templates/listView.mu', { encoding: 'utf8' });
@@ -15,7 +14,7 @@ module.exports = base(template).extend({
       new ShoppingItem({ name: 'Chocolate Bar', amount: 1 })
     ];
     this.collection = new ShoppingList(items);
-    this.collection.on('remove', this.updateModel.bind(this));
+    this.collection.on('remove', this.updateModel, this);
     this.updateModel();
   },
   updateModel: function () {
