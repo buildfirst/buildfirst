@@ -18,13 +18,8 @@ module.exports = base(template).extend({
     this.updateView();
   },
   updateView: function () {
-    var i = 0;
-
     this.model = {
-      shopping_list: this.collection.toJSON(),
-      autoincrement: function () {
-        return i++;
-      }
+      shopping_list: this.collection.toJSON()
     };
     this.render();
   },
@@ -32,8 +27,8 @@ module.exports = base(template).extend({
     'click .remove': 'removeItem'
   },
   removeItem: function (e) {
-    var index = e.target.dataset.index;
-    var model = this.collection.at(index);
+    var name = e.target.dataset.name;
+    var model = this.collection.findWhere({ name: name });
     this.collection.remove(model);
   }
 });

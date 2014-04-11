@@ -25,13 +25,9 @@ module.exports = base(template).extend({
     this.updateViewValidated(this.collection);
   },
   updateViewValidated: function (collection, error) {
-    var i = 0;
     this.model = {
       error: error,
-      shopping_list: collection.toJSON(),
-      autoincrement: function () {
-        return i++;
-      }
+      shopping_list: collection.toJSON()
     };
     this.render();
   },
@@ -40,8 +36,8 @@ module.exports = base(template).extend({
     'click .add': 'addItem'
   },
   removeItem: function (e) {
-    var index = e.target.dataset.index;
-    var model = this.collection.at(index);
+    var name = e.target.dataset.name;
+    var model = this.collection.findWhere({ name: name });
     this.collection.remove(model);
   },
   addItem: function () {
