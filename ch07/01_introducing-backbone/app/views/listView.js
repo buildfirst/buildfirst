@@ -11,5 +11,8 @@ module.exports = base(template).extend({
       { name: 'Almond', amount: 34 },
       { name: 'Chocolate Bar', amount: 1 }
     ]
+  },
+  initialize: function () {
+    this.render();
   }
 });
