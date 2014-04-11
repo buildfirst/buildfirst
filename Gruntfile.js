@@ -12,13 +12,11 @@ function process (by, criteria, files) {
 }
 
 function unmatched (expression) {
-  /*jshint validthis:true */
-  return this.indexOf(expression) === -1;
+  return this.indexOf(expression) === -1; // jshint ignore:line
 }
 
 function matched (expression) {
-  /*jshint validthis:true */
-  return this.indexOf(expression) !== -1;
+  return this.indexOf(expression) !== -1; // jshint ignore:line
 }
 
 module.exports = function(grunt){
@@ -26,28 +24,16 @@ module.exports = function(grunt){
   grunt.initConfig({
     jshint: {
       node: {
-        files: {
-          src: node
-        },
-        options: {
-          jshintrc: '.jshintrc-node'
-        }
+        files: { src: node },
+        options: { jshintrc: '.jshintrc-node' }
       },
       browser: {
-        files: {
-          src: browser
-        },
-        options: {
-          jshintrc: '.jshintrc-browser'
-        }
+        files: { src: browser },
+        options: { jshintrc: '.jshintrc-browser' }
       },
       es6: {
-        files: {
-          src: es6
-        },
-        options: {
-          jshintrc: '.jshintrc-es6'
-        }
+        files: { src: es6 },
+        options: { jshintrc: '.jshintrc-es6' }
       },
       options: {
         reporter: require('jshint-stylish')
