@@ -3,3 +3,6 @@ Backbone.$ = require('jquery');
 
 var ListView = require('./app/views/listView.js');
 var list = new ListView();
+
+var insertForm = require('./app/views/insertForm.js');
+insertForm(list.collection);
