@@ -1,7 +1,7 @@
 var Backbone = require('backbone');
 var ShoppingList = require('../collections/shoppingList.js');
 var ShoppingItem = require('../models/shoppingItem.js');
-var listItem = require('./listItem.js');
+var ListItem = require('./listItem.js');
 
 module.exports = Backbone.View.extend({
   el: '.items',
@@ -20,7 +20,7 @@ module.exports = Backbone.View.extend({
   },
   render: function () {
     this.collection.models.forEach(function (model) {
-      listItem(model);
+      new ListItem(model);
     });
   },
   events: {
