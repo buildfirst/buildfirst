@@ -1,0 +1,5 @@
+- append rather than redraw everything
+  - list view gets cleaned every time
+  - shopping list items get appended
+  - insert form only once, so it works either way.
+    - appending insert form would mean that we don't need extra element.
