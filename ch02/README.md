@@ -2,7 +2,7 @@
 
 ##### _(Part I, Chapter 2)_
 
-In this chapter we cover build tasks using Grunt. These are the samples as discussed through the chapter, in the same order of appearance.
+In this chapter we cover **build tasks using Grunt**. These are the samples as discussed through the chapter, in the same order of appearance.
 
 All samples are self-contained, ready to use, and sensibly documented.
 
