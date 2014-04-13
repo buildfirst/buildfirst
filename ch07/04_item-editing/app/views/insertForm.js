@@ -2,10 +2,12 @@ var $ = require('jquery');
 var fs = require('fs');
 var base = require('./base.js');
 var template = fs.readFileSync(__dirname + '/templates/insertForm.mu', { encoding: 'utf8' });
+var ShoppingItem = require('../models/shoppingItem.js');
 
-module.exports = base(template).extend({
-  el: '.more',
+module.exports = base.extend({
+  el: '.create',
   initialize: function (collection) {
+    this.template = template;
     this.collection = collection;
     this.updateView({});
   },
@@ -17,6 +19,7 @@ module.exports = base(template).extend({
     this.render();
   },
   addItem: function () {
+    var error;
     var name = this.$('.name').val();
     var amount = parseInt(this.$('.amount').val(), 10);
     var model = this.collection.findWhere({ name: name });
@@ -25,12 +28,15 @@ module.exports = base(template).extend({
       this.updateView({
         name: name,
         amount: amount,
-        error: this.validationError
+        error: model.validationError
       });
     } else {
-      model = { name: name, amount: amount };
-      this.collection.add(model, { validate: true });
-      this.updateView({ error: this.validationError });
+      model = new ShoppingItem({ name: name, amount: amount });
+      error = model.validate(model.attributes);
+      if (!error) {
+        this.collection.add(model);
+      }
+      this.updateView({ error: error });
     }
   }
 });

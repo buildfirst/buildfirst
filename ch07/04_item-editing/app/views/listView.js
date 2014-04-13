@@ -19,6 +19,7 @@ module.exports = Backbone.View.extend({
     this.render();
   },
   render: function () {
+    this.el.innerHTML = '';
     this.collection.models.forEach(function (model) {
       new ListItem(model);
     });

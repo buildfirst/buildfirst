@@ -1,10 +1,15 @@
 var Backbone = require('backbone');
 var Mustache = require('mustache');
 
-module.exports = function (template) {
-  return Backbone.View.extend({
-    render: function () {
-      this.el.innerHTML = Mustache.to_html(template, this.model);
+module.exports = Backbone.View.extend({
+  render: function () {
+    var result;
+    if (this.append) {
+      result = Mustache.render(this.template, this.model);
+      this.$el.append(result);
+    } else {
+      result = Mustache.to_html(this.template, this.model);
+      this.$el.html(result);
     }
-  });
-};
+  }
+});

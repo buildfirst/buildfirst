@@ -1,5 +1,3 @@
-- append rather than redraw everything
-  - list view gets cleaned every time
-  - shopping list items get appended
-  - insert form only once, so it works either way.
-    - appending insert form would mean that we don't need extra element.
+- list items in a dedicated LI.
+- create LIs in listView
+- no append, just cleanup every time and use the LI
