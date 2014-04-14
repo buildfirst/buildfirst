@@ -1,3 +1,0 @@
-- list items in a dedicated LI.
-- create LIs in listView
-- no append, just cleanup every time and use the LI

@@ -1,4 +1,3 @@
-var $ = require('jquery');
 var fs = require('fs');
 var base = require('./base.js');
 var template = fs.readFileSync(__dirname + '/templates/insertForm.mu', { encoding: 'utf8' });
@@ -15,28 +14,26 @@ module.exports = base.extend({
     'click .add': 'addItem'
   },
   updateView: function (model) {
-    this.model = model;
+    this.viewModel = model;
     this.render();
   },
   addItem: function () {
-    var error;
     var name = this.$('.name').val();
     var amount = parseInt(this.$('.amount').val(), 10);
     var model = this.collection.findWhere({ name: name });
     if (model) {
       model.addToOrder(amount);
-      this.updateView({
-        name: name,
-        amount: amount,
-        error: model.validationError
-      });
     } else {
-      model = new ShoppingItem({ name: name, amount: amount });
-      error = model.validate(model.attributes);
-      if (!error) {
+      model = new ShoppingItem({ name: name, amount: amount }, { validate: true });
+
+      if (!model.validationError) {
         this.collection.add(model);
       }
-      this.updateView({ error: error });
     }
+    this.updateView({
+      name: name,
+      amount: amount,
+      error: model.validationError
+    });
   }
 });

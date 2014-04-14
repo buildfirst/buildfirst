@@ -4,7 +4,7 @@ var template = fs.readFileSync(__dirname + '/templates/listView.mu', { encoding:
 var ShoppingList = require('../collections/shoppingList.js');
 var ShoppingItem = require('../models/shoppingItem.js');
 
-module.exports = base(template).extend({
+module.exports = base.extend({
   el: '.list',
   initialize: function () {
     var items = [
@@ -13,12 +13,13 @@ module.exports = base(template).extend({
       new ShoppingItem({ name: 'Almond', amount: 34 }),
       new ShoppingItem({ name: 'Chocolate Bar', amount: 1 })
     ];
+    this.template = template;
     this.collection = new ShoppingList(items);
     this.collection.on('remove', this.updateView, this);
     this.updateView();
   },
   updateView: function () {
-    this.model = {
+    this.viewModel = {
       shopping_list: this.collection.toJSON()
     };
     this.render();

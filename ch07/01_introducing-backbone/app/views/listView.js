@@ -2,9 +2,9 @@ var fs = require('fs');
 var base = require('./base.js');
 var template = fs.readFileSync(__dirname + '/templates/listView.mu', { encoding: 'utf8' });
 
-module.exports = base(template).extend({
+module.exports = base.extend({
   el: '.list',
-  model: {
+  viewModel: {
     shopping_list: [
       { name: 'Banana', amount: 3 },
       { name: 'Strawberry', amount: 8 },
@@ -13,6 +13,7 @@ module.exports = base(template).extend({
     ]
   },
   initialize: function () {
+    this.template = template;
     this.render();
   }
 });

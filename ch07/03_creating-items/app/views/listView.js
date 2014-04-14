@@ -1,11 +1,10 @@
-var $ = require('jquery');
 var fs = require('fs');
 var base = require('./base.js');
 var template = fs.readFileSync(__dirname + '/templates/listView.mu', { encoding: 'utf8' });
 var ShoppingList = require('../collections/shoppingList.js');
 var ShoppingItem = require('../models/shoppingItem.js');
 
-module.exports = base(template).extend({
+module.exports = base.extend({
   el: '.list',
   initialize: function () {
     var items = [
@@ -14,9 +13,10 @@ module.exports = base(template).extend({
       new ShoppingItem({ name: 'Almond', amount: 34 }),
       new ShoppingItem({ name: 'Chocolate Bar', amount: 1 })
     ];
+    this.template = template;
     this.collection = new ShoppingList(items);
-    this.collection.on('remove', this.updateView, this);
     this.collection.on('add', this.updateView, this);
+    this.collection.on('remove', this.updateView, this);
     this.collection.on('change', this.updateView, this);
     this.collection.on('invalid', this.updateViewValidated, this);
     this.updateView();
@@ -25,7 +25,7 @@ module.exports = base(template).extend({
     this.updateViewValidated(this.collection);
   },
   updateViewValidated: function (collection, error) {
-    this.model = {
+    this.viewModel = {
       error: error,
       shopping_list: collection.toJSON()
     };
