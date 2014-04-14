@@ -5,4 +5,4 @@ var ListView = require('./app/views/listView.js');
 var list = new ListView();
 
 var InsertForm = require('./app/views/insertForm.js');
-var insert = new InsertForm(list.collection);
+var insert = new InsertForm({ collection: list.collection });

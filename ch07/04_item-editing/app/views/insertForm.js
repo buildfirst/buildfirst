@@ -5,17 +5,17 @@ var ShoppingItem = require('../models/shoppingItem.js');
 
 module.exports = base.extend({
   el: '.create',
-  initialize: function (collection) {
+  model: {},
+  initialize: function () {
     this.template = template;
-    this.collection = collection;
-    this.updateView({});
+    this.updateView();
+  },
+  updateView: function (vm) {
+    this.viewModel = vm || {};
+    this.render();
   },
   events: {
     'click .add': 'addItem'
-  },
-  updateView: function (model) {
-    this.viewModel = model;
-    this.render();
   },
   addItem: function () {
     var name = this.$('.name').val();
@@ -28,8 +28,11 @@ module.exports = base.extend({
 
       if (!model.validationError) {
         this.collection.add(model);
+        this.updateView();
+        return;
       }
     }
+
     this.updateView({
       name: name,
       amount: amount,

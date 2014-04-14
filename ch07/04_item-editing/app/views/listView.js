@@ -19,7 +19,10 @@ module.exports = base.extend({
     this.collection.add(items);
   },
   addItem: function (model) {
-    var item = new ListItem(model, this.collection);
+    var item = new ListItem({
+      model: model,
+      collection: this.collection
+    });
     this.el.appendChild(item.el);
     this.views[model.cid] = item;
   },
