@@ -16,7 +16,13 @@ Once you build it, you can see it in action just opening the HTML page. Make sur
 open app.html
 ```
 
-This time around, I've built upon [**ch07e03** Creating Items][6]. In this case, I've included the ability to edit existing shopping list items.
+This time around, I've built upon [**ch07e03** Creating Items][6]. In this case, I've included the ability to edit existing shopping list items. In this example, I've upgraded our view. Rather than have a single view do everything, here we have three views.
+
+- One view is in charge of the _Add Groceries_ part
+- One view is in charge of adding and removing items from the list
+- One view is in charge of individual items in the list
+
+This separation is what enables us to develop increasingly complex web applications, while keeping the code concise and manageable.
 
 ![backbone-edit.png][7]
 
