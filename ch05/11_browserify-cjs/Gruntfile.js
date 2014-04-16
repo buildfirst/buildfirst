@@ -13,8 +13,11 @@ module.exports = function (grunt) {
           'build/js/app.js': 'js/app.js'
         },
         options: {
-          // this produces a source map which gets baked into a base64 uri in the script file
-          debug: true
+          // this produces a source map which gets baked into
+          // a base64 uri embedded in the script file
+          bundleOptions: {
+            debug: true
+          }
         }
       },
 
