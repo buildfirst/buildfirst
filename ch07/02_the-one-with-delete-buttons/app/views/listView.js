@@ -6,6 +6,7 @@ var ShoppingItem = require('../models/shoppingItem.js');
 
 module.exports = base.extend({
   el: '.list',
+  template: template,
   initialize: function () {
     var items = [
       new ShoppingItem({ name: 'Banana', amount: 3 }),
@@ -13,7 +14,6 @@ module.exports = base.extend({
       new ShoppingItem({ name: 'Almond', amount: 34 }),
       new ShoppingItem({ name: 'Chocolate Bar', amount: 1 })
     ];
-    this.template = template;
     this.collection = new ShoppingList(items);
     this.collection.on('remove', this.updateView, this);
     this.updateView();

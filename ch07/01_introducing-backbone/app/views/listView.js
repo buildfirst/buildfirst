@@ -4,6 +4,7 @@ var template = fs.readFileSync(__dirname + '/templates/listView.mu', { encoding:
 
 module.exports = base.extend({
   el: '.list',
+  template: template,
   viewModel: {
     shopping_list: [
       { name: 'Banana', amount: 3 },
@@ -13,7 +14,6 @@ module.exports = base.extend({
     ]
   },
   initialize: function () {
-    this.template = template;
     this.render();
   }
 });

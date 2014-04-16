@@ -5,9 +5,8 @@ var ShoppingItem = require('../models/shoppingItem.js');
 
 module.exports = base.extend({
   el: '.create',
-  model: {},
+  template: template,
   initialize: function () {
-    this.template = template;
     this.updateView();
   },
   updateView: function (vm) {
