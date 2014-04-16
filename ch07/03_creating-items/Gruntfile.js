@@ -12,7 +12,7 @@ module.exports = function (grunt) {
           debug: true
         }
       },
-      app: {
+      debug: {
         files: {
           'build/bundle.js': 'app.js'
         }
@@ -32,6 +32,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-browserify');
 
-  grunt.registerTask('build', ['clean', 'browserify:app']);
+  grunt.registerTask('build', ['clean', 'browserify:debug']);
   grunt.registerTask('watch', ['build', 'browserify:watch']);
 };
