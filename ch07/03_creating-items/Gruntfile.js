@@ -14,12 +14,12 @@ module.exports = function (grunt) {
       },
       app: {
         files: {
-          'build/bundle.js': ['app.js']
+          'build/bundle.js': 'app.js'
         }
       },
       watch: {
         files: {
-          'build/bundle.js': ['app.js']
+          'build/bundle.js': 'app.js'
         },
         options: {
           watch: true,
