@@ -18,6 +18,12 @@ Once you build it, you can see it in action just opening the HTML page. Make sur
 open app.html
 ```
 
+Oh, also, if you want to make changes to the Backbone application, and rebuild them without runing `grunt build` every time, you could use the following command.
+
+```
+grunt watch
+```
+
 That's about it. This demo show-cases some of the most basic pieces of Backbone. Its models, which contain the data used to prepare your views; and the views, which are used to render the data from the models. To render the views, we're using [Mustache][5], a popular templating library.
 
 ![backbone-intro.png][6]

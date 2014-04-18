@@ -8,10 +8,15 @@ All samples are self-contained, ready to use, and sensibly documented.
 
 ### Contents
 
-- [Introducing Backbone](https://github.com/bevacqua/buildfirst/tree/master/ch07/01_introducing-backbone)
-- [The One With Delete Buttons](https://github.com/bevacqua/buildfirst/tree/master/ch07/02_the-one-with-delete-buttons)
-- [Creating Items](https://github.com/bevacqua/buildfirst/tree/master/ch07/03_creating-items)
-- [Item Editing](https://github.com/bevacqua/buildfirst/tree/master/ch07/04_item-editing)
+- [Backbone Views](https://github.com/bevacqua/buildfirst/tree/master/ch07/01_backbone-views)
+- [Backbone View Templates](https://github.com/bevacqua/buildfirst/tree/master/ch07/01_backbone-view-templates)
+
+TODO fix all links to these items, properly number them.
+
+- [Shopping List](https://github.com/bevacqua/buildfirst/tree/master/ch07/11_shopping-list)
+- [The One With Delete Buttons](https://github.com/bevacqua/buildfirst/tree/master/ch07/12_the-one-with-delete-buttons)
+- [Creating Items](https://github.com/bevacqua/buildfirst/tree/master/ch07/13_creating-items)
+- [Item Editing](https://github.com/bevacqua/buildfirst/tree/master/ch07/14_item-editing)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
 

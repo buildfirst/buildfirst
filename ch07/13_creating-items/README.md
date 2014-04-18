@@ -1,4 +1,4 @@
-# The One With Delete Buttons
+# Creating Items
 
 [![backbone.png][1]][2]
 
@@ -16,9 +16,15 @@ Once you build it, you can see it in action just opening the HTML page. Make sur
 open app.html
 ```
 
-In this one, we're building upon the previous example, [**ch07e01** Introducing Backbone][6], adding a delete button on each item in our list and introducing new concepts such as Collections and Backbone Models.
+Oh, also, if you want to make changes to the Backbone application, and rebuild them without runing `grunt build` every time, you could use the following command.
 
-![backbone-delete.png][7]
+```
+grunt watch
+```
+
+This time around, we're building upon the previous example, [**ch07e02** The One With Delete Buttons][6]. I've included an interface to add new items, and model validation to make sure the human enters a name for their groceries, and that the amounts remain a positive number. In addition, if the human adds an item twice, their amounts get added.
+
+![backbone-add.png][7]
 
 Browse the code and check out the comments to learn more!
 
@@ -27,5 +33,5 @@ Browse the code and check out the comments to learn more!
 [3]: http://browserify.org/
 [4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/11_browserify-cjs
 [5]: http://mustache.github.io/
-[6]: https://github.com/bevacqua/buildfirst/tree/master/ch07/01_introducing-backbone
-[7]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone-delete.png
+[6]: https://github.com/bevacqua/buildfirst/tree/master/ch07/02_the-one-with-delete-buttons
+[7]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone-add.png

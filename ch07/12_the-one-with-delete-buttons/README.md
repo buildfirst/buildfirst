@@ -1,8 +1,8 @@
-# Backbone Views
+# The One With Delete Buttons
 
 [![backbone.png][1]][2]
 
-This example introduces you to the wonderful experience of developing MVC applications in the client-side. As we mentioned in Chapter 5, we'll stick to Common.JS and use [Browserify][3] to effortlessly translate those modules into a browser-ready bundle.
+It might be hard for you to eye-parse this example without walking through the introductory materials on [Backbone][2] in Chapter 7 first, so I suggest you read about MVC and [Backbone][2] in the book before going through this example.
 
 To run this example you'll need to build the application with Browserify, I've set up Grunt for that, just like in [**ch05e11** Browserify + Common.JS][4].
 
@@ -22,11 +22,16 @@ Oh, also, if you want to make changes to the Backbone application, and rebuild t
 grunt watch
 ```
 
-That's about it. This demo shows how you can use Backbone to render a static view in your HTML. I've kept this example simple on purpose, so that you can progressively understand what is going on as we add functionality to the view. In the next example, [**ch07e02** Backbone View Templates][5], you'll learn to render the view using [Mustache][6] templates instead.
+In this one, we're building upon the previous example, [**ch07e01** Introducing Backbone][6], adding a delete button on each item in our list and introducing new concepts such as Collections and Backbone Models.
+
+![backbone-delete.png][7]
+
+Browse the code and check out the comments to learn more!
 
 [1]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone.png
 [2]: http://backbonejs.org/ "Backbone.js MVC Framework"
 [3]: http://browserify.org/
 [4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/11_browserify-cjs
-[5]: https://github.com/bevacqua/buildfirst/tree/master/ch07/02_backbone-view-templates
-[6]: http://mustache.github.io/
+[5]: http://mustache.github.io/
+[6]: https://github.com/bevacqua/buildfirst/tree/master/ch07/01_introducing-backbone
+[7]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone-delete.png

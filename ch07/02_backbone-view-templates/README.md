@@ -1,4 +1,4 @@
-# Creating Items
+# Backbone View Templates
 
 [![backbone.png][1]][2]
 
@@ -16,16 +16,17 @@ Once you build it, you can see it in action just opening the HTML page. Make sur
 open app.html
 ```
 
-This time around, we're building upon the previous example, [**ch07e02** The One With Delete Buttons][6]. I've included an interface to add new items, and model validation to make sure the human enters a name for their groceries, and that the amounts remain a positive number. In addition, if the human adds an item twice, their amounts get added.
+Oh, also, if you want to make changes to the Backbone application, and rebuild them without runing `grunt build` every time, you could use the following command.
 
-![backbone-add.png][7]
+```
+grunt watch
+```
 
-Browse the code and check out the comments to learn more!
+That's about it. This demo shows how you can use Backbone to render a static view in your HTML. I've kept this example simple on purpose, so that you can progressively understand what is going on as we add functionality to the view. In the next example, [**ch07e02** Backbone View Templates][5], you'll learn to render the view using [Mustache][6] templates instead.
 
 [1]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone.png
 [2]: http://backbonejs.org/ "Backbone.js MVC Framework"
 [3]: http://browserify.org/
 [4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/11_browserify-cjs
-[5]: http://mustache.github.io/
-[6]: https://github.com/bevacqua/buildfirst/tree/master/ch07/02_the-one-with-delete-buttons
-[7]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone-add.png
+[5]: https://github.com/bevacqua/buildfirst/tree/master/ch07/02_backbone-view-templates
+[6]: http://mustache.github.io/
