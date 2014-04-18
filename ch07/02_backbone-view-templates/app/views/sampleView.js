@@ -4,11 +4,5 @@ var template = fs.readFileSync(__dirname + '/templates/sampleView.mu', { encodin
 
 module.exports = base.extend({
   el: '.view',
-  template: template,
-  viewModel: {
-    foo: 'Very amusing template'
-  },
-  initialize: function () {
-    this.render();
-  }
+  template: template
 });
