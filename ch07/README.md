@@ -10,6 +10,7 @@ All samples are self-contained, ready to use, and sensibly documented.
 
 - [Backbone Views](https://github.com/bevacqua/buildfirst/tree/master/ch07/01_backbone-views)
 - [Backbone View Templates](https://github.com/bevacqua/buildfirst/tree/master/ch07/01_backbone-view-templates)
+- [Backbone Models](https://github.com/bevacqua/buildfirst/tree/master/ch07/01_backbone-models)
 
 TODO fix all links to these items, properly number them.
 
