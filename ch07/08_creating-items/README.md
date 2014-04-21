@@ -1,4 +1,4 @@
-# Item Editing
+# Creating Items
 
 [![backbone.png][1]][2]
 
@@ -22,15 +22,9 @@ Oh, also, if you want to make changes to the Backbone application, and rebuild t
 grunt watch
 ```
 
-This time around, I've built upon [**ch07e03** Creating Items][6]. In this case, I've included the ability to edit existing shopping list items. In this example, I've upgraded our view. Rather than have a single view do everything, here we have three views.
+This time around, we're building upon the previous example, [**ch07e02** The One With Delete Buttons][6]. I've included an interface to add new items, and model validation to make sure the human enters a name for their groceries, and that the amounts remain a positive number. In addition, if the human adds an item twice, their amounts get added.
 
-- One view is in charge of the _Add Groceries_ part
-- One view is in charge of adding and removing items from the list
-- One view is in charge of individual items in the list
-
-This separation is what enables us to develop increasingly complex web applications, while keeping the code concise and manageable.
-
-![backbone-edit.png][7]
+![backbone-add.png][7]
 
 Browse the code and check out the comments to learn more!
 
@@ -39,5 +33,5 @@ Browse the code and check out the comments to learn more!
 [3]: http://browserify.org/
 [4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/11_browserify-cjs
 [5]: http://mustache.github.io/
-[6]: https://github.com/bevacqua/buildfirst/tree/master/ch07/03_creating-items
-[7]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone-edit.png
+[6]: https://github.com/bevacqua/buildfirst/tree/master/ch07/07_the-one-with-delete-buttons
+[7]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone-add.png

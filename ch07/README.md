@@ -8,18 +8,20 @@ All samples are self-contained, ready to use, and sensibly documented.
 
 ### Contents
 
-- [Backbone Views](https://github.com/bevacqua/buildfirst/tree/master/ch07/01_backbone-views)
-- [Backbone View Templates](https://github.com/bevacqua/buildfirst/tree/master/ch07/02_backbone-view-templates)
-- [Backbone Models](https://github.com/bevacqua/buildfirst/tree/master/ch07/03_backbone-models)
-- [Backbone Collections](https://github.com/bevacqua/buildfirst/tree/master/ch07/04_backbone-collections)
-- [Backbone Routing](https://github.com/bevacqua/buildfirst/tree/master/ch07/05_backbone-routing)
+- **Backbone Basics**
 
-TODO fix all links to these items, properly number them.
+  - [Views](https://github.com/bevacqua/buildfirst/tree/master/ch07/01_backbone-views)
+  - [View Templates](https://github.com/bevacqua/buildfirst/tree/master/ch07/02_backbone-view-templates)
+  - [Models](https://github.com/bevacqua/buildfirst/tree/master/ch07/03_backbone-models)
+  - [Collections](https://github.com/bevacqua/buildfirst/tree/master/ch07/04_backbone-collections)
+  - [Routing](https://github.com/bevacqua/buildfirst/tree/master/ch07/05_backbone-routing)
 
-- [Shopping List](https://github.com/bevacqua/buildfirst/tree/master/ch07/11_shopping-list)
-- [The One With Delete Buttons](https://github.com/bevacqua/buildfirst/tree/master/ch07/12_the-one-with-delete-buttons)
-- [Creating Items](https://github.com/bevacqua/buildfirst/tree/master/ch07/13_creating-items)
-- [Item Editing](https://github.com/bevacqua/buildfirst/tree/master/ch07/14_item-editing)
+- **Case Study: _The Shopping List_**
+
+  - [Shopping List](https://github.com/bevacqua/buildfirst/tree/master/ch07/06_shopping-list)
+  - [The One With Delete Buttons](https://github.com/bevacqua/buildfirst/tree/master/ch07/07_the-one-with-delete-buttons)
+  - [Creating Items](https://github.com/bevacqua/buildfirst/tree/master/ch07/08_creating-items)
+  - [Item Editing](https://github.com/bevacqua/buildfirst/tree/master/ch07/09_item-editing)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
 
