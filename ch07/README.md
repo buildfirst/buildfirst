@@ -9,8 +9,9 @@ All samples are self-contained, ready to use, and sensibly documented.
 ### Contents
 
 - [Backbone Views](https://github.com/bevacqua/buildfirst/tree/master/ch07/01_backbone-views)
-- [Backbone View Templates](https://github.com/bevacqua/buildfirst/tree/master/ch07/01_backbone-view-templates)
-- [Backbone Models](https://github.com/bevacqua/buildfirst/tree/master/ch07/01_backbone-models)
+- [Backbone View Templates](https://github.com/bevacqua/buildfirst/tree/master/ch07/02_backbone-view-templates)
+- [Backbone Models](https://github.com/bevacqua/buildfirst/tree/master/ch07/03_backbone-models)
+- [Backbone Collections](https://github.com/bevacqua/buildfirst/tree/master/ch07/04_backbone-collections)
 
 TODO fix all links to these items, properly number them.
 
