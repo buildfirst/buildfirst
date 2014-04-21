@@ -22,14 +22,14 @@ Oh, also, if you want to make changes to the Backbone application, and rebuild t
 grunt watch
 ```
 
-That's about it. This demo shows how you can use Backbone to render a view in your HTML using Mustache templates. I've kept this example simple on purpose, so that you can progressively understand what is going on as we add functionality to the view.
+That's about it. This demo shows how you can use Backbone models to compute properties and react to changes in your data. I've kept this example simple on purpose, so that you can progressively understand what is going on as we add functionality to the view.
 
-![backbone-templates.png][7]
+![backbone-models.png][7]
 
 [1]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone.png
 [2]: http://backbonejs.org/ "Backbone.js MVC Framework"
 [3]: http://browserify.org/
 [4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/11_browserify-cjs
-[5]: https://github.com/bevacqua/buildfirst/tree/master/ch07/02_backbone-view-templates
+[5]: https://github.com/bevacqua/buildfirst/tree/master/ch07/02_backbone-view-models
 [6]: http://mustache.github.io/
-[7]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone-templates.png
+[7]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone-models.png

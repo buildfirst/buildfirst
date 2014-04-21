@@ -22,7 +22,7 @@ Oh, also, if you want to make changes to the Backbone application, and rebuild t
 grunt watch
 ```
 
-That's about it. This demo shows how you can use Backbone to render a view in your HTML using Mustache templates. I've kept this example simple on purpose, so that you can progressively understand what is going on as we add functionality to the view.
+That's about it. This demo shows how you can use Backbone to render a view in your HTML using [Mustache][6] templates. I've kept this example simple on purpose, so that you can progressively understand what is going on as we add functionality to the view.
 
 ![backbone-templates.png][7]
 
