@@ -22,7 +22,7 @@ Oh, also, if you want to make changes to the Backbone application, and rebuild t
 grunt watch
 ```
 
-This time around, I've built upon [**ch07e03** Creating Items][6]. In this case, I've included the ability to edit existing shopping list items. In this example, I've upgraded our view. Rather than have a single view do everything, here we have three views.
+This time around, I've built upon [**ch07e08** Creating Items][6]. In this case, I've included the ability to edit existing shopping list items. In this example, I've upgraded our view. Rather than have a single view do everything, here we have three views.
 
 - One view is in charge of the _Add Groceries_ part
 - One view is in charge of adding and removing items from the list

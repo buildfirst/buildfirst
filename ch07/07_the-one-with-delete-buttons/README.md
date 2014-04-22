@@ -22,7 +22,7 @@ Oh, also, if you want to make changes to the Backbone application, and rebuild t
 grunt watch
 ```
 
-In this one, we're building upon the previous example, [**ch07e01** Introducing Backbone][6], adding a delete button on each item in our list and introducing new concepts such as Collections and Backbone Models.
+In this one, we're building upon the previous example, [**ch07e06** Shopping List][6], adding a delete button on each item in our list and introducing new concepts such as Collections and Backbone Models.
 
 ![backbone-delete.png][7]
 
@@ -33,5 +33,5 @@ Browse the code and check out the comments to learn more!
 [3]: http://browserify.org/
 [4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/11_browserify-cjs
 [5]: http://mustache.github.io/
-[6]: https://github.com/bevacqua/buildfirst/tree/master/ch07/01_introducing-backbone
+[6]: https://github.com/bevacqua/buildfirst/tree/master/ch07/06_shopping-list
 [7]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone-delete.png

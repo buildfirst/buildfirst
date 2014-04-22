@@ -1,6 +1,6 @@
 var fs = require('fs');
 var base = require('./base.js');
-var template = fs.readFileSync(__dirname + '/templates/insertForm.mu', { encoding: 'utf8' });
+var template = fs.readFileSync(__dirname + '/templates/addItem.mu', { encoding: 'utf8' });
 var ShoppingItem = require('../models/shoppingItem.js');
 
 module.exports = base.extend({

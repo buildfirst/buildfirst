@@ -1,8 +1,8 @@
 var Backbone = require('backbone');
 Backbone.$ = require('jquery');
 
-var ListView = require('./app/views/listView.js');
-var list = new ListView();
+var List = require('./app/views/list.js');
+var list = new List();
 
-var InsertForm = require('./app/views/insertForm.js');
-var insert = new InsertForm({ collection: list.collection });
+var AddItem = require('./app/views/addItem.js');
+var insert = new AddItem({ collection: list.collection });

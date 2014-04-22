@@ -12,7 +12,7 @@ module.exports = base.extend({
       new ShoppingItem({ name: 'Almond', amount: 34 }),
       new ShoppingItem({ name: 'Chocolate Bar', amount: 1 })
     ];
-    this.views = {};
+    this.partials = {};
     this.collection = new ShoppingList();
     this.collection.on('add', this.addItem, this);
     this.collection.on('remove', this.removeItem, this);
@@ -24,11 +24,11 @@ module.exports = base.extend({
       collection: this.collection
     });
     this.el.appendChild(item.el);
-    this.views[model.cid] = item;
+    this.partials[model.cid] = item;
   },
   removeItem: function (model) {
-    var item = this.views[model.cid];
+    var item = this.partials[model.cid];
     this.el.removeChild(item.el);
-    delete this.views[model.cid];
+    delete this.partials[model.cid];
   }
 });

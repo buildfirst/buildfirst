@@ -22,6 +22,7 @@ All samples are self-contained, ready to use, and sensibly documented.
   - [The One With Delete Buttons](https://github.com/bevacqua/buildfirst/tree/master/ch07/07_the-one-with-delete-buttons)
   - [Creating Items](https://github.com/bevacqua/buildfirst/tree/master/ch07/08_creating-items)
   - [Item Editing](https://github.com/bevacqua/buildfirst/tree/master/ch07/09_item-editing)
+  - [The Road Show](https://github.com/bevacqua/buildfirst/tree/master/ch07/10_the-road-show)
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
 

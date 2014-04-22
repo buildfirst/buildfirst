@@ -1,8 +1,6 @@
-# Introducing Backbone
+# The Road Show
 
 [![backbone.png][1]][2]
-
-This example introduces you to the wonderful experience of developing MVC applications in the client-side. As we mentioned in Chapter 5, we'll stick to Common.JS and use [Browserify][3] to effortlessly translate those modules into a browser-ready bundle.
 
 It might be hard for you to eye-parse this example without walking through the introductory materials on [Backbone][2] in Chapter 7 first, so I suggest you read about MVC and [Backbone][2] in the book before going through this example.
 
@@ -24,16 +22,16 @@ Oh, also, if you want to make changes to the Backbone application, and rebuild t
 grunt watch
 ```
 
-That's about it. This demo show-cases some of the most basic pieces of Backbone. Its models, which contain the data used to prepare your views; and the views, which are used to render the data from the models. To render the views, we're using [Mustache][5], a popular templating library.
+This is the last sample in the series, picking up where we left off at [**ch07e09** Item Editing][6]. Here I've added routing, and added a service layer to share data across views more sensibly. Oh, I also added some styles, to make our application a bit more appealing.
 
-![backbone-intro.png][6]
+![road-show.png][7]
 
-I've kept this example intentionally simple so that you can progressively understand what is going on as we add functionality to our Backbone view. In the next example, [**ch07e07** The One With Delete Buttons][7], we'll add a delete button to each item in our list.
+Browse the code and check out the comments to learn more!
 
 [1]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone.png
 [2]: http://backbonejs.org/ "Backbone.js MVC Framework"
 [3]: http://browserify.org/
 [4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/11_browserify-cjs
 [5]: http://mustache.github.io/
-[6]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone-intro.png
-[7]: https://github.com/bevacqua/buildfirst/tree/master/ch07/07_the-one-with-delete-buttons
+[6]: https://github.com/bevacqua/buildfirst/tree/master/ch07/09_item-editing
+[7]: https://raw.github.com/bevacqua/buildfirst/master/images/road-show.png
