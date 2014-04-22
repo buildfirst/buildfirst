@@ -1,5 +1,10 @@
 var Backbone = require('backbone');
-Backbone.$ = require('jquery');
+var $ = require('jquery');
+var ViewRouter = require('./app/routers/viewRouter.js');
 
-var SampleView = require('./app/views/sampleView.js');
-var view = new SampleView();
+Backbone.$ = $;
+
+$(function () {
+  new ViewRouter();
+  Backbone.history.start();
+});
