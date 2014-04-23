@@ -1,10 +1,10 @@
 var Backbone = require('backbone');
 Backbone.$ = require('jquery');
 
-var SampleView = require('./app/views/sampleView.js');
-var view = new SampleView();
+var SampleView = require('./app/views/sample.js');
+var sampleView = new SampleView();
 
-view.viewModel = {
+sampleView.viewModel = {
   name: 'Marian',
   orderId: '1234',
   items: [
@@ -14,4 +14,4 @@ view.viewModel = {
     '3 Mars Bars'
   ]
 };
-view.render();
+sampleView.render();

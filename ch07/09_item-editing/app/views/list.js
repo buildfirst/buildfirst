@@ -1,7 +1,7 @@
 var base = require('./base.js');
 var ShoppingList = require('../collections/shoppingList.js');
 var ShoppingItem = require('../models/shoppingItem.js');
-var ListItem = require('./listItem.js');
+var ListItemView = require('./listItem.js');
 
 module.exports = base.extend({
   el: '.items',
@@ -19,7 +19,7 @@ module.exports = base.extend({
     this.collection.add(items);
   },
   addItem: function (model) {
-    var item = new ListItem({
+    var item = new ListItemView({
       model: model,
       collection: this.collection
     });

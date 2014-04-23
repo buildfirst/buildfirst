@@ -1,6 +1,6 @@
 var Backbone = require('backbone');
-var List = require('../views/list.js');
-var AddItem = require('../views/addItem.js');
+var ListView = require('../views/list.js');
+var AddItemView = require('../views/addItem.js');
 
 module.exports = Backbone.Router.extend({
   routes: {
@@ -12,9 +12,9 @@ module.exports = Backbone.Router.extend({
     this.navigate('items', { trigger: true });
   },
   listItems: function () {
-    new List();
+    new ListView();
   },
   addItem: function () {
-    new AddItem();
+    new AddItemView();
   }
 });

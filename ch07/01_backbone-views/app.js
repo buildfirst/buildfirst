@@ -8,6 +8,6 @@ var SampleView = Backbone.View.extend({
   }
 });
 
-var view = new SampleView();
+var sampleView = new SampleView();
 
-view.render();
+sampleView.render();

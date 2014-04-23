@@ -1,6 +1,6 @@
 var Backbone = require('backbone');
-var ItemView = require('../views/itemView.js');
-var DetailView = require('../views/detailView.js');
+var ItemView = require('../views/item.js');
+var DetailView = require('../views/detail.js');
 
 module.exports = Backbone.Router.extend({
   routes: {

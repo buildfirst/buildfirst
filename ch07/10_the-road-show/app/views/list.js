@@ -2,7 +2,7 @@ var fs = require('fs');
 var base = require('./base.js');
 var template = fs.readFileSync(__dirname + '/templates/itemList.mu', { encoding: 'utf8' });
 var shoppingService = require('../services/shoppingService.js');
-var ListItem = require('./listItem.js');
+var ListItemView = require('./listItem.js');
 
 module.exports = base.extend({
   el: '.view',
@@ -17,7 +17,7 @@ module.exports = base.extend({
     this.collection.models.forEach(this.addItem, this);
   },
   addItem: function (model) {
-    var item = new ListItem({
+    var item = new ListItemView({
       model: model,
       collection: this.collection
     });
