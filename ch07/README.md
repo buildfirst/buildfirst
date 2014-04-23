@@ -1,4 +1,4 @@
-# Patterns, Practices, and Refactoring
+# Modular Model View Controller in the Browser
 
 ##### _(Part II, Chapter 7)_
 
