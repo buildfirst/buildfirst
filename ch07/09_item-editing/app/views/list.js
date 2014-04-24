@@ -3,7 +3,7 @@ var ShoppingList = require('../collections/shoppingList.js');
 var ListItemView = require('./listItem.js');
 
 module.exports = base.extend({
-  el: '.items',
+  el: '.view',
   collection: new ShoppingList([
     { name: 'Banana', amount: 3 },
     { name: 'Strawberry', amount: 8 },

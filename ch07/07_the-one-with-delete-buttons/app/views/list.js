@@ -4,7 +4,7 @@ var template = fs.readFileSync(__dirname + '/templates/list.mu', { encoding: 'ut
 var ShoppingList = require('../collections/shoppingList.js');
 
 module.exports = base.extend({
-  el: '.list',
+  el: '.view',
   template: template,
   collection: new ShoppingList([
     { name: 'Banana', amount: 3 },

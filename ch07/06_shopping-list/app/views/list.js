@@ -3,7 +3,7 @@ var base = require('./base.js');
 var template = fs.readFileSync(__dirname + '/templates/list.mu', { encoding: 'utf8' });
 
 module.exports = base.extend({
-  el: '.list',
+  el: '.view',
   template: template,
   viewModel: {
     shopping_list: [
