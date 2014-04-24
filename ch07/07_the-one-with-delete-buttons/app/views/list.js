@@ -2,16 +2,15 @@ var fs = require('fs');
 var base = require('./base.js');
 var template = fs.readFileSync(__dirname + '/templates/list.mu', { encoding: 'utf8' });
 var ShoppingList = require('../collections/shoppingList.js');
-var ShoppingItem = require('../models/shoppingItem.js');
 
 module.exports = base.extend({
   el: '.list',
   template: template,
   collection: new ShoppingList([
-    new ShoppingItem({ name: 'Banana', amount: 3 }),
-    new ShoppingItem({ name: 'Strawberry', amount: 8 }),
-    new ShoppingItem({ name: 'Almond', amount: 34 }),
-    new ShoppingItem({ name: 'Chocolate Bar', amount: 1 })
+    { name: 'Banana', amount: 3 },
+    { name: 'Strawberry', amount: 8 },
+    { name: 'Almond', amount: 34 },
+    { name: 'Chocolate Bar', amount: 1 }
   ]),
   initialize: function () {
     this.collection.on('remove', this.updateView, this);
