@@ -1,8 +1,8 @@
 var Backbone = require('backbone');
 Backbone.$ = require('jquery');
 
-var List = require('./app/views/list.js');
-var list = new List();
+var ListView = require('./app/views/list.js');
+var listView = new ListView();
 
-var AddItem = require('./app/views/addItem.js');
-var insert = new AddItem({ collection: list.collection });
+var AddItemView = require('./app/views/addItem.js');
+var addItemView = new AddItemView({ collection: list.collection });

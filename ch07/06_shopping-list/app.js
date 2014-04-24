@@ -1,5 +1,5 @@
 var Backbone = require('backbone');
 Backbone.$ = require('jquery');
 
-var List = require('./app/views/list.js');
-var list = new List();
+var ListView = require('./app/views/list.js');
+var listView = new ListView();
