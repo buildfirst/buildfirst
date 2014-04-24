@@ -5,18 +5,17 @@ var ListItemView = require('./listItem.js');
 
 module.exports = base.extend({
   el: '.items',
+  collection: new ShoppingList([
+    new ShoppingItem({ name: 'Banana', amount: 3 }),
+    new ShoppingItem({ name: 'Strawberry', amount: 8 }),
+    new ShoppingItem({ name: 'Almond', amount: 34 }),
+    new ShoppingItem({ name: 'Chocolate Bar', amount: 1 })
+  ]),
   initialize: function () {
-    var items = [
-      new ShoppingItem({ name: 'Banana', amount: 3 }),
-      new ShoppingItem({ name: 'Strawberry', amount: 8 }),
-      new ShoppingItem({ name: 'Almond', amount: 34 }),
-      new ShoppingItem({ name: 'Chocolate Bar', amount: 1 })
-    ];
     this.partials = {};
-    this.collection = new ShoppingList();
     this.collection.on('add', this.addItem, this);
     this.collection.on('remove', this.removeItem, this);
-    this.collection.add(items);
+    this.collection.models.forEach(this.addItem, this);
   },
   addItem: function (model) {
     var item = new ListItemView({

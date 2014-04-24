@@ -7,11 +7,11 @@ var ListItemView = require('./listItem.js');
 module.exports = base.extend({
   el: '.view',
   template: template,
+  collection: shoppingService.collection,
   initialize: function () {
     this.render();
     this.$list = this.$('.items');
     this.partials = {};
-    this.collection = shoppingService.collection;
     this.collection.on('add', this.addItem, this);
     this.collection.on('remove', this.removeItem, this);
     this.collection.models.forEach(this.addItem, this);
