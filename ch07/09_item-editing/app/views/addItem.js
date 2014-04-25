@@ -27,9 +27,12 @@ module.exports = base.extend({
 
       if (!model.validationError) {
         this.collection.add(model);
-        this.updateView();
-        return;
       }
+    }
+
+    if (!model.validationError) {
+      this.updateView();
+      return;
     }
 
     this.updateView({
