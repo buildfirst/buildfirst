@@ -3,6 +3,7 @@ var base = require('./base.js');
 var template = fs.readFileSync(__dirname + '/templates/listItem.mu', { encoding: 'utf8' });
 
 module.exports = base.extend({
+  tagName: 'li',
   template: template,
   initialize: function () {
     this.model.on('change', this.updateView, this);
