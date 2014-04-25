@@ -2,6 +2,7 @@ var fs = require('fs');
 var base = require('./base.js');
 var template = fs.readFileSync(__dirname + '/templates/list.mu', { encoding: 'utf8' });
 var ShoppingList = require('../collections/shoppingList.js');
+var ShoppingItem = require('../models/shoppingItem.js');
 
 module.exports = base.extend({
   el: '.view',
@@ -16,16 +17,16 @@ module.exports = base.extend({
     this.collection.on('add', this.updateView, this);
     this.collection.on('remove', this.updateView, this);
     this.collection.on('change', this.updateView, this);
-    this.collection.on('invalid', this.updateViewValidated, this);
     this.updateView();
   },
-  updateView: function () {
-    this.updateViewValidated(this.collection);
-  },
-  updateViewValidated: function (collection, error) {
+  updateView: function (data) {
+    data = data || {};
+
     this.viewModel = {
-      error: error,
-      shopping_list: collection.toJSON()
+      shopping_list: this.collection.toJSON(),
+      error: data.error,
+      name: data.name,
+      amount: data.amount
     };
     this.render();
   },
@@ -45,8 +46,22 @@ module.exports = base.extend({
     if (model) {
       model.addToOrder(amount);
     } else {
-      model = { name: name, amount: amount };
-      this.collection.add(model, { validate: true });
+      model = new ShoppingItem({ name: name, amount: amount }, { validate: true });
+
+      if (!model.validationError) {
+        this.collection.add(model);
+      }
     }
+
+    if (!model.validationError) {
+      this.updateView();
+      return;
+    }
+
+    this.updateView({
+      name: name,
+      amount: amount,
+      error: model.validationError
+    });
   }
 });
