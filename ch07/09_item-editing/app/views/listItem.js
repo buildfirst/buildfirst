@@ -10,7 +10,7 @@ module.exports = base.extend({
   },
   updateView: function () {
     this.viewModel = this.model.toJSON();
-    this.viewModel.error = this.modelValidationError;
+    this.viewModel.error = this.model.validationError;
     this.render();
   },
   events: {
@@ -23,9 +23,11 @@ module.exports = base.extend({
     this.collection.remove(this.model);
   },
   editItem: function (e) {
+    this.model.validationError = null;
     this.model.set('editing', true);
   },
   cancelEdit: function (e) {
+    this.model.validationError = null;
     this.model.set('editing', false);
   },
   saveItem: function (e) {
