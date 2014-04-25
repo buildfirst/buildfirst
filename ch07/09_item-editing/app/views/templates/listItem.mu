@@ -1,4 +1,4 @@
-<li class='item'>
+<li>
   {{^editing}}
   <span>{{amount}}x {{name}}</span>
   <button class='edit'>Edit</button>
