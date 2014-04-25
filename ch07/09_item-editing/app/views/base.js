@@ -2,7 +2,7 @@ var Backbone = require('backbone');
 var Mustache = require('mustache');
 
 module.exports = Backbone.View.extend({
-  render: function () {console.log('render',this.viewModel);
+  render: function () {
     this.el.innerHTML = Mustache.to_html(this.template, this.viewModel);
   }
 });
