@@ -24,7 +24,7 @@ module.exports = base.extend({
   },
   updateViewValidated: function (collection, error) {
     this.viewModel = {
-      erkbror: error,
+      error: error,
       shopping_list: collection.toJSON()
     };
     this.render();
