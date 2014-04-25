@@ -58,10 +58,8 @@ module.exports = base.extend({
     }
 
     if (!model.validationError) {
-      this.updateView();
       return;
     }
-
     this.updateViewWithValidation({
       name: name,
       amount: amount,
