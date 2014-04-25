@@ -19,14 +19,18 @@ module.exports = base.extend({
     this.collection.on('change', this.updateView, this);
     this.updateView();
   },
-  updateView: function (data) {
-    data = data || {};
-
+  updateView: function () {
+    this.viewModel = {
+      shopping_list: this.collection.toJSON()
+    };
+    this.render();
+  },
+  updateViewWithValidation: function (validation) {
     this.viewModel = {
       shopping_list: this.collection.toJSON(),
-      error: data.error,
-      name: data.name,
-      amount: data.amount
+      error: validation.error,
+      name: validation.name,
+      amount: validation.amount
     };
     this.render();
   },
@@ -58,7 +62,7 @@ module.exports = base.extend({
       return;
     }
 
-    this.updateView({
+    this.updateViewWithValidation({
       name: name,
       amount: amount,
       error: model.validationError
