@@ -1,6 +1,6 @@
 var fs = require('fs');
 var base = require('./base.js');
-var template = fs.readFileSync(__dirname + '/templates/itemList.mu', { encoding: 'utf8' });
+var template = fs.readFileSync(__dirname + '/templates/list.mu', { encoding: 'utf8' });
 var shoppingService = require('../services/shoppingService.js');
 var ListItemView = require('./listItem.js');
 
