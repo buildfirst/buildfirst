@@ -2,10 +2,7 @@ var express = require('express');
 var rendr = require('rendr');
 var app = express();
 
-app.use(express.compress());
 app.use(express.static(__dirname + '/public'));
-app.use(express.logger());
-app.use(express.bodyParser());
 
 /**
  * In this simple example, the DataAdapter config, which specifies host, port, etc. of the API
