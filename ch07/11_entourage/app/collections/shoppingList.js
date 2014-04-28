@@ -1,6 +1,6 @@
-var Backbone = require('backbone');
+var base = require('./base.js');
 var ShoppingItem = require('../models/shoppingItem.js');
 
-module.exports = Backbone.Collection.extend({
+module.exports = base.extend({
   model: ShoppingItem
 });

@@ -1,6 +1,6 @@
-var Backbone = require('backbone');
+var base = require('./base.js');
 
-module.exports = Backbone.Model.extend({
+module.exports = base.extend({
   addToOrder: function (amount) {
     this.set('amount', this.get('amount') + amount, { validate: true });
   },

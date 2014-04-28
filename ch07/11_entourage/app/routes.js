@@ -1,5 +1,5 @@
 module.exports = function (match) {
   match('', 'root');
-  match('items', 'items#list');
+  match('items', 'items#index');
   match('items/add', 'items#add');
 };
