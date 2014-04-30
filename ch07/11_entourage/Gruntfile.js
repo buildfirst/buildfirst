@@ -1,7 +1,5 @@
 var path = require('path');
 
-var stylesheetsDir = 'assets/stylesheets';
-
 module.exports = function(grunt) {
 
   grunt.initConfig({
@@ -20,9 +18,9 @@ module.exports = function(grunt) {
         src: 'app/templates/**/*.hbs',
         dest: 'app/templates/compiledTemplates.js',
         filter: function(filepath) {
-          var filename = path.basename(filepath);
-          // Exclude templates that begin with '__' from being sent to the client,
+          // exclude templates that begin with '__' from being sent to the client
           // e.g '__layout.hbs'
+          var filename = path.basename(filepath);
           return filename.slice(0, 2) !== '__';
         }
       }
@@ -30,7 +28,6 @@ module.exports = function(grunt) {
 
     browserify: {
       options: {
-        transform: ['brfs'],
         debug: true,
         alias: ['node_modules/rendr-handlebars/index.js:rendr-handlebars'],
         aliasMappings: [{
@@ -46,7 +43,7 @@ module.exports = function(grunt) {
         }
       },
       app: {
-        src: ['app/**/*.js', 'build/templates.js'],
+        src: ['app/**/*.js'],
         dest: 'public/bundle.js'
       }
     },
@@ -54,7 +51,7 @@ module.exports = function(grunt) {
     watch: {
       options: {
         interrupt: true
-      }
+      },
       scripts: {
         files: 'app/**/*.js',
         tasks: ['browserify']
