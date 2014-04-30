@@ -15,9 +15,7 @@ module.exports = function (grunt) {
         options: {
           // this produces a source map which gets baked into
           // a base64 uri embedded in the script file
-          bundleOptions: {
-            debug: true
-          }
+          debug: true
         }
       },
 
