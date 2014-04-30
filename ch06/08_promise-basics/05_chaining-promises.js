@@ -15,7 +15,7 @@ function get (endpoint) {
       if (xhr.status >= 200 && xhr.status < 300) {
         resolve(xhr.response);
       } else {
-        reject(new Error(req.statusText));
+        reject(new Error(xhr.responseText));
       }
     };
 
