@@ -8,30 +8,29 @@ module.exports = function (grunt) {
     browserify: {
       options: {
         transform: ['brfs'],
-        bundleOptions: {
-          debug: true
-        }
+        debug: true
       },
       debug: {
         files: {
-          'build/bundle.js': 'app.js'
+          'build/bundle.js': 'app/app.js'
         }
-      },
-      watch: {
-        files: {
-          'build/bundle.js': 'app.js'
-        },
+      }
+    },
+    watch: {
+      app: {
+        files: 'app/**/*.js',
+        tasks: ['browserify'],
         options: {
-          watch: true,
-          keepAlive: true
+          interrupt: true
         }
       }
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-browserify');
+  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.registerTask('build', ['clean', 'browserify:debug']);
-  grunt.registerTask('watch', ['build', 'browserify:watch']);
+  grunt.registerTask('default', ['build', 'watch:app']);
 };

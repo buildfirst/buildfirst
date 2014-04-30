@@ -3,7 +3,7 @@ var ShoppingList = require('../collections/shoppingList.js');
 var ListItemView = require('./listItem.js');
 
 module.exports = base.extend({
-  el: '.view',
+  el: '.list-view',
   collection: new ShoppingList([
     { name: 'Banana', amount: 3 },
     { name: 'Strawberry', amount: 8 },
@@ -21,12 +21,12 @@ module.exports = base.extend({
       model: model,
       collection: this.collection
     });
-    this.el.appendChild(item.el);
+    this.$el.append(item.el);
     this.partials[model.cid] = item;
   },
   removeItem: function (model) {
     var item = this.partials[model.cid];
-    this.el.removeChild(item.el);
+    item.$el.remove();
     delete this.partials[model.cid];
   }
 });

@@ -4,7 +4,7 @@ var template = fs.readFileSync(__dirname + '/templates/addItem.mu', { encoding: 
 var ShoppingItem = require('../models/shoppingItem.js');
 
 module.exports = base.extend({
-  el: '.create',
+  el: '.add-view',
   template: template,
   initialize: function () {
     this.updateView();
@@ -27,9 +27,12 @@ module.exports = base.extend({
 
       if (!model.validationError) {
         this.collection.add(model);
-        this.updateView();
-        return;
       }
+    }
+
+    if (!model.validationError) {
+      this.updateView();
+      return;
     }
 
     this.updateView({

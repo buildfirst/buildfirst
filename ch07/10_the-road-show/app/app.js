@@ -3,7 +3,7 @@ var $ = require('jquery');
 
 Backbone.$ = $;
 
-var ViewRouter = require('./app/routers/viewRouter.js');
+var ViewRouter = require('./routers/viewRouter.js');
 new ViewRouter();
 
 $(function () {

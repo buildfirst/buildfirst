@@ -2,7 +2,7 @@
 
 ##### _(Part II, Chapter 7)_
 
-In this chapter, the focus is on **modular application building**, with a twist. Rather than focus on how to organize our files themselves, which we've already discussed at length in [Chapter 5][1], I'll focus on organization at the application level. We'll learn all about the Model-View-Controller (MVC) pattern, and how to apply it in JavaScript code. In particular, how to apply it in client-side JavaScript. You'll get a good look at the [Backbone][3] library, which is a popular foundation for developing complex MVC applications. These are the samples as discussed through the chapter, in the same order of appearance.
+In this chapter, the focus is on **modular application building**, with a twist. Rather than focus on how to organize our files themselves, which we've already discussed at length in [Chapter 5][1], I'll focus on organization at the application level. We'll learn all about the Model-View-Controller (MVC) pattern, and how to apply it in JavaScript code. In particular, how to apply it in client-side JavaScript. You'll get a good look at the [Backbone][3] library, which is a popular foundation for developing complex MVC applications, and later you'll be able to bring that to the server-side, using a library called [Rendr][4]. These are the samples as discussed through the chapter, in the same order of appearance.
 
 All samples are self-contained, ready to use, and sensibly documented.
 
@@ -24,8 +24,12 @@ All samples are self-contained, ready to use, and sensibly documented.
   - [Item Editing](https://github.com/bevacqua/buildfirst/tree/master/ch07/09_item-editing)
   - [The Road Show](https://github.com/bevacqua/buildfirst/tree/master/ch07/10_the-road-show)
 
+- Using [Rendr][4] for shared rendering
+  - [Entourage](https://github.com/bevacqua/buildfirst/tree/master/ch07/11_entourage)
+
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
 
 [1]: https://github.com/bevacqua/buildfirst/tree/master/ch05
 [2]: http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
 [3]: http://backbonejs.org/
+[4]: https://github.com/rendrjs/rendr
