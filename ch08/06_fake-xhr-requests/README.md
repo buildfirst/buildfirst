@@ -34,7 +34,7 @@ open test/runner.html
 
 ![fake-xhr.png][2]
 
-Note that we could run this code on Node as well.
+Note that we could run this code on Node as well!
 
 ```shell
 node src/qotd

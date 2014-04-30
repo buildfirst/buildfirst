@@ -20,6 +20,6 @@
     "tape": "^2.10.2"
   },
   "dependencies": {
-    "superagent": "^0.17.0"
+    "superagent": "^0.18.0"
   }
 }
