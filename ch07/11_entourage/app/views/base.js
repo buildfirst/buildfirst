@@ -1,8 +1,5 @@
-var Backbone = require('backbone');
-var Mustache = require('mustache');
+var RendrView = require('rendr/shared/base/view');
 
-module.exports = Backbone.View.extend({
-  render: function () {
-    this.el.innerHTML = Mustache.to_html(this.template, this.viewModel);
-  }
-});
+// Create a base view, for adding common extensions to our
+// application's views.
+module.exports = RendrView.extend({});

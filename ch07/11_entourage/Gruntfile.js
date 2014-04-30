@@ -1,37 +1,85 @@
-'use strict';
+var path = require('path');
 
-module.exports = function (grunt) {
+var stylesheetsDir = 'assets/stylesheets';
+
+module.exports = function(grunt) {
+
   grunt.initConfig({
-    clean: {
-      build: ['build']
+
+    clean: ['app/templates/compiledTemplates.js', 'public/bundle.js'],
+
+    handlebars: {
+      compile: {
+        options: {
+          namespace: false,
+          commonjs: true,
+          processName: function(filename) {
+            return filename.replace('app/templates/', '').replace('.hbs', '');
+          }
+        },
+        src: 'app/templates/**/*.hbs',
+        dest: 'app/templates/compiledTemplates.js',
+        filter: function(filepath) {
+          var filename = path.basename(filepath);
+          // Exclude templates that begin with '__' from being sent to the client,
+          // e.g '__layout.hbs'
+          return filename.slice(0, 2) !== '__';
+        }
+      }
     },
+
     browserify: {
       options: {
         transform: ['brfs'],
-        bundleOptions: {
-          debug: true
+        debug: true,
+        alias: ['node_modules/rendr-handlebars/index.js:rendr-handlebars'],
+        aliasMappings: [{
+          cwd: 'app/',
+          src: ['**/*.js'],
+          dest: 'app/'
+        }],
+        shim: {
+          jquery: {
+            path: 'assets/vendor/jquery-1.9.1.min.js',
+            exports: '$'
+          }
         }
       },
-      debug: {
-        files: {
-          'build/bundle.js': 'app/app.js'
-        }
+      app: {
+        src: ['app/**/*.js', 'build/templates.js'],
+        dest: 'public/bundle.js'
+      }
+    },
+
+    watch: {
+      options: {
+        interrupt: true
+      }
+      scripts: {
+        files: 'app/**/*.js',
+        tasks: ['browserify']
       },
-      watch: {
-        files: {
-          'build/bundle.js': 'app/app.js'
-        },
-        options: {
-          watch: true,
-          keepAlive: true
-        }
+      templates: {
+        files: 'app/**/*.hbs',
+        tasks: ['handlebars']
+      }
+    },
+
+    nodemon: {
+      dev: {
+        script: 'app.js'
       }
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-browserify');
+  grunt.loadNpmTasks('grunt-nodemon');
+  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-handlebars');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('build', ['clean', 'browserify:debug']);
-  grunt.registerTask('watch', ['build', 'browserify:watch']);
+  grunt.registerTask('compile', ['clean', 'handlebars', 'browserify']);
+  grunt.registerTask('server', ['compile', 'nodemon', 'watch']);
+  grunt.registerTask('default', ['compile']);
 };
+

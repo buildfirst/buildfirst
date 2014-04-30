@@ -1,6 +1,6 @@
 # The Road Show
 
-[![backbone.png][1]][2]
+[![rendr.png][1]][2]
 
 It might be hard for you to eye-parse this example without walking through the introductory materials on [Backbone][2] in Chapter 7 first, so I suggest you read about MVC and [Backbone][2] in the book before going through this example.
 
@@ -28,7 +28,7 @@ This is the last sample in the series, picking up where we left off at [**ch07e0
 
 Browse the code and check out the comments to learn more!
 
-[1]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone.png
+[1]: https://raw.github.com/bevacqua/buildfirst/master/images/rendr.png
 [2]: http://backbonejs.org/ "Backbone.js MVC Framework"
 [3]: http://browserify.org/
 [4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/11_browserify-cjs
