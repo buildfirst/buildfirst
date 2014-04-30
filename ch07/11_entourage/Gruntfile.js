@@ -75,8 +75,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-handlebars');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('compile', ['clean', 'handlebars', 'browserify']);
-  grunt.registerTask('server', ['compile', 'nodemon', 'watch']);
-  grunt.registerTask('default', ['compile']);
+  grunt.registerTask('build', ['clean', 'handlebars', 'browserify']);
+  grunt.registerTask('run', ['build', 'nodemon', 'watch']);
+  grunt.registerTask('default', ['build']);
 };
 
