@@ -13,15 +13,19 @@
   },
   "dependencies": {
     "backbone": "^1.1.2",
+    "express": "^4.1.1",
     "jquery": "^2.1.0",
-    "mustache": "^0.8.1"
+    "mustache": "^0.8.1",
+    "rendr": "^0.5.0",
+    "rendr-handlebars": "^0.2.0"
   },
   "devDependencies": {
-    "brfs": "^1.0.1",
     "browserify": "~3.32.1",
     "grunt": "~0.4.4",
     "grunt-browserify": "~1.3.2",
     "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-handlebars": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
     "grunt-nodemon": "^0.2.1"
   }
 }

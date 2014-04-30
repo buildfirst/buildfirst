@@ -28,7 +28,6 @@ module.exports = function(grunt) {
 
     browserify: {
       options: {
-        transform: ['brfs'],
         debug: true,
         alias: ['node_modules/rendr-handlebars/index.js:rendr-handlebars'],
         aliasMappings: [{
@@ -44,7 +43,7 @@ module.exports = function(grunt) {
         }
       },
       app: {
-        src: ['app/**/*.js', 'build/templates.js'],
+        src: ['app/**/*.js'],
         dest: 'public/bundle.js'
       }
     },
@@ -52,7 +51,7 @@ module.exports = function(grunt) {
     watch: {
       options: {
         interrupt: true
-      }
+      },
       scripts: {
         files: 'app/**/*.js',
         tasks: ['browserify']
