@@ -1,7 +1,5 @@
 var path = require('path');
 
-var stylesheetsDir = 'assets/stylesheets';
-
 module.exports = function(grunt) {
 
   grunt.initConfig({
@@ -20,9 +18,9 @@ module.exports = function(grunt) {
         src: 'app/templates/**/*.hbs',
         dest: 'app/templates/compiledTemplates.js',
         filter: function(filepath) {
-          var filename = path.basename(filepath);
-          // Exclude templates that begin with '__' from being sent to the client,
+          // exclude templates that begin with '__' from being sent to the client
           // e.g '__layout.hbs'
+          var filename = path.basename(filepath);
           return filename.slice(0, 2) !== '__';
         }
       }
