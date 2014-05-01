@@ -1,5 +1,5 @@
 module.exports = {
-  index: function(params, callback) {
+  index: function (params, done) {
     this.redirectTo('/items');
   }
 };
