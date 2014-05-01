@@ -9,5 +9,9 @@ module.exports = {
     this.app.fetch(spec, function (err, result) {
       done(err, result);
     });
+  },
+
+  new: function (params, done) {
+    done();
   }
 };
