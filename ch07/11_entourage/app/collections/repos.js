@@ -1,10 +1,10 @@
-var Repo = require('../models/repo')
-  , Base = require('./base');
+var Repo = require('../models/repo');
+var Base = require('./base');
 
 module.exports = Base.extend({
   model: Repo,
   url: function () {
-    if (this.params.user != null) {
+    if (this.params.user) {
       return '/users/:user/repos';
     } else {
       return '/repositories';

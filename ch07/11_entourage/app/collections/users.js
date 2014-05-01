@@ -1,5 +1,5 @@
-var User = require('../models/user')
-  , Base = require('./base');
+var User = require('../models/user');
+var Base = require('./base');
 
 module.exports = Base.extend({
   model: User,
