@@ -1,4 +1,4 @@
-# Entourage
+# Entourage: Attaining shared rendering with `Rendr`
 
 [![rendr.png][1]][8]
 
