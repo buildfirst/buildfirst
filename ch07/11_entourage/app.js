@@ -4,24 +4,26 @@ var app = express();
 var port = process.env.PORT || 3000;
 
 var dataAdapterConfig = {
-  'default': {
-    host: 'api.github.com',
-    protocol: 'https'
-  },
-  'travis-ci': {
-    host: 'api.travis-ci.org',
-    protocol: 'https'
+  default: {
+    host: 'localhost:3000/api',
+    protocol: 'http'
   }
 };
 
 var rendrServer = rendr.createServer({
-  dataAdapterConfig: dataAdapterConfig
+  dataAdapterConfig: dataAdapterConfig,
+  errorHandler: function (err, req, res, next) {
+    console.log(err);
+  }
 });
 
 app.use(express.compress());
 app.use(express.static(__dirname + '/public'));
 app.use(express.logger());
 app.use(express.bodyParser());
+
+require('./api')(app);
+
 app.use(rendrServer);
 app.listen(port);
 
