@@ -1,21 +1,13 @@
 module.exports = {
-  index: function(params, callback) {
-
+  index: function (params, done) {
     var spec = {
-      collection: {collection: 'Repos', params: params}
+      collection: {
+        collection: 'ShoppingList',
+        params: params
+      }
     };
-    this.app.fetch(spec, function(err, result) {
-      callback(err, result);
-    });
-  },
-
-  show: function(params, callback) {
-    var spec = {
-      model: {model: 'Repo', params: params, ensureKeys: ['language', 'watchers_count']},
-      build: {model: 'Build', params: params}
-    };
-    this.app.fetch(spec, function(err, result) {
-      callback(err, result);
+    this.app.fetch(spec, function (err, result) {
+      done(err, result);
     });
   }
 };
