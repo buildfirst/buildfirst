@@ -80,4 +80,3 @@ module.exports = function (grunt) {
   grunt.registerTask('build', ['clean', 'handlebars', 'browserify']);
   grunt.registerTask('run', ['build', 'nodemon', 'watch']);
 };
-
