@@ -3,17 +3,12 @@ var rendr = require('rendr');
 var app = express();
 var port = process.env.PORT || 3000;
 
-var dataAdapterConfig = {
-  default: {
-    host: 'localhost:3000/api',
-    protocol: 'http'
-  }
-};
-
 var rendrServer = rendr.createServer({
-  dataAdapterConfig: dataAdapterConfig,
-  errorHandler: function (err, req, res, next) {
-    console.log(err);
+  dataAdapterConfig: {
+    default: {
+      host: 'localhost:3000/api',
+      protocol: 'http'
+    }
   }
 });
 
