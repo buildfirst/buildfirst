@@ -8,19 +8,6 @@ h1 {
   color: #16a085;
 }
 
-.items {
-  list-style: none;
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.items li {
-  padding: 5px 0;
-}
-
-fieldset {
-  background: rgba(255, 255, 255, 0.1);
-}
-
 button {
   border: 1px solid rgba(0, 0, 0, 0.5);
   background: rgba(0, 0, 0, 0.1);
@@ -45,24 +32,4 @@ button {
   border: none;
   padding: 2px 6px;
   cursor: pointer;
-}
-
-.buttons {
-  text-align: right;
-}
-
-.cancel, .remove {
-  color: #c0392b;
-  font-weight: normal;
-}
-
-.edit-amount {
-  width: 50px;
-}
-
-input {
-  background: #34495e;
-  color: #fff;
-  border: none;
-  padding: 2px 6px;
 }

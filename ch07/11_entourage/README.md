@@ -16,17 +16,17 @@ Once your Node server is running, you can see it in action just opening your fav
 open http://localhost:3000/
 ```
 
-This sample shows how you could use Rendr to do shared rendering in Node and the browser.
+This sample shows how you could use [Rendr][8] to attain _shared rendering_ in Node and the browser.
 
 ![road-show.png][7]
 
 Browse the code and check out the comments to learn more!
 
 [1]: https://raw.github.com/bevacqua/buildfirst/master/images/rendr.png
-[8]: https://github.com/rendrjs/rendr
 [2]: http://backbonejs.org/ "Backbone.js MVC Framework"
 [3]: http://browserify.org/
 [4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/11_browserify-cjs
 [5]: http://mustache.github.io/
 [6]: https://github.com/bevacqua/buildfirst/tree/master/ch07/09_item-editing
 [7]: https://raw.github.com/bevacqua/buildfirst/master/images/road-show.png
+[8]: https://github.com/rendrjs/rendr

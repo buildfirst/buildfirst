@@ -1,7 +1,6 @@
 var path = require('path');
 
-module.exports = function(grunt) {
-
+module.exports = function (grunt) {
   grunt.initConfig({
 
     clean: ['app/templates/compiledTemplates.js', 'public/bundle.js'],
@@ -11,17 +10,34 @@ module.exports = function(grunt) {
         options: {
           namespace: false,
           commonjs: true,
-          processName: function(filename) {
+          processName: function (filename) {
             return filename.replace('app/templates/', '').replace('.hbs', '');
           }
         },
         src: 'app/templates/**/*.hbs',
         dest: 'app/templates/compiledTemplates.js',
         filter: function(filepath) {
-          // exclude templates that begin with '__' from being sent to the client
-          // e.g '__layout.hbs'
           var filename = path.basename(filepath);
+          // Exclude files that begin with '__' from being sent to the client,
+          // i.e. __layout.hbs.
           return filename.slice(0, 2) !== '__';
+        }
+      }
+    },
+
+    watch: {
+      scripts: {
+        files: 'app/**/*.js',
+        tasks: ['browserify'],
+        options: {
+          interrupt: true
+        }
+      },
+      templates: {
+        files: 'app/**/*.hbs',
+        tasks: ['handlebars'],
+        options: {
+          interrupt: true
         }
       }
     },
@@ -48,20 +64,6 @@ module.exports = function(grunt) {
       }
     },
 
-    watch: {
-      options: {
-        interrupt: true
-      },
-      scripts: {
-        files: 'app/**/*.js',
-        tasks: ['browserify']
-      },
-      templates: {
-        files: 'app/**/*.hbs',
-        tasks: ['handlebars']
-      }
-    },
-
     nodemon: {
       dev: {
         script: 'app.js'
@@ -77,6 +79,5 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build', ['clean', 'handlebars', 'browserify']);
   grunt.registerTask('run', ['build', 'nodemon', 'watch']);
-  grunt.registerTask('default', ['build']);
 };
 
