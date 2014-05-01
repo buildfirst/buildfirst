@@ -24,8 +24,7 @@ All samples are self-contained, ready to use, and sensibly documented.
   - [Item Editing](https://github.com/bevacqua/buildfirst/tree/master/ch07/09_item-editing)
   - [The Road Show](https://github.com/bevacqua/buildfirst/tree/master/ch07/10_the-road-show)
 
-- Using [Rendr][4] for shared rendering
-  - [Entourage](https://github.com/bevacqua/buildfirst/tree/master/ch07/11_entourage)
+- [Entourage](https://github.com/bevacqua/buildfirst/tree/master/ch07/11_entourage): Shared Rendering with [`Rendr`][4]
 
 For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
 
