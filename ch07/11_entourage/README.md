@@ -18,7 +18,7 @@ open http://localhost:3000/
 
 This sample shows how you could use [Rendr][8] to attain _shared rendering_ in Node and the browser.
 
-![road-show.png][7]
+![rendr-entourage.png][7]
 
 Browse the code and check out the comments to learn more!
 
@@ -28,5 +28,5 @@ Browse the code and check out the comments to learn more!
 [4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/11_browserify-cjs
 [5]: http://mustache.github.io/
 [6]: https://github.com/bevacqua/buildfirst/tree/master/ch07/09_item-editing
-[7]: https://raw.github.com/bevacqua/buildfirst/master/images/road-show.png
+[7]: https://raw.github.com/bevacqua/buildfirst/master/images/rendr-entourage.png
 [8]: https://github.com/rendrjs/rendr
