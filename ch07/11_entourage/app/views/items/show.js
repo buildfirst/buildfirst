@@ -1,7 +1,7 @@
 var BaseView = require('../base');
 
 module.exports = BaseView.extend({
-  className: 'repos_show_view',
+  className: 'items_show_view',
 
   getTemplateData: function() {
     var data = BaseView.prototype.getTemplateData.call(this);
@@ -9,4 +9,4 @@ module.exports = BaseView.extend({
     return data;
   }
 });
-module.exports.id = 'repos/show';
+module.exports.id = 'items/show';

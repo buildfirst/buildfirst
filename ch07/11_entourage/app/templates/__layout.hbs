@@ -7,19 +7,13 @@
   <body>
     <h1>The Road Show</h1>
 
-    <div class='navbar navbar-inverse navbar-fixed-top'>
-      <div class='container'>
-          <div class='navbar-header'>
-            <a class='navbar-brand' href='/'>GitHub Browser</a>
-          </div>
-          <ul class='nav navbar-nav'>
-            <li><a href='/'>Home</a></li>
-            <li><a href='/repos'>Repos</a></li>
-            <li><a href='/users'>Users</a></li>
-          </ul>
-          <div class='loading-indicator'>Loading&hellip;</div>
-        </div>
+    <div>
+      <a class='navbar-brand' href='/'>GitHub Browser</a>
     </div>
+    <ul>
+      <li><a href='/'>Home</a></li>
+      <li><a href='/repos'>Repos</a></li>
+    </ul>
 
     <section id='content' class='container'>
       {{{body}}}
