@@ -1,0 +1,35 @@
+body {
+  font-family: 'Helvetica';
+  background: #f7df1e;
+  color: #222;
+}
+
+h1 {
+  color: #16a085;
+}
+
+button {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.1);
+}
+
+label {
+  width: 65px;
+  display: inline-block;
+  text-align: right;
+}
+
+p {
+  margin: 7px 0;
+}
+
+a, button {
+  color: #34495e;
+  font-weight: bold;
+}
+
+button {
+  border: none;
+  padding: 2px 6px;
+  cursor: pointer;
+}
