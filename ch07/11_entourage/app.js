@@ -5,12 +5,8 @@ var port = process.env.PORT || 3000;
 
 var rendrServer = rendr.createServer({
   dataAdapterConfig: {
-    'default': {
+    default: {
       host: 'api.github.com',
-      protocol: 'https'
-    },
-    'travis-ci': {
-      host: 'api.travis-ci.org',
       protocol: 'https'
     }
   }
