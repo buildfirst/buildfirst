@@ -1,4 +1,4 @@
-# Entourage: Shared Rendering with `Rendr`
+# Full Metal Jacket
 
 [![rendr.png][1]][8]
 
@@ -16,9 +16,9 @@ Once your Node server is running, you can see it in action just opening your fav
 open http://localhost:3000/
 ```
 
-This sample shows how you could use [Rendr][8] to attain _shared rendering_ in Node and the browser.
+This sample builds on [**ch07e11** Entourage][9], adding a few more views and meaning to the application. This example is closer to [the example Rendr provides][10.
 
-![rendr-entourage.png][7]
+![rendr-metal-jacket.png][7]
 
 Browse the code and check out the comments to learn more!
 
@@ -28,5 +28,7 @@ Browse the code and check out the comments to learn more!
 [4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/11_browserify-cjs
 [5]: http://mustache.github.io/
 [6]: https://github.com/bevacqua/buildfirst/tree/master/ch07/09_item-editing
-[7]: https://raw.github.com/bevacqua/buildfirst/master/images/rendr-entourage.png
+[7]: https://raw.github.com/bevacqua/buildfirst/master/images/rendr-metal-jacket.png
 [8]: https://github.com/rendrjs/rendr
+[9]: https://github.com/bevacqua/buildfirst/tree/master/ch07/11_entourage
+[10]: https://github.com/rendrjs/rendr/tree/master/examples/00_simple
