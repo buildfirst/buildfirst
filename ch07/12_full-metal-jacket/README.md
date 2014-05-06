@@ -16,7 +16,7 @@ Once your Node server is running, you can see it in action just opening your fav
 open http://localhost:3000/
 ```
 
-This sample builds on [**ch07e11** Entourage][9], adding a few more views and meaning to the application. This example is closer to [the example Rendr provides][10.
+This sample builds on [**ch07e11** Entourage][9], adding a few more views and meaning to the application. This example is closer to [the first one][10] you can find in [Rendr's `examples` directory][11].
 
 ![rendr-metal-jacket.png][7]
 
@@ -32,3 +32,4 @@ Browse the code and check out the comments to learn more!
 [8]: https://github.com/rendrjs/rendr
 [9]: https://github.com/bevacqua/buildfirst/tree/master/ch07/11_entourage
 [10]: https://github.com/rendrjs/rendr/tree/master/examples/00_simple
+[11]: https://github.com/rendrjs/rendr/tree/master/examples
