@@ -1,10 +1,10 @@
 var Promise = require('es6-promise').Promise;
 
-var promise = new Promise(function (resolve, reject) {
+var promise = new Promise(function (fulfill, reject) {
   console.log('Pending...');
 
   setTimeout(function () {
-    resolve('[0,1,2,3]');
+    fulfill('[0,1,2,3]');
   }, 1000);
 });
 

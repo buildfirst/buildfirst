@@ -5,7 +5,7 @@ var Promise = require('es6-promise').Promise;
 // or rejects with an error message
 function get (endpoint) {
 
-  function handler (resolve, reject) {
+  function handler (fulfill, reject) {
 
     var xhr = new XMLHttpRequest();
 
@@ -13,7 +13,7 @@ function get (endpoint) {
 
     xhr.onload = function () {
       if (xhr.status >= 200 && xhr.status < 300) {
-        resolve(xhr.response);
+        fulfill(xhr.response);
       } else {
         reject(new Error(xhr.responseText));
       }

@@ -1,13 +1,13 @@
 var Promise = require('es6-promise').Promise;
 
 function delay (t) {
-  function wait (resolve, reject) {
+  function wait (fulfill, reject) {
     if (t < 1) {
       throw new Error('Delay must be greater than zero.');
     }
     setTimeout(function () {
       console.log('Resolving after', t);
-      resolve(t);
+      fulfill(t);
     }, t);
   }
   return new Promise(wait);

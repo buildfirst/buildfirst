@@ -1,10 +1,10 @@
 var Promise = require('es6-promise').Promise;
 
 function delay (t) {
-  function wait (resolve) {
+  function wait (fulfill) {
     setTimeout(function () {
       console.log('Resolving after', t);
-      resolve(t);
+      fulfill(t);
     }, t);
   }
   return new Promise(wait);

@@ -1,11 +1,11 @@
 var Promise = require('es6-promise').Promise;
 
-var promise = new Promise(function (resolve, reject) {
+var promise = new Promise(function (fulfill, reject) {
   console.log('Pending...');
 
   setTimeout(function () {
     if (Math.random() < 0.5) {
-      resolve('Good enough.');
+      fulfill('Good enough.');
     } else {
       reject(new Error('Dice roll failed!'));
     }
