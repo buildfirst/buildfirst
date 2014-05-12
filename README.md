@@ -40,6 +40,7 @@ There are some examples here that you _won't find on the book_, those will gener
 This is the list of releases to date. You can feel free to simply clone `master`, to get the most up-to-date version.
 
 - [One Third Review][9]
+- [Two Thirds Review][18]
 
 You can find [the repository up on GitHub][10], which contains the latest updates to the samples, and interactively renders the Markdown code in this text, displaying images, making code prettier, styling the text, and letting you follow links.
 
@@ -72,5 +73,6 @@ Let the [**#buildfirst**][17] revolution commence!
   [15]: http://blog.ponyfoo.com "Pony Foo"
   [16]: https://twitter.com/nzgb "@nzgb on Twitter"
   [17]: https://twitter.com/#buildfirst "#buildfirst on Twitter"
+  [18]: https://github.com/bevacqua/buildfirst/releases/tag/v0.0.2 "Tagged v0.0.2"
 
 ![ga](https://ga-beacon.appspot.com/UA-35043128-6/buildfirst/readme?pixel)
