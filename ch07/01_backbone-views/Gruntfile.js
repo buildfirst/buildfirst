@@ -11,13 +11,13 @@ module.exports = function (grunt) {
       },
       debug: {
         files: {
-          'build/bundle.js': 'app.js'
+          'build/bundle.js': 'app/app.js'
         }
       }
     },
     watch: {
       app: {
-        files: 'app.js',
+        files: 'app/app.js',
         tasks: ['browserify'],
         options: {
           interrupt: true
