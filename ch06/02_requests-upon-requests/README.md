@@ -25,6 +25,6 @@ function done (err, res) {
 
 Think about your answer for a moment, and then you can head over to [`2_named-functions.js`][2]. Or just **read [the book][3]!**
 
-  [1]: https://github.com/bevacqua/buildfirst/tree/master/ch06/01_callback-hell "Callback Hell"
-  [2]: https://github.com/bevacqua/buildfirst/tree/master/ch06/02_requests-upon-requests/2_named-functions.js "Resolved Nesting"
-  [3]: https://github.com/bevacqua/buildfirst "JavaScript Application Design: A Build First Approach"
+  [1]: https://github.com/buildfirst/buildfirst/tree/master/ch06/01_callback-hell "Callback Hell"
+  [2]: https://github.com/buildfirst/buildfirst/tree/master/ch06/02_requests-upon-requests/2_named-functions.js "Resolved Nesting"
+  [3]: https://github.com/buildfirst/buildfirst "JavaScript Application Design: A Build First Approach"

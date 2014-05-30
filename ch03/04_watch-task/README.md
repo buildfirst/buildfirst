@@ -16,4 +16,4 @@ The release flow, however, stays the same:
 grunt build:release
 ```
 
-  [1]: https://github.com/bevacqua/buildfirst/tree/master/ch03/01_distribution-config "Distribution Config"
+  [1]: https://github.com/buildfirst/buildfirst/tree/master/ch03/01_distribution-config "Distribution Config"

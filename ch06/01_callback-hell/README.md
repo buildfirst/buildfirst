@@ -38,4 +38,4 @@ Behold, callback hell in all its gory glory.
 
 The numbered files that can be found in this directory are explained in the book as a series of steps you'd take to get _in and out of callback hell_.
 
-  [1]: https://raw.github.com/bevacqua/buildfirst/master/images/callback-hell.jpg "Callback Hell, Illustrated"
+  [1]: https://raw.github.com/buildfirst/buildfirst/master/images/callback-hell.jpg "Callback Hell, Illustrated"

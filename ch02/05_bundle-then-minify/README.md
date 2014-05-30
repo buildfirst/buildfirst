@@ -35,4 +35,4 @@ This alias was declared in the Gruntfile to help us perform this common operatio
 grunt.registerTask('js', 'Concatenate and minify js files', ['concat:js', 'uglify:bundle']);
 ```
 
-  [1]: https://github.com/bevacqua/buildfirst/ch02/02_bundle-task "Bundle Task Example"
+  [1]: https://github.com/buildfirst/buildfirst/ch02/02_bundle-task "Bundle Task Example"

@@ -10,4 +10,4 @@ node test/emitter
 
 ![test.png][1]
 
-[1]: https://raw.github.com/bevacqua/buildfirst/master/images/tape-test-emitter.png "Tape tests in action"
+[1]: https://raw.github.com/buildfirst/buildfirst/master/images/tape-test-emitter.png "Tape tests in action"

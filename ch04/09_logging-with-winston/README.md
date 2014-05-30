@@ -32,4 +32,4 @@ Deeper in the book, we'll come back to this subject and look at a full-fledged e
   [6]: https://github.com/indexzero/winston-mongodb
   [7]: https://github.com/matthewtole/winston-pushover
   [8]: https://github.com/kenperkins/winston-papertrail
-  [9]: https://github.com/bevacqua/buildfirst/tree/master/ch03/03_merging-config
+  [9]: https://github.com/buildfirst/buildfirst/tree/master/ch03/03_merging-config

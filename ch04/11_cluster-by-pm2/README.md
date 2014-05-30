@@ -32,7 +32,7 @@ pm2 start -i 2 app.js
 
 For a full API reference refer to the documentation on [their GitHub page][4].
 
-  [1]: https://github.com/bevacqua/buildfirst/raw/master/images/pm2.png
-  [2]: https://github.com/bevacqua/buildfirst/tree/master/ch04/10_a-node-cluster "A Node Cluster"
-  [3]: https://github.com/bevacqua/buildfirst/tree/master/ch03/06_nodemon
+  [1]: https://github.com/buildfirst/buildfirst/raw/master/images/pm2.png
+  [2]: https://github.com/buildfirst/buildfirst/tree/master/ch04/10_a-node-cluster "A Node Cluster"
+  [3]: https://github.com/buildfirst/buildfirst/tree/master/ch03/06_nodemon
   [4]: https://github.com/Unitech/pm2

@@ -9,5 +9,5 @@ Secondly, we can use [`Object.defineProperty`][3] as a way to define read-only p
 Thirdly there is _an IIFE being used here too_, that helps us hide the private data entirely, both from the instances and the global object. In addition, functions or variables which have no business being on the global object can be properly contained in our module's code, such is the case of the `lastId` variable, and the `done` function.
 
   [1]: http://i.imgur.com/wYIk9JX.jpg "Prototypes! JavaScript ones."
-  [2]: https://github.com/bevacqua/buildfirst/tree/master/ch05/06_prototypal-modularity/protolib.js
+  [2]: https://github.com/buildfirst/buildfirst/tree/master/ch05/06_prototypal-modularity/protolib.js
   [3]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty

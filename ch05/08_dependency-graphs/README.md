@@ -28,7 +28,7 @@ That's why we resort to [dependency injection][6] frameworks, so we can have the
 
   [1]: http://i.imgur.com/z35usqQ.png
   [2]: http://xkcd.com/754/ "The prereqs for CPSC 357, the class on package management, are CPSC 432, CPSC 357, and glibc2.5 or later."
-  [3]: https://github.com/bevacqua/buildfirst/tree/master/ch05/08_dependency-graphs/userService.java
-  [4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/08_dependency-graphs/instantiation.java
-  [5]: https://github.com/bevacqua/buildfirst/tree/master/ch05/08_dependency-graphs/userService-agnostic.java
+  [3]: https://github.com/buildfirst/buildfirst/tree/master/ch05/08_dependency-graphs/userService.java
+  [4]: https://github.com/buildfirst/buildfirst/tree/master/ch05/08_dependency-graphs/instantiation.java
+  [5]: https://github.com/buildfirst/buildfirst/tree/master/ch05/08_dependency-graphs/userService-agnostic.java
   [6]: http://en.wikipedia.org/wiki/Dependency_injection "Dependency Injection on Wikipedia"

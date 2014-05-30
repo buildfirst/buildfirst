@@ -30,10 +30,10 @@ That's about it. This demo show-cases some of the most basic pieces of Backbone.
 
 I've kept this example intentionally simple so that you can progressively understand what is going on as we add functionality to our Backbone view. In the next example, [**ch07e07** The One With Delete Buttons][7], we'll add a delete button to each item in our list.
 
-[1]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone.png
+[1]: https://raw.github.com/buildfirst/buildfirst/master/images/backbone.png
 [2]: http://backbonejs.org/ "Backbone.js MVC Framework"
 [3]: http://browserify.org/
-[4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/11_browserify-cjs
+[4]: https://github.com/buildfirst/buildfirst/tree/master/ch05/11_browserify-cjs
 [5]: http://mustache.github.io/
-[6]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone-intro.png
-[7]: https://github.com/bevacqua/buildfirst/tree/master/ch07/07_the-one-with-delete-buttons
+[6]: https://raw.github.com/buildfirst/buildfirst/master/images/backbone-intro.png
+[7]: https://github.com/buildfirst/buildfirst/tree/master/ch07/07_the-one-with-delete-buttons

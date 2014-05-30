@@ -26,6 +26,6 @@ node natural
 
 A few more ways to untangle circular dependencies are discussed in the book.
 
-  [1]: https://github.com/bevacqua/buildfirst/raw/master/images/circular-dependencies.jpg
+  [1]: https://github.com/buildfirst/buildfirst/raw/master/images/circular-dependencies.jpg
   [2]: http://misko.hevery.com/2008/08/01/circular-dependency-in-constructors-and-dependency-injection/
   [3]: http://www.codinghorror.com/blog/2006/05/code-smells.html

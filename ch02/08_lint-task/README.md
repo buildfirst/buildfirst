@@ -14,4 +14,4 @@ I didn't register an alias for this, but you could run something like `grunt jsh
 
   [1]: http://i.imgur.com/b7ZsUe7.png
   [2]: http://www.jshint.com/ "JSHint.com"
-  [3]: https://github.com/bevacqua/buildfirst/ch02/06_clean-task "Clean Task Example"
+  [3]: https://github.com/buildfirst/buildfirst/ch02/06_clean-task "Clean Task Example"

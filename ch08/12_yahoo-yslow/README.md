@@ -17,6 +17,6 @@ That's it!
 ![yslow-grunt.png][4]
 
 [1]: http://developer.yahoo.com/yslow/
-[2]: https://raw.github.com/bevacqua/buildfirst/master/images/yslow.png
+[2]: https://raw.github.com/buildfirst/buildfirst/master/images/yslow.png
 [3]: https://github.com/andyshora/grunt-yslow
-[4]: https://raw.github.com/bevacqua/buildfirst/master/images/yslow-grunt.png
+[4]: https://raw.github.com/buildfirst/buildfirst/master/images/yslow-grunt.png

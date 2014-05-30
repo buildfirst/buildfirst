@@ -10,27 +10,27 @@ All samples are self-contained, ready to use, and sensibly documented.
 
 - **Backbone Basics**
 
-  - [Views](https://github.com/bevacqua/buildfirst/tree/master/ch07/01_backbone-views)
-  - [View Templates](https://github.com/bevacqua/buildfirst/tree/master/ch07/02_backbone-view-templates)
-  - [Models](https://github.com/bevacqua/buildfirst/tree/master/ch07/03_backbone-models)
-  - [Collections](https://github.com/bevacqua/buildfirst/tree/master/ch07/04_backbone-collections)
-  - [Routing](https://github.com/bevacqua/buildfirst/tree/master/ch07/05_backbone-routing)
+  - [Views](https://github.com/buildfirst/buildfirst/tree/master/ch07/01_backbone-views)
+  - [View Templates](https://github.com/buildfirst/buildfirst/tree/master/ch07/02_backbone-view-templates)
+  - [Models](https://github.com/buildfirst/buildfirst/tree/master/ch07/03_backbone-models)
+  - [Collections](https://github.com/buildfirst/buildfirst/tree/master/ch07/04_backbone-collections)
+  - [Routing](https://github.com/buildfirst/buildfirst/tree/master/ch07/05_backbone-routing)
 
 - **Case Study: _The Shopping List_**
 
-  - [Shopping List](https://github.com/bevacqua/buildfirst/tree/master/ch07/06_shopping-list)
-  - [The One With Delete Buttons](https://github.com/bevacqua/buildfirst/tree/master/ch07/07_the-one-with-delete-buttons)
-  - [Creating Items](https://github.com/bevacqua/buildfirst/tree/master/ch07/08_creating-items)
-  - [Item Editing](https://github.com/bevacqua/buildfirst/tree/master/ch07/09_item-editing)
-  - [The Road Show](https://github.com/bevacqua/buildfirst/tree/master/ch07/10_the-road-show)
+  - [Shopping List](https://github.com/buildfirst/buildfirst/tree/master/ch07/06_shopping-list)
+  - [The One With Delete Buttons](https://github.com/buildfirst/buildfirst/tree/master/ch07/07_the-one-with-delete-buttons)
+  - [Creating Items](https://github.com/buildfirst/buildfirst/tree/master/ch07/08_creating-items)
+  - [Item Editing](https://github.com/buildfirst/buildfirst/tree/master/ch07/09_item-editing)
+  - [The Road Show](https://github.com/buildfirst/buildfirst/tree/master/ch07/10_the-road-show)
 
 - **Shared Rendering with [`Rendr`][4]**
-  - [Entourage](https://github.com/bevacqua/buildfirst/tree/master/ch07/11_entourage)
-  - [Full Metal Jacket](https://github.com/bevacqua/buildfirst/tree/master/ch07/12_full-metal-jacket)
+  - [Entourage](https://github.com/buildfirst/buildfirst/tree/master/ch07/11_entourage)
+  - [Full Metal Jacket](https://github.com/buildfirst/buildfirst/tree/master/ch07/12_full-metal-jacket)
 
-For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
+For questions or feedback refer to my [contact information](https://github.com/buildfirst/buildfirst#feedback).
 
-[1]: https://github.com/bevacqua/buildfirst/tree/master/ch05
+[1]: https://github.com/buildfirst/buildfirst/tree/master/ch05
 [2]: http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
 [3]: http://backbonejs.org/
 [4]: https://github.com/rendrjs/rendr

@@ -12,5 +12,5 @@ grunt test
 
 That's it! The next example, [**ch08e09** Grunt `tape` Automation (Browser)][2] shows how to run the same tests in the browser.
 
-[1]: https://raw.github.com/bevacqua/buildfirst/master/images/grunt-tape.png
-[2]: https://github.com/bevacqua/buildfirst/tree/master/ch08/09_grunt-tape-browser
+[1]: https://raw.github.com/buildfirst/buildfirst/master/images/grunt-tape.png
+[2]: https://github.com/buildfirst/buildfirst/tree/master/ch08/09_grunt-tape-browser

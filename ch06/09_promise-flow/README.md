@@ -25,7 +25,7 @@ Here's the complete list of examples you'll find in this sample.
 
 [fiddle]: http://www.es6fiddle.net/ "ES6 Fiddle Online"
 [polyfill]: https://github.com/jakearchibald/es6-promise "ES6 Promise Polyfill by Jake Archibald"
-[1]: https://github.com/bevacqua/buildfirst/tree/master/ch06/04_async-flow "Asynchronous Flow Control Sample"
+[1]: https://github.com/buildfirst/buildfirst/tree/master/ch06/04_async-flow "Asynchronous Flow Control Sample"
 [2]: https://github.com/caolan/async "Async utilities for node and the browser"
-[3]: https://github.com/bevacqua/buildfirst/tree/master/ch06/09_promise-flow/01_concurrent.js
-[4]: https://github.com/bevacqua/buildfirst/tree/master/ch06/09_promise-flow/02_funcitonal.js
+[3]: https://github.com/buildfirst/buildfirst/tree/master/ch06/09_promise-flow/01_concurrent.js
+[4]: https://github.com/buildfirst/buildfirst/tree/master/ch06/09_promise-flow/02_funcitonal.js

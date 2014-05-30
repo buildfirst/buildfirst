@@ -26,8 +26,8 @@ That's about it. This demo shows how you can use Backbone routing to navigate ar
 
 ![backbone-routing.png][5]
 
-[1]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone.png
+[1]: https://raw.github.com/buildfirst/buildfirst/master/images/backbone.png
 [2]: http://backbonejs.org/ "Backbone.js MVC Framework"
 [3]: http://browserify.org/
-[4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/11_browserify-cjs
-[5]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone-routing.png
+[4]: https://github.com/buildfirst/buildfirst/tree/master/ch05/11_browserify-cjs
+[5]: https://raw.github.com/buildfirst/buildfirst/master/images/backbone-routing.png

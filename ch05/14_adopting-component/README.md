@@ -39,4 +39,4 @@ The [next example][5] shows _how to automate_ the build step using Grunt.
   [2]: http://component.io
   [3]: https://github.com/wilmoore/frontend-packagers
   [4]: http://lodash.com/docs
-  [5]: https://github.com/bevacqua/buildfirst/tree/master/ch05/15_automate-component-build
+  [5]: https://github.com/buildfirst/buildfirst/tree/master/ch05/15_automate-component-build

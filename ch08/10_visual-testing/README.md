@@ -28,5 +28,5 @@ You'll get a result like this.
 
 That's it!
 
-[1]: https://raw.github.com/bevacqua/buildfirst/master/images/photobox.png
+[1]: https://raw.github.com/buildfirst/buildfirst/master/images/photobox.png
 [2]: https://github.com/stefanjudis/grunt-photobox

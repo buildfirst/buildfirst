@@ -17,8 +17,8 @@ node --harmony 02_for-of
 ```
 
 [1]: https://github.com/creationix/nvm
-[2]: https://github.com/bevacqua/buildfirst/tree/master/ch06/12_generator-basics/01_fibonacci-sequence.js
-[3]: https://github.com/bevacqua/buildfirst/tree/master/ch06/12_generator-basics/02_for-of.js
+[2]: https://github.com/buildfirst/buildfirst/tree/master/ch06/12_generator-basics/01_fibonacci-sequence.js
+[3]: https://github.com/buildfirst/buildfirst/tree/master/ch06/12_generator-basics/02_for-of.js
 [4]: http://nodejs.org/dist
-[5]: https://raw.github.com/bevacqua/buildfirst/master/images/es6.png
+[5]: https://raw.github.com/buildfirst/buildfirst/master/images/es6.png
 [6]: http://es6fiddle.com

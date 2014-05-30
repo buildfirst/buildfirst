@@ -34,5 +34,5 @@ nconf.file('dev', path.join(__dirname, 'development.json'));
 Heroku proposes something slightly different, in using `.env` and [foreman][3], one of their CLI tools, to actually run the application. This translates into issues when attempting to achieve continuous development _(and isn't really necessary)_ so I decided to avoid doing that, and going a more conventional route, using a JSON file instead.
 
   [1]: http://en.wikipedia.org/wiki/Environment_variable
-  [2]: https://github.com/bevacqua/buildfirst/tree/master/ch03/02_rsa-config-encryption "RSA Config Encryption"
+  [2]: https://github.com/buildfirst/buildfirst/tree/master/ch03/02_rsa-config-encryption "RSA Config Encryption"
   [3]: https://github.com/ddollar/foreman

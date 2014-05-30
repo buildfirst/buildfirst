@@ -10,6 +10,6 @@ Each sample contains implementation and usage details.
 
 These are the approaches to information hiding discussed on Chapter 5, section `5.1.2`.
 
-  [1]: https://github.com/bevacqua/buildfirst/tree/master/ch05/02_information-hiding/prototypal.js
-  [2]: https://github.com/bevacqua/buildfirst/tree/master/ch05/02_information-hiding/pure.js
-  [3]: https://github.com/bevacqua/buildfirst/tree/master/ch05/02_information-hiding/factory.js
+  [1]: https://github.com/buildfirst/buildfirst/tree/master/ch05/02_information-hiding/prototypal.js
+  [2]: https://github.com/buildfirst/buildfirst/tree/master/ch05/02_information-hiding/pure.js
+  [3]: https://github.com/buildfirst/buildfirst/tree/master/ch05/02_information-hiding/factory.js

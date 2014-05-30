@@ -26,7 +26,7 @@ open test/runner.html
 
 ![interaction-testing-browser.png][4]
 
-[1]: https://raw.github.com/bevacqua/buildfirst/master/images/mind-the-gap.jpg "Mind it!"
-[2]: https://raw.github.com/bevacqua/buildfirst/master/images/event-bar.png
-[3]: https://github.com/bevacqua/buildfirst/tree/master/ch08/02_tape-in-the-browser
-[4]: https://raw.github.com/bevacqua/buildfirst/master/images/interaction-testing-browser.png
+[1]: https://raw.github.com/buildfirst/buildfirst/master/images/mind-the-gap.jpg "Mind it!"
+[2]: https://raw.github.com/buildfirst/buildfirst/master/images/event-bar.png
+[3]: https://github.com/buildfirst/buildfirst/tree/master/ch08/02_tape-in-the-browser
+[4]: https://raw.github.com/buildfirst/buildfirst/master/images/interaction-testing-browser.png

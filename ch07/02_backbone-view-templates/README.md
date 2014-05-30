@@ -26,9 +26,9 @@ That's about it. This demo shows how you can use Backbone to render a view in yo
 
 ![backbone-templates.png][6]
 
-[1]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone.png
+[1]: https://raw.github.com/buildfirst/buildfirst/master/images/backbone.png
 [2]: http://backbonejs.org/ "Backbone.js MVC Framework"
 [3]: http://browserify.org/
-[4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/11_browserify-cjs
+[4]: https://github.com/buildfirst/buildfirst/tree/master/ch05/11_browserify-cjs
 [5]: http://mustache.github.io/
-[6]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone-templates.png
+[6]: https://raw.github.com/buildfirst/buildfirst/master/images/backbone-templates.png

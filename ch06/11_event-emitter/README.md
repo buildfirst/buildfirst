@@ -57,5 +57,5 @@ Rippley! 10
 ...
 ```
 
-[1]: https://github.com/bevacqua/buildfirst/tree/master/ch06/11_event-emitter/emitter.js
-[2]: https://github.com/bevacqua/buildfirst/tree/master/ch06/11_event-emitter/consumer.js
+[1]: https://github.com/buildfirst/buildfirst/tree/master/ch06/11_event-emitter/emitter.js
+[2]: https://github.com/buildfirst/buildfirst/tree/master/ch06/11_event-emitter/consumer.js

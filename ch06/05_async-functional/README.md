@@ -21,5 +21,5 @@ function done (err, results) {
 }
 ```
 
-  [1]: https://github.com/bevacqua/buildfirst/tree/master/ch06/04_async-flow "Asynchronous Flow Control"
+  [1]: https://github.com/buildfirst/buildfirst/tree/master/ch06/04_async-flow "Asynchronous Flow Control"
   [2]: https://github.com/caolan/async "Async utilities for node and the browser"

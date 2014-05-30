@@ -12,4 +12,4 @@ That's it, now you can run the tests using the test harness, opening the `test/r
 
 ![tape-browser.png][1]
 
-[1]: https://raw.github.com/bevacqua/buildfirst/master/images/tape-browser.png "Tape tests in the browser"
+[1]: https://raw.github.com/buildfirst/buildfirst/master/images/tape-browser.png "Tape tests in the browser"

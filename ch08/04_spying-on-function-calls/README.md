@@ -10,4 +10,4 @@ node test/maxwell
 
 ![sinon-maxwell.png][1]
 
-[1]: https://raw.github.com/bevacqua/buildfirst/master/images/sinon-maxwell.png "Spying with Sinon.js"
+[1]: https://raw.github.com/buildfirst/buildfirst/master/images/sinon-maxwell.png "Spying with Sinon.js"

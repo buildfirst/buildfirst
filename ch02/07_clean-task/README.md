@@ -10,4 +10,4 @@ In addition, we can now use the following command to clean up build-generated co
 grunt clean
 ```
 
-  [1]: https://github.com/bevacqua/buildfirst/ch02/04_bundle-then-minify "Bundle Then Minify Example"
+  [1]: https://github.com/buildfirst/buildfirst/ch02/04_bundle-then-minify "Bundle Then Minify Example"

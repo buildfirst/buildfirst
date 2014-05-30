@@ -4,6 +4,6 @@ The book comes with small tutorial-like appendices bundled into it, and these ar
 
 ### Contents
 
-- [Introduction to Grunt](https://github.com/bevacqua/buildfirst/tree/master/appendix/introduction-to-grunt)
+- [Introduction to Grunt](https://github.com/buildfirst/buildfirst/tree/master/appendix/introduction-to-grunt)
 
-For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
+For questions or feedback refer to my [contact information](https://github.com/buildfirst/buildfirst#feedback).

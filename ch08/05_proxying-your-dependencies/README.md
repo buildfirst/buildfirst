@@ -29,6 +29,6 @@ node test/mapper
 
 ![tape-proxy.png][1]
 
-[1]: https://raw.github.com/bevacqua/buildfirst/master/images/tape-proxy.png "Mocking with proxyquire"
-[2]: https://github.com/bevacqua/buildfirst/blob/master/ch08/05_proxying-your-dependencies/test/mapper.js
+[1]: https://raw.github.com/buildfirst/buildfirst/master/images/tape-proxy.png "Mocking with proxyquire"
+[2]: https://github.com/buildfirst/buildfirst/blob/master/ch08/05_proxying-your-dependencies/test/mapper.js
 [3]: https://github.com/thlorenz/proxyquire

@@ -10,8 +10,8 @@ All samples are self-contained, ready to use, and sensibly documented.
 
 ### Contents
 
-- [Lint Sample](https://github.com/bevacqua/buildfirst/tree/master/ch01/01_lint-sample)
+- [Lint Sample](https://github.com/buildfirst/buildfirst/tree/master/ch01/01_lint-sample)
 
-For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
+For questions or feedback refer to my [contact information](https://github.com/buildfirst/buildfirst#feedback).
 
-  [1]: https://github.com/bevacqua/buildfirst/tree/master/ch02
+  [1]: https://github.com/buildfirst/buildfirst/tree/master/ch02

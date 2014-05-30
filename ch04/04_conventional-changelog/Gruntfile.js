@@ -23,7 +23,7 @@ module.exports = function (grunt) {
 
         // taken from package.json by default,
         // explicitly added here just so the example works
-        github: 'https://github.com/bevacqua/buildfirst.git'
+        github: 'https://github.com/buildfirst/buildfirst.git'
       }
     }
   });

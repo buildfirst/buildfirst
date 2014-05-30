@@ -8,16 +8,16 @@ All samples are self-contained, ready to use, and sensibly documented.
 
 ### Contents
 
-- [Image Optimization](https://github.com/bevacqua/buildfirst/tree/master/ch04/01_image-optimization)
-- [Static Asset Hashing](https://github.com/bevacqua/buildfirst/tree/master/ch04/02_asset-hashing)
-- [Version Bumping](https://github.com/bevacqua/buildfirst/tree/master/ch04/03_version-bump)
-- [Conventional Changelogs](https://github.com/bevacqua/buildfirst/tree/master/ch04/04_conventional-changelog)
-- [Deployments with Heroku](https://github.com/bevacqua/buildfirst/tree/master/ch04/05_heroku-deployments)
+- [Image Optimization](https://github.com/buildfirst/buildfirst/tree/master/ch04/01_image-optimization)
+- [Static Asset Hashing](https://github.com/buildfirst/buildfirst/tree/master/ch04/02_asset-hashing)
+- [Version Bumping](https://github.com/buildfirst/buildfirst/tree/master/ch04/03_version-bump)
+- [Conventional Changelogs](https://github.com/buildfirst/buildfirst/tree/master/ch04/04_conventional-changelog)
+- [Deployments with Heroku](https://github.com/buildfirst/buildfirst/tree/master/ch04/05_heroku-deployments)
 - [_Build First_, Deploy, Build Again](https://github.com/buildfirst/heroku-grunt)
-- [Deploying to Amazon EC2](https://github.com/bevacqua/buildfirst/tree/master/ch04/07_aws-deployments)
+- [Deploying to Amazon EC2](https://github.com/buildfirst/buildfirst/tree/master/ch04/07_aws-deployments)
 - [Continuous Integration](https://github.com/buildfirst/ci-by-example)
-- [Logging with `winston`](https://github.com/bevacqua/buildfirst/tree/master/ch04/09_logging-with-winston)
-- [A Node Cluster](https://github.com/bevacqua/buildfirst/tree/master/ch04/10_a-node-cluster)
-- [Cluster via `pm2`](https://github.com/bevacqua/buildfirst/tree/master/ch04/11_cluster-by-pm2)
+- [Logging with `winston`](https://github.com/buildfirst/buildfirst/tree/master/ch04/09_logging-with-winston)
+- [A Node Cluster](https://github.com/buildfirst/buildfirst/tree/master/ch04/10_a-node-cluster)
+- [Cluster via `pm2`](https://github.com/buildfirst/buildfirst/tree/master/ch04/11_cluster-by-pm2)
 
-For questions or feedback refer to my [contact information](https://github.com/bevacqua/buildfirst#feedback).
+For questions or feedback refer to my [contact information](https://github.com/buildfirst/buildfirst#feedback).

@@ -20,7 +20,7 @@ You'll need **Node.js**. You can get the latest version [from their website][5],
 Once you have Node, use the command below to clone this repository and install all of the dependencies:
 
 ```shell
-curl https://raw.github.com/bevacqua/buildfirst/master/install.sh | sh
+curl https://raw.github.com/buildfirst/buildfirst/master/install.sh | sh
 ```
 
 <sub>If you're on **Windows** use `install-dos.sh`, instead.</sub>
@@ -62,17 +62,17 @@ Let the [**#buildfirst**][17] revolution commence!
   [4]: http://bevacqua.io/bf/book "Get the book from Manning!"
   [5]: http://nodejs.org/download/ "Node.js Downloads"
   [6]: https://github.com/creationix/nvm "Node Version Manager"
-  [7]: https://github.com/bevacqua/buildfirst/blob/master/wiki/installation-manual.md "Manual Installation Instructions"
+  [7]: https://github.com/buildfirst/buildfirst/blob/master/wiki/installation-manual.md "Manual Installation Instructions"
   [8]: README.md "To understand recursion, you must first understand recursion"
-  [9]: https://github.com/bevacqua/buildfirst/releases/tag/v0.0.1 "Tagged v0.0.1"
-  [10]: https://github.com/bevacqua/buildfirst "JavaScript Application Design Code Sample Repository"
-  [11]: https://github.com/bevacqua/buildfirst/issues "JavaScript Application Design Code Sample Repository Issues"
+  [9]: https://github.com/buildfirst/buildfirst/releases/tag/v0.0.1 "Tagged v0.0.1"
+  [10]: https://github.com/buildfirst/buildfirst "JavaScript Application Design Code Sample Repository"
+  [11]: https://github.com/buildfirst/buildfirst/issues "JavaScript Application Design Code Sample Repository Issues"
   [12]: https://help.github.com/articles/using-pull-requests "Using Pull Requests"
   [13]: http://www.manning-sandbox.com/forum.jspa?forumID=888 "Author Online Forum for JavaScript Application Design"
   [14]: mailto:buildfirst@bevacqua.io "Contact me by mail"
   [15]: http://blog.ponyfoo.com "Pony Foo"
   [16]: https://twitter.com/nzgb "@nzgb on Twitter"
   [17]: https://twitter.com/#buildfirst "#buildfirst on Twitter"
-  [18]: https://github.com/bevacqua/buildfirst/releases/tag/v0.0.2 "Tagged v0.0.2"
+  [18]: https://github.com/buildfirst/buildfirst/releases/tag/v0.0.2 "Tagged v0.0.2"
 
 ![ga](https://ga-beacon.appspot.com/UA-35043128-6/buildfirst/readme?pixel)

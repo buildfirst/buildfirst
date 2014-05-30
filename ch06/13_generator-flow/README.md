@@ -28,8 +28,8 @@ flow(function* (next) {
 
 The [`flow`][4] method is a quite a bit commented, to help you figure out how it is implemented, so I suggest you check that out if you're struggling with the explanation found on the book.
 
-[1]: https://raw.github.com/bevacqua/buildfirst/master/images/es6.png
+[1]: https://raw.github.com/buildfirst/buildfirst/master/images/es6.png
 [2]: http://nodejs.org/dist
 [3]: https://github.com/creationix/nvm
-[4]: https://github.com/bevacqua/buildfirst/tree/master/ch06/13_generator-flow/flow.js
+[4]: https://github.com/buildfirst/buildfirst/tree/master/ch06/13_generator-flow/flow.js
 [5]: http://es6fiddle.com

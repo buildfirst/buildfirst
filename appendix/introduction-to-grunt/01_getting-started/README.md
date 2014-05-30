@@ -28,4 +28,4 @@ If you want to learn a bit more about globbing patterns, please head over [to th
 
   [1]: http://gruntjs.com "Grunt: JavaScript Task Runner"
   [2]: http://i.imgur.com/bCRhgh1.png "Welcome to Grunt!"
-  [3]: https://github.com/bevacqua/buildfirst/tree/master/appendix/introduction-to-grunt/02_globbing-patterns
+  [3]: https://github.com/buildfirst/buildfirst/tree/master/appendix/introduction-to-grunt/02_globbing-patterns

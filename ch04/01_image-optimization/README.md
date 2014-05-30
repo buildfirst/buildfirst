@@ -20,4 +20,4 @@ That command will just copy the images, without any optimizations.
 
   [1]: http://i.imgur.com/oRX0u4V.gif "Interlacing is Fantastic, with Capital F."
   [2]: https://github.com/gruntjs/grunt-contrib-imagemin
-  [3]: https://github.com/bevacqua/buildfirst/tree/master/ch03/01_distribution-config "Distribution Config"
+  [3]: https://github.com/buildfirst/buildfirst/tree/master/ch03/01_distribution-config "Distribution Config"

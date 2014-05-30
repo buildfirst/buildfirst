@@ -11,4 +11,4 @@ node test/compute
 ![test.png][2]
 
 [1]: https://github.com/substack/tape
-[2]: https://raw.github.com/bevacqua/buildfirst/master/images/tape-test.png "Tape tests in action"
+[2]: https://raw.github.com/buildfirst/buildfirst/master/images/tape-test.png "Tape tests in action"

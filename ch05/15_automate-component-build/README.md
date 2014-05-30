@@ -38,5 +38,5 @@ open test.html
   [1]: http://i49.tinypic.com/e7nj9v.png
   [2]: http://component.io
   [3]: https://github.com/wilmoore/frontend-packagers
-  [4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/14_adopting-component
+  [4]: https://github.com/buildfirst/buildfirst/tree/master/ch05/14_adopting-component
   [5]: http://lodash.com/docs

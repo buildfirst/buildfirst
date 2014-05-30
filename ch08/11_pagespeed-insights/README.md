@@ -16,8 +16,8 @@ That's it!
 
 ![pagespeed-grunt.png][3]
 
-[1]: https://raw.github.com/bevacqua/buildfirst/master/images/pagespeed.png
+[1]: https://raw.github.com/buildfirst/buildfirst/master/images/pagespeed.png
 [2]: https://github.com/jrcryer/grunt-pagespeed
-[3]: https://raw.github.com/bevacqua/buildfirst/master/images/pagespeed-grunt.png
+[3]: https://raw.github.com/buildfirst/buildfirst/master/images/pagespeed-grunt.png
 [4]: https://code.google.com/apis/console
 [5]: https://developers.google.com/speed/docs/insights/

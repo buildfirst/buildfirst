@@ -28,11 +28,11 @@ Here's the complete list of examples you'll find in this sample.
 
 ![promises.png][4]
 
-[1]: https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise-basics/01_basic.js
-[2]: https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise-basics/02_thenable.js
-[3]: https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise-basics/03_async-promise.js
-[4]: https://raw.github.com/bevacqua/buildfirst/master/images/promises.png
+[1]: https://github.com/buildfirst/buildfirst/tree/master/ch06/08_promise-basics/01_basic.js
+[2]: https://github.com/buildfirst/buildfirst/tree/master/ch06/08_promise-basics/02_thenable.js
+[3]: https://github.com/buildfirst/buildfirst/tree/master/ch06/08_promise-basics/03_async-promise.js
+[4]: https://raw.github.com/buildfirst/buildfirst/master/images/promises.png
 [5]: http://www.es6fiddle.net/ "ES6 Fiddle Online"
 [6]: https://github.com/jakearchibald/es6-promise "ES6 Promise Polyfill by Jake Archibald"
-[7]: https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise-basics/04_transforming-values.js
-[8]: https://github.com/bevacqua/buildfirst/tree/master/ch06/08_promise-basics/05_chaining-promises.js
+[7]: https://github.com/buildfirst/buildfirst/tree/master/ch06/08_promise-basics/04_transforming-values.js
+[8]: https://github.com/buildfirst/buildfirst/tree/master/ch06/08_promise-basics/05_chaining-promises.js

@@ -7,7 +7,7 @@ Installing the dependencies in many of the samples requires **Node.js**. You cou
 You need [git][3], in order to `clone` the repository like below.
 
 ```shell
-git clone --recursive https://github.com/bevacqua/buildfirst.git
+git clone --recursive https://github.com/buildfirst/buildfirst.git
 ```
 
 <sub>The `--recursive` flag is used to **clone submodules** as well. Read [a bit more about cloning submodules][4] command, for context.</sub>

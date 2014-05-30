@@ -28,10 +28,10 @@ This is the last sample in the series, picking up where we left off at [**ch07e0
 
 Browse the code and check out the comments to learn more!
 
-[1]: https://raw.github.com/bevacqua/buildfirst/master/images/backbone.png
+[1]: https://raw.github.com/buildfirst/buildfirst/master/images/backbone.png
 [2]: http://backbonejs.org/ "Backbone.js MVC Framework"
 [3]: http://browserify.org/
-[4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/11_browserify-cjs
+[4]: https://github.com/buildfirst/buildfirst/tree/master/ch05/11_browserify-cjs
 [5]: http://mustache.github.io/
-[6]: https://github.com/bevacqua/buildfirst/tree/master/ch07/09_item-editing
-[7]: https://raw.github.com/bevacqua/buildfirst/master/images/road-show.png
+[6]: https://github.com/buildfirst/buildfirst/tree/master/ch07/09_item-editing
+[7]: https://raw.github.com/buildfirst/buildfirst/master/images/road-show.png

@@ -119,6 +119,6 @@ You might want to check out [unbox][14], which makes use of [grunt-ec2][4] and c
   [9]: https://github.com/thrashr888/grunt-sftp-deploy
   [10]: https://github.com/andrewrjones/grunt-ssh
   [11]: https://github.com/jedrichards/grunt-rsync
-  [12]: https://github.com/bevacqua/buildfirst/tree/master/ch04/05_heroku-deployments "Heroku Deployments"
+  [12]: https://github.com/buildfirst/buildfirst/tree/master/ch04/05_heroku-deployments "Heroku Deployments"
   [13]: http://i.imgur.com/Q5F5ivl.gif
   [14]: https://github.com/bevacqua/unbox

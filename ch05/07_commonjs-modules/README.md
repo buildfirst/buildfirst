@@ -16,6 +16,6 @@ node behavior
 
   [1]: http://i.imgur.com/fxJcqCJ.jpg
   [2]: http://wiki.commonjs.org/wiki/CommonJS "Common.JS wiki home"
-  [3]: https://github.com/bevacqua/buildfirst/tree/master/ch05/02_information-hiding
-  [4]: https://github.com/bevacqua/buildfirst/tree/master/ch05/05_closures
+  [3]: https://github.com/buildfirst/buildfirst/tree/master/ch05/02_information-hiding
+  [4]: https://github.com/buildfirst/buildfirst/tree/master/ch05/05_closures
   [5]: http://nodejs.org/api/globals.html

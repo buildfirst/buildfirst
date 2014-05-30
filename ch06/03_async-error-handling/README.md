@@ -33,5 +33,5 @@ function done (err, res) {
 }
 ```
 
-  [1]: https://github.com/bevacqua/buildfirst/tree/master/ch06/02_requests-upon-requests "Requests Upon Requests"
-  [2]: https://github.com/bevacqua/buildfirst/tree/master/ch06/03_async-error-handling/flow.js "Example Flow Control Method"
+  [1]: https://github.com/buildfirst/buildfirst/tree/master/ch06/02_requests-upon-requests "Requests Upon Requests"
+  [2]: https://github.com/buildfirst/buildfirst/tree/master/ch06/03_async-error-handling/flow.js "Example Flow Control Method"

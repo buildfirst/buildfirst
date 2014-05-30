@@ -44,4 +44,4 @@ To check out the example file, [click here][1]. Can you anticipate the outcome, 
 
 [fiddle]: http://www.es6fiddle.net/ "ES6 Fiddle Online"
 [polyfill]: https://github.com/jakearchibald/es6-promise "ES6 Promise Polyfill by Jake Archibald"
-[1]: https://github.com/bevacqua/buildfirst/tree/master/ch06/10_promise-error-handling/example.js
+[1]: https://github.com/buildfirst/buildfirst/tree/master/ch06/10_promise-error-handling/example.js
