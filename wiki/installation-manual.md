@@ -15,7 +15,7 @@ git clone --recursive https://github.com/buildfirst/buildfirst.git
 As a bit of _sugar on top_ of `git`, we can use a little utility developed by **GitHub**, called [hub][5], to make cloning repositories easier. It's just less verbose to type by hand, useful if you use the terminal a lot.
 
 ```shell
-hub clone --recursive bevacqua/buildfirst
+hub clone --recursive buildfirst/buildfirst
 ```
 
 ### Dependencies
