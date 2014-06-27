@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git://github.com/buildfirst/buildfirst.git"
   },
+  "scripts": {
+    "test": "jshint . --exclude-path node_modules"
+  },
   "devDependencies": {
     "jshint": "^2.5.1"
   }
