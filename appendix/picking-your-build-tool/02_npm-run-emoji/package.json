@@ -15,7 +15,6 @@
     "emoji": "./emoji"
   },
   "devDependencies": {
-    "emoji-random": "^0.1.2",
-    "jshint": "^2.5.1"
+    "emoji-random": "^0.1.2"
   }
 }
