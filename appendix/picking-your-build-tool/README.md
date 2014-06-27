@@ -8,7 +8,7 @@ All samples are self-contained, ready to use, and sensibly documented.
 
 ### Contents
 
-- [JSHint with `npm run`](https://github.com/buildfirst/buildfirst/tree/master/appendix/picking-your-build-tool/01_jshint-npm-run)
+- [JSHint via `npm run`](https://github.com/buildfirst/buildfirst/tree/master/appendix/picking-your-build-tool/01_jshint-npm-run)
 
 For questions or feedback refer to my [contact information](https://github.com/buildfirst/buildfirst#feedback).
 
