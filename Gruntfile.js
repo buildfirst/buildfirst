@@ -2,13 +2,18 @@
 
 var glob = require('glob');
 var all = glob.sync('**/*.js');
-var sources = process(['node_modules/', 'bower_components', 'vendor/', 'build/', 'ch01/'], unmatched, all);
-var es6 = process(['ch05/17_harmony-traceur/'], matched, sources);
+var sources = process(['node_modules/', 'bower_components/', 'vendor/', 'build/', 'ch01/'], unmatched, all);
+var es6_globs = ['ch05/17_harmony-traceur/', 'ch06/12_generator-basics/', 'ch06/13_generator-flow/'];
+var es6 = process(es6_globs, matched, sources);
 var browser = process(['public/'], matched, sources);
-var node = process(['public/', 'ch05/17_harmony-traceur/', 'ch06/12_generator-basics', 'ch06/13_generator-flow'], unmatched, sources);
+var node = process(['public/', 'appendix/picking-your-build-tool/'].concat(es6_globs, unmatched, sources);
 
 function process (by, criteria, files) {
-  return files.filter(function (path) { return by.every(criteria.bind(path)); });
+  return files.filter(where);
+
+  function where (path) {
+    return by.every(criteria.bind(path));
+  }
 }
 
 function unmatched (expression) {
@@ -20,7 +25,6 @@ function matched (expression) {
 }
 
 module.exports = function(grunt){
-
   grunt.initConfig({
     jshint: {
       node: {

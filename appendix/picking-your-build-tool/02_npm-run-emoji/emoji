@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+var emoji = require('emoji-random');
+var emo = emoji.random();
+
+console.log(emo);

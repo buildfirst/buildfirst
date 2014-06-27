@@ -24,5 +24,5 @@ npm test
 ```
 
 [1]: http://i.imgur.com/eETDUgq.png
-[2]: https://github.com/buildfirst/buildfirst/tree/master/appendix/picking-your-build-tool/01_jshint-npm-run/package.json
+[2]: https://github.com/buildfirst/buildfirst/tree/master/appendix/picking-your-build-tool/01_npm-run-jshint/package.json
 [3]: http://www.jshint.com/docs/cli/
