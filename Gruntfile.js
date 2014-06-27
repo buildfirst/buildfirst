@@ -6,7 +6,7 @@ var sources = process(['node_modules/', 'bower_components/', 'vendor/', 'build/'
 var es6_globs = ['ch05/17_harmony-traceur/', 'ch06/12_generator-basics/', 'ch06/13_generator-flow/'];
 var es6 = process(es6_globs, matched, sources);
 var browser = process(['public/'], matched, sources);
-var node = process(['public/', 'appendix/picking-your-build-tool/'].concat(es6_globs, unmatched, sources);
+var node = process(['public/', 'appendix/picking-your-build-tool/'].concat(es6_globs), unmatched, sources);
 
 function process (by, criteria, files) {
   return files.filter(where);
