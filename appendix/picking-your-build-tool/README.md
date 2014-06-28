@@ -15,6 +15,7 @@ All samples are self-contained, ready to use, and sensibly documented.
   - [Displaying emoji via a script](https://github.com/buildfirst/buildfirst/tree/master/appendix/picking-your-build-tool/04_npm-run-emoji)
 - Using [Gulp][5]
   - [JSHint in Gulp](https://github.com/buildfirst/buildfirst/tree/master/appendix/picking-your-build-tool/05_gulp-test)
+  - [Building with Gulp](https://github.com/buildfirst/buildfirst/tree/master/appendix/picking-your-build-tool/06_gulp-build)
 - For Grunt samples head over to the [**Introduction to Grunt** appendix][3]
 
 For questions or feedback refer to my [contact information](https://github.com/buildfirst/buildfirst#feedback).
