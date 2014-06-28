@@ -2,7 +2,7 @@
 
 ##### _(Appendix)_
 
-This appendix explains that every tool has a purpose and helps you decide for yourself. In particular, I'll be covering [`npm run`][1] and [Gulp][2], and pitching them against Grunt, which you should already be familiar with. If not yet, you could read the [**Introduction to Grunt** appendix][3], or read through Part I of [the book][4].
+This appendix explains that every tool has a purpose and helps you decide for yourself. In particular, it covers [`npm run`][1] and [Gulp][2], and pitching them against Grunt, which you should already be familiar with. If not yet, you could read the [**Introduction to Grunt** appendix][3], or read through Part I of [the book][4].
 
 All samples are self-contained, ready to use, and sensibly documented.
 
