@@ -12,11 +12,9 @@
     "type": "git",
     "url": "git://github.com/buildfirst/buildfirst.git"
   },
-  "dependencies": {
-    "nconf": "~0.6.7"
-  },
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-jshint": "~0.6.4"
+    "gulp": "^3.8.5",
+    "gulp-jshint": "^1.6.3",
+    "jshint-stylish": "^0.2.0"
   }
 }

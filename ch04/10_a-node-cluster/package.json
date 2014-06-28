@@ -7,6 +7,7 @@
     "email": "buildfirst@bevacqua.io",
     "url": "http://bevacqua.io/buildfirst"
   },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/buildfirst/buildfirst.git"
