@@ -12,9 +12,9 @@
     "url": "git://github.com/buildfirst/buildfirst.git"
   },
   "scripts": {
-    "build-js": "cp -r src/js/vendor bin/js",
-    "build-css": "stylus src/css/all.styl -o bin/css",
-    "build": "npm run build-js & npm run build-css"
+    "build-js": "cp -r js/vendor build/js",
+    "build-css": "stylus css/all.styl -o build/css",
+    "build": "rm -rf build && mkdir -p build/{js,css} && npm run build-js & npm run build-css"
   },
   "devDependencies": {
     "stylus": "^0.45.0"
