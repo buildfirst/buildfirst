@@ -13,7 +13,7 @@
   },
   "scripts": {
     "lint": "jshint . --exclude node_modules",
-    "unit": "tape test/*",
+    "unit": "tape test/*.js",
     "test": "npm run lint && npm run unit"
   },
   "devDependencies": {
