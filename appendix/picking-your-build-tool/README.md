@@ -10,7 +10,9 @@ All samples are self-contained, ready to use, and sensibly documented.
 
 - Using `npm run`
   - [Running JSHint via CLI](https://github.com/buildfirst/buildfirst/tree/master/appendix/picking-your-build-tool/01_npm-run-jshint)
-  - [Displaying emoji via a script](https://github.com/buildfirst/buildfirst/tree/master/appendix/picking-your-build-tool/02_npm-run-emoji)
+  - [Chaining tasks together](https://github.com/buildfirst/buildfirst/tree/master/appendix/picking-your-build-tool/02_npm-run-tests)
+  - [Running tasks asynchronously](https://github.com/buildfirst/buildfirst/tree/master/appendix/picking-your-build-tool/03_npm-run-build)
+  - [Displaying emoji via a script](https://github.com/buildfirst/buildfirst/tree/master/appendix/picking-your-build-tool/04_npm-run-emoji)
 
 For questions or feedback refer to my [contact information](https://github.com/buildfirst/buildfirst#feedback).
 

@@ -1,0 +1,23 @@
+{
+  "name": "buildfirst",
+  "version": "0.1.0",
+  "homepage": "https://github.com/buildfirst/buildfirst",
+  "author": {
+    "name": "Nicolas Bevacqua",
+    "email": "buildfirst@bevacqua.io",
+    "url": "http://bevacqua.io/buildfirst"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/buildfirst/buildfirst.git"
+  },
+  "scripts": {
+    "lint": "jshint . --exclude node_modules",
+    "unit": "tape test/*",
+    "test": "npm run lint && npm run unit"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.1",
+    "tape": "~2.10.2"
+  }
+}

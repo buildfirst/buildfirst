@@ -1,0 +1,22 @@
+{
+  "name": "buildfirst",
+  "version": "0.1.0",
+  "homepage": "https://github.com/buildfirst/buildfirst",
+  "author": {
+    "name": "Nicolas Bevacqua",
+    "email": "buildfirst@bevacqua.io",
+    "url": "http://bevacqua.io/buildfirst"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/buildfirst/buildfirst.git"
+  },
+  "scripts": {
+    "build-js": "cp -r src/js/vendor bin/js",
+    "build-css": "stylus src/css/all.styl -o bin/css",
+    "build": "npm run build-js & npm run build-css"
+  },
+  "devDependencies": {
+    "stylus": "^0.45.0"
+  }
+}
