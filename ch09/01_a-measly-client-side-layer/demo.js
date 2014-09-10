@@ -30,7 +30,7 @@ void function () {
     var space = document.createElement('div');
     var requestButton = document.createElement('button');
     var description = document.createElement('pre');
-    var layer = measly.thinner({ context: space });
+    var layer = measly.layer({ context: space });
     header.innerText = 'Space #' + i++;
     requestButton.classList.add('cm-request');
     requestButton.innerText = 'Start Request!';

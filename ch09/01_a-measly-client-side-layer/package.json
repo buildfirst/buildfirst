@@ -12,5 +12,7 @@
     "type": "git",
     "url": "git://github.com/buildfirst/buildfirst.git"
   },
-  "dependencies": {}
+  "dependencies": {
+    "measly": "^1.2.10"
+  }
 }
