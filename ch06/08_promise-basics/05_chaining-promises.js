@@ -1,4 +1,4 @@
-var Promise = require('es6-promise').Promise;
+var Prom = require('es6-promise').Promise;
 
 // this method returns a promise
 // the promise resolves with the response data
@@ -26,7 +26,7 @@ function get (endpoint) {
     xhr.send();
   }
 
-  return new Promise(handler);
+  return new Prom(handler);
 }
 
 // here we are chaining promises and transform callbacks

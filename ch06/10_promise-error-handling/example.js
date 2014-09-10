@@ -1,4 +1,4 @@
-var Promise = require('es6-promise').Promise;
+var Prom = require('es6-promise').Promise;
 
 function delay (t) {
   function wait (fulfill, reject) {
@@ -10,7 +10,7 @@ function delay (t) {
       fulfill(t);
     }, t);
   }
-  return new Promise(wait);
+  return new Prom(wait);
 }
 
 Promise
