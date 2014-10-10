@@ -88,7 +88,7 @@ I included a secure `foo.pemjson` file in this repository. However, that is no g
 For educational purposes, I created [a secret gist with the key][4], and you can get it by running this command in your favorite shell (assuming you're sitting in this example's root directory):
 
 ```shell
-curl https://gist.github.com/bevacqua/4bdd042526b51681ca29/raw/ba2295d9b7399956439dc28056a0e7e13dca1f0e/foo.pem > private/foo.pem
+curl https://gist.githubusercontent.com/bevacqua/4bdd042526b51681ca29/raw/ba2295d9b7399956439dc28056a0e7e13dca1f0e/foo.pem > private/foo.pem
 ```
 
 Now you're able to decrypt `secure/foo.pemjson`! Just do `grunt_decrypt:foo`, and find the awesome treats inside. _(Okay, not that awesome)_.
