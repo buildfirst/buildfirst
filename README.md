@@ -20,7 +20,7 @@ You'll need **Node.js**. You can get the latest version [from their website][5],
 Once you have Node, use the command below to clone this repository and install all of the dependencies:
 
 ```shell
-curl https://raw.github.com/buildfirst/buildfirst/master/install.sh | sh
+curl https://raw.githubusercontent.com/buildfirst/buildfirst/master/install.sh | sh
 ```
 
 <sub>If you're on **Windows** use `install-dos.sh`, instead.</sub>
