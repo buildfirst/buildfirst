@@ -39,6 +39,7 @@ There are some examples here that you _won't find on the book_, those will gener
 
 This is the list of releases to date. You can feel free to simply clone `master`, to get the most up-to-date version.
 
+- [Final Review][19]
 - [Two Thirds Review][18]
 - [One Third Review][9]
 
@@ -74,5 +75,6 @@ Let the [**#buildfirst**][17] revolution commence!
   [16]: https://twitter.com/nzgb "@nzgb on Twitter"
   [17]: https://twitter.com/#buildfirst "#buildfirst on Twitter"
   [18]: https://github.com/buildfirst/buildfirst/releases/tag/v0.0.2 "Tagged v0.0.2"
-
+  [19]: https://github.com/buildfirst/buildfirst/releases/tag/v0.0.2 "Tagged v1.0.0"
+  
 ![ga](https://ga-beacon.appspot.com/UA-35043128-6/buildfirst/readme?pixel)
