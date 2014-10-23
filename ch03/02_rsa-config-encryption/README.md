@@ -91,7 +91,7 @@ For educational purposes, I created [a secret gist with the key][4], and you can
 curl https://gist.githubusercontent.com/bevacqua/4bdd042526b51681ca29/raw/ba2295d9b7399956439dc28056a0e7e13dca1f0e/foo.pem > private/foo.pem
 ```
 
-Now you're able to decrypt `secure/foo.pemjson`! Just do `grunt_decrypt:foo`, and find the awesome treats inside. _(Okay, not that awesome)_.
+Now you're able to decrypt `secure/foo.pemjson`! Just do `grunt pem_decrypt:foo`, and find the awesome treats inside. _(Okay, not that awesome)_.
 
 To recap
 
