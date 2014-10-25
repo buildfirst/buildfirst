@@ -15,6 +15,6 @@ function average (values) {
 
 // usage
 
-var avg = average(1,3);
+var avg = average([1,3]);
 console.log(avg);
 // <- 2
