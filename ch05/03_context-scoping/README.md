@@ -1,6 +1,6 @@
 # Context Scoping
 
-One of the most challenging tasks we have to undertake in our quest to become expert JavaScripters is developing an understanding of _how scoping works_, how to manipulate the `this` keyword, and actually being able to tell what the value of `this` will be in a given call stack. In section `5.1.3` we talk about scopes, `this`, the `.apply`, `.call`, and `.bind` methods, as well as the `new` operator.
+One of the most challenging tasks we have to undertake in our quest to become expert JavaScripters is developing an understanding of _how scoping works_, [how to manipulate the `this` keyword][6], and actually being able to tell what the value of `this` will be in a given call stack. In section `5.1.3` we talk about scopes, `this`, the `.apply`, `.call`, and `.bind` methods, as well as the `new` operator.
 
 - [Scoping `this`][1]
 - [Object Property][2]
@@ -20,7 +20,7 @@ One of the most challenging tasks we have to undertake in our quest to become ex
 
 If our code is running in strict mode, then `this` will default to `undefined`, instead of `Window`. Outside of strict mode, `this` is always an object: the provided object if called with an object reference; its boxed representation if called with a primitive boolean, string, or numeric value; or the global object (again, `undefined` under strict mode) if called with either `undefined` or `null`. The value passed as `this` to a function in strict mode isn't boxed into an object.
 
-You can read more about **strict mode** [_inside the book_][5], and MDN also has [a nice write-up on the subject][6] you might want to check out!
+You can read more about **strict mode** [_inside the book_][5], and MDN also has [a nice write-up on the subject][8] you might want to check out!
 
 ## Order Matters
 
@@ -40,3 +40,4 @@ _More information about this topic_ can be found on a blog post I wrote: [Where 
   [5]: http://bevacqua.io/buildfirst "JavaScript Application Design"
   [6]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this "this on MDN"
   [7]: http://blog.ponyfoo.com/2013/12/04/where-does-this-keyword-come-from "Where does this keyword come from? on Pony Foo"
+  [8]: http://bevacqua.io/bf/strict
