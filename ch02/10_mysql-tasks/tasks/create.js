@@ -18,7 +18,7 @@ module.exports = function(grunt){
       grunt.log.write('Creating "' + options.db + '" db...');
 
       // create the database
-      connection.query('create database ' + options.db, function(err){
+      connection.query('create database if not exists ' + options.db, function(err){
 
         // throw if the query fails.
         util.handle(err);
