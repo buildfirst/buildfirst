@@ -10,7 +10,7 @@ function delay (t) {
   return new Prom(wait);
 }
 
-Promise
+Prom
   .all([delay(700), delay(300), delay(500)])
   .then(function (results) {
     return delay(Math.min.apply(Math, results));
