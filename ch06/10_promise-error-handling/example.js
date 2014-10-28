@@ -13,7 +13,7 @@ function delay (t) {
   return new Prom(wait);
 }
 
-Promise
+Prom
   .all([delay(0), delay(400)])
   .then(function (result) {
     throw new Error('I dislike the result!');
