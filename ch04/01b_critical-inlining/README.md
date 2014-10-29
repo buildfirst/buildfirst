@@ -8,6 +8,12 @@ To run the example, make sure you have all dependencies installed and then run t
 grunt build:release
 ```
 
+If you run the command below, the resulting page should open up in your favorite browser. Note how the `h1` styles were inlined because they're visible on first load, while the others weren't inlined. These will be loaded a bit later, but by the time the human scrolls down they should have already loaded! As a result, the experience becomes faster.
+
+```shell
+open build/page.html
+```
+
 The configuration we used is outlined below. Go through the documentation for [comprehensive details about each option][1].
 
 ```js
