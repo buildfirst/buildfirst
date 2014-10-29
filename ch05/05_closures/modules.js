@@ -4,14 +4,14 @@ var api = (function(){
   var local = 0;
 
   // This function won't be accessible outside of the module scope
-  function privateCounter () {
+  function counter () {
     return ++local;
   }
 
   // What you return here will be assigned to the `api` variable
   // Think of it as our module's public interface
   return {
-    counter: privateCounter
+    counter: counter
   };
 })();
 
