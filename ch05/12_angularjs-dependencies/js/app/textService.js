@@ -1,5 +1,5 @@
-// here we're just grabbing a reference to the testApp module
-var app = angular.module('testApp');
+// here we're just grabbing a reference to the buildfirst module
+var app = angular.module('buildfirst');
 
 // we add a service to the module, called textService
 app.factory('textService', [

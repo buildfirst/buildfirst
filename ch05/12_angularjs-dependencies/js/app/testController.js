@@ -1,8 +1,8 @@
-// here we're just grabbing a reference to the testApp module
-var app = angular.module('testApp');
+// here we're just grabbing a reference to the buildfirst module
+var app = angular.module('buildfirst');
 
 // we add a controller to the module, called testController
-app.controller('testController', [
+app.controller('buildfirstController', [
   // this module depends on the textService service, so we add that
   'textService',
 
