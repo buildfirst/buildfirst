@@ -16,6 +16,25 @@ One of the most challenging tasks we have to undertake in our quest to become ex
 
 - `Function.prototype.bind` creates a special function which can be used to invoke the function it is called on. That function will always use the `this` argument passed to `.bind`, as well as being able to assign a few arguments, creating a curried version of the original function.
 
+## Currying with `.bind`
+
+The `.bind` method can also be used to produce what's called a _curried_ function. Currying is one of the most powerful aspects of functional programming, allowing you to _"pre-apply"_ one or more arguments to a method. For example, you could pre-apply some arguments of a function in multiple ocassions, producing slightly different functions with pre-applied values. Here's an example.
+
+```js
+function somethingIsSomewhere (what, where) {
+  return 'The ' + what + ' is ' + where;
+}
+
+var fox = somethingIsSomewhere.bind(null, 'big brown fox');
+var duckInABox = somethingIsSomewhere.bind(null, 'brownish duck', 'sitting in a box');
+
+fox('hiding behind the bushes');
+// <- 'The big brown fox is hiding behind the bushes'
+
+duckInABox();
+// <- 'The brownish duck is sitting in a box'
+```
+
 ## That `strict` mode
 
 If our code is running in strict mode, then `this` will default to `undefined`, instead of `Window`. Outside of strict mode, `this` is always an object: the provided object if called with an object reference; its boxed representation if called with a primitive boolean, string, or numeric value; or the global object (again, `undefined` under strict mode) if called with either `undefined` or `null`. The value passed as `this` to a function in strict mode isn't boxed into an object.
