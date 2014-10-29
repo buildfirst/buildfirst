@@ -1,6 +1,6 @@
 {
   "name": "buildfirst",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "homepage": "https://github.com/buildfirst/buildfirst",
   "author": {
     "name": "Nicolas Bevacqua",
@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "grunt": "~0.4.2",
-    "grunt-bump": "~0.0.11",
-    "grunt-conventional-changelog": "~1.0.0"
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-critical": "0.0.3"
   }
 }

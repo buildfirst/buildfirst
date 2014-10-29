@@ -1,0 +1,18 @@
+h1 {
+  padding: 20px;
+  color: #fcc;
+  background-color: #222;
+}
+
+/* this one may be used further along the page,
+   somewhere the user doesn't see on first load
+*/
+.task-list {
+  padding: 20px;
+  background-color: #bad;
+}
+
+/* this is added after clicking on something, for example */
+.behavior-example {
+  color: #bad;
+}

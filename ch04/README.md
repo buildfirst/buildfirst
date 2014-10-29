@@ -9,6 +9,7 @@ All samples are self-contained, ready to use, and sensibly documented.
 ### Contents
 
 - [Image Optimization](https://github.com/buildfirst/buildfirst/tree/master/ch04/01_image-optimization)
+- [Inlining Critical CSS](https://github.com/buildfirst/buildfirst/tree/master/ch04/01b_critical-inlining)
 - [Static Asset Hashing](https://github.com/buildfirst/buildfirst/tree/master/ch04/02_asset-hashing)
 - [Version Bumping](https://github.com/buildfirst/buildfirst/tree/master/ch04/03_version-bump)
 - [Conventional Changelogs](https://github.com/buildfirst/buildfirst/tree/master/ch04/04_conventional-changelog)
