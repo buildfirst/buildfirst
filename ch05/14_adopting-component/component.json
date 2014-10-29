@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "lodash/lodash": "2.4.1"
-  }
+    "lodash/lodash": "^2.4.1"
+  },
+  "scripts": ["js/app/app.js"]
 }
