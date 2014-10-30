@@ -126,6 +126,7 @@ testCase('clicking clear removes any results in the list', function (t) {
   var square = document.querySelector('.square');
   var clear = document.querySelector('.clear');
   var result;
+  var resultCleared;
 
   // Act
   square.value = '3.4';
@@ -135,11 +136,11 @@ testCase('clicking clear removes any results in the list', function (t) {
   square.value = '';
   barman.click();
   result = document.querySelectorAll('.result p');
+  clear.click();
+  resultCleared = document.querySelectorAll('.result p');
 
   // Assert
   t.plan(2);
   t.equal(result.length, 3);
-  clear.click();
-  result = document.querySelectorAll('.result p');
-  t.equal(result.length, 0);
+  t.equal(resultCleared.length, 0);
 });
