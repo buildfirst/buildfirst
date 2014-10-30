@@ -1,6 +1,6 @@
-# Mocking `XmlHTTPRequest` Requests
+# Mocking `XMLHttpRequest` Requests
 
-Creating fake `XmlHTTPRequest` requests is super-easy with Sinon. All you need to do is use `fakeServer.create` or `useFakeXMLHttpRequest()`. There is _plenty of information_ about these methods in [the documentation for Sinon][3].
+Creating fake `XMLHttpRequest` requests is super-easy with Sinon. All you need to do is use `fakeServer.create` or `useFakeXMLHttpRequest()`. There is _plenty of information_ about these methods in [the documentation for Sinon][3].
 
 ```js
 var server = sinon.fakeServer.create();
