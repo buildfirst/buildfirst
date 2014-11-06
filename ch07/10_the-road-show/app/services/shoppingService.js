@@ -1,10 +1,10 @@
 var ShoppingList = require('../collections/shoppingList.js');
 
 var items = [
-  { name: 'Banana', amount: 3 },
-  { name: 'Strawberry', amount: 8 },
-  { name: 'Almond', amount: 34 },
-  { name: 'Chocolate Bar', amount: 1 }
+  { name: 'Banana', quantity: 3 },
+  { name: 'Strawberry', quantity: 8 },
+  { name: 'Almond', quantity: 34 },
+  { name: 'Chocolate Bar', quantity: 1 }
 ];
 
 module.exports = {

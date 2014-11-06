@@ -22,7 +22,7 @@ Oh, also, if you want to make changes to the Backbone application, and rebuild t
 grunt watch
 ```
 
-This time around, we're building upon the previous example, [**ch07e07** The One With Delete Buttons][6]. I've included an interface to add new items, and model validation to make sure the human enters a name for their groceries, and that the amounts remain a positive number. In addition, if the human adds an item twice, their amounts get added.
+This time around, we're building upon the previous example, [**ch07e07** The One With Delete Buttons][6]. I've included an interface to add new items, and model validation to make sure the human enters a name for their groceries, and that the quantities remain a positive number. In addition, if the human adds an item twice, their quantities get merged.
 
 ![backbone-add.png][7]
 

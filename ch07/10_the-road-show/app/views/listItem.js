@@ -32,8 +32,8 @@ module.exports = base.extend({
     this.model.set('editing', false);
   },
   saveItem: function (e) {
-    var amount = parseInt(this.$('.edit-amount').val(), 10);
-    this.model.set('amount', amount, { validate: true });
+    var quantity = parseInt(this.$('.edit-quantity').val(), 10);
+    this.model.set('quantity', quantity, { validate: true });
     this.model.set('editing', this.model.validationError);
   }
 });

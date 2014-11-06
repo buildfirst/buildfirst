@@ -1,5 +1,5 @@
 <ul>
   {{#shopping_list}}
-  <li>{{amount}}x {{name}}</li>
+  <li>{{quantity}}x {{name}}</li>
   {{/shopping_list}}
 </ul>

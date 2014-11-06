@@ -20,12 +20,12 @@ module.exports = base.extend({
   },
   addItem: function () {
     var name = this.$('.name').val();
-    var amount = parseInt(this.$('.amount').val(), 10);
+    var quantity = parseInt(this.$('.quantity').val(), 10);
     var model = this.collection.findWhere({ name: name });
     if (model) {
-      model.addToOrder(amount);
+      model.addToOrder(quantity);
     } else {
-      model = new ShoppingItem({ name: name, amount: amount }, { validate: true });
+      model = new ShoppingItem({ name: name, quantity: quantity }, { validate: true });
 
       if (!model.validationError) {
         this.collection.add(model);
@@ -39,7 +39,7 @@ module.exports = base.extend({
 
     this.updateView({
       name: name,
-      amount: amount,
+      quantity: quantity,
       error: model.validationError
     });
   }

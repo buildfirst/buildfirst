@@ -8,10 +8,10 @@ module.exports = base.extend({
   el: '.view',
   template: template,
   collection: new ShoppingList([
-    { name: 'Banana', amount: 3 },
-    { name: 'Strawberry', amount: 8 },
-    { name: 'Almond', amount: 34 },
-    { name: 'Chocolate Bar', amount: 1 }
+    { name: 'Banana', quantity: 3 },
+    { name: 'Strawberry', quantity: 8 },
+    { name: 'Almond', quantity: 34 },
+    { name: 'Chocolate Bar', quantity: 1 }
   ]),
   initialize: function () {
     this.collection.on('add', this.updateView, this);
@@ -30,7 +30,7 @@ module.exports = base.extend({
       shopping_list: this.collection.toJSON(),
       error: validation.error,
       name: validation.name,
-      amount: validation.amount
+      quantity: validation.quantity
     };
     this.render();
   },
@@ -45,12 +45,12 @@ module.exports = base.extend({
   },
   addItem: function () {
     var name = this.$('.name').val();
-    var amount = parseInt(this.$('.amount').val(), 10);
+    var quantity = parseInt(this.$('.quantity').val(), 10);
     var model = this.collection.findWhere({ name: name });
     if (model) {
-      model.addToOrder(amount);
+      model.addToOrder(quantity);
     } else {
-      model = new ShoppingItem({ name: name, amount: amount }, { validate: true });
+      model = new ShoppingItem({ name: name, quantity: quantity }, { validate: true });
 
       if (!model.validationError) {
         this.collection.add(model);
@@ -62,7 +62,7 @@ module.exports = base.extend({
     }
     this.updateViewWithValidation({
       name: name,
-      amount: amount,
+      quantity: quantity,
       error: model.validationError
     });
   }
