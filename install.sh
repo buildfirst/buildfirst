@@ -17,3 +17,4 @@ cd buildfirst
 
 # npm install all the things
 find . -mindepth 2 -maxdepth 2 -type d -name '*_*' -print -exec npm install --prefix {} \;
+find appendix -mindepth 2 -maxdepth 2 -type d -name '*_*' -print -exec npm install --prefix {} \;

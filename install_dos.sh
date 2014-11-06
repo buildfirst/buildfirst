@@ -17,3 +17,4 @@ cd buildfirst
 
 # npm install all the things
 for /d . %d in (ch*\*_*) do @if exist "%d" npm install --prefix %d
+for /d . %d in (appendix\*\*_*) do @if exist "%d" npm install --prefix %d
