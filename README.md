@@ -13,11 +13,21 @@ You could [visit its landing page][3] to learn all about it!
 
 Book buying frenzy? [Say no more, stranger!][4]
 
-# Installation
+# Installation Pre-Requisites
 
 You'll need **Node.js**. You can get the latest version [from their website][5], although I'd suggest using [`nvm`][6], which makes it super easy to install multiple versions, and switch between them.
 
-Once you have Node, use the command below to clone this repository and install all of the dependencies:
+You'll need [GraphicsMagick][20], and also `phantomjs`, to run some of the examples. PhantomJS comes in a module that you can conveniently install as a global.
+
+```js
+npm install -g phantomjs
+```
+
+[GraphicsMagick][20] comes in different distributions for OSX, Linux, and Windows, so please [refer to their site][20] to download the appropriate distribution. If you're on Ubuntu, I'd recommend installing it through `apt-get`. If you're on OSX, you can use `brew` to install it. These kinds of tooling download automation present the most benefits when you automate all of your development environment provisioning, enhancing consistency across fresh installs in your systems. As an example, [you can take a look at my dotfiles project][21], for reference.
+
+# Installation
+
+Once you have Node and the other tools you'll need, use the command below to clone this repository and install all of the dependencies:
 
 ```shell
 curl https://raw.githubusercontent.com/buildfirst/buildfirst/master/install.sh | sh
@@ -76,6 +86,7 @@ Let the [**#buildfirst**][17] revolution commence!
   [17]: https://twitter.com/#buildfirst "#buildfirst on Twitter"
   [18]: https://github.com/buildfirst/buildfirst/releases/tag/v0.0.2 "Tagged v0.0.2"
   [19]: https://github.com/buildfirst/buildfirst/releases/tag/v0.1.0 "Tagged v0.1.0"
-
+  [20]: http://www.graphicsmagick.org/ "GraphicsMagick site"
+  [21]: https://github.com/bevacqua/dotfiles "My dotfiles"
 
 ![ga](https://ga-beacon.appspot.com/UA-35043128-6/buildfirst/readme?pixel)
