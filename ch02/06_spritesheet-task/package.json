@@ -13,7 +13,9 @@
     "url": "git://github.com/buildfirst/buildfirst.git"
   },
   "devDependencies": {
+    "gm": "^1.17.0",
     "grunt": "~0.4.2",
-    "grunt-spritesmith": "^2.20.0"
+    "grunt-spritesmith": "^2.20.0",
+    "phantomjs": "^1.9.12"
   }
 }
