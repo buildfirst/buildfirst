@@ -19,7 +19,7 @@ test('maxwell.debounce invokes a callback after a timeout', function (t) {
   maxwell.debounce(cb);
 
   t.plan(2);
-  t.ok(cb.notCalled);
+  t.ok(cb.notCalled, 'not called until tick');
   clock.tick(0);
-  t.ok(cb.called);
+  t.ok(cb.called, 'called after tick');
 });

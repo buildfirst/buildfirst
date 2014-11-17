@@ -39,7 +39,7 @@ testCase('clicking barman without input should result in an error message', func
 
   // Assert
   t.plan(4);
-  t.ok(barman);
+  t.ok(barman, 'barman elem exists');
   t.equal(result.length, 1);
   t.equal(result[0].className, 'error');
   t.equal(result[0].innerText, 'Do you even know what a number is?');
@@ -58,7 +58,7 @@ testCase('clicking barman with an integer should result in an error message', fu
 
   // Assert
   t.plan(4);
-  t.ok(barman);
+  t.ok(barman, 'barman elem exists');
   t.equal(result.length, 1);
   t.equal(result[0].className, 'error');
   t.equal(result[0].innerText, 'You are such a unit. Integers cannot be rounded!');
@@ -78,7 +78,7 @@ testCase('clicking barman with a number should result in a rounded number', func
 
   // Assert
   t.plan(4);
-  t.ok(barman);
+  t.ok(barman, 'barman elem exists');
   t.equal(result.length, 1);
   t.equal(result[0].className, 'rounded');
   t.equal(result[0].innerText, 'Rounded to ' + Math.round(value) + '. Another round?');
@@ -100,7 +100,7 @@ testCase('clicking barman with two values should produce two results', function 
 
   // Assert
   t.plan(6);
-  t.ok(barman);
+  t.ok(barman, 'barman elem exists');
   t.equal(result.length, 2);
   t.equal(result[0].className, 'rounded');
   t.equal(result[0].innerText, 'Rounded to ' + Math.round(value) + '. Another round?');

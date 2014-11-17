@@ -29,6 +29,6 @@ test('user mapper returns a subset of user', function (t) {
 
   // Assert
   t.plan(2);
-  t.ok(cb.calledOnce);
+  t.ok(cb.calledOnce, 'called once');
   t.deepEqual(actual, expected);
 });

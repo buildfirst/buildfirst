@@ -2,8 +2,8 @@ var test = require('tape');
 var emitter = require('../src/emitter.js');
 
 test('emitter(thing) should be a function', function (t) {
-  t.ok(emitter);
-  t.ok(typeof emitter === 'function');
+  t.ok(emitter, 'should be truthy');
+  t.ok(typeof emitter === 'function', 'should be a method');
   t.end();
 });
 
@@ -15,9 +15,9 @@ test('emitter(thing) should always return an object', function (t) {
 
   function isEmitter (thing) {
     // Assert
-    t.ok(thing);
-    t.ok(typeof thing.on === 'function');
-    t.ok(typeof thing.emit === 'function');
+    t.ok(thing, 'should be truthy');
+    t.ok(typeof thing.on === 'function', 'should have on method');
+    t.ok(typeof thing.emit === 'function', 'should have emit method');
   }
 
   t.end();
