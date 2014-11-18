@@ -1,7 +1,7 @@
 var util = require('util');
 var test = require('tape');
-var sinon = require('sinon');
 var proxyquire = require('proxyquireify')(require);
+var sinon = require('sinon');
 var ListView;
 var AddItemView;
 
@@ -13,6 +13,18 @@ function getStubbedRouter () {
     '../views/addItem.js': AddItemView
   });
   return ViewRouter;
+}
+
+function getRouteHandler (router, route) {
+  var routeHandler, key, i;
+  var routes = Object.keys(router.routes);
+  for (i = 0; i < routes.length; i++) {
+    key = routes[i];
+    if (route === key) {
+      routeHandler = router.routes[key];
+      return router[routeHandler].bind(router);
+    }
+  }
 }
 
 test('there are three routes and route handlers', function (t) {
@@ -35,14 +47,15 @@ test('there are three routes and route handlers', function (t) {
   }
 });
 
-test('root redirects to the items route', function (t) {
+test('route # redirects to the #items route', function (t) {
   // Arrange
   var ViewRouter = getStubbedRouter();
 
   // Act
   var router = new ViewRouter();
+  var handler = getRouteHandler(router, '');
   router.navigate = sinon.spy(); // we use a spy so that the real .navigate method isn't used
-  router.root();
+  handler();
 
   // Assert
   t.ok(router.navigate.calledOnce, 'called router.navigate');
@@ -50,13 +63,14 @@ test('root redirects to the items route', function (t) {
   t.end();
 });
 
-test('listItems renders ListView', function (t) {
+test('route #items renders ListView', function (t) {
   // Arrange
   var ViewRouter = getStubbedRouter();
 
   // Act
   var router = new ViewRouter();
-  router.listItems();
+  var handler = getRouteHandler(router, 'items');
+  handler();
 
   // Assert
   t.ok(ListView.calledOnce, 'called ListView once');
@@ -65,13 +79,14 @@ test('listItems renders ListView', function (t) {
 });
 
 
-test('addItem renders AddItemView', function (t) {
+test('route #items/add renders AddItemView', function (t) {
   // Arrange
   var ViewRouter = getStubbedRouter();
 
   // Act
   var router = new ViewRouter();
-  router.addItem();
+  var handler = getRouteHandler(router, 'items/add');
+  handler();
 
   // Assert
   t.ok(AddItemView.calledOnce, 'called AddItemView once');
