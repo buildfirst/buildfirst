@@ -2,11 +2,11 @@
 
 var glob = require('glob');
 var all = glob.sync('**/*.js');
-var sources = process(['node_modules/', 'bower_components/', 'vendor/', 'build/', 'ch01/'], unmatched, all);
+var vendor = process(['node_modules/', 'bower_components/', 'components/', 'vendor/', 'build/', 'ch01/', '/app/templates/compiledTemplates.js', 'bundle.js'], unmatched, all);
 var es6_globs = ['ch05/17_harmony-traceur/', 'ch06/12_generator-basics/', 'ch06/13_generator-flow/'];
-var es6 = process(es6_globs, matched, sources);
-var browser = process(['public/'], matched, sources);
-var node = process(['public/', 'appendix/picking-your-build-tool/'].concat(es6_globs), unmatched, sources);
+var es6 = process(es6_globs, matched, vendor);
+var browser = process(['public/'], matched, vendor);
+var node = process(['public/', 'appendix/picking-your-build-tool/'].concat(es6_globs), unmatched, vendor);
 
 function process (by, criteria, files) {
   return files.filter(where);

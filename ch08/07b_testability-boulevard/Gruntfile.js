@@ -38,10 +38,13 @@ module.exports = function (grunt) {
     var main = require.resolve('./test/routes');
     var dir = __dirname + '/test/build';
 
+    // create required directory structure
     mkdirp.sync(dir);
+
+    // compile browserify bundle
     browserify()
-      .transform('brfs')
-      .plugin(proxyquire.plugin)
+      .transform('brfs') // add brfs transform for mustache templates
+      .plugin(proxyquire.plugin) // use proxyquire plugin to
       .require(main, { entry: true })
       .bundle()
       .pipe(fs.createWriteStream(dir + '/test-bundle.js'))
