@@ -17,6 +17,7 @@ All samples are self-contained, ready to use, and sensibly documented.
 - [Proxying Your Dependencies](https://github.com/buildfirst/buildfirst/tree/master/ch08/05_proxying-your-dependencies)
 - [Fake `XmlHTTPRequest` Requests](https://github.com/buildfirst/buildfirst/tree/master/ch08/06_fake-xhr-requests)
 - [DOM Interaction Testing](https://github.com/buildfirst/buildfirst/tree/master/ch08/07_dom-interaction-testing)
+- [Testability Boulevard](https://github.com/buildfirst/buildfirst/tree/master/ch08/07b_testability-boulevard)
 - [Grunt `tape` Automation (Node)](https://github.com/buildfirst/buildfirst/tree/master/ch08/08_grunt-tape-node)
 - [Grunt `tape` Automation (Browser)](https://github.com/buildfirst/buildfirst/tree/master/ch08/09_grunt-tape-browser)
 - [Visual Testing](https://github.com/buildfirst/buildfirst/tree/master/ch08/10_visual-testing)
