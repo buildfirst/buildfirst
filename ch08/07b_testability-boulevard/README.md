@@ -4,7 +4,7 @@
 
 This example builds on top of [**ch07e10** The Road Show][6] and [**ch08e02** Tape in the Browser][8], adding unit tests to a few key components: the router, and model validation. You are then free to explore adding test coverage for the view controllers!
 
-Note that we had to add a special step because the `grunt-browserify` package doesn't support usage of the `b.require(module, { entry: true }` API _as of this example being created_.
+Note that we had to add a special step because the `grunt-browserify` package doesn't support usage of the `b.require(module, { entry: true })` API _as of this example being created_.
 
 ```js
 grunt.registerTask('browserify_tests', function browserifyTests () {
