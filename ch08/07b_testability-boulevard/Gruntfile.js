@@ -44,7 +44,7 @@ module.exports = function (grunt) {
     // compile browserify bundle
     var bundle = browserify()
       .transform('brfs') // add brfs transform for mustache templates
-      .plugin(proxyquire.plugin); // use proxyquire plugin to
+      .plugin(proxyquire.plugin); // use proxyquire plugin so you can mock `require` calls
 
     glob
       .sync('./test/*.js') // get all test modules
