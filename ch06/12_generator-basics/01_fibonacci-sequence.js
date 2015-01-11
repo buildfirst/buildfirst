@@ -1,6 +1,8 @@
 function* fibonacci () {
   var older = 0;
   var old = 1;
+  
+  yield 1;
 
   while (true) {
     yield old + older;
