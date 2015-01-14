@@ -13,7 +13,7 @@ module.exports = function(grunt){
     uglify: {
       bundle: {
         files: {
-          'build/js/all.min.js': 'build/js/bundle.js'
+          'build/js/bundle.min.js': 'build/js/bundle.js'
         }
       }
     }
