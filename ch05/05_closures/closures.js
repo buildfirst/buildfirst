@@ -23,6 +23,10 @@
     // child scope
 }();
 
+void function () {
+    // child scope
+}();
+
 // maybe you're feeling whacky (hint: don't use these)
 
 1^function () {
