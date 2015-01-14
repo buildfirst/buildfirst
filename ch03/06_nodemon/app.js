@@ -15,7 +15,7 @@ var app = http.createServer(function(req, res){
 });
 
 app.listen(3000, function () {
-    console.log('express listening on http://localhost:3000/');
+    console.log('app listening on http://localhost:3000/');
 });
 
 // change something while `nodemon app.js` is running
