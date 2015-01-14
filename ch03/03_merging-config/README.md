@@ -28,7 +28,7 @@ In the case of going the Heroku-style way, dealing with configuration relying on
 Then, this line loads those values into `nconf`:
 
 ```js
-nconf.file('dev', path.join(__dirname, 'development.json'));
+nconf.file('dev', 'development.json');
 ```
 
 Heroku proposes something slightly different, in using `.env` and [foreman][3], one of their CLI tools, to actually run the application. This translates into issues when attempting to achieve continuous development _(and isn't really necessary)_ so I decided to avoid doing that, and going a more conventional route, using a JSON file instead.
