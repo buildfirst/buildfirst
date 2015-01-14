@@ -3,9 +3,9 @@
 module.exports = function(grunt){
   grunt.initConfig({
     uglify: {
-      js: {
+      cobra: {
         files: {
-          'build/js/foo.min.js': 'public/js/foo.js'
+          'build/js/cobra.min.js': 'public/js/cobra.js'
         }
       }
     }
