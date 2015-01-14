@@ -127,7 +127,7 @@ module.exports = function(grunt){
     nodemon: {
       dev: {
         options: {
-          file: 'app.js'
+          script: 'app.js'
         }
       }
     },
