@@ -153,7 +153,7 @@ Here is a complete list of the code samples found in this repository.
   - [Yahoo YSlow](https://github.com/buildfirst/buildfirst/tree/master/ch08/12_yahoo-yslow)
 - Chapter 9
   - [A `measly` client-side layer](https://github.com/buildfirst/buildfirst/tree/master/ch09/01_a-measly-client-side-layer)
-- Appendix A: Introduction to Grunt
+- Appendix B: Introduction to Grunt
   - [Getting Started](https://github.com/buildfirst/buildfirst/tree/master/appendix/introduction-to-grunt/01_getting-started)
   - [Globbing Patterns](https://github.com/buildfirst/buildfirst/tree/master/appendix/introduction-to-grunt/02_globbing-patterns)
   - [Combining and Minifying your CSS](https://github.com/buildfirst/buildfirst/tree/master/appendix/introduction-to-grunt/03_cssmin-task)
