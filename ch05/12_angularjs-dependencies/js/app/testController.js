@@ -2,7 +2,7 @@
 var app = angular.module('buildfirst');
 
 // we add a controller to the module, called testController
-app.controller('buildfirstController', [
+app.controller('testController', [
   // this module depends on the textService service, so we add that
   'textService',
 
