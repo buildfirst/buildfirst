@@ -12,7 +12,7 @@ grunt test
 
 ![testling-browser.png][4]
 
-That's it! The previous example, [**ch08e08** Grunt `tape` Automation (Node)][1] showed how to run the same tests in the browser.
+That's it! The previous example, [**ch08e08** Grunt `tape` Automation (Node)][1] showed how to run the same tests in the server.
 
 [1]: https://github.com/buildfirst/buildfirst/tree/master/ch08/08_grunt-tape-node
 [2]: https://ci.testling.com/guide/quick_start
