@@ -17,6 +17,6 @@ open test.html
   [1]: http://substack.net/images/browserify_logo.png
   [2]: https://github.com/substack/node-browserify
   [3]: https://github.com/substack
-  [4]: http://bevacqua.io/buildfirst "JavaScript Application Design"
+  [4]: https://ponyfoo.com/bf "JavaScript Application Design"
   [5]: https://github.com/jmreidy/grunt-browserify
   [6]: https://developer.mozilla.org/en/docs/data_URIs "Data URI explained in MDN"

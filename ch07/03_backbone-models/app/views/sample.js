@@ -9,7 +9,7 @@ module.exports = base.extend({
   initialize: function () {
     this.model = new SampleModel();
     this.model.on('change', this.updateView, this);
-    this.model.set('raw', 'http://bevacqua.io/buildfirst');
+    this.model.set('raw', 'https://ponyfoo.com/bf');
   },
   updateView: function () {
     this.viewModel = {

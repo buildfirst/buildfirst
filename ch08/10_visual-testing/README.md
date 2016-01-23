@@ -8,7 +8,7 @@ Configuring `photobox` is mostly a matter of choosing the _URL(s)_ and desired v
 photobox: {
   buildfirst: {
     options: {
-      urls: ['http://bevacqua.io/bf'],
+      urls: ['https://ponyfoo.com/bf'],
       indexPath: 'build/photobox',
       screenSizes: ['320', '960', '1440'] // these must be strings
     }

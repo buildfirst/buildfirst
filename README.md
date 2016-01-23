@@ -1,11 +1,11 @@
 # JavaScript Application Design [![Build Status](https://travis-ci.org/buildfirst/buildfirst.svg?branch=master)](https://travis-ci.org/buildfirst/buildfirst)
 #### _A Build First Approach_
 
-![buildfirst.png][1]
+[![buildfirst.png][1]][3]
 
 Accompanying code samples and snippets for the _JavaScript Application Design: A Build First Approach_ book.
 
-These are the accompanying code samples and snippets for a book I wrote about **JavaScript build processes and application architecture**. The samples are organized by chapter, and they appear in the same order as they do in the book, for convenience. Many [other resources for this book are listed in its website][2], such as links to _blog posts, articles, essays, books_, and any other particularly relevant topics discussed throughout the book.
+These are the accompanying code samples and snippets for a book I wrote about **JavaScript build processes and application architecture**. The samples are organized by chapter, and they appear in the same order as they do in the book, for convenience.
 
 #### Fell out of the skies and would like to learn more about the book?
 
@@ -182,16 +182,15 @@ If you run into any problems, please create an issue [here][11]. Maybe it's some
 
 ### Feedback
 
-Feedback **about the book itself** should be posted on the [Manning Online Author Forum][13]. You can drop me a line at [buildfirst@bevacqua.io][14] if you want to leave me _a more personal note_, just say hi, or grunt at me about my failure to amuse you. I'd love to hear from you!
+Feedback **about the book itself** should be posted on the [Manning Online Author Forum][13]. You can drop me a line at [buildfirst@ponyfoo.com][14] if you want to leave me _a more personal note_, just say hi, or grunt at me about my failure to amuse you. I'd love to hear from you!
 
 You can also find me blogging at [Pony Foo][15]. My Twitter account is [@nzgb][16], and I enjoy people stalking me over the Internet!
 
 Let the [**#buildfirst**][17] revolution commence!
 
   [1]: http://www.gravatar.com/avatar/cee019b251cf09f440b4427541e46cb8.png?s=320
-  [2]: http://bevacqua.io/buildfirst/resources "#buildfirst resources"
-  [3]: http://bevacqua.io/buildfirst "JavaScript Application Design: A Build First Approach"
-  [4]: http://bevacqua.io/bf/book "Get the book from Manning!"
+  [3]: https://ponyfoo.com/books/javascript-application-design "JavaScript Application Design: A Build First Approach"
+  [4]: https://ponyfoo.com/bf/manning "Get the book from Manning!"
   [5]: http://nodejs.org/download/ "Node.js Downloads"
   [6]: https://github.com/creationix/nvm "Node Version Manager"
   [7]: https://github.com/buildfirst/buildfirst/blob/master/wiki/installation-manual.md "Manual Installation Instructions"
@@ -201,8 +200,8 @@ Let the [**#buildfirst**][17] revolution commence!
   [11]: https://github.com/buildfirst/buildfirst/issues "JavaScript Application Design Code Sample Repository Issues"
   [12]: https://help.github.com/articles/using-pull-requests "Using Pull Requests"
   [13]: http://www.manning-sandbox.com/forum.jspa?forumID=888 "Author Online Forum for JavaScript Application Design"
-  [14]: mailto:buildfirst@bevacqua.io "Contact me by mail"
-  [15]: http://blog.ponyfoo.com "Pony Foo"
+  [14]: mailto:buildfirst@ponyfoo.com "Contact me by mail"
+  [15]: https://ponyfoo.com "Pony Foo"
   [16]: https://twitter.com/nzgb "@nzgb on Twitter"
   [17]: https://twitter.com/#buildfirst "#buildfirst on Twitter"
   [18]: https://github.com/buildfirst/buildfirst/releases/tag/v0.0.2 "Tagged v0.0.2"

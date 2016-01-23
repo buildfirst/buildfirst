@@ -6,7 +6,7 @@ module.exports = function (grunt) {
     photobox: {
       buildfirst: {
         options: {
-          urls: ['http://bevacqua.io/bf'],
+          urls: ['https://ponyfoo.com/bf'],
           indexPath: 'build/photobox',
           screenSizes: ['320', '960', '1440']
         }

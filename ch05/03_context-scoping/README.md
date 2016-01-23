@@ -56,7 +56,7 @@ _More information about this topic_ can be found on a blog post I wrote: [Where 
   [2]: https://github.com/buildfirst/buildfirst/tree/master/ch05/03_context-scoping/object-property.js
   [3]: https://github.com/buildfirst/buildfirst/tree/master/ch05/03_context-scoping/call-apply-bind.js
   [4]: https://raw.github.com/buildfirst/buildfirst/master/images/chaos.gif "Not the prettiest of JavaScript faces"
-  [5]: http://bevacqua.io/buildfirst "JavaScript Application Design"
+  [5]: https://ponyfoo.com/bf "JavaScript Application Design"
   [6]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this "this on MDN"
   [7]: http://blog.ponyfoo.com/2013/12/04/where-does-this-keyword-come-from "Where does this keyword come from? on Pony Foo"
-  [8]: http://bevacqua.io/bf/strict
+  [8]: https://ponyfoo.com/bf/strict

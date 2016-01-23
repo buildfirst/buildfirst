@@ -43,5 +43,5 @@ _A deeper analysis of the behavior and inner workings of Angular can be found in
   [6]: http://docs.angularjs.org/tutorial/step_07
   [7]: http://docs.angularjs.org/guide/scope
   [8]: http://docs.angularjs.org/api/ng.$rootScope
-  [9]: http://bevacqua.io/angular-di
+  [9]: https://ponyfoo.com/bf/angular-di
   [10]: https://github.com/buildfirst/buildfirst/tree/master/ch05/09_requirejs-usage

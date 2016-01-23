@@ -23,5 +23,5 @@ For questions or feedback refer to my [contact information](https://github.com/b
 [1]: http://substack.net/task_automation_with_npm_run "Task automation with `npm run`"
 [2]: http://gulpjs.com/
 [3]: https://github.com/buildfirst/buildfirst/tree/master/appendix/introduction-to-grunt
-[4]: http://bevacqua.io/bf
+[4]: https://ponyfoo.com/bf
 [5]: http://gulpjs.com/

@@ -11,7 +11,7 @@ module.exports = function (grunt) {
       },
       buildfirst: {
         files: [
-          { src: 'http://bevacqua.io/bf' }
+          { src: 'https://ponyfoo.com/bf' }
         ]
       }
     }

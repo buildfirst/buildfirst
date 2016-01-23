@@ -36,6 +36,6 @@ critical: {
 Note that if the `dest` file is a stylesheet, the resulting critical-path css is saved to this file for later use. If `dest` points to an HTML file the resulting CSS gets inlined and the exiting stylesheets are wrapped in a javascript function to load them asynchronously as well as a `<noscript>` block for users with javascript disabled.
 
 [1]: https://github.com/bezoerb/grunt-critical
-[2]: http://bevacqua.io/buildfirst
+[2]: https://ponyfoo.com/bf
 [3]: https://camo.githubusercontent.com/b4ecb54a743937e267790244e81901bbecd55f2d/687474703a2f2f692e696d6775722e636f6d2f6c417a6d4244322e706e67
 [4]: https://github.com/addyosmani/critical

@@ -51,5 +51,5 @@ open test.html
   [1]: http://i.imgur.com/TkjgTBt.png
   [2]: https://github.com/jrburke/requirejs
   [3]: https://github.com/buildfirst/buildfirst/tree/master/ch05/09_requirejs-usage
-  [4]: http://bevacqua.io/buildfirst "JavaScript Application Design"
+  [4]: https://ponyfoo.com/bf "JavaScript Application Design"
   [5]: https://github.com/gruntjs/grunt-contrib-requirejs
