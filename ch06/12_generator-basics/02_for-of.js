@@ -5,6 +5,6 @@ function* keywords () {
   yield 'architecture';
 }
 
-for (keyword of keywords()) {
+for (var keyword of keywords()) {
   console.log(keyword);
 }
