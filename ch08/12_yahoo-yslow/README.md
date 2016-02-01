@@ -9,7 +9,7 @@ The configuration takes a URL and gives you a performance score.
 Run the example using the code below.
 
 ```shell
-grunt yslow:desktop
+grunt yslow:buildfirst
 ```
 
 That's it!
