@@ -5,14 +5,14 @@ module.exports = function(grunt){
     less: {
       design: {
         files: {
-          'build/css/design.css': 'public/css/design.less'
+          "build/css/layout.css": 'public/css/layout.less'
         }
       },
       explicit: {
         files: {
           'build/css/explicit.css': [
             'public/css/classes.less',
-            'public/css/design.less'
+            'public/css/layout.less'
           ]
         }
       },

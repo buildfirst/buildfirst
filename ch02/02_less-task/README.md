@@ -8,13 +8,13 @@ In the example, we'll be setting up three different targets for this task, and w
 
 To run this example, write one of the following commands in your terminal.
 
-- Run the `design` target, which compiles `design.less` to `design.css`:
+- Run the `design` target, which compiles `layout.less` to `layout.css`:
 
 ```shell
 grunt less:design
 ```
 
-- Run the `explicit` target, which compiles `classes.less`, and `design.less` into a bundled `explicit.css` file:
+- Run the `explicit` target, which compiles `classes.less`, and `layout.less` into a bundled `explicit.css` file:
 
 ```shell
 grunt less:explicit
